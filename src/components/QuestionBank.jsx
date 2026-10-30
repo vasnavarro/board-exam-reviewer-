@@ -1,3 +1,4 @@
+import { RationaleBreakdown } from "./RationaleBreakdown";
 import React, { useState } from "react";
 import { 
   Plus, Search, Download, Upload, Trash2, 
@@ -5,7 +6,10 @@ import {
 } from "lucide-react";
 import { sound } from "../utils/audio";
 
-export function QuestionBank({ questions, onAddQuestion, onDeleteQuestion, onImportQuestions, onResetQuestions }) {
+export function QuestionBank({
+  questions, onAddQuestion, onDeleteQuestion, onImportQuestions, onResetQuestions 
+}) {
+  const [expandedRationales, setExpandedRationales] = useState({});
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [isAddModalOpen, setIsAddModalOpen] = useState(false);
@@ -20,6 +24,10 @@ export function QuestionBank({ questions, onAddQuestion, onDeleteQuestion, onImp
   const [newDiff, setNewDiff] = useState("Medium");
 
   const categories = ["All", ...Array.from(new Set(questions.map(q => q.category)))];
+  const toggleRationale = (id) => {
+    setExpandedRationales(prev => ({ ...prev, [id]: !prev[id] }));
+  };
+
 
   const filtered = questions.filter(q => {
     const matchesCat = selectedCategory === "All" || q.category === selectedCategory;
@@ -215,9 +223,22 @@ export function QuestionBank({ questions, onAddQuestion, onDeleteQuestion, onImp
               ))}
             </div>
 
-            <p style={{ fontSize: "0.85rem", color: "var(--text-muted)" }}>
-              <strong style={{ color: "var(--text-secondary)" }}>Key Takeaway:</strong> {q.keyTakeaway}
-            </p>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "0.75rem", flexWrap: "wrap", gap: "0.5rem" }}>
+              <p style={{ fontSize: "0.85rem", color: "var(--text-muted)", margin: 0 }}>
+                <strong style={{ color: "var(--text-secondary)" }}>Key Takeaway:</strong> {q.keyTakeaway}
+              </p>
+              <button
+                onClick={() => toggleRationale(q.id)}
+                className="btn btn-secondary"
+                style={{ padding: "0.35rem 0.75rem", fontSize: "0.8rem", borderRadius: "var(--radius-sm)" }}
+              >
+                {expandedRationales[q.id] ? "Hide Rationale" : "📖 Full Rationale & Distractor Breakdown"}
+              </button>
+            </div>
+
+            {expandedRationales[q.id] && (
+              <RationaleBreakdown question={q} isCorrect={null} />
+            )}
           </div>
         ))}
       </div>

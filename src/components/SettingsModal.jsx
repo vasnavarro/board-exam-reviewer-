@@ -84,9 +84,9 @@ export function SettingsModal({
                 width: "100%",
                 padding: "0.75rem 1rem",
                 borderRadius: "var(--radius-sm)",
-                background: "rgba(255, 255, 255, 0.05)",
+                background: "var(--input-bg)",
                 border: "1px solid var(--border-color)",
-                color: "#ffffff",
+                color: "var(--text-primary)",
                 fontSize: "0.95rem"
               }}
             />
@@ -105,9 +105,9 @@ export function SettingsModal({
                 width: "100%",
                 padding: "0.75rem 1rem",
                 borderRadius: "var(--radius-sm)",
-                background: "rgba(255, 255, 255, 0.05)",
+                background: "var(--input-bg)",
                 border: "1px solid var(--border-color)",
-                color: "#ffffff",
+                color: "var(--text-primary)",
                 fontSize: "0.95rem"
               }}
             />
@@ -127,9 +127,9 @@ export function SettingsModal({
                 width: "100%",
                 padding: "0.75rem 1rem",
                 borderRadius: "var(--radius-sm)",
-                background: "rgba(255, 255, 255, 0.05)",
+                background: "var(--input-bg)",
                 border: "1px solid var(--border-color)",
-                color: "#ffffff",
+                color: "var(--text-primary)",
                 fontSize: "0.9rem",
                 resize: "vertical"
               }}

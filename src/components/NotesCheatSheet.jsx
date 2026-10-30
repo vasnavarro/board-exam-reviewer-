@@ -57,11 +57,11 @@ export function NotesCheatSheet({ girlfriendName, notes, onSaveNotes }) {
           placeholder="Jot down high-yield formulas, reminders, mnemonics, or encouraging notes here..."
           style={{
             width: "100%",
-            background: "rgba(0, 0, 0, 0.25)",
+            background: "var(--input-bg)",
             border: "1px solid var(--border-color)",
             borderRadius: "var(--radius-sm)",
             padding: "1.25rem",
-            color: "#f8fafc",
+            color: "var(--text-primary)",
             fontSize: "0.95rem",
             lineHeight: 1.7,
             fontFamily: "'JetBrains Mono', 'Plus Jakarta Sans', monospace",

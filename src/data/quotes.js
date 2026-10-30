@@ -1,26 +1,26 @@
-export const motivationalQuotes = [
+﻿export const motivationalQuotes = [
   {
-    quote: "Every single page you study today is building the foundation for your future license. You have worked so hard for this, love! 🌸",
-    author: "Your #1 Fan & Study Cheerleader"
+    quote: "Every tooth morphology line angle, every cranial nerve, and every drug dosage you review today brings you closer to your DMD license. You're doing amazing, doc! 🦷✨",
+    author: "Your #1 Fan & Study Partner 💜"
   },
   {
-    quote: "Believe in yourself as deeply as I believe in you. You are brilliant, capable, and ready to conquer this exam! 🎓",
-    author: "With Love"
+    quote: "Believe in yourself as deeply as I believe in you. You have the heart, the grit, and the brilliance to conquer the Dental Board Exam!",
+    author: "With All My Love 🌸"
   },
   {
-    quote: "The board exam doesn't stand a chance against your dedication and heart. One question at a time! 💪",
-    author: "Future Topnotcher Supporter"
+    quote: "The Dentist Licensure Exam doesn't stand a chance against your dedication. One question, one tooth, one case at a time! 💪💜",
+    author: "Future DMD Cheerleader"
   },
   {
-    quote: "When you feel tired, remember why you started and how far you have come. Take a deep breath—I am so proud of you! ✨",
+    quote: "When review feels overwhelming, take a deep breath. Remember how far you have come and the patients whose smiles you will change forever! ✨",
     author: "Always Cheering for You"
   },
   {
-    quote: "Trust your preparation, trust your instincts. That license already has your name written on it. ❤️",
-    author: "Your Personal Review Coach"
+    quote: "Trust your preparation and clinical instincts. That Dental License already has your name written on it, Dr. DMD! 🩺🦷",
+    author: "Proudest Supporter Ever"
   },
   {
-    quote: "Excellence is not an accident—it is your daily habit. Keep going, beautiful! You are doing amazing! 🌟",
+    quote: "Excellence is not an accident—it's your daily habit. Keep going, beautiful! You are going to be an extraordinary dentist! 🌟",
     author: "Love & Motivation"
   }
 ];

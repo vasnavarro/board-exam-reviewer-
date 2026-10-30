@@ -1,3 +1,4 @@
+import { RationaleBreakdown } from "./RationaleBreakdown";
 import React, { useState } from "react";
 import { 
   Target, CheckCircle2, XCircle, ArrowRight, 
@@ -181,31 +182,13 @@ export function WeaknessFocus({ questions, flaggedQuestions, onToggleFlag, girlf
           })}
         </div>
 
-        {/* Rationale Reveal */}
+        {/* Rationale Breakdown */}
         {isAnswered && (
-          <div style={{
-            marginTop: "1.75rem",
-            background: "rgba(255, 255, 255, 0.03)",
-            border: "1px solid rgba(255, 255, 255, 0.08)",
-            borderRadius: "var(--radius-md)",
-            padding: "1.25rem"
-          }}>
-            <strong style={{ color: "#34d399", display: "block", marginBottom: "0.4rem" }}>
-              Detailed Rationale:
-            </strong>
-            <p style={{ color: "#e2e8f0", fontSize: "0.925rem", lineHeight: 1.6, marginBottom: "0.5rem" }}>
-              {currentQ.explanation}
-            </p>
-            <div style={{
-              background: "rgba(236, 72, 153, 0.1)",
-              borderLeft: "3px solid #ec4899",
-              padding: "0.5rem 0.75rem",
-              fontSize: "0.85rem",
-              color: "#fbcfe8"
-            }}>
-              💡 <strong>Key Takeaway:</strong> {currentQ.keyTakeaway}
-            </div>
-          </div>
+          <RationaleBreakdown 
+            question={currentQ} 
+            selectedOption={selectedOption} 
+            isCorrect={selectedOption === currentQ.correctIndex} 
+          />
         )}
       </div>
 

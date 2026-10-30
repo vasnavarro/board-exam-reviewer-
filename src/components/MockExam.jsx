@@ -1,3 +1,4 @@
+import { RationaleBreakdown } from "./RationaleBreakdown";
 import React, { useState, useEffect, useRef } from "react";
 import { 
   Clock, Flag, CheckCircle, XCircle, AlertTriangle, 
@@ -664,28 +665,12 @@ export function MockExam({
                   })}
                 </div>
 
-                {/* Explanation Box */}
-                <div style={{
-                  background: "rgba(255, 255, 255, 0.03)",
-                  border: "1px solid rgba(255, 255, 255, 0.06)",
-                  padding: "1rem",
-                  borderRadius: "var(--radius-sm)",
-                  fontSize: "0.88rem",
-                  lineHeight: 1.6
-                }}>
-                  <strong style={{ color: "#c084fc", display: "block", marginBottom: "0.25rem" }}>
-                    📖 Rationale & Analysis:
-                  </strong>
-                  <p style={{ color: "var(--text-primary)", marginBottom: "0.5rem" }}>
-                    {q.explanation}
-                  </p>
-                  <strong style={{ color: "#f472b6", display: "block", marginBottom: "0.25rem" }}>
-                    💡 Key Takeaway Mnemonic:
-                  </strong>
-                  <p style={{ color: "#fbcfe8", fontStyle: "italic" }}>
-                    {q.keyTakeaway}
-                  </p>
-                </div>
+                {/* Comprehensive Rationale & Distractor Breakdown */}
+                <RationaleBreakdown 
+                  question={q} 
+                  selectedOption={userChoice} 
+                  isCorrect={isCorrect} 
+                />
               </div>
             );
           })}

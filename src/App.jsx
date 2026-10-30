@@ -7,63 +7,89 @@ import { PracticeMode } from "./components/PracticeMode";
 import { WeaknessFocus } from "./components/WeaknessFocus";
 import { QuestionBank } from "./components/QuestionBank";
 import { NotesCheatSheet } from "./components/NotesCheatSheet";
+import { GoodNotes } from "./components/GoodNotes";
 import { SettingsModal } from "./components/SettingsModal";
 import { defaultQuestions } from "./data/defaultQuestions";
 import { sound } from "./utils/audio";
 
-const DEFAULT_NOTES = `# High-Yield Board Exam Strategies & Mnemonics
+const DEFAULT_NOTES = `# High-Yield Dental Board (DLE) Strategies & Mnemonics 🦷✨
 
-### 1. The Core Priority Frameworks
-* **ABCs**: Airway > Breathing > Circulation. An acute obstruction or stridor always precedes pain or vitals.
-* **Maslow's Hierarchy**: Physiological safety and basic biological stability come before psychosocial needs.
-* **Acute vs. Chronic**: New sudden findings (e.g., sudden confusion, fever spike) take precedence over expected chronic states.
-* **Stable vs. Unstable**: Look for signs of impending shock (tachycardia, tachypnea, narrowing pulse pressure) early!
-
----
-
-### 2. Acid-Base Interpretation (ROME Rule)
-* **R-O**: Respiratory Opposite (If pH is Low, PaCO2 is High = Acidosis)
-* **M-E**: Metabolic Equal (If pH is Low, HCO3 is Low = Acidosis)
-* *Normal Reference Ranges*:
-  - pH: 7.35 – 7.45
-  - PaCO2: 35 – 45 mmHg
-  - HCO3: 22 – 26 mEq/L
+### 1. Tooth Numbering & Identification Rules
+* **FDI World Dental Federation System**:
+  - 1st Digit = Quadrant (1=Maxillary Right, 2=Maxillary Left, 3=Mandibular Left, 4=Mandibular Right)
+  - Primary Quadrants = 5 (UR), 6 (UL), 7 (LL), 8 (LR)
+  - 2nd Digit = Tooth number from midline (1=Central Incisor to 8=Third Molar; 1 to 5 for primary).
+* **Universal System**:
+  - Permanent: 1 (UR 3rd molar) to 32 (LR 3rd molar).
+  - Primary: A (UR 2nd molar) through T (LR 2nd molar).
 
 ---
 
-### 3. Emergency Safety & Fire Protocol (RACE & PASS)
-* **RACE**: Rescue -> Alarm -> Contain -> Extinguish / Evacuate
-* **PASS**: Pull pin -> Aim at base -> Squeeze handle -> Sweep side to side
+### 2. Tooth Eruption Sequences
+* **Deciduous Teeth (Primary)**:
+  - Sequence: **A - B - D - C - E** (Centrals ~6-10 mo -> Laterals ~10-16 mo -> 1st Molars ~14-18 mo -> Canines ~16-23 mo -> 2nd Molars ~23-31 mo).
+* **Permanent Dentition**:
+  - Mandibular: **6 - 1 - 2 - 3 - 4 - 5 - 7 - 8**
+  - Maxillary: **6 - 1 - 2 - 4 - 5 - 3 - 7 - 8** (Canine erupts *after* premolars in maxilla!).
 
 ---
 
-### 4. Calculation Quick Checks
-* **IV Flow Rate (gtt/min)** = (Volume in mL × Drop Factor) ÷ Total Minutes
-* **1 Gram** = 1,000 mg = 1,000,000 mcg
-* Always double-check decimal placements on high-alert drugs!
+### 3. Dental Local Anesthesia & Epinephrine Rules
+* **Epinephrine MRD**:
+  - Healthy Patient (ASA I): **0.2 mg** (~11 standard 1.8 mL cartridges of 1:100,000 epi).
+  - Cardiac / Hypertensive Patient (ASA III/IV): **0.04 mg** (Strict limit: **2 cartridges** of 1:100,000 epi).
+* **Articaine (Septocaine)**:
+  - 4% formulation. Only dental amide local anesthetic containing a thiophene ring and an ester link; metabolized in **blood plasma by pseudocholinesterase** (elimination half-life ~20 mins).
 
 ---
 
-### 5. Personal Note for You 💖
-Take a deep breath whenever a question feels overwhelming. Re-read the stem, eliminate the 2 obviously wrong options, and trust your instincts. You are going to do amazing!
+### 4. G.V. Black Cavity Classifications
+* **Class I**: Pits and fissures on occlusal surfaces of molars/premolars, facial/lingual pits of molars, lingual pits of maxillary incisors.
+* **Class II**: Proximal surfaces of posterior teeth (premolars and molars).
+* **Class III**: Proximal surfaces of anterior teeth (incisors/canines) NOT involving the incisal angle.
+* **Class IV**: Proximal surfaces of anterior teeth INVOLVING the incisal angle.
+* **Class V**: Gingival / cervical third of facial or lingual surfaces of all teeth.
+* **Class VI**: Cavities on incisal edges of anterior teeth or cusp tips of posterior teeth.
+
+---
+
+### 5. RA 9484 (The Philippine Dental Act of 2007)
+* **Exam Results**: Must be officially released and posted within **30 days** after the final examination day.
+* **Reinstatement of Revoked License**: Allowed upon application after **2 years** following revocation, subject to Board discretion.
+
+---
+
+### 6. Special Note for You 💕
+Every tooth morphology line angle, every cranial nerve pathway, and every diagnostic criteria you study today is building your future clinic. You are going to be such an incredible, compassionate, licensed dentist. Take a deep breath, trust your clinical instinct, and remember Angelo is always here cheering you on! 🦷💜
 `;
 
 export default function App() {
+  // Theme state: dark / light
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem("pb_theme") || "dark";
+  });
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("pb_theme", theme);
+  }, [theme]);
+
+  const handleToggleTheme = () => {
+    sound.playClick();
+    setTheme(prev => (prev === "dark" ? "light" : "dark"));
+  };
+
   // LocalStorage state initialization
   const [girlfriendName, setGirlfriendName] = useState(() => {
-    return localStorage.getItem("pb_name") || "My Love";
+    return localStorage.getItem("pb_name") || "Leane";
   });
 
   const [examDate, setExamDate] = useState(() => {
-    const saved = localStorage.getItem("pb_date");
-    if (saved) return saved;
-    const future = new Date();
-    future.setDate(future.getDate() + 75);
-    return future.toISOString().split("T")[0];
+    return localStorage.getItem("pb_date") || "2026-11-25";
   });
 
   const [personalMessage, setPersonalMessage] = useState(() => {
-    return localStorage.getItem("pb_msg") || "I have watched how dedicated and smart you are every single day. The board exam doesn't stand a chance against you. The license already has your name on it! 💖";
+    return localStorage.getItem("pb_msg") || "Hi Leane! I have watched how hard and dedicated you are every single day. The board exam doesn't stand a chance against you. The license already has your name on it, Dr. Leane! Made with all my love by Angelo 💖";
   });
 
   const [passingScore, setPassingScore] = useState(() => {
@@ -74,11 +100,18 @@ export default function App() {
     return localStorage.getItem("pb_sound") !== "false";
   });
 
+  const DENTAL_VERSION = "dle_v3_master_bank";
+
   const [questions, setQuestions] = useState(() => {
     try {
-      const saved = localStorage.getItem("pb_questions");
-      if (saved) return JSON.parse(saved);
+      const savedVersion = localStorage.getItem("pb_dle_version");
+      if (savedVersion === DENTAL_VERSION) {
+        const saved = localStorage.getItem("pb_questions");
+        if (saved) return JSON.parse(saved);
+      }
     } catch (e) {}
+    localStorage.setItem("pb_dle_version", DENTAL_VERSION);
+    localStorage.setItem("pb_questions", JSON.stringify(defaultQuestions));
     return defaultQuestions;
   });
 
@@ -192,7 +225,7 @@ export default function App() {
   };
 
   const handleResetQuestions = () => {
-    if (confirm("Reset question bank back to default 20+ curriculum questions?")) {
+    if (confirm("Reset question bank back to standard board exam curriculum?")) {
       setQuestions(defaultQuestions);
       setFlaggedQuestions([]);
       localStorage.setItem("pb_questions", JSON.stringify(defaultQuestions));
@@ -223,6 +256,8 @@ export default function App() {
         onOpenSettings={() => setIsSettingsOpen(true)}
         currentTab={currentTab}
         onSelectTab={(tab) => setCurrentTab(tab)}
+        theme={theme}
+        onToggleTheme={handleToggleTheme}
       />
 
       {/* Main Content Router */}
@@ -241,6 +276,22 @@ export default function App() {
           />
         )}
 
+        {currentTab === "practice" && (
+          <PracticeMode
+            questions={questions}
+            flaggedQuestions={flaggedQuestions}
+            onToggleFlag={handleToggleFlag}
+            girlfriendName={girlfriendName}
+          />
+        )}
+
+        {currentTab === "goodnotes" && (
+          <GoodNotes
+            girlfriendName={girlfriendName}
+            theme={theme}
+          />
+        )}
+
         {currentTab === "mock" && (
           <MockExam
             questions={questions}
@@ -256,15 +307,6 @@ export default function App() {
         {currentTab === "flashcards" && (
           <Flashcards
             questions={questions}
-            girlfriendName={girlfriendName}
-          />
-        )}
-
-        {currentTab === "practice" && (
-          <PracticeMode
-            questions={questions}
-            flaggedQuestions={flaggedQuestions}
-            onToggleFlag={handleToggleFlag}
             girlfriendName={girlfriendName}
           />
         )}
@@ -312,15 +354,15 @@ export default function App() {
       {/* Footer */}
       <footer style={{
         borderTop: "1px solid var(--border-color)",
-        background: "rgba(10, 14, 23, 0.95)",
+        background: "var(--footer-bg)",
         padding: "1.25rem 1.5rem",
         textAlign: "center",
         fontSize: "0.85rem",
         color: "var(--text-muted)"
       }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.5rem" }}>
-          <span>PassBoard ✨ Dedicated Study & Board Exam Reviewer</span>
-          <span>Made with love for <strong style={{ color: "#ec4899" }}>{girlfriendName}</strong> • Future Topnotcher! 🎓</span>
+          <span>PassBoard ✨ Dedicated Dentist Licensure Exam Reviewer</span>
+          <span>Made with all my love by <strong>Angelo</strong> for <strong style={{ color: "var(--accent-rose)" }}>{girlfriendName}</strong> • Future Topnotcher! 🦷💜🎓</span>
         </div>
       </footer>
     </div>

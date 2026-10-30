@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { 
   Sparkles, Heart, Clock, Award, Target, Flame, 
   ArrowRight, BookOpen, CheckCircle2, AlertCircle, RefreshCw,
-  TrendingUp, BarChart3, ShieldCheck
+  TrendingUp, BarChart3, ShieldCheck, PenTool
 } from "lucide-react";
 import { motivationalQuotes } from "../data/quotes";
 import { sound } from "../utils/audio";
@@ -258,7 +258,75 @@ export function Dashboard({
         gap: "1.25rem",
         marginBottom: "2rem"
       }}>
-        {/* Mock Exam */}
+        {/* LeaneNotes Digital Notebook */}
+        <div 
+          onClick={() => onStartMode("goodnotes")}
+          className="glass-panel" 
+          style={{
+            padding: "1.75rem",
+            cursor: "pointer",
+            border: "1px solid rgba(168, 85, 247, 0.35)",
+            background: "linear-gradient(145deg, rgba(168, 85, 247, 0.12) 0%, rgba(124, 58, 237, 0.05) 100%)",
+            boxShadow: "0 0 20px rgba(168, 85, 247, 0.15)"
+          }}
+        >
+          <div style={{
+            width: "48px",
+            height: "48px",
+            borderRadius: "14px",
+            background: "var(--gradient-royal)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            marginBottom: "1rem",
+            boxShadow: "0 6px 15px rgba(124, 58, 237, 0.35)"
+          }}>
+            <PenTool size={24} color="#ffffff" />
+          </div>
+          <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", marginBottom: "0.4rem" }}>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: 700 }}>LeaneNotes ✍️</h3>
+            <span className="badge badge-purple" style={{ fontSize: "0.7rem" }}>Tablet Ready</span>
+          </div>
+          <p style={{ color: "var(--text-secondary)", fontSize: "0.88rem", marginBottom: "1.25rem", lineHeight: 1.5 }}>
+            Digital GoodNotes replica: Apple Pencil & stylus canvas, Cornell notes, Odontogram tooth charting, and highlighters.
+          </p>
+          <span style={{ color: "#c084fc", fontWeight: 700, fontSize: "0.85rem", display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
+            Open Digital Notebook <ArrowRight size={14} />
+          </span>
+        </div>
+
+        {/* Practice Drill */}
+        <div 
+          onClick={() => onStartMode("practice")}
+          className="glass-panel" 
+          style={{
+            padding: "1.75rem",
+            cursor: "pointer",
+            border: "1px solid rgba(16, 185, 129, 0.25)",
+            background: "linear-gradient(145deg, rgba(16, 185, 129, 0.08) 0%, rgba(17, 24, 39, 0.95) 100%)"
+          }}
+        >
+          <div style={{
+            width: "48px",
+            height: "48px",
+            borderRadius: "14px",
+            background: "var(--gradient-emerald)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            marginBottom: "1rem",
+            boxShadow: "0 6px 15px rgba(16, 185, 129, 0.3)"
+          }}>
+            <CheckCircle2 size={24} color="#ffffff" />
+          </div>
+          <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.4rem" }}>Q&A Practice Drill</h3>
+          <p style={{ color: "var(--text-secondary)", fontSize: "0.88rem", marginBottom: "1.25rem", lineHeight: 1.5 }}>
+            Immediate feedback mode: detailed breakdown of why the right answer is correct and why other choices are wrong.
+          </p>
+          <span style={{ color: "#34d399", fontWeight: 700, fontSize: "0.85rem", display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
+            Practice Drill <ArrowRight size={14} />
+          </span>
+        </div>
         <div 
           onClick={() => onStartMode("mock")}
           className="glass-panel" 
@@ -321,39 +389,6 @@ export function Dashboard({
           </p>
           <span style={{ color: "#c084fc", fontWeight: 700, fontSize: "0.85rem", display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
             Flip Flashcards <ArrowRight size={14} />
-          </span>
-        </div>
-
-        {/* Practice Drill */}
-        <div 
-          onClick={() => onStartMode("practice")}
-          className="glass-panel" 
-          style={{
-            padding: "1.75rem",
-            cursor: "pointer",
-            border: "1px solid rgba(16, 185, 129, 0.2)",
-            background: "linear-gradient(145deg, rgba(16, 185, 129, 0.08) 0%, rgba(17, 24, 39, 0.95) 100%)"
-          }}
-        >
-          <div style={{
-            width: "48px",
-            height: "48px",
-            borderRadius: "14px",
-            background: "var(--gradient-emerald)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            marginBottom: "1rem",
-            boxShadow: "0 6px 15px rgba(16, 185, 129, 0.3)"
-          }}>
-            <CheckCircle2 size={24} color="#ffffff" />
-          </div>
-          <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.4rem" }}>Instant Practice Drill</h3>
-          <p style={{ color: "var(--text-secondary)", fontSize: "0.88rem", marginBottom: "1.25rem", lineHeight: 1.5 }}>
-            Casual study mode: answer questions one by one with immediate rationale and high-yield memory takeaways.
-          </p>
-          <span style={{ color: "#34d399", fontWeight: 700, fontSize: "0.85rem", display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
-            Practice Drill <ArrowRight size={14} />
           </span>
         </div>
 
