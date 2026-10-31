@@ -28,6 +28,9 @@ __pycache__/
 *.py[cod]
 scripts/all_bp_questions.txt
 scripts/boilerplate_questions.json
+scripts/*.png
+scripts/*.txt
+scripts/*.json
 
 # Large raw reviewer uploads
 reviewer_book/
