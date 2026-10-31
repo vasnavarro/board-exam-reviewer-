@@ -61,6 +61,47 @@ const DEFAULT_NOTES = `# High-Yield Dental Board (DLE) Strategies & Mnemonics �
 
 ### 6. Special Note for You 💕
 Every tooth morphology line angle, every cranial nerve pathway, and every diagnostic criteria you study today is building your future clinic. You are going to be such an incredible, compassionate, licensed dentist. Take a deep breath, trust your clinical instinct, and remember Angelo is always here cheering you on! 🦷💜
+
+---
+
+### 7. DMF Reviewer: General Anatomy, Physiology & Histology (Pages 1–30) 🔬
+* **Integumentary System**:
+  - **Keratinocytes**: >90% of cells; produces keratin.
+  - **Melanocytes**: Neural crest origin; synthesizes melanin; nucleus shielded from UV rays.
+  - **Langerhans cells**: Bone marrow monocyte lineage; dendritic antigen-presenting cells in Stratum spinosum.
+  - **Merkel cells**: Stratum basale; light touch mechanoreceptors ('Merkel tactile discs').
+  - **Malpighian layer** (Stratum germinativum) = Stratum basale + Stratum spinosum (highest mitotic activity!).
+  - **Stratum lucidum**: Clear translucent layer with eleidin found ONLY in thick skin (palms and soles).
+* **Mechanoreceptors Summary**:
+  - **Pacinian corpuscles**: Deep pressure & vibration (concentric 'onion-like' lamellae).
+  - **Meissner corpuscles**: Light touch & flutter located in dermal papillae.
+  - **Ruffini corpuscles**: Heat & skin stretch.
+  - **End-bulbs of Krause**: Cold sensation.
+* **Vitamin D Synthesis Cascade**:
+  - Skin: 7-dehydrocholesterol + solar UVB -> Cholecalciferol (Vitamin D3).
+  - Liver: 25-hydroxylase -> Calcidiol (25-OH-D3).
+  - Kidney: 1α-hydroxylase -> Calcitriol (1,25-(OH)2-D3) = Active form enabling intestinal Ca2+ absorption.
+* **Muscle Physiology & Sarcomere**:
+  - **Sarcomere** = Functional contractile unit of muscle (spanning Z-disc to Z-disc).
+  - **Z line** bisects I (light) band; **M line** bisects H zone / A (dark) band.
+  - **Sarcoplasmic Reticulum (SR)** terminal cisternae = Primary intracellular storage of Calcium (Ca2+).
+  - **Cross-bridge cycle**: Myosin binds actin -> Power stroke releases ADP + Pi -> Binding of NEW ATP detaches myosin head (lack of ATP = Rigor Mortis!).
+* **Cranial Nerves & Tongue Innervation**:
+  - **Anterior 2/3 of tongue**: General sensation = Lingual nerve (V3); Taste = Chorda tympani (CN VII).
+  - **Posterior 1/3 of tongue**: General sensation & Taste = Glossopharyngeal (CN IX).
+  - **Base of tongue / Vallecula**: General sensation & Taste = Internal laryngeal (CN X).
+  - **Motor to all tongue muscles**: Hypoglossal nerve (CN XII) (except palatoglossus: CN X).
+  - **Posterior division of V3**: Has ONE motor branch = **Mylohyoid nerve** (supplies mylohyoid & anterior digastric).
+* **Lingual Papillae**:
+  - **Filiform**: Most numerous; keratinized; ONLY papillae WITHOUT taste buds.
+  - **Fungiform**: Mushroom-shaped; located on tip and lateral margins; has taste buds.
+  - **Circumvallate**: 8-12 large papillae in V-shaped sulcus terminalis; cleansed by purely serous **Glands of Von Ebner**.
+* **Stomach & Digestive Histology**:
+  - **Parietal (Oxyntic) cells**: Secrete HCl + Intrinsic Factor (essential for Vit B12 absorption; deficiency = Pernicious Anemia).
+  - **Chief (Peptic) cells**: Secrete Pepsinogen (zymogen for protein digestion).
+  - **G cells**: Secrete Gastrin in gastric antrum.
+  - **Hepatic Portal Triad**: Hepatic Artery branch + Portal Vein branch + Bile Ductule.
+  - **Pancreatic Ducts**: Duct of Wirsung (major/main duct) + Duct of Santorini (accessory duct).
 `;
 
 export default function App() {
@@ -105,7 +146,7 @@ export default function App() {
     return localStorage.getItem("pb_sound") !== "false";
   });
 
-  const DENTAL_VERSION = "dle_v5_gold_standard_rationales";
+  const DENTAL_VERSION = "dle_v6_dmf_book_integrated";
 
   const [questions, setQuestions] = useState(() => {
     try {
