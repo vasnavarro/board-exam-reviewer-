@@ -179,7 +179,7 @@ export function Dashboard({
             </div>
 
             <p style={{ fontSize: "0.75rem", color: "var(--text-secondary)", marginTop: "0.75rem" }}>
-              Date: <strong style={{ color: "#ffffff" }}>{new Date(examDate).toLocaleDateString(undefined, { dateStyle: "long" })}</strong>
+              Target: <strong style={{ color: "#ffffff" }}>Nov 22–24, 2026 (DLE Theoretical Phase)</strong>
             </p>
           </div>
         </div>

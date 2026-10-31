@@ -95,7 +95,7 @@ export function SettingsModal({
           {/* Exam Date */}
           <div>
             <label style={{ display: "block", fontSize: "0.85rem", fontWeight: 600, color: "var(--text-secondary)", marginBottom: "0.4rem" }}>
-              <Calendar size={14} style={{ display: "inline", marginRight: "4px" }} /> Target Board Exam Date
+              <Calendar size={14} style={{ display: "inline", marginRight: "4px" }} /> Target Board Exam Date (Nov 22–24, 2026 Theoretical)
             </label>
             <input
               type="date"

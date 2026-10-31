@@ -85,7 +85,12 @@ export default function App() {
   });
 
   const [examDate, setExamDate] = useState(() => {
-    return localStorage.getItem("pb_date") || "2026-11-25";
+    const saved = localStorage.getItem("pb_date");
+    if (!saved || saved === "2026-11-25" || saved === "2026-11-20") {
+      localStorage.setItem("pb_date", "2026-11-22");
+      return "2026-11-22";
+    }
+    return saved;
   });
 
   const [personalMessage, setPersonalMessage] = useState(() => {
@@ -100,7 +105,7 @@ export default function App() {
     return localStorage.getItem("pb_sound") !== "false";
   });
 
-  const DENTAL_VERSION = "dle_v3_master_bank";
+  const DENTAL_VERSION = "dle_v5_gold_standard_rationales";
 
   const [questions, setQuestions] = useState(() => {
     try {

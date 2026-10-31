@@ -167,7 +167,7 @@ export function Navbar({
             color: "var(--accent-purple)"
           }}>
             <Clock size={14} color="#a855f7" />
-            <span className="mono-font">{daysLeft}d to DLE</span>
+            <span className="mono-font">{daysLeft}d to DLE (Nov 22)</span>
           </div>
 
           {/* Study Streak */}

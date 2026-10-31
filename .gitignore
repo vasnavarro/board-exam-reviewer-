@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python
+__pycache__/
+*.py[cod]
+scripts/all_bp_questions.txt
+scripts/boilerplate_questions.json
