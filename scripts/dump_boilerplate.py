@@ -16,3 +16,4 @@ print(f"Total questions with boilerplate rationales: {len(boilerplate_qs)}")
 with open("scripts/boilerplate_questions.json", "w", encoding="utf-8") as f:
     json.dump(boilerplate_qs, f, indent=2)
 print("Saved to scripts/boilerplate_questions.json")
+

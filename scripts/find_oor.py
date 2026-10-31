@@ -8,3 +8,4 @@ for i, q in enumerate(qs):
     opts = q["options"]
     if c < 0 or c >= len(opts):
         print(f"OUT OF RANGE at index {i}: id={q['id']}, stem={q['question']}, correctIndex={c}, options={opts}")
+

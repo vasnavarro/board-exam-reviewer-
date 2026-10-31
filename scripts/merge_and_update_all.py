@@ -67,3 +67,4 @@ with open("src/data/dentalQuestions.js", "w", encoding="utf-8") as f:
     f.write(output_js)
 
 print("Saved updated questions to src/data/dentalQuestions.js!")
+

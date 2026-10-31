@@ -317,3 +317,4 @@ CD_PART1 = {
         "pearl": "Disease Occurrence: Sporadic = Infrequent, irregular, at or below baseline; Endemic = Constant habitual presence; Epidemic = Clear excess above baseline."
     }
 }
+

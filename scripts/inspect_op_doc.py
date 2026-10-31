@@ -10,3 +10,4 @@ for p in doc.paragraphs[:50]:
     sample.append(p.text[:75] + (" [KEY]" if (is_hl or is_b) else ""))
 
 print("\n".join(sample[:35]))
+

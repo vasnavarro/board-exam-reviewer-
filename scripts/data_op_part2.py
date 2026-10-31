@@ -299,3 +299,4 @@ OP_PART2 = {
         "pearl": "Coagulation Tests: Bleeding Time = Platelet function (Primary hemostasis); PT/INR = Extrinsic pathway (Warfarin); aPTT = Intrinsic pathway (Heparin/Hemophilia)."
     }
 }
+

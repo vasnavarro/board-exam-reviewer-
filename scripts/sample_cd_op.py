@@ -20,3 +20,4 @@ for q in op_sample[:5]:
     print(f"[{q['id']}] Q: {q['question']}")
     print(f"     Options: {q['options']}")
     print(f"     Correct: {q['options'][q['correctIndex']]}")
+

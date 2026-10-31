@@ -22,3 +22,4 @@ for q in data:
         print("Options:", q.get("options"))
         print("Distractors:", q.get("distractorRationales"))
         print("Explanation:", q.get("explanation"))
+

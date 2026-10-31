@@ -10,3 +10,4 @@ for q in qs:
 
 for c, count in sorted(cats.items()):
     print(f"{c}: {count}")
+

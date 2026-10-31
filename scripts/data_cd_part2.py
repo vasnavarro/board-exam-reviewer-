@@ -317,3 +317,4 @@ CD_PART2 = {
         "pearl": "Fissure Morphology: U & V = Shallow, wide, self-cleansing; I & Y = Deep, narrow, non-cleansing (highest caries susceptibility, require sealants)."
     }
 }
+

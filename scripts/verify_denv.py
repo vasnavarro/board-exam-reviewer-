@@ -8,3 +8,4 @@ questions = json.loads(m.group(1))
 
 q = [x for x in questions if x["id"] == "dle-cd-006"][0]
 print(json.dumps(q, indent=2))
+

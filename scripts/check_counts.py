@@ -15,3 +15,4 @@ for q in questions:
         generic_count += 1
 
 print(f"{generic_count} questions have boilerplate distractors that need real dental clinical explanations.")
+

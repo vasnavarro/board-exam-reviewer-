@@ -9,3 +9,4 @@ for i, p in enumerate(paras[:40]):
     is_b = any(r.bold for r in p.runs)
     mark = " [KEY]" if (is_hl or is_b) else ""
     print(f"{i}: {p.text[:80]}{mark}")
+

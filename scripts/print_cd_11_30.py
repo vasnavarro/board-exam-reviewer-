@@ -9,3 +9,4 @@ for q in qs[10:30]:
     print(f"    'options': {repr(q['options'])},")
     print(f"    'correct': {q['correctIndex']}")
     print("},")
+
