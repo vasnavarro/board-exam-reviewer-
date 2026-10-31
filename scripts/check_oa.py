@@ -10,3 +10,4 @@ def check_file(fname):
     print(text[:2500])
 
 check_file("4 - Oral Anatomy rationale.pdf")
+

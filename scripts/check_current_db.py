@@ -10,3 +10,4 @@ by_cat = {}
 for q in current:
     by_cat[q["category"]] = by_cat.get(q["category"], 0) + 1
 print("Categories in dentalQuestions.js:", by_cat)
+

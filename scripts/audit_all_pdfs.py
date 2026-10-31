@@ -32,3 +32,4 @@ for f in [
     "PRACTICE MANAGEMENT FC-2.pdf",
 ]:
     inspect_pdf_questions(f, 3)
+

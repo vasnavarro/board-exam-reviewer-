@@ -24,3 +24,4 @@ for fname in files:
     # Check the last 1500 chars of document
     print("Last 400 chars:")
     print(full_text[-400:].strip())
+

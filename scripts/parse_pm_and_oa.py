@@ -14,3 +14,4 @@ dump_samples("PRACTICE MANAGEMENT FC-2.pdf", 5)
 dump_samples("4 - Oral Anatomy rationale.pdf", 5)
 dump_samples("10 - Pharmacology and Anesthesiology rationale.pdf", 5)
 dump_samples("13 - Orthodontics rationale.pdf", 5)
+

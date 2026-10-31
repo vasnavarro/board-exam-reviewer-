@@ -7,3 +7,4 @@ for i in range(3, 15):
     txt = r.pages[i].extract_text() or ""
     print(f"\n--- Slide {i+1} ---")
     print(txt.strip())
+

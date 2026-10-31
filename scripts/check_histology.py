@@ -7,3 +7,4 @@ for i, page in enumerate(reader.pages):
     print(f"Page {i+1} length: {len(txt)}")
     if i == len(reader.pages)-1:
         print(txt)
+

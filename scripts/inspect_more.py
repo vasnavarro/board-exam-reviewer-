@@ -14,3 +14,4 @@ inspect_file("8 - General Histology and Microbiology rationale.pdf")
 inspect_file("10 - Pharmacology and Anesthesiology rationale.pdf")
 inspect_file("3 - General Pathology rationale.pdf")
 inspect_file("7 - Oral Histology and Embryology answer key.pdf")
+

@@ -32,3 +32,4 @@ for idx, page in enumerate(r.pages):
 print(f"Extracted {len(questions)} potential Resto questions.")
 for q in questions[:6]:
     print(f"Q#{q['q_num']}: {q['q_text'][:70]} | Opts: {len(q['opts'])} | Notes: {q['notes'][:60]}")
+

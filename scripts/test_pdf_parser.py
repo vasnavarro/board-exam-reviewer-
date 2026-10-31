@@ -48,3 +48,4 @@ print("Sample PM Q1:", pm_qs[0] if pm_qs else "None")
 print("Sample OA Q1:", oa_qs[0] if oa_qs else "None")
 print("Sample PH Q1:", ph_qs[0] if ph_qs else "None")
 print("Sample Ortho Q1:", ortho_qs[0] if ortho_qs else "None")
+

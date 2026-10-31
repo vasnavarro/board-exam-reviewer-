@@ -30,3 +30,4 @@ for f in files:
             print(f"Error reading docx: {e}")
     else:
         print(f"Other file type: {f}")
+

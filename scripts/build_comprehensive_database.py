@@ -298,3 +298,4 @@ with open("src/data/dentalQuestions.js", "w", encoding="utf-8") as f:
     f.write(js_output)
 
 print("Saved to src/data/dentalQuestions.js successfully!")
+

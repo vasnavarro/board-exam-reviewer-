@@ -11,3 +11,4 @@ for i, page in enumerate(r.pages):
             print("  Type:", obj.get("/Subtype"), "Contents:", obj.get("/Contents"))
     else:
         print(f"Page {i+1} has no annotations.")
+
