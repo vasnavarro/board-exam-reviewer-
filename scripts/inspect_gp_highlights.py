@@ -17,3 +17,4 @@ for pno in range(1, 10):
             if not (r > 0.95 and g > 0.95 and b > 0.95):
                 fills.append((fill, d.get("rect")))
     print(f"Slide {pno+1}: {len(fills)} colored fills found: {fills[:3]}")
+

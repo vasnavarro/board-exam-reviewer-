@@ -46,3 +46,4 @@ for p, label in modules:
     if few_opts:
         for f in few_opts[:3]:
             print(f"   Q{f[0]} ({f[1]} opts): {f[2]}")
+

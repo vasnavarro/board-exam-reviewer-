@@ -19,3 +19,4 @@ for b in dict_data["blocks"]:
             for s in l["spans"]:
                 if "Albright" in s["text"] or "Weil" in s["text"]:
                     print("Span text:", s["text"], "color:", hex(s["color"]), "flags:", s["flags"], "bbox:", s["bbox"])
+

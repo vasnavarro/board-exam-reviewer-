@@ -7,3 +7,4 @@ options = []
 for j in range(1, len(parts), 2):
     options.append((parts[j], parts[j+1].strip()))
 print("Extracted options:", options)
+

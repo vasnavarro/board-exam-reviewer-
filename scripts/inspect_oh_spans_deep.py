@@ -17,3 +17,4 @@ for b in data["blocks"][:10]:
 print("Drawings on Page 1:", len(page.get_drawings()))
 for d in page.get_drawings()[:10]:
     print("Drawing:", d.get("color"), d.get("fill"), d.get("rect"))
+

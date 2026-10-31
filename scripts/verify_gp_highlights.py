@@ -34,3 +34,4 @@ for pno in range(1, len(doc)):
 print(f"Total green-highlighted correct answers detected: {len(green_keys)}")
 for pno, key in sorted(green_keys.items())[:15]:
     print(f"Slide {pno}: Correct Option = {key[0]}")
+

@@ -105,3 +105,4 @@ for pno in range(1, len(doc)):
 print(f"Built {len(parsed_questions)} clean General Pathology questions.")
 q1 = parsed_questions[0]
 print(f"Sample Q1:\n{json.dumps(q1, indent=2)}")
+

@@ -9,3 +9,4 @@ for d in doc[0].get_drawings():
     if c:
         colors.add(tuple(round(x, 2) for x in c))
 print("Colors of drawings on Page 1:", colors)
+

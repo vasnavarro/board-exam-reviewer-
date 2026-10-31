@@ -44,3 +44,4 @@ for f in few_opts[:10]:
 print(f"\n3. Incomplete stems (cut off at trailing preposition): {len(incomplete_stems)}")
 for inc in incomplete_stems[:10]:
     print(f"   [{inc[0]}]: ...{inc[1]}")
+

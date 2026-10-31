@@ -14,3 +14,4 @@ for i, page in enumerate(doc):
     t = page.get_text()
     if "KEY" in t.upper() or "ANSWERS" in t.upper():
         print(f"Page {i+1} mentions KEY/ANSWERS")
+

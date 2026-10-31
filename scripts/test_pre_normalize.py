@@ -15,3 +15,4 @@ options = []
 for j in range(1, len(opt_parts), 2):
     options.append((opt_parts[j], opt_parts[j+1].strip()))
 print("Extracted options:", options)
+

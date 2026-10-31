@@ -19,3 +19,4 @@ for q in qs:
 print(f"Questions with less than 4 options: {len(suspects)}")
 for s in suspects[:25]:
     print(f"[{s[0]}] ({s[1]} - {s[2]} opts): {s[3]} -> {s[4]}")
+

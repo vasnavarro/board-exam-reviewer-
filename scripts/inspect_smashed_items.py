@@ -12,3 +12,4 @@ for qid in ["dle-oa-027", "dle-oa-058", "dle-oh-008", "dle-oh-065", "dle-oh-074"
         print(f"=== {qid} ===")
         print("Stem:", q["question"])
         print("Options:", q["options"])
+

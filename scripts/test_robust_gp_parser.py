@@ -13,3 +13,4 @@ lines = [l.strip() for l in text.split("\n") if l.strip()]
 print("Raw lines on Slide 2:")
 for idx, l in enumerate(lines):
     print(f"  [{idx}] {l}")
+

@@ -42,3 +42,4 @@ few = [q for q in parsed_oh if len(q["options"]) < 4]
 print(f"OH questions with < 4 options: {len(few)}")
 for f in few:
     print(f"  Q{f['num']}: {f['options']}")
+

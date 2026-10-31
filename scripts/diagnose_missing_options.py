@@ -17,3 +17,4 @@ for d in drawings:
     color = d.get("color")
     rect = d.get("rect")
     print(f"Drawing rect: {rect}, fill: {fill}, color: {color}")
+
