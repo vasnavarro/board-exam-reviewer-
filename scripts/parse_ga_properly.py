@@ -40,3 +40,4 @@ for pno in range(1, len(doc)):
 print(f"Total GA questions parsed: {len(ga_qs)}")
 for q in ga_qs[:5]:
     print(f"Q{q['num']}: {q['stem']} | Options: {q['options']}")
+

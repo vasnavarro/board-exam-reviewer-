@@ -16,3 +16,4 @@ for root, dirs, files in os.walk("."):
                         print(f"File {p} has {matches} 'Periodont' matches")
             except Exception:
                 pass
+

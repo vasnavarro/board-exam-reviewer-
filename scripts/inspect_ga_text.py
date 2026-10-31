@@ -6,3 +6,4 @@ print("Page 1 text:")
 print(repr(doc[0].get_text()[:300]))
 print("Page 2 text:")
 print(repr(doc[1].get_text()[:300]))
+

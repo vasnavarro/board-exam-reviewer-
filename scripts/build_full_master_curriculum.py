@@ -310,3 +310,4 @@ with open("src/data/dentalQuestions.js", "w", encoding="utf-8") as f:
     f.write(output_js)
 
 print("Master bank written successfully to src/data/dentalQuestions.js!")
+

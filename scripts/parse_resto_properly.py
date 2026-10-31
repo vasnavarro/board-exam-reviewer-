@@ -50,3 +50,4 @@ resto_qs.sort(key=lambda x: x["num"])
 print(f"Total Resto questions parsed: {len(resto_qs)}")
 for q in resto_qs[:5]:
     print(f"Q{q['num']}: {q['stem']} | Options: {q['options']}")
+

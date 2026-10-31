@@ -31,3 +31,4 @@ for f in files:
     keys = detect_circled_keys(f)
     total_hits = sum(len(v) for v in keys.values())
     print(f"{f}: Total key hits detected = {total_hits} across {len(keys)} pages")
+

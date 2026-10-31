@@ -9,3 +9,4 @@ for b in blocks[:8]:
         line_str = "".join(s.get("text", "") for s in l.get("spans", []))
         spans_info = [(s.get("text", ""), s.get("color"), s.get("flags"), s.get("font")) for s in l.get("spans", [])]
         print(f"Line: {line_str.strip()} | Spans: {spans_info}")
+

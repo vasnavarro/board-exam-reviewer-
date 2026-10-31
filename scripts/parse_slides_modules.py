@@ -47,3 +47,4 @@ for filename, label in [
     if parsed:
         print(f"   First: Q{parsed[0]['num']}: {parsed[0]['stem'][:70]}")
         print(f"   Last:  Q{parsed[-1]['num']}: {parsed[-1]['stem'][:70]}")
+

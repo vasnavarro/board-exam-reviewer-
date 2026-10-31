@@ -146,7 +146,7 @@ export default function App() {
     return localStorage.getItem("pb_sound") !== "false";
   });
 
-  const DENTAL_VERSION = "dle_v8_master_bank_1030";
+  const DENTAL_VERSION = "dle_v9_perfect_options_1027";
 
   const [questions, setQuestions] = useState(() => {
     try {

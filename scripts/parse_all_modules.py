@@ -59,3 +59,4 @@ for p, label in files_to_test:
     if res:
         print(f"   Sample Q1: {res[0]['stem'][:70]}")
         print(f"   Sample Q{res[-1]['num']}: {res[-1]['stem'][:70]}")
+

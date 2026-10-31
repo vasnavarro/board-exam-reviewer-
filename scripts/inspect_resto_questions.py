@@ -25,3 +25,4 @@ for m_num in missing[:5]:
         if re.search(rf"\b{m_num}\.\s+", t):
             print(f"Found {m_num} on slide {i+1}: {repr(t[:100])}")
             break
+

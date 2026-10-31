@@ -120,3 +120,4 @@ print(f"\nTOTAL QUESTIONS EXTRACTED ACROSS 10 MODULES: {total_extracted}")
 with open("scripts/all_extracted_coaching.json", "w", encoding="utf-8") as f:
     json.dump(all_extracted, f, indent=2)
 print("Saved to scripts/all_extracted_coaching.json")
+

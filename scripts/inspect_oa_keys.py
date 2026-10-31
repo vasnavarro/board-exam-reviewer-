@@ -9,3 +9,4 @@ for i, page in enumerate(doc):
     text = page.get_text()
     # Check if there are keys or circled letters
     print(f"Page {i+1} text length: {len(text)}")
+
