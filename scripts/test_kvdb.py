@@ -13,3 +13,4 @@ req2 = urllib.request.Request(url, method="GET")
 with urllib.request.urlopen(req2) as resp:
     content = resp.read().decode("utf-8")
     print("Read content:", content)
+

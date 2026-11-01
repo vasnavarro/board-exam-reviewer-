@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { 
   Sparkles, Heart, Clock, Award, Target, Flame, 
   ArrowRight, BookOpen, CheckCircle2, AlertCircle, RefreshCw,
-  TrendingUp, BarChart3, ShieldCheck, PenTool
+  TrendingUp, BarChart3, ShieldCheck, PenTool, Gift, Zap
 } from "lucide-react";
 import { motivationalQuotes } from "../data/quotes";
 import { sound } from "../utils/audio";
@@ -16,7 +16,9 @@ export function Dashboard({
   flaggedCount,
   streak,
   passingScore,
-  onStartMode
+  onStartMode,
+  onOpenRewards,
+  unlockedRewardsCount = 0
 }) {
   const [quoteIndex, setQuoteIndex] = useState(0);
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -185,6 +187,79 @@ export function Dashboard({
         </div>
       </div>
 
+      {/* Love Chests & Rewards Banner */}
+      <div 
+        onClick={() => {
+          sound.playClick();
+          if (onOpenRewards) onOpenRewards();
+        }}
+        className="glass-panel" 
+        style={{
+          padding: "1rem 1.5rem",
+          marginBottom: "1.75rem",
+          cursor: "pointer",
+          border: "1px solid rgba(236, 72, 153, 0.35)",
+          background: "linear-gradient(135deg, rgba(236, 72, 153, 0.12) 0%, rgba(168, 85, 247, 0.12) 100%)",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          flexWrap: "wrap",
+          gap: "0.75rem",
+          transition: "transform 0.2s ease, box-shadow 0.2s ease"
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: "0.85rem" }}>
+          <div style={{
+            width: "42px",
+            height: "42px",
+            borderRadius: "12px",
+            background: "var(--gradient-love)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            boxShadow: "0 0 15px rgba(236, 72, 153, 0.4)",
+            fontSize: "1.3rem"
+          }}>
+            🎁
+          </div>
+          <div>
+            <div style={{ display: "flex", alignItems: "center", gap: "0.45rem" }}>
+              <span style={{ fontWeight: 800, fontSize: "1rem", color: "var(--text-primary)" }}>
+                Angelo's Milestone Love Chests & Rewards
+              </span>
+              <span style={{
+                background: "linear-gradient(135deg, #ec4899, #a855f7)",
+                color: "#fff",
+                fontSize: "0.7rem",
+                borderRadius: "9999px",
+                padding: "0.15rem 0.55rem",
+                fontWeight: 800
+              }}>
+                {unlockedRewardsCount} Unlocked
+              </span>
+            </div>
+            <p style={{ fontSize: "0.8rem", color: "var(--text-secondary)", marginTop: "2px" }}>
+              Every study streak and mock score milestone unlocks a surprise treat, study fuel, or secret love letter!
+            </p>
+          </div>
+        </div>
+
+        <button 
+          className="btn btn-primary"
+          style={{
+            fontSize: "0.8rem",
+            padding: "0.5rem 1.1rem",
+            background: "var(--gradient-love)",
+            display: "flex",
+            alignItems: "center",
+            gap: "0.35rem"
+          }}
+        >
+          <span>Open Chests 🎁</span>
+          <ArrowRight size={14} />
+        </button>
+      </div>
+
       {/* Quick Metrics Row */}
       <div style={{
         display: "grid",
@@ -292,6 +367,54 @@ export function Dashboard({
           </p>
           <span style={{ color: "#c084fc", fontWeight: 700, fontSize: "0.85rem", display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
             Open Digital Notebook <ArrowRight size={14} />
+          </span>
+        </div>
+
+        {/* Quick Drills: Odontogram & Anesthesia */}
+        <div 
+          onClick={() => onStartMode("drills")}
+          className="glass-panel" 
+          style={{
+            padding: "1.75rem",
+            cursor: "pointer",
+            border: "1px solid rgba(168, 85, 247, 0.35)",
+            background: "linear-gradient(145deg, rgba(168, 85, 247, 0.12) 0%, rgba(17, 24, 39, 0.95) 100%)",
+            position: "relative",
+            overflow: "hidden"
+          }}
+        >
+          <div style={{
+            position: "absolute",
+            top: "1rem",
+            right: "1rem",
+            background: "linear-gradient(135deg, #a855f7, #ec4899)",
+            color: "#fff",
+            fontSize: "0.68rem",
+            fontWeight: 800,
+            padding: "0.2rem 0.55rem",
+            borderRadius: "9999px"
+          }}>
+            NEW ⚡
+          </div>
+          <div style={{
+            width: "48px",
+            height: "48px",
+            borderRadius: "14px",
+            background: "linear-gradient(135deg, #a855f7 0%, #ec4899 100%)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            marginBottom: "1rem",
+            boxShadow: "0 6px 15px rgba(168, 85, 247, 0.3)"
+          }}>
+            <Zap size={24} color="#ffffff" />
+          </div>
+          <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.4rem" }}>Odontogram & Anesthesia Drills</h3>
+          <p style={{ color: "var(--text-secondary)", fontSize: "0.88rem", marginBottom: "1.25rem", lineHeight: 1.5 }}>
+            Rapid-fire tooth spotter, FDI numbering conversion, and patient MRD local anesthesia dosage calculation challenges.
+          </p>
+          <span style={{ color: "#c084fc", fontWeight: 700, fontSize: "0.85rem", display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
+            Start Quick Drills ⚡ <ArrowRight size={14} />
           </span>
         </div>
 
@@ -509,6 +632,43 @@ export function Dashboard({
           </div>
         </div>
       )}
+
+      {/* iPad PWA Fullscreen Installation Tip */}
+      <div className="glass-panel" style={{
+        marginTop: "1.75rem",
+        padding: "1.25rem 1.75rem",
+        borderRadius: "16px",
+        border: "1px solid rgba(168, 85, 247, 0.25)",
+        background: "rgba(168, 85, 247, 0.06)",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between",
+        flexWrap: "wrap",
+        gap: "1rem"
+      }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "0.85rem" }}>
+          <span style={{ fontSize: "1.8rem" }}>📱</span>
+          <div>
+            <div style={{ fontWeight: 700, fontSize: "0.95rem", color: "var(--text-primary)" }}>
+              Tip for Dr. {girlfriendName}'s iPad: Run in Pure Fullscreen!
+            </div>
+            <div style={{ fontSize: "0.8rem", color: "var(--text-secondary)", marginTop: "2px" }}>
+              In iPad Safari, tap the <strong>Share button [⬆]</strong> and select <strong>"Add to Home Screen"</strong>. It will get its own purple tooth app icon and open edge-to-edge without browser URL bars!
+            </div>
+          </div>
+        </div>
+        <span style={{
+          fontSize: "0.75rem",
+          fontWeight: 700,
+          padding: "0.35rem 0.85rem",
+          borderRadius: "9999px",
+          background: "rgba(168, 85, 247, 0.15)",
+          color: "var(--accent-purple)",
+          border: "1px solid rgba(168, 85, 247, 0.3)"
+        }}>
+          PWA Ready ✨
+        </span>
+      </div>
 
     </div>
   );

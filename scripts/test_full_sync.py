@@ -35,3 +35,4 @@ with urllib.request.urlopen(req2) as resp:
     content = resp.read().decode("utf-8")
     loaded = json.loads(content)
     print("Read success! Device:", loaded["device"], "Streak:", loaded["streak"], "Flagged:", len(loaded["flaggedQuestions"]))
+

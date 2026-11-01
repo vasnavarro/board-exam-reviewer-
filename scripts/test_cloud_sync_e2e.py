@@ -97,3 +97,4 @@ with urllib.request.urlopen(verify_req) as resp:
     assert len(verified_data["leaneNotebooks"]) == 2
     assert "leane_sticky_nb-1_0" in verified_data["stickies"]
     print("ALL ASSERTIONS PASSED! Cloud sync data store is 100% operational.")
+

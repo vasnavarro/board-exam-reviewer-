@@ -2,7 +2,7 @@ import React from "react";
 import { 
   Sparkles, Heart, Clock, Flame, Volume2, VolumeX, 
   Settings, BookOpen, Sun, Moon, PenTool,
-  Cloud, CloudOff, RefreshCw
+  Cloud, CloudOff, RefreshCw, Gift
 } from "lucide-react";
 import { sound } from "../utils/audio";
 
@@ -19,10 +19,13 @@ export function Navbar({
   onToggleTheme,
   syncStatus = "synced",
   onManualSync,
-  lastSyncTime
+  lastSyncTime,
+  onOpenRewards,
+  unlockedRewardsCount = 0
 }) {
   const tabs = [
     { id: "dashboard", label: "Dashboard", icon: "🏠" },
+    { id: "drills", label: "Quick Drills ⚡", icon: "🦷" },
     { id: "practice", label: "Practice Drill", icon: "⚡" },
     { id: "goodnotes", label: "LeaneNotes ✍️", icon: "📓" },
     { id: "mock", label: "Mock Exam", icon: "🎯" },
@@ -190,6 +193,44 @@ export function Navbar({
             <Flame size={14} fill="#f59e0b" color="#f59e0b" />
             <span className="mono-font">{streak}d Streak</span>
           </div>
+
+          {/* Milestone Love Chests Button */}
+          <button
+            onClick={() => {
+              sound.playClick();
+              if (onOpenRewards) onOpenRewards();
+            }}
+            title="Milestone Love Chests & Surprise Coupons from Angelo 🎁"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "0.4rem",
+              background: "rgba(236, 72, 153, 0.15)",
+              border: "1px solid rgba(236, 72, 153, 0.35)",
+              padding: "0.35rem 0.75rem",
+              borderRadius: "9999px",
+              fontSize: "0.8rem",
+              fontWeight: 700,
+              color: "#ec4899",
+              cursor: "pointer",
+              transition: "all 0.18s ease"
+            }}
+          >
+            <Gift size={14} color="#ec4899" />
+            <span>Love Chests</span>
+            {unlockedRewardsCount > 0 && (
+              <span style={{
+                background: "linear-gradient(135deg, #ec4899, #a855f7)",
+                color: "#fff",
+                fontSize: "0.68rem",
+                borderRadius: "9999px",
+                padding: "0.05rem 0.4rem",
+                fontWeight: 800
+              }}>
+                {unlockedRewardsCount}
+              </span>
+            )}
+          </button>
 
           {/* Cloud Sync Status Pill */}
           <button

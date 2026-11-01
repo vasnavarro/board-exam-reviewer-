@@ -88,6 +88,12 @@ export function collectLocalProfile() {
     if (raw) leaneNotebooks = JSON.parse(raw);
   } catch (e) {}
 
+  let redeemedRewards = {};
+  try {
+    const raw = localStorage.getItem("pb_redeemed_milestones");
+    if (raw) redeemedRewards = JSON.parse(raw);
+  } catch (e) {}
+
   return {
     version: "2.0",
     updatedAt: localStorage.getItem("pb_sync_updated_at") || new Date().toISOString(),
@@ -100,6 +106,7 @@ export function collectLocalProfile() {
     leaneNotebooks,
     leaneCurNb: localStorage.getItem("leane_notes_cur_nb") || "",
     stickies: collectStickies(),
+    redeemedRewards,
     settings: {
       girlfriendName: localStorage.getItem("pb_name") || "Leane",
       examDate: localStorage.getItem("pb_date") || "2026-11-22",
@@ -261,7 +268,13 @@ export function mergeProfiles(localProfile, cloudProfile) {
     ...(localProfile.stickies || {})
   };
 
-  // 6. Settings
+  // 6. Redeemed Rewards: Merge dictionaries
+  const mergedRedeemed = {
+    ...(cloudProfile.redeemedRewards || {}),
+    ...(localProfile.redeemedRewards || {})
+  };
+
+  // 7. Settings
   let mergedSettings = localProfile.settings;
   if (cloudTime > localTime && cloudProfile.settings) {
     mergedSettings = { ...localProfile.settings, ...cloudProfile.settings };
@@ -279,6 +292,7 @@ export function mergeProfiles(localProfile, cloudProfile) {
     leaneNotebooks: mergedNotebooks,
     leaneCurNb: cloudProfile.leaneCurNb || localProfile.leaneCurNb,
     stickies: mergedStickies,
+    redeemedRewards: mergedRedeemed,
     settings: mergedSettings
   };
 
@@ -290,6 +304,7 @@ export function mergeProfiles(localProfile, cloudProfile) {
     if (merged.notes) localStorage.setItem("pb_notes", merged.notes);
     if (merged.leaneNotebooks) localStorage.setItem("leane_notes_notebooks", JSON.stringify(merged.leaneNotebooks));
     if (merged.leaneCurNb) localStorage.setItem("leane_notes_cur_nb", merged.leaneCurNb);
+    if (merged.redeemedRewards) localStorage.setItem("pb_redeemed_milestones", JSON.stringify(merged.redeemedRewards));
     restoreStickies(merged.stickies);
 
     if (merged.settings) {
@@ -324,3 +339,4 @@ export function scheduleAutoSync(callback = null) {
     }
   }, 1200);
 }
+

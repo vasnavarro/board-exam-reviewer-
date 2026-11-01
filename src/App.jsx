@@ -9,6 +9,9 @@ import { QuestionBank } from "./components/QuestionBank";
 import { NotesCheatSheet } from "./components/NotesCheatSheet";
 import { GoodNotes } from "./components/GoodNotes";
 import { SettingsModal } from "./components/SettingsModal";
+import { QuickDrills } from "./components/QuickDrills";
+import { MilestoneRewards } from "./components/MilestoneRewards";
+import { MILESTONES } from "./data/milestones";
 import { defaultQuestions } from "./data/defaultQuestions";
 import { sound } from "./utils/audio";
 import {
@@ -194,6 +197,14 @@ export default function App() {
 
   const [currentTab, setCurrentTab] = useState("dashboard");
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+  const [isRewardsOpen, setIsRewardsOpen] = useState(false);
+
+  // Calculate unlocked milestone love chests count
+  const unlockedRewardsCount = MILESTONES.filter(m => m.checkUnlock({
+    streak,
+    examHistory,
+    flaggedQuestions
+  })).length;
 
   // Cloud Sync State (Cross-Device Sync between Laptop and iPad)
   const [syncStatus, setSyncStatus] = useState("synced"); // 'synced' | 'syncing' | 'offline'
@@ -424,6 +435,8 @@ export default function App() {
         syncStatus={syncStatus}
         onManualSync={handleManualSync}
         lastSyncTime={lastSyncTime}
+        onOpenRewards={() => setIsRewardsOpen(true)}
+        unlockedRewardsCount={unlockedRewardsCount}
       />
 
       {/* Main Content Router */}
@@ -439,6 +452,14 @@ export default function App() {
             streak={streak}
             passingScore={passingScore}
             onStartMode={(mode) => setCurrentTab(mode)}
+            onOpenRewards={() => setIsRewardsOpen(true)}
+            unlockedRewardsCount={unlockedRewardsCount}
+          />
+        )}
+
+        {currentTab === "drills" && (
+          <QuickDrills
+            girlfriendName={girlfriendName}
           />
         )}
 
@@ -519,6 +540,14 @@ export default function App() {
         lastSyncTime={lastSyncTime}
         syncDevice={syncDevice}
         onManualSync={handleManualSync}
+      />
+
+      {/* Milestone Rewards & Love Chests Modal */}
+      <MilestoneRewards
+        isOpen={isRewardsOpen}
+        onClose={() => setIsRewardsOpen(false)}
+        stats={{ streak, examHistory, flaggedQuestions }}
+        girlfriendName={girlfriendName}
       />
 
       {/* Floating Cloud Sync Notification Toast */}
