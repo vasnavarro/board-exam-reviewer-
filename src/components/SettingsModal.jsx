@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { X, Heart, Save, RotateCcw, Calendar, User, MessageCircleHeart } from "lucide-react";
+import { X, Heart, Save, RotateCcw, Calendar, User, MessageCircleHeart, Cloud, RefreshCw, Smartphone, Laptop, CheckCircle2 } from "lucide-react";
 import { sound } from "../utils/audio";
+import { getSyncKey, setSyncKey, getDeviceName } from "../services/cloudSync";
 
 export function SettingsModal({
   isOpen,
@@ -10,12 +11,18 @@ export function SettingsModal({
   personalMessage,
   passingScore,
   onSave,
-  onResetData
+  onResetData,
+  syncStatus = "synced",
+  lastSyncTime,
+  syncDevice,
+  onManualSync
 }) {
   const [name, setName] = useState(girlfriendName);
   const [date, setDate] = useState(examDate);
   const [msg, setMsg] = useState(personalMessage);
   const [targetScore, setTargetScore] = useState(passingScore);
+  const [syncKeyVal, setSyncKeyVal] = useState(() => getSyncKey());
+  const [syncNotice, setSyncNotice] = useState("");
 
   if (!isOpen) return null;
 
@@ -153,6 +160,110 @@ export function SettingsModal({
               onChange={(e) => setTargetScore(e.target.value)}
               style={{ width: "100%", accentColor: "var(--accent-rose)" }}
             />
+          </div>
+
+          {/* Cloud Synchronization Section */}
+          <div style={{
+            background: "rgba(168, 85, 247, 0.08)",
+            border: "1px solid rgba(168, 85, 247, 0.25)",
+            borderRadius: "14px",
+            padding: "1.1rem"
+          }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.6rem" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                <Cloud size={18} color="#c084fc" />
+                <span style={{ fontWeight: 700, fontSize: "0.925rem", color: "var(--text-primary)" }}>
+                  Cloud Sync (Laptop 💻 & iPad 📱)
+                </span>
+              </div>
+              <span style={{
+                fontSize: "0.725rem",
+                padding: "0.2rem 0.6rem",
+                borderRadius: "9999px",
+                background: syncStatus === "synced" ? "rgba(16, 185, 129, 0.15)" : syncStatus === "syncing" ? "rgba(168, 85, 247, 0.2)" : "rgba(245, 158, 11, 0.15)",
+                color: syncStatus === "synced" ? "#10b981" : syncStatus === "syncing" ? "#c084fc" : "#f59e0b",
+                fontWeight: 700
+              }}>
+                {syncStatus === "synced" ? "● Synced" : syncStatus === "syncing" ? "● Syncing..." : "● Offline"}
+              </span>
+            </div>
+
+            <p style={{ fontSize: "0.8rem", color: "var(--text-secondary)", lineHeight: 1.45, marginBottom: "0.85rem" }}>
+              Keeps Leane's <strong>streak</strong>, <strong>mock exam scores</strong>, <strong>flagged questions</strong>, and <strong>LeaneNotes</strong> synced across all devices automatically.
+            </p>
+
+            <div style={{ display: "flex", gap: "0.6rem", alignItems: "flex-end", marginBottom: "0.75rem" }}>
+              <div style={{ flex: 1 }}>
+                <label style={{ display: "block", fontSize: "0.75rem", fontWeight: 600, color: "var(--text-muted)", marginBottom: "0.25rem" }}>
+                  Personal Sync Key
+                </label>
+                <input
+                  type="text"
+                  value={syncKeyVal}
+                  onChange={(e) => setSyncKeyVal(e.target.value)}
+                  placeholder="leane"
+                  style={{
+                    width: "100%",
+                    padding: "0.5rem 0.75rem",
+                    borderRadius: "8px",
+                    background: "var(--input-bg)",
+                    border: "1px solid var(--border-color)",
+                    color: "var(--text-primary)",
+                    fontSize: "0.85rem",
+                    fontFamily: "monospace"
+                  }}
+                />
+              </div>
+
+              <button
+                type="button"
+                onClick={async () => {
+                  sound.playClick();
+                  setSyncKey(syncKeyVal);
+                  if (onManualSync) {
+                    await onManualSync(false);
+                    setSyncNotice("Cloud progress merged successfully! ✨");
+                    setTimeout(() => setSyncNotice(""), 3000);
+                  }
+                }}
+                className="btn btn-outline"
+                style={{ fontSize: "0.8rem", padding: "0.55rem 0.85rem", display: "flex", alignItems: "center", gap: "0.35rem" }}
+              >
+                <RefreshCw size={13} className={syncStatus === "syncing" ? "spin-animation" : ""} />
+                Sync Now
+              </button>
+
+              <button
+                type="button"
+                onClick={async () => {
+                  if (confirm("Backup this device's progress to cloud?")) {
+                    sound.playClick();
+                    setSyncKey(syncKeyVal);
+                    if (onManualSync) {
+                      await onManualSync(true);
+                      setSyncNotice("Device progress uploaded to cloud! 🚀");
+                      setTimeout(() => setSyncNotice(""), 3000);
+                    }
+                  }
+                }}
+                title="Force push current device state to cloud"
+                className="btn btn-secondary"
+                style={{ fontSize: "0.8rem", padding: "0.55rem 0.75rem" }}
+              >
+                Backup
+              </button>
+            </div>
+
+            {syncNotice && (
+              <div style={{ fontSize: "0.75rem", color: "#10b981", fontWeight: 600, marginBottom: "0.5rem" }}>
+                ✓ {syncNotice}
+              </div>
+            )}
+
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: "0.72rem", color: "var(--text-muted)", borderTop: "1px solid rgba(255,255,255,0.06)", paddingTop: "0.5rem" }}>
+              <span>Current Device: <strong style={{ color: "var(--text-secondary)" }}>{getDeviceName()}</strong></span>
+              <span>Last Synced: <strong style={{ color: "var(--text-secondary)" }}>{lastSyncTime ? new Date(lastSyncTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' }) : "Never"}</strong></span>
+            </div>
           </div>
 
           {/* Action Buttons */}

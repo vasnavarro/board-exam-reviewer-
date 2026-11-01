@@ -11,6 +11,13 @@ import { GoodNotes } from "./components/GoodNotes";
 import { SettingsModal } from "./components/SettingsModal";
 import { defaultQuestions } from "./data/defaultQuestions";
 import { sound } from "./utils/audio";
+import {
+  fetchCloudProfile,
+  saveCloudProfile,
+  mergeProfiles,
+  scheduleAutoSync,
+  getDeviceName
+} from "./services/cloudSync";
 
 const DEFAULT_NOTES = `# High-Yield Dental Board (DLE) Strategies & Mnemonics 🦷✨
 
@@ -188,6 +195,109 @@ export default function App() {
   const [currentTab, setCurrentTab] = useState("dashboard");
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
 
+  // Cloud Sync State (Cross-Device Sync between Laptop and iPad)
+  const [syncStatus, setSyncStatus] = useState("synced"); // 'synced' | 'syncing' | 'offline'
+  const [lastSyncTime, setLastSyncTime] = useState(() => localStorage.getItem("pb_sync_updated_at") || null);
+  const [syncDevice, setSyncDevice] = useState(() => localStorage.getItem("pb_sync_last_device") || getDeviceName());
+  const [syncToast, setSyncToast] = useState(null);
+
+  const showToast = (message, type = "success") => {
+    setSyncToast({ message, type });
+    setTimeout(() => setSyncToast(null), 3600);
+  };
+
+  const triggerCloudSync = () => {
+    setSyncStatus("syncing");
+    scheduleAutoSync(({ success }) => {
+      if (success) {
+        setSyncStatus("synced");
+        setLastSyncTime(new Date().toISOString());
+      } else {
+        setSyncStatus("offline");
+      }
+    });
+  };
+
+  const handleManualSync = async (forcePush = false) => {
+    setSyncStatus("syncing");
+    try {
+      if (forcePush) {
+        const res = await saveCloudProfile();
+        setSyncStatus("synced");
+        setLastSyncTime(res.updatedAt);
+        setSyncDevice(res.device);
+        showToast("Device progress uploaded to cloud! 🚀", "success");
+        return;
+      }
+
+      const cloudData = await fetchCloudProfile();
+      if (cloudData) {
+        const localProfile = {
+          streak,
+          lastLogin: localStorage.getItem("pb_last_login"),
+          examHistory,
+          flaggedQuestions,
+          notes,
+          settings: { girlfriendName, examDate, personalMessage, passingScore, theme }
+        };
+        const merged = mergeProfiles(localProfile, cloudData);
+
+        if (merged.streak !== streak) setStreak(merged.streak);
+        if (JSON.stringify(merged.examHistory) !== JSON.stringify(examHistory)) setExamHistory(merged.examHistory);
+        if (JSON.stringify(merged.flaggedQuestions) !== JSON.stringify(flaggedQuestions)) setFlaggedQuestions(merged.flaggedQuestions);
+        if (merged.notes && merged.notes !== notes) setNotes(merged.notes);
+
+        if (merged.settings) {
+          if (merged.settings.girlfriendName && merged.settings.girlfriendName !== girlfriendName) setGirlfriendName(merged.settings.girlfriendName);
+          if (merged.settings.examDate && merged.settings.examDate !== examDate) setExamDate(merged.settings.examDate);
+          if (merged.settings.personalMessage && merged.settings.personalMessage !== personalMessage) setPersonalMessage(merged.settings.personalMessage);
+          if (merged.settings.passingScore && merged.settings.passingScore !== passingScore) setPassingScore(merged.settings.passingScore);
+          if (merged.settings.theme && merged.settings.theme !== theme) setTheme(merged.settings.theme);
+        }
+
+        // Notify GoodNotes to reload notebooks from updated localStorage
+        window.dispatchEvent(new CustomEvent("pb_cloud_synced"));
+
+        await saveCloudProfile();
+        setSyncStatus("synced");
+        setLastSyncTime(new Date().toISOString());
+        setSyncDevice(cloudData.device || getDeviceName());
+        showToast(`Synced with ${cloudData.device || "iPad/Laptop"}! ☁️`, "success");
+      } else {
+        await saveCloudProfile();
+        setSyncStatus("synced");
+        setLastSyncTime(new Date().toISOString());
+        showToast("Cloud backup active! ☁️", "success");
+      }
+    } catch (err) {
+      console.warn("Sync warning:", err);
+      setSyncStatus("offline");
+      showToast("Working in local mode. Saved locally.", "warning");
+    }
+  };
+
+  // Mount effect: Auto-sync on startup & visibility change (when unlocking iPad or returning to tab)
+  useEffect(() => {
+    handleManualSync();
+
+    const onVisibilityChange = () => {
+      if (document.visibilityState === "visible") {
+        handleManualSync();
+      }
+    };
+    document.addEventListener("visibilitychange", onVisibilityChange);
+
+    const onTriggerSync = () => {
+      triggerCloudSync();
+    };
+    window.addEventListener("pb_trigger_sync", onTriggerSync);
+
+    return () => {
+      document.removeEventListener("visibilitychange", onVisibilityChange);
+      window.removeEventListener("pb_trigger_sync", onTriggerSync);
+    };
+  }, []);
+
   // Sync sound setting
   useEffect(() => {
     sound.enabled = soundEnabled;
@@ -207,9 +317,11 @@ export default function App() {
           const nextStreak = streak + 1;
           setStreak(nextStreak);
           localStorage.setItem("pb_streak", String(nextStreak));
+          triggerCloudSync();
         } else if (diffDays > 1) {
           setStreak(1);
           localStorage.setItem("pb_streak", "1");
+          triggerCloudSync();
         }
       }
       localStorage.setItem("pb_last_login", today);
@@ -227,6 +339,7 @@ export default function App() {
     localStorage.setItem("pb_date", settings.examDate);
     localStorage.setItem("pb_msg", settings.personalMessage);
     localStorage.setItem("pb_passing", String(settings.passingScore));
+    triggerCloudSync();
   };
 
   // Flag toggle handler
@@ -235,6 +348,7 @@ export default function App() {
       const exists = prev.includes(qId);
       const updated = exists ? prev.filter(id => id !== qId) : [...prev, qId];
       localStorage.setItem("pb_flagged", JSON.stringify(updated));
+      triggerCloudSync();
       return updated;
     });
   };
@@ -244,6 +358,7 @@ export default function App() {
     setExamHistory(prev => {
       const updated = [result, ...prev];
       localStorage.setItem("pb_history", JSON.stringify(updated));
+      triggerCloudSync();
       return updated;
     });
   };
@@ -276,6 +391,7 @@ export default function App() {
       setFlaggedQuestions([]);
       localStorage.setItem("pb_questions", JSON.stringify(defaultQuestions));
       localStorage.removeItem("pb_flagged");
+      triggerCloudSync();
       sound.playSuccess();
     }
   };
@@ -283,6 +399,7 @@ export default function App() {
   const handleSaveNotes = (newNotes) => {
     setNotes(newNotes);
     localStorage.setItem("pb_notes", newNotes);
+    triggerCloudSync();
   };
 
   // Days left calculation
@@ -304,6 +421,9 @@ export default function App() {
         onSelectTab={(tab) => setCurrentTab(tab)}
         theme={theme}
         onToggleTheme={handleToggleTheme}
+        syncStatus={syncStatus}
+        onManualSync={handleManualSync}
+        lastSyncTime={lastSyncTime}
       />
 
       {/* Main Content Router */}
@@ -395,7 +515,18 @@ export default function App() {
         passingScore={passingScore}
         onSave={handleSaveSettings}
         onResetData={handleResetQuestions}
+        syncStatus={syncStatus}
+        lastSyncTime={lastSyncTime}
+        syncDevice={syncDevice}
+        onManualSync={handleManualSync}
       />
+
+      {/* Floating Cloud Sync Notification Toast */}
+      {syncToast && (
+        <div className={`sync-toast ${syncToast.type}`}>
+          <span>{syncToast.message}</span>
+        </div>
+      )}
 
       {/* Footer */}
       <footer style={{

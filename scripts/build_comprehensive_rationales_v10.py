@@ -216,3 +216,4 @@ with open("src/data/dentalQuestions.js", "w", encoding="utf-8") as f:
     f.write(output_js)
 
 print("Saved updated master question bank to src/data/dentalQuestions.js successfully!")
+

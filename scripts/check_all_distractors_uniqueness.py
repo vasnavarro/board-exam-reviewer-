@@ -30,3 +30,4 @@ print(f"Unique distractor rationales: {len(counts)}")
 print("\nTop 5 most frequent distractor strings:")
 for txt, cnt in counts.most_common(5):
     print(f"  [{cnt} times]: {txt[:90]}...")
+

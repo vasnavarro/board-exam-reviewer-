@@ -1,7 +1,8 @@
 import React from "react";
 import { 
   Sparkles, Heart, Clock, Flame, Volume2, VolumeX, 
-  Settings, BookOpen, Sun, Moon, PenTool
+  Settings, BookOpen, Sun, Moon, PenTool,
+  Cloud, CloudOff, RefreshCw
 } from "lucide-react";
 import { sound } from "../utils/audio";
 
@@ -15,7 +16,10 @@ export function Navbar({
   currentTab,
   onSelectTab,
   theme,
-  onToggleTheme
+  onToggleTheme,
+  syncStatus = "synced",
+  onManualSync,
+  lastSyncTime
 }) {
   const tabs = [
     { id: "dashboard", label: "Dashboard", icon: "🏠" },
@@ -186,6 +190,64 @@ export function Navbar({
             <Flame size={14} fill="#f59e0b" color="#f59e0b" />
             <span className="mono-font">{streak}d Streak</span>
           </div>
+
+          {/* Cloud Sync Status Pill */}
+          <button
+            onClick={() => {
+              if (onManualSync) {
+                sound.playClick();
+                onManualSync(false);
+              }
+            }}
+            title={
+              syncStatus === "syncing"
+                ? "Syncing progress with iPad / Laptop..."
+                : syncStatus === "synced"
+                ? `All progress synced with cloud (${lastSyncTime ? new Date(lastSyncTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : 'Ready'}). Click to sync now!`
+                : "Cloud sync offline. Click to retry."
+            }
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "0.35rem",
+              background: syncStatus === "synced"
+                ? "rgba(16, 185, 129, 0.12)"
+                : syncStatus === "syncing"
+                ? "rgba(168, 85, 247, 0.15)"
+                : "rgba(245, 158, 11, 0.12)",
+              border: `1px solid ${
+                syncStatus === "synced"
+                  ? "rgba(16, 185, 129, 0.35)"
+                  : syncStatus === "syncing"
+                  ? "rgba(168, 85, 247, 0.45)"
+                  : "rgba(245, 158, 11, 0.35)"
+              }`,
+              padding: "0.35rem 0.75rem",
+              borderRadius: "9999px",
+              fontSize: "0.8rem",
+              fontWeight: 700,
+              color: syncStatus === "synced" ? "#10b981" : syncStatus === "syncing" ? "#c084fc" : "#f59e0b",
+              cursor: "pointer",
+              transition: "all 0.18s ease"
+            }}
+          >
+            {syncStatus === "syncing" ? (
+              <>
+                <RefreshCw size={13} className="spin-animation" />
+                <span>Syncing</span>
+              </>
+            ) : syncStatus === "synced" ? (
+              <>
+                <Cloud size={14} color="#10b981" />
+                <span>Synced</span>
+              </>
+            ) : (
+              <>
+                <CloudOff size={14} color="#f59e0b" />
+                <span>Offline</span>
+              </>
+            )}
+          </button>
 
           {/* Light / Dark Mode Toggle */}
           <button

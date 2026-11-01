@@ -21,3 +21,4 @@ print(json.dumps(dmf1, indent=2))
 print("\n=== SAMPLE 4: dle-pharma-001 ===")
 pharma1 = next(q for q in qs if q['id'] == 'dle-pharma-001')
 print(json.dumps(pharma1, indent=2))
+

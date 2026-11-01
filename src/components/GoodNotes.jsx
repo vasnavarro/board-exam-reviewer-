@@ -76,6 +76,20 @@ export function GoodNotes({ girlfriendName, theme = "dark" }) {
     return localStorage.getItem("leane_notes_cur_nb") || notebooks[0]?.id || "nb-1";
   });
 
+  // Listen for cloud updates from Laptop/iPad
+  useEffect(() => {
+    const handleCloudUpdate = () => {
+      try {
+        const saved = localStorage.getItem("leane_notes_notebooks");
+        if (saved) {
+          setNotebooks(JSON.parse(saved));
+        }
+      } catch (e) {}
+    };
+    window.addEventListener("pb_cloud_synced", handleCloudUpdate);
+    return () => window.removeEventListener("pb_cloud_synced", handleCloudUpdate);
+  }, []);
+
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
 
   // Active Notebook
@@ -128,6 +142,7 @@ export function GoodNotes({ girlfriendName, theme = "dark" }) {
   const saveStickyNotes = (notes) => {
     setStickyNotes(notes);
     localStorage.setItem(`leane_sticky_${currentNbId}_${currentPageIndex}`, JSON.stringify(notes));
+    window.dispatchEvent(new CustomEvent("pb_trigger_sync"));
   };
 
   // Add a new sticky note
@@ -437,6 +452,7 @@ export function GoodNotes({ girlfriendName, theme = "dark" }) {
         return nb;
       });
       localStorage.setItem("leane_notes_notebooks", JSON.stringify(updated));
+      window.dispatchEvent(new CustomEvent("pb_trigger_sync"));
       return updated;
     });
   };
@@ -704,6 +720,7 @@ export function GoodNotes({ girlfriendName, theme = "dark" }) {
         return nb;
       });
       localStorage.setItem("leane_notes_notebooks", JSON.stringify(updated));
+      window.dispatchEvent(new CustomEvent("pb_trigger_sync"));
       return updated;
     });
     setCurrentPageIndex(activeNotebook.pages.length);
@@ -746,6 +763,7 @@ export function GoodNotes({ girlfriendName, theme = "dark" }) {
     setNotebooks(prev => {
       const updated = [...prev, newNb];
       localStorage.setItem("leane_notes_notebooks", JSON.stringify(updated));
+      window.dispatchEvent(new CustomEvent("pb_trigger_sync"));
       return updated;
     });
     setCurrentNbId(newNb.id);

@@ -35,3 +35,4 @@ print(f"Total questions with generic/repeated distractor rationales: {generic_co
 print("Breakdown by category:")
 for cat, count in by_category.items():
     print(f"  {cat}: {count}")
+

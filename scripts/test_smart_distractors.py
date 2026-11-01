@@ -79,3 +79,4 @@ opts = [
 ]
 for i in range(1, 4):
     print(f"Distractor {i}:", generate_clinical_distractor(stem, opts[0], chr(65+i), opts[i], "General Pathology"))
+

@@ -19,3 +19,4 @@ for w in opt_words:
     near = [a for a in annots if fitz.Rect(a.rect).intersects(w_rect + (-3, -3, 3, 3))]
     if near:
         print(f"Option {w[4]} at y={w_rect.y0:.1f} has {len(near)} overlapping annots -> KEY!")
+

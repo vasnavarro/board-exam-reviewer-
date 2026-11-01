@@ -72,3 +72,4 @@ with open("src/data/dentalQuestions.js", "w", encoding="utf-8") as f:
     f.write(output_js)
 
 print("Saved enriched dentalQuestions.js successfully!")
+
