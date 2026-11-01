@@ -6,6 +6,8 @@ import {
 } from "lucide-react";
 import { motivationalQuotes } from "../data/quotes";
 import { sound } from "../utils/audio";
+import { getTodayAngeloNote } from "../data/angeloNotes";
+import { PRCGwaGauge } from "./PRCGwaGauge";
 
 export function Dashboard({
   girlfriendName,
@@ -22,6 +24,7 @@ export function Dashboard({
 }) {
   const [quoteIndex, setQuoteIndex] = useState(0);
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+  const todayNote = getTodayAngeloNote();
 
   // Calculate live countdown
   useEffect(() => {
@@ -260,6 +263,40 @@ export function Dashboard({
         </button>
       </div>
 
+      {/* Angelo's Daily Love & Motivation Sticky Note */}
+      <div style={{
+        background: "linear-gradient(135deg, #fef9c3 0%, #fef08a 100%)",
+        color: "#713f12",
+        borderRadius: "14px",
+        padding: "1.25rem 1.5rem",
+        marginBottom: "1.75rem",
+        boxShadow: "0 10px 25px rgba(234, 179, 8, 0.12)",
+        border: "1px solid rgba(234, 179, 8, 0.35)",
+        position: "relative"
+      }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.45rem" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "0.45rem" }}>
+            <span>📌</span>
+            <span style={{ fontWeight: 800, fontSize: "0.875rem", color: "#854d0e", letterSpacing: "0.02em" }}>
+              Angelo's Daily Study Note • Day {todayNote.day}
+            </span>
+          </div>
+          <span style={{ fontSize: "0.725rem", fontWeight: 700, color: "#a16207", background: "rgba(255, 255, 255, 0.6)", padding: "0.15rem 0.55rem", borderRadius: "9999px" }}>
+            Fresh Note for Today ✨
+          </span>
+        </div>
+
+        <h4 style={{ fontWeight: 800, fontSize: "1.05rem", color: "#713f12", marginBottom: "0.35rem" }}>
+          {todayNote.title}
+        </h4>
+        <p style={{ fontSize: "0.88rem", lineHeight: 1.55, color: "#854d0e", marginBottom: "0.5rem" }}>
+          "{todayNote.note}"
+        </p>
+        <div style={{ fontSize: "0.8rem", fontWeight: 700, color: "#a16207", textAlign: "right", fontStyle: "italic" }}>
+          {todayNote.signature}
+        </div>
+      </div>
+
       {/* Quick Metrics Row */}
       <div style={{
         display: "grid",
@@ -320,6 +357,13 @@ export function Dashboard({
           <p style={{ fontSize: "0.75rem", color: "var(--text-muted)", marginTop: "0.2rem" }}>Consistent practice makes a topnotcher!</p>
         </div>
       </div>
+
+      {/* Official PRC GWA Passing Gauge */}
+      <PRCGwaGauge
+        examHistory={examHistory}
+        onSimulateDay={(day) => onStartMode("mock", day)}
+        girlfriendName={girlfriendName}
+      />
 
       {/* Main Study Modes Grid */}
       <h2 style={{ fontSize: "1.35rem", fontWeight: 700, marginBottom: "1rem", display: "flex", alignItems: "center", gap: "0.5rem" }}>

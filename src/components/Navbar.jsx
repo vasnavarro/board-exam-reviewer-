@@ -21,7 +21,8 @@ export function Navbar({
   onManualSync,
   lastSyncTime,
   onOpenRewards,
-  unlockedRewardsCount = 0
+  unlockedRewardsCount = 0,
+  onOpenZen
 }) {
   const tabs = [
     { id: "dashboard", label: "Dashboard", icon: "🏠" },
@@ -230,6 +231,32 @@ export function Navbar({
                 {unlockedRewardsCount}
               </span>
             )}
+          </button>
+
+          {/* Emergency Zen Anti-Panic Button */}
+          <button
+            onClick={() => {
+              sound.playClick();
+              if (onOpenZen) onOpenZen();
+            }}
+            title="Emergency Zen & 4-7-8 Breathing Station for review calm"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "0.35rem",
+              background: "rgba(168, 85, 247, 0.12)",
+              border: "1px solid rgba(168, 85, 247, 0.35)",
+              padding: "0.35rem 0.75rem",
+              borderRadius: "9999px",
+              fontSize: "0.8rem",
+              fontWeight: 700,
+              color: "#c084fc",
+              cursor: "pointer",
+              transition: "all 0.18s ease"
+            }}
+          >
+            <span>🌸</span>
+            <span>Zen Mode</span>
           </button>
 
           {/* Cloud Sync Status Pill */}

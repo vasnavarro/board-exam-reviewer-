@@ -96,3 +96,4 @@ create_pwa_icon(180, "public/icons/apple-touch-icon.png")
 create_pwa_icon(192, "public/icons/icon-192x192.png")
 create_pwa_icon(512, "public/icons/icon-512x512.png")
 create_pwa_icon(180, "public/icons/apple-touch-icon-180x180.png")
+

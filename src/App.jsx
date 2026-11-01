@@ -11,6 +11,8 @@ import { GoodNotes } from "./components/GoodNotes";
 import { SettingsModal } from "./components/SettingsModal";
 import { QuickDrills } from "./components/QuickDrills";
 import { MilestoneRewards } from "./components/MilestoneRewards";
+import { StudyStation } from "./components/StudyStation";
+import { ZenAntiPanicModal } from "./components/ZenAntiPanicModal";
 import { MILESTONES } from "./data/milestones";
 import { defaultQuestions } from "./data/defaultQuestions";
 import { sound } from "./utils/audio";
@@ -198,6 +200,8 @@ export default function App() {
   const [currentTab, setCurrentTab] = useState("dashboard");
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isRewardsOpen, setIsRewardsOpen] = useState(false);
+  const [isZenOpen, setIsZenOpen] = useState(false);
+  const [mockDay, setMockDay] = useState("all");
 
   // Calculate unlocked milestone love chests count
   const unlockedRewardsCount = MILESTONES.filter(m => m.checkUnlock({
@@ -437,6 +441,7 @@ export default function App() {
         lastSyncTime={lastSyncTime}
         onOpenRewards={() => setIsRewardsOpen(true)}
         unlockedRewardsCount={unlockedRewardsCount}
+        onOpenZen={() => setIsZenOpen(true)}
       />
 
       {/* Main Content Router */}
@@ -451,7 +456,10 @@ export default function App() {
             flaggedCount={flaggedQuestions.length}
             streak={streak}
             passingScore={passingScore}
-            onStartMode={(mode) => setCurrentTab(mode)}
+            onStartMode={(mode, day) => {
+              if (day) setMockDay(day);
+              setCurrentTab(mode);
+            }}
             onOpenRewards={() => setIsRewardsOpen(true)}
             unlockedRewardsCount={unlockedRewardsCount}
           />
@@ -484,6 +492,7 @@ export default function App() {
             questions={questions}
             passingScore={passingScore}
             girlfriendName={girlfriendName}
+            initialDay={mockDay}
             onSaveExamResult={handleSaveExamResult}
             onToggleFlag={handleToggleFlag}
             flaggedQuestions={flaggedQuestions}
@@ -549,6 +558,17 @@ export default function App() {
         stats={{ streak, examHistory, flaggedQuestions }}
         girlfriendName={girlfriendName}
       />
+
+      {/* Emergency Zen Anti-Panic Breathing Modal */}
+      <ZenAntiPanicModal
+        isOpen={isZenOpen}
+        onClose={() => setIsZenOpen(false)}
+        girlfriendName={girlfriendName}
+        stats={{ streak, examHistory }}
+      />
+
+      {/* Pomodoro Study Station & Ambient Synthesizer Dock */}
+      <StudyStation />
 
       {/* Floating Cloud Sync Notification Toast */}
       {syncToast && (

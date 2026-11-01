@@ -3,10 +3,11 @@ import React, { useState, useEffect, useRef } from "react";
 import { 
   Clock, Flag, CheckCircle, XCircle, AlertTriangle, 
   ArrowLeft, ArrowRight, Award, RotateCcw, ChevronRight, 
-  HelpCircle, Eye, Sparkles, Trophy
+  HelpCircle, Eye, Sparkles, Trophy, Calendar
 } from "lucide-react";
 import confetti from "canvas-confetti";
 import { sound } from "../utils/audio";
+import { PRC_DAYS } from "../data/prcSchedule";
 
 export function MockExam({ 
   questions, 
@@ -15,7 +16,8 @@ export function MockExam({
   onSaveExamResult,
   onToggleFlag,
   flaggedQuestions,
-  onExit
+  onExit,
+  initialDay = "all"
 }) {
   const [gameState, setGameState] = useState("setup"); // 'setup' | 'playing' | 'results'
   const [examQuestions, setExamQuestions] = useState([]);
@@ -23,6 +25,7 @@ export function MockExam({
   const [answers, setAnswers] = useState({}); // { [questionId]: optionIndex }
   const [timeLeft, setTimeLeft] = useState(0); // in seconds
   const [totalTime, setTotalTime] = useState(0);
+  const [selectedDay, setSelectedDay] = useState(initialDay);
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedCount, setSelectedCount] = useState(10);
   const [selectedDuration, setSelectedDuration] = useState(20); // minutes
@@ -34,9 +37,14 @@ export function MockExam({
   // Start Exam
   const handleStartExam = () => {
     sound.playClick();
-    let pool = selectedCategory === "All" 
-      ? [...questions]
-      : questions.filter(q => q.category === selectedCategory);
+    let pool = [...questions];
+
+    if (selectedDay !== "all" && PRC_DAYS[selectedDay]) {
+      const allowedCategories = PRC_DAYS[selectedDay].categories;
+      pool = pool.filter(q => allowedCategories.includes(q.category));
+    } else if (selectedCategory !== "All") {
+      pool = pool.filter(q => q.category === selectedCategory);
+    }
 
     // Shuffle pool
     pool.sort(() => Math.random() - 0.5);
@@ -118,6 +126,7 @@ export function MockExam({
       correctCount,
       scorePercent: percent,
       category: selectedCategory,
+      simulationDay: selectedDay,
       passed
     });
 
@@ -146,31 +155,82 @@ export function MockExam({
           </p>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-            {/* Subject Filter */}
+            {/* PRC Schedule Simulation Day Selector */}
             <div>
-              <label style={{ display: "block", fontSize: "0.9rem", fontWeight: 600, marginBottom: "0.5rem" }}>
-                Select Subject Domain
-              </label>
-              <select
-                value={selectedCategory}
-                onChange={(e) => setSelectedCategory(e.target.value)}
-                style={{
-                  width: "100%",
-                  padding: "0.85rem 1rem",
-                  borderRadius: "var(--radius-sm)",
-                  background: "rgba(255, 255, 255, 0.05)",
-                  border: "1px solid var(--border-color)",
-                  color: "#ffffff",
-                  fontSize: "0.95rem"
-                }}
-              >
-                {categories.map((cat, idx) => (
-                  <option key={idx} value={cat} style={{ background: "#111827", color: "#ffffff" }}>
-                    {cat}
-                  </option>
-                ))}
-              </select>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.5rem" }}>
+                <label style={{ fontSize: "0.9rem", fontWeight: 700, display: "flex", alignItems: "center", gap: "0.4rem" }}>
+                  <Calendar size={16} color="#c084fc" />
+                  <span>PRC Board Exam Simulation Mode</span>
+                </label>
+                <span style={{ fontSize: "0.75rem", color: "var(--accent-purple)", fontWeight: 600 }}>Nov 22-24 Structure</span>
+              </div>
+
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(170px, 1fr))", gap: "0.6rem" }}>
+                {[
+                  { id: "all", label: "🌟 Full Curriculum", desc: "All 10 Subjects (Comprehensive)" },
+                  { id: "day1", label: "Day 1: Basic Sciences", desc: "Anatomy, Physio, Path, Micro (20%)" },
+                  { id: "day2", label: "Day 2: Dental Tissues", desc: "Pharma, Oral Histo & Path (30%)" },
+                  { id: "day3", label: "Day 3: Clinical Dent", desc: "Prostho, Resto, Jurisprudence (50%)" }
+                ].map((d) => {
+                  const isSel = selectedDay === d.id;
+                  return (
+                    <button
+                      key={d.id}
+                      type="button"
+                      onClick={() => {
+                        sound.playClick();
+                        setSelectedDay(d.id);
+                        if (d.id !== "all") setSelectedCategory("All");
+                      }}
+                      style={{
+                        padding: "0.75rem",
+                        borderRadius: "12px",
+                        border: isSel ? "2px solid #a855f7" : "1px solid var(--border-color)",
+                        background: isSel ? "rgba(168, 85, 247, 0.18)" : "rgba(255, 255, 255, 0.03)",
+                        textAlign: "left",
+                        cursor: "pointer",
+                        transition: "all 0.15s ease"
+                      }}
+                    >
+                      <div style={{ fontWeight: 700, fontSize: "0.85rem", color: isSel ? "#ffffff" : "var(--text-secondary)" }}>
+                        {d.label}
+                      </div>
+                      <div style={{ fontSize: "0.7rem", color: "var(--text-muted)", marginTop: "2px" }}>
+                        {d.desc}
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
             </div>
+
+            {/* Subject Filter */}
+            {selectedDay === "all" && (
+              <div>
+                <label style={{ display: "block", fontSize: "0.9rem", fontWeight: 600, marginBottom: "0.5rem" }}>
+                  Filter Individual Subject (Optional)
+                </label>
+                <select
+                  value={selectedCategory}
+                  onChange={(e) => setSelectedCategory(e.target.value)}
+                  style={{
+                    width: "100%",
+                    padding: "0.85rem 1rem",
+                    borderRadius: "var(--radius-sm)",
+                    background: "rgba(255, 255, 255, 0.05)",
+                    border: "1px solid var(--border-color)",
+                    color: "#ffffff",
+                    fontSize: "0.95rem"
+                  }}
+                >
+                  {categories.map((cat, idx) => (
+                    <option key={idx} value={cat} style={{ background: "#111827", color: "#ffffff" }}>
+                      {cat}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
 
             {/* Number of Questions */}
             <div>
