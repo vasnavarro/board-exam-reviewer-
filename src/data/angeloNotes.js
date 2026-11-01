@@ -194,3 +194,4 @@ export function getTodayAngeloNote() {
   const day = new Date().getDate(); // 1 to 31
   return ANGELO_DAILY_NOTES[(day - 1) % ANGELO_DAILY_NOTES.length];
 }
+

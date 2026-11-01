@@ -12,6 +12,7 @@ export function SettingsModal({
   passingScore,
   onSave,
   onResetData,
+  onResetAllProgress,
   syncStatus = "synced",
   lastSyncTime,
   syncDevice,
@@ -267,15 +268,18 @@ export function SettingsModal({
           </div>
 
           {/* Action Buttons */}
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "1rem" }}>
-            <button
-              type="button"
-              onClick={onResetData}
-              className="btn btn-outline-danger"
-              style={{ fontSize: "0.8rem", padding: "0.5rem 0.85rem" }}
-            >
-              <RotateCcw size={14} /> Reset Question Bank
-            </button>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "1rem", flexWrap: "wrap", gap: "0.5rem" }}>
+            <div style={{ display: "flex", gap: "0.5rem" }}>
+              <button
+                type="button"
+                onClick={onResetAllProgress}
+                className="btn btn-outline-danger"
+                style={{ fontSize: "0.8rem", padding: "0.5rem 0.85rem" }}
+                title="Clears all streaks, mock exam scores, flags, and rewards for a clean start"
+              >
+                <RotateCcw size={14} /> Reset Progress to Day 1
+              </button>
+            </div>
 
             <button type="submit" className="btn btn-primary">
               <Save size={16} /> Save Changes

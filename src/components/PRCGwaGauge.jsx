@@ -204,3 +204,4 @@ export function PRCGwaGauge({ examHistory = [], onSimulateDay, girlfriendName = 
     </div>
   );
 }
+

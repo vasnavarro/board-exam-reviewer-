@@ -411,6 +411,51 @@ export default function App() {
     }
   };
 
+  const handleResetAllProgress = async () => {
+    if (confirm("Reset all study progress (streak, exam history, flagged questions, and love chest rewards) to a fresh Day 1 start for Dr. Leane?")) {
+      localStorage.setItem("pb_streak", "1");
+      localStorage.setItem("pb_last_login", new Date().toDateString());
+      localStorage.removeItem("pb_history");
+      localStorage.removeItem("pb_flagged");
+      localStorage.removeItem("pb_redeemed_milestones");
+
+      for (let i = localStorage.length - 1; i >= 0; i--) {
+        const k = localStorage.key(i);
+        if (k && k.startsWith("leane_sticky_")) {
+          localStorage.removeItem(k);
+        }
+      }
+
+      setStreak(1);
+      setExamHistory([]);
+      setFlaggedQuestions([]);
+
+      localStorage.removeItem("leane_notes_notebooks");
+      window.dispatchEvent(new CustomEvent("pb_cloud_synced"));
+
+      setSyncStatus("syncing");
+      try {
+        const freshProfile = {
+          streak: 1,
+          lastLogin: new Date().toDateString(),
+          examHistory: [],
+          flaggedQuestions: [],
+          notes,
+          redeemedRewards: {},
+          settings: { girlfriendName, examDate, personalMessage, passingScore, theme }
+        };
+        await saveCloudProfile(freshProfile);
+        setSyncStatus("synced");
+        setLastSyncTime(new Date().toISOString());
+        showToast("Reviewer progress reset to Day 1! Fresh start active 🌸", "success");
+      } catch (e) {
+        showToast("Progress reset locally.", "warning");
+      }
+
+      sound.playSuccess();
+    }
+  };
+
   const handleSaveNotes = (newNotes) => {
     setNotes(newNotes);
     localStorage.setItem("pb_notes", newNotes);
@@ -545,6 +590,7 @@ export default function App() {
         passingScore={passingScore}
         onSave={handleSaveSettings}
         onResetData={handleResetQuestions}
+        onResetAllProgress={handleResetAllProgress}
         syncStatus={syncStatus}
         lastSyncTime={lastSyncTime}
         syncDevice={syncDevice}
