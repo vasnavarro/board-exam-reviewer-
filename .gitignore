@@ -36,6 +36,8 @@ scripts/borderline_crops/
 scripts/new_uploads_preview/
 scripts/retake_inspections/
 scripts/verification_pairs/
+scripts/headers_34_56/
+scripts/corner_audit/
 
 # Large raw reviewer uploads
 reviewer_book/

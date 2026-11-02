@@ -6,8 +6,8 @@ export const DMF_TOTAL_PAGES = 100;
 export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 1,
-    "title": "General Histology: Epithelial Tissue Classification",
-    "subject": "General Histology",
+    "title": "General Anatomy, Physiology & Histology: Integumentary System & Epithelial Tissues",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "epithelium",
@@ -19,12 +19,12 @@ export const DMF_BOOK_PAGES = [
       "keratinized",
       "urinary bladder"
     ],
-    "summary": "Covers primary epithelial classifications: Simple squamous (endothelium lining blood vessels, mesothelium lining body cavities), Stratified squamous (keratinized on masticatory oral mucosa/skin; non-keratinized on lining mucosa), and Transitional epithelium (urothelium of urinary bladder capable of stretching)."
+    "summary": "DMF Dental Training Center Reviewer Cover & Section Start by Dr. Mickhail Q. Francisco: Integumentary System (largest organ system; Epidermis composed of keratinized stratified squamous epithelium; Dermis composed of dense connective tissue). Epithelial tissue classification: Simple Squamous (endothelium, mesothelium, Bowman's capsule), Simple Cuboidal (renal tubules, thyroid follicles), Simple Columnar (GI tract lining), Pseudostratified Ciliated (respiratory tract), Stratified Squamous Keratinized (epidermis, masticatory oral mucosa: hard palate, attached gingiva), Non-Keratinized (lining oral mucosa: buccal, labial, floor of mouth, ventral tongue), Transitional (urinary bladder)."
   },
   {
     "pageNumber": 2,
     "title": "General Histology: Connective Tissue & Collagen Types",
-    "subject": "General Histology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "connective tissue",
@@ -43,7 +43,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 3,
     "title": "General Histology: Cartilage Types & Characteristics",
-    "subject": "General Histology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "cartilage",
@@ -61,7 +61,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 4,
     "title": "General Histology: Bone Formation & Cell Biology",
-    "subject": "General Histology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "bone",
@@ -79,7 +79,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 5,
     "title": "General Histology: Muscle Types & Architecture",
-    "subject": "General Histology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "muscle",
@@ -96,7 +96,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 6,
     "title": "General Physiology: Sarcomere & Muscle Contraction",
-    "subject": "General Physiology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "sarcomere",
@@ -116,7 +116,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 7,
     "title": "Embryology: Meckel's Cartilage & Mandibular Development",
-    "subject": "General Embryology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "meckels cartilage",
@@ -132,7 +132,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 8,
     "title": "Embryology: 1st & 2nd Pharyngeal (Branchial) Arches",
-    "subject": "General Embryology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "branchial arches",
@@ -151,7 +151,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 9,
     "title": "Embryology: 3rd, 4th & 6th Pharyngeal Arches",
-    "subject": "General Embryology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "third arch",
@@ -170,7 +170,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 10,
     "title": "Embryology: Pharyngeal Pouches & Clefts Derivatives",
-    "subject": "General Embryology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "pharyngeal pouches",
@@ -187,7 +187,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 11,
     "title": "Embryology & Anatomy: Tongue Development & Innervation",
-    "subject": "Oral Anatomy",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "tongue",
@@ -207,7 +207,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 12,
     "title": "Oral Histology: Salivary Glands Architecture & Secretion",
-    "subject": "Oral Histology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "salivary glands",
@@ -225,7 +225,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 13,
     "title": "Oral Embryology: Stages of Odontogenesis (Tooth Development)",
-    "subject": "Oral Histology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "odontogenesis",
@@ -244,7 +244,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 14,
     "title": "Oral Histology: Enamel Composition & Microstructure",
-    "subject": "Oral Histology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "enamel",
@@ -263,7 +263,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 15,
     "title": "Oral Histology: Dentin-Pulp Complex & Structural Zones",
-    "subject": "Oral Histology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "dentin",
@@ -281,7 +281,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 16,
     "title": "Head & Neck Anatomy: Twelve Cranial Nerves Overview",
-    "subject": "General Anatomy",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "cranial nerves",
@@ -303,7 +303,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 17,
     "title": "Head & Neck Anatomy: Trigeminal Nerve (CN V) Divisions",
-    "subject": "General Anatomy",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "trigeminal nerve",
@@ -321,7 +321,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 18,
     "title": "Head & Neck Anatomy: Mandibular Nerve (CN V3) Branching",
-    "subject": "General Anatomy",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "mandibular nerve",
@@ -338,8 +338,8 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 19,
     "title": "Dental Anatomy & Anesthesia: Inferior Alveolar Nerve Block Landmarks",
-    "subject": "Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "subject": "General Anatomy, Physiology, and Histology",
+    "day": "Day 1 - Basic Sciences",
     "keywords": [
       "ian block",
       "inferior alveolar nerve",
@@ -354,7 +354,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 20,
     "title": "Head & Neck Anatomy: Muscles of Mastication",
-    "subject": "General Anatomy",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "muscles of mastication",
@@ -371,7 +371,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 21,
     "title": "Head & Neck Anatomy: Temporomandibular Joint (TMJ) Structure",
-    "subject": "General Anatomy",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "tmj",
@@ -389,7 +389,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 22,
     "title": "Head & Neck Anatomy: Cervical Triangles & Carotid Sheath",
-    "subject": "General Anatomy",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "triangles of neck",
@@ -406,7 +406,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 23,
     "title": "Head & Neck Anatomy: External Carotid Artery Branches",
-    "subject": "General Anatomy",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "external carotid artery",
@@ -423,7 +423,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 24,
     "title": "Head & Neck Anatomy: Maxillary Artery Three Portions",
-    "subject": "General Anatomy",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "maxillary artery",
@@ -439,7 +439,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 25,
     "title": "Head & Neck Anatomy: Pterygoid Venous Plexus & Danger Triangle",
-    "subject": "General Anatomy",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "pterygoid plexus",
@@ -455,7 +455,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 26,
     "title": "Head & Neck Anatomy: Facial Nerve (CN VII) Path & Branches",
-    "subject": "General Anatomy",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "facial nerve",
@@ -475,7 +475,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 27,
     "title": "Head & Neck Anatomy: Pharynx & Laryngeal Muscles Innervation",
-    "subject": "General Anatomy",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "pharynx",
@@ -492,7 +492,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 28,
     "title": "General Physiology: Gastrointestinal Sphincters & Digestive Enzymes",
-    "subject": "General Physiology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "digestion",
@@ -509,7 +509,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 29,
     "title": "Cardiovascular Physiology: Cardiac Conduction & Cardiac Cycle",
-    "subject": "General Physiology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "cardiac cycle",
@@ -527,7 +527,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 30,
     "title": "Cardiovascular Physiology: Blood Pressure Regulation & RAAS",
-    "subject": "General Physiology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "blood pressure",
@@ -545,7 +545,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 31,
     "title": "Respiratory Physiology: Lung Volumes, Capacities & Chemoreceptors",
-    "subject": "General Physiology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "lung volumes",
@@ -562,7 +562,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 32,
     "title": "Respiratory Physiology: Oxygen-Hemoglobin Dissociation Curve",
-    "subject": "General Physiology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "oxygen hemoglobin curve",
@@ -579,7 +579,7 @@ export const DMF_BOOK_PAGES = [
   {
     "pageNumber": 33,
     "title": "Renal Physiology: Nephron Anatomy, Filtration & Tubular Transport",
-    "subject": "General Physiology",
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "nephron",
@@ -596,404 +596,453 @@ export const DMF_BOOK_PAGES = [
   },
   {
     "pageNumber": 34,
-    "title": "Renal Physiology & Acid-Base: Clearance & Acid-Base Balance",
-    "subject": "General Physiology",
-    "day": "Day 1 - Basic Sciences",
-    "keywords": [
-      "renal clearance",
-      "inulin",
-      "pah",
-      "gfr",
-      "acid base",
-      "metabolic acidosis",
-      "respiratory acidosis",
-      "hco3",
-      "pco2"
-    ],
-    "summary": "Renal clearances: Inulin clearance measures Glomerular Filtration Rate (GFR); PAH (para-aminohippuric acid) clearance measures effective Renal Plasma Flow (RPF). Acid-base balance (normal arterial pH 7.35\u20137.45): Metabolic acidosis (low HCO3-), Metabolic alkalosis (high HCO3-), Respiratory acidosis (high PaCO2), Respiratory alkalosis (low PaCO2)."
-  },
-  {
-    "pageNumber": 35,
-    "title": "Endocrine Physiology: Pituitary & Thyroid Hormones",
-    "subject": "General Physiology",
-    "day": "Day 1 - Basic Sciences",
-    "keywords": [
-      "pituitary",
-      "anterior pituitary",
-      "posterior pituitary",
-      "adh",
-      "oxytocin",
-      "t3",
-      "t4",
-      "calcitonin",
-      "pth",
-      "calcium homeostasis"
-    ],
-    "summary": "Pituitary gland: Anterior pituitary produces GH, TSH, ACTH, FSH, LH, Prolactin. Posterior pituitary stores and secretes ADH (vasopressin) and Oxytocin synthesized in hypothalamus. Calcium regulation: Parathyroid Hormone (PTH) raises serum calcium by stimulating osteoclast resorption and activating vitamin D; Calcitonin (thyroid C-cells) lowers serum calcium."
-  },
-  {
-    "pageNumber": 36,
-    "title": "Endocrine Physiology: Adrenal Gland Layers & Pancreatic Islets",
-    "subject": "General Physiology",
-    "day": "Day 1 - Basic Sciences",
-    "keywords": [
-      "adrenal cortex",
-      "adrenal medulla",
-      "aldosterone",
-      "cortisol",
-      "epinephrine",
-      "insulin",
-      "glucagon",
-      "islets of langerhans",
-      "gfr"
-    ],
-    "summary": "Adrenal gland anatomy: Cortex layers (mnemonic: GFR - Salt, Sugar, Sex): Zona Glomerulosa (Aldosterone), Zona Fasciculata (Cortisol), Zona Reticularis (Androgens). Adrenal Medulla: Chromaffin cells produce Epinephrine (80%) and Norepinephrine (20%). Endocrine pancreas: Beta cells secrete Insulin, Alpha cells secrete Glucagon, Delta cells secrete Somatostatin."
-  },
-  {
-    "pageNumber": 37,
-    "title": "Neurophysiology: Membrane Potentials & Synaptic Transmission",
-    "subject": "General Physiology",
-    "day": "Day 1 - Basic Sciences",
-    "keywords": [
-      "action potential",
-      "resting membrane potential",
-      "sodium potassium pump",
-      "depolarization",
-      "repolarization",
-      "saltatory conduction",
-      "nodes of ranvier"
-    ],
-    "summary": "Nerve electrophysiology: Resting membrane potential (-70 mV) maintained by Na+/K+ ATPase pump (3 Na+ out, 2 K+ in). Depolarization: rapid opening of voltage-gated Na+ channels and Na+ influx. Repolarization: closure of Na+ channels and opening of voltage-gated K+ channels with K+ efflux. Saltatory conduction occurs along Nodes of Ranvier in myelinated nerve fibers."
-  },
-  {
-    "pageNumber": 38,
-    "title": "Metabolic Physiology: Liver Glycogenolysis & Gluconeogenesis",
-    "subject": "General Physiology",
-    "day": "Day 1 - Basic Sciences",
-    "keywords": [
-      "gluconeogenesis",
-      "glycogenolysis",
-      "glycolysis",
-      "cori cycle",
-      "liver",
-      "lactate",
-      "glucose",
-      "insulin vs glucagon"
-    ],
-    "summary": "Carbohydrate metabolism: Glycolysis (breakdown of glucose to pyruvate/lactate), Glycogenolysis (glycogen breakdown in liver to maintain fasting blood glucose), Gluconeogenesis (de novo synthesis of glucose from lactate, glycerol, and amino acids in the liver during prolonged fasting). Cori cycle: converts muscle lactic acid back into glucose in the liver."
-  },
-  {
-    "pageNumber": 39,
-    "title": "Hematology & Hemostasis: Coagulation Cascade & Clotting Factors",
-    "subject": "General Physiology",
-    "day": "Day 1 - Basic Sciences",
-    "keywords": [
-      "coagulation cascade",
-      "extrinsic pathway",
-      "intrinsic pathway",
-      "pt inr",
-      "aptt",
-      "vitamin k dependent",
-      "warfarin",
-      "heparin",
-      "factors"
-    ],
-    "summary": "Hemostatic pathways: Extrinsic pathway (Tissue factor / Factor VII, monitored by PT/INR, inhibited by Warfarin), Intrinsic pathway (Factors XII, XI, IX, VIII, monitored by aPTT, inhibited by Heparin), Common pathway (Factor X, V, Prothrombin/II, Fibrinogen/I). Vitamin K-dependent clotting factors: II, VII, IX, X, Protein C, and Protein S (mnemonic: 1972)."
-  },
-  {
-    "pageNumber": 40,
-    "title": "Oral Microbiology: Dental Plaque Biofilm & Cariogenic Bacteria",
-    "subject": "Oral Microbiology",
-    "day": "Day 1 - Basic Sciences",
-    "keywords": [
-      "dental plaque",
-      "biofilm",
-      "streptococcus mutans",
-      "pellicle",
-      "glucosyltransferase",
-      "dextran",
-      "lactobacillus",
-      "acidogenic"
-    ],
-    "summary": "Cariology & biofilm succession: Acquired pellicle (salivary glycoproteins) -> Pioneer colonizers (Streptococcus sanguinis, S. mitis) -> Secondary colonizers (Actinomyces, Fusobacterium nucleatum) -> Mature biofilm with Streptococcus mutans. S. mutans produces insoluble extracellular glucans/dextran from sucrose using glucosyltransferase; Lactobacillus drives caries progression deeper into dentin."
-  },
-  {
-    "pageNumber": 41,
-    "title": "Medical Microbiology: Actinomyces Species & Actinomycosis",
-    "subject": "Oral Microbiology",
-    "day": "Day 1 - Basic Sciences",
-    "keywords": [
-      "actinomyces",
-      "actinomycosis",
-      "sulfur granules",
-      "lumpy jaw",
-      "anaerobic",
-      "filamentous",
-      "penicillin",
-      "cervicofacial"
-    ],
-    "summary": "Actinomyces israelii: Gram-positive, branching, filamentous, facultative/obligate anaerobe found in normal oral flora. Causes Actinomycosis ('Lumpy Jaw'): chronic suppurative and granulomatous infection featuring indurated soft tissue swelling and multiple sinus tracts discharging macroscopic yellow 'Sulfur granules'. Treatment requires high-dose, long-term Penicillin."
-  },
-  {
-    "pageNumber": 42,
-    "title": "Medical Microbiology: Clostridium Genus & Associated Pathologies",
-    "subject": "Medical Microbiology",
-    "day": "Day 1 - Basic Sciences",
-    "keywords": [
-      "clostridium",
-      "c tetani",
-      "c botulinum",
-      "c perfringens",
-      "c difficile",
-      "pseudomembranous colitis",
-      "tetanospasmin",
-      "trismus",
-      "gas gangrene"
-    ],
-    "summary": "Clostridium species (Gram-positive, spore-forming obligate anaerobes): C. tetani (tetanospasmin blocks GABA/glycine release -> trismus/lockjaw, spastic paralysis), C. botulinum (blocks ACh release -> flaccid paralysis), C. perfringens (alpha-toxin lecithinase -> gas gangrene), Clostridioides difficile (toxins A & B cause pseudomembranous colitis following antibiotic use, especially Clindamycin; treated with oral Vancomycin)."
-  },
-  {
-    "pageNumber": 43,
-    "title": "General Pathology: Cellular Injury, Necrosis & Apoptosis",
-    "subject": "General Pathology",
-    "day": "Day 1 - Basic Sciences",
-    "keywords": [
-      "cell injury",
-      "necrosis",
-      "coagulative necrosis",
-      "liquefactive necrosis",
-      "caseous necrosis",
-      "pyknosis",
-      "karyorrhexis",
-      "karyolysis",
-      "apoptosis"
-    ],
-    "summary": "Reversible cellular injury (cellular swelling, fatty change) vs Irreversible injury (nuclear changes: Pyknosis = shrinkage, Karyorrhexis = fragmentation, Karyolysis = dissolution). Necrosis patterns: Coagulative (ischemic infarctions except brain), Liquefactive (brain infarcts and bacterial abscesses), Caseous (tuberculosis granulomas), Fat necrosis (pancreatitis). Apoptosis is programmed, ATP-dependent, caspase-mediated, with NO inflammation."
-  },
-  {
-    "pageNumber": 44,
-    "title": "General Pathology: Acute & Chronic Inflammation",
-    "subject": "General Pathology",
+    "title": "General Pathology & Microbiology: Acute Inflammation, Cardinal Signs & Antibodies",
+    "subject": "General Pathology and Microbiology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "inflammation",
       "cardinal signs",
-      "neutrophils",
-      "macrophages",
-      "histamine",
-      "granuloma",
-      "langhans giant cells",
-      "triple response"
+      "rubor",
+      "calor",
+      "tumor",
+      "dolor",
+      "functio laesa",
+      "antigen",
+      "antibodies",
+      "igm",
+      "iga",
+      "igg",
+      "ige",
+      "igd",
+      "dr mickhail francisco"
     ],
-    "summary": "Inflammatory response: Cardinal signs of acute inflammation: Rubor (redness), Tumor (swelling), Calor (heat), Dolor (pain), Functio laesa (loss of function). Cellular hallmark of acute: Neutrophils (PMNs). Chronic inflammation hallmarks: Macrophages, Lymphocytes, Plasma cells, Fibrosis. Granulomatous inflammation characterized by clusters of epithelioid macrophages surrounded by a lymphocyte collar and Langhans multinucleated giant cells."
+    "summary": "DMF General Pathology & Microbiology Chapter Start by Dr. Mickhail Q. Francisco: Acute vs chronic inflammation. Cardinal signs of acute inflammation: Rubor (redness due to vasodilation), Calor (heat), Tumor (swelling/edema), Dolor (pain from bradykinin/PGE2), Functio Laesa (loss of function). Antigen recognition triggers antibody production: IgM (first produced, pentamer), IgG (most abundant, crosses placenta), IgA (secretory in saliva/tears), IgE (allergic/anaphylactic, mast cell degranulation), IgD (B-cell surface receptor)."
+  },
+  {
+    "pageNumber": 35,
+    "title": "Immunology: Innate vs Adaptive Immunity, Humoral Immunity & MHC Complexes",
+    "subject": "General Pathology and Microbiology",
+    "day": "Day 1 - Basic Sciences",
+    "keywords": [
+      "innate immunity",
+      "adaptive immunity",
+      "humoral immunity",
+      "cell mediated",
+      "b cells",
+      "mhc 1",
+      "mhc 2",
+      "cd4",
+      "cd8",
+      "epitope",
+      "endocytosis"
+    ],
+    "summary": "Mechanisms of host immunity: 1) Innate/Non-specific immunity: primary anatomical barriers (skin, gastric acid pH 1-3), phagocytic cells (neutrophils, macrophages). 2) Adaptive/Specific immunity: Humoral immunity (B-lymphocytes bind antigen epitopes, endocytosis, antigen processing and presentation on MHC Class II to CD4+ helper T-cells). Activated CD4+ T-cells release interleukins to trigger B-cell clonal expansion and differentiation into antibody-secreting plasma cells and memory B-cells."
+  },
+  {
+    "pageNumber": 36,
+    "title": "Immunopathology: Hypersensitivity Reactions (Types I-IV) & Tissue Repair",
+    "subject": "General Pathology and Microbiology",
+    "day": "Day 1 - Basic Sciences",
+    "keywords": [
+      "hypersensitivity",
+      "type 1 anaphylactic",
+      "type 2 cytotoxic",
+      "type 3 immune complex",
+      "type 4 cell mediated",
+      "ige",
+      "tissue repair",
+      "labile cells",
+      "stable cells",
+      "permanent cells"
+    ],
+    "summary": "Hypersensitivity classification (Gell and Coombs): Type I (Immediate/Anaphylactic, IgE-mediated, mast cell histamine release; e.g. asthma, anaphylaxis, penicillin allergy). Type II (Cytotoxic, IgG/IgM, complement activation; e.g. erythroblastosis fetalis, rheumatic fever, Goodpasture). Type III (Immune Complex, antigen-antibody deposition; e.g. SLE, serum sickness). Type IV (Delayed/Cell-Mediated, T-cells/macrophages; e.g. tuberculin PPD, contact dermatitis). Tissue repair capacity: Labile cells (continuous division, skin/oral mucosa), Stable cells (quiescent but can divide, liver/renal tubules), Permanent cells (cannot divide, cardiac muscle/neurons)."
+  },
+  {
+    "pageNumber": 37,
+    "title": "General Pathology: Hyaline Degeneration, Amyloidosis & Necrosis Patterns",
+    "subject": "General Pathology and Microbiology",
+    "day": "Day 1 - Basic Sciences",
+    "keywords": [
+      "hyaline degeneration",
+      "amyloidosis",
+      "congo red",
+      "coagulative necrosis",
+      "liquefactive necrosis",
+      "caseous necrosis",
+      "fat necrosis",
+      "gangrenous necrosis"
+    ],
+    "summary": "Cell injury and cellular adaptations: Intracellular hyaline accumulation (Mallory bodies in alcoholic liver disease; Councilman bodies in viral hepatitis). Extracellular hyaline accumulation: Amyloidosis (demonstrates apple-green birefringence under polarized light with Congo Red staining). Irreversible cell death patterns: 1) Coagulative necrosis (architecture preserved, protein denaturation; classic for myocardial infarction and ischemia in all solid organs except brain), 2) Liquefactive necrosis (enzymatic digestion; brain infarcts and bacterial abscesses), 3) Caseous necrosis ('cheese-like', combination of coagulative/liquefactive; hallmark of Tuberculosis), 4) Fat necrosis (saponification; acute pancreatitis), 5) Fibrinoid necrosis (vasculitis), 6) Gangrenous necrosis (dry vs wet)."
+  },
+  {
+    "pageNumber": 38,
+    "title": "Bacteriology: Bacterial Growth Dynamics & Endogenous Bacterial Pigments",
+    "subject": "General Pathology and Microbiology",
+    "day": "Day 1 - Basic Sciences",
+    "keywords": [
+      "bacterial growth curve",
+      "lag phase",
+      "log phase",
+      "exponential phase",
+      "stationary phase",
+      "death phase",
+      "bacterial pigments",
+      "staphylococcus aureus",
+      "pseudomonas aeruginosa",
+      "wilsons disease"
+    ],
+    "summary": "Bacterial physiology and identification: Bacterial Growth Curve stages: 1) Lag phase (metabolically active synthesizing enzymes, no cell division), 2) Log/Exponential phase (rapid binary fission; cells are MOST SUSCEPTIBLE to bactericidal antibiotics like penicillins!), 3) Stationary phase (rate of cell division equals rate of death; nutrients depleted, toxins accumulate), 4) Death/Decline phase. Endogenous pigments: Staphylococcus aureus (golden-yellow carotene pigment), Pseudomonas aeruginosa (blue-green pyocyanin/pyoverdine), Serratia marcescens (red prodigiosin), Actinomyces israelii (yellowish sulfur granules). Copper metabolism: Wilson's disease with Kayser-Fleischer corneal rings."
+  },
+  {
+    "pageNumber": 39,
+    "title": "Microbiology: Gram Staining Principles, Acid-Fast Staining & Endotoxins",
+    "subject": "General Pathology and Microbiology",
+    "day": "Day 1 - Basic Sciences",
+    "keywords": [
+      "gram stain",
+      "crystal violet",
+      "grams iodine",
+      "safranin",
+      "peptidoglycan",
+      "acid fast",
+      "ziehl neelsen",
+      "endotoxin",
+      "lipopolysaccharide",
+      "lps",
+      "lipid a"
+    ],
+    "summary": "Bacterial staining mechanisms: 1) Gram Stain: Crystal violet (primary stain, purple) -> Gram's Iodine (mordant) -> 95% Ethanol/Acetone (decolorizer; washes out thin peptidoglycan in Gram-negatives) -> Safranin (counterstain, pink/red). Gram-positive bacteria retain crystal violet (purple/blue, thick multilayered peptidoglycan and teichoic acid); Gram-negative stain pink/red (thin peptidoglycan with lipopolysaccharide outer membrane). 2) Acid-Fast Stain (Ziehl-Neelsen): Carbolfuchsin (primary red) + heat -> Acid-alcohol -> Methylene blue (counterstain); Acid-fast organisms (Mycobacterium tuberculosis/leprae with mycolic acid) resist decolorization and appear RED. Bacterial Toxins: Endotoxin (Lipid A of LPS, heat-stable, coded on bacterial chromosome, induces IL-1 and TNF-alpha triggering septic shock)."
+  },
+  {
+    "pageNumber": 40,
+    "title": "Oral Microbiology: Streptococcus Hemolysis Patterns & Dental Plaque Biofilm",
+    "subject": "General Pathology and Microbiology",
+    "day": "Day 1 - Basic Sciences",
+    "keywords": [
+      "streptococcus",
+      "alpha hemolytic",
+      "beta hemolytic",
+      "gamma hemolytic",
+      "streptococcus mutans",
+      "streptococcus sanguis",
+      "streptococcus salivarius",
+      "subacute bacterial endocarditis"
+    ],
+    "summary": "Streptococcal microbiology and oral colonizers: Blood agar hemolysis: 1) Alpha-hemolytic (partial/greenish hemolysis): S. pneumoniae (optochin sensitive, capsule), S. viridans group (optochin resistant; S. mutans [primary etiological agent of dental caries via dextran production from sucrose], S. sanguinis [first colonizer of dental pellicle, risk for subacute bacterial endocarditis on damaged heart valves], S. salivarius [primary colonizer of tongue surface 10-12 hours after birth]). 2) Beta-hemolytic (complete clear hemolysis zone): Group A Streptococcus (GAS: S. pyogenes; causes pharyngitis, scarlet fever, rheumatic fever, glomerulonephritis), Group B (S. agalactiae; neonatal sepsis/meningitis). 3) Gamma-hemolytic (non-hemolytic; Enterococcus faecalis)."
+  },
+  {
+    "pageNumber": 41,
+    "title": "Oral Microbiology: Actinomyces Species, Actinomycosis & Lactobacillus",
+    "subject": "General Pathology and Microbiology",
+    "day": "Day 1 - Basic Sciences",
+    "keywords": [
+      "actinomyces",
+      "actinomycosis",
+      "cervicofacial",
+      "lumpy jaw",
+      "sulfur granules",
+      "actinomyces israelii",
+      "actinomyces viscosus",
+      "root surface caries",
+      "lactobacillus",
+      "dentinal caries"
+    ],
+    "summary": "Filamentous bacteria & caries microbiology: 1) Actinomyces: Gram-positive, anaerobic to microaerophilic, branching filamentous rods. Actinomyces israelii causes Cervicofacial Actinomycosis ('lumpy jaw': chronic granulomatous infection following dental extraction or trauma; multiple draining sinus tracts discharging yellow 'sulfur granules' composed of bacterial colonies). Actinomyces viscosus is heavily implicated in Root Surface Caries in elderly patients with gingival recession. 2) Lactobacillus: Gram-positive, facultatively anaerobic rod producing abundant lactic acid; secondary colonizer responsible for the deep progression of dental caries into dentin (acidophilic and aciduric)."
+  },
+  {
+    "pageNumber": 42,
+    "title": "Bacteriology: Neisseria Species, Meningitis, Gonorrhea & Treponema Pallidum (Syphilis)",
+    "subject": "General Pathology and Microbiology",
+    "day": "Day 1 - Basic Sciences",
+    "keywords": [
+      "neisseria gonorrhoeae",
+      "neisseria meningitidis",
+      "chocolate agar",
+      "thayer martin",
+      "spirochetes",
+      "treponema pallidum",
+      "syphilis",
+      "chancre",
+      "condyloma lata",
+      "gumma"
+    ],
+    "summary": "Pathogenic Gram-negative cocci & spirochetes: 1) Neisseria: Gram-negative diplococci ('kidney-bean' shaped), oxidase-positive, grow on Thayer-Martin/chocolate agar. N. gonorrhoeae causes gonorrhea and neonatal ophthalmia neonatorum; N. meningitidis causes epidemic bacterial meningitis and Waterhouse-Friderichsen syndrome. 2) Treponema pallidum (Syphilis): Motile spirochete visualized by darkfield microscopy. Primary Syphilis (Hard painless Chancre at site of inoculation, highly infectious, heals spontaneously in 3-6 weeks). Secondary Syphilis (Maculopapular rash on palms/soles, oral mucous patches, Condyloma lata, generalized lymphadenopathy). Tertiary Syphilis (Gummatous necrosis of palate/tongue, tabes dorsalis, cardiovascular syphilitic aortitis). Congenital Syphilis: Hutchinson's triad (Hutchinson incisors/mulberry molars, interstitial keratitis, eighth nerve deafness)."
+  },
+  {
+    "pageNumber": 43,
+    "title": "Atypical Bacteria: Rickettsial Infections, Vectors & Chlamydia Trachomatis",
+    "subject": "General Pathology and Microbiology",
+    "day": "Day 1 - Basic Sciences",
+    "keywords": [
+      "rickettsia",
+      "rickettsia prowazekii",
+      "rickettsia typhi",
+      "rickettsia rickettsii",
+      "vector",
+      "body louse",
+      "flea",
+      "tick",
+      "rocky mountain spotted fever",
+      "chlamydia trachomatis"
+    ],
+    "summary": "Obligate intracellular bacteria: 1) Rickettsia: Gram-negative obligate intracellular bacteria transmitted by arthropod vectors; target vascular endothelial cells causing vasculitis, fever, rash. Rickettsia prowazekii causes Epidemic Typhus (vector: human body louse, Pediculus humanus); Rickettsia typhi causes Endemic/Murine Typhus (vector: rat flea, Xenopsylla cheopis); Rickettsia rickettsii causes Rocky Mountain Spotted Fever (vector: Dermacentor tick). 2) Chlamydia trachomatis: Most common bacterial sexually transmitted infection; causes non-gonococcal urethritis, pelvic inflammatory disease (PID), and ocular trachoma (leading cause of preventable blindness worldwide). Biphasic lifecycle: infectious extracellular Elementary Body (EB) vs metabolically active intracellular Reticulate Body (RB)."
+  },
+  {
+    "pageNumber": 44,
+    "title": "Mycobacteriology: Leprosy (Hansen's Disease) & Viral Architecture Fundamentals",
+    "subject": "General Pathology and Microbiology",
+    "day": "Day 1 - Basic Sciences",
+    "keywords": [
+      "mycobacterium leprae",
+      "leprosy",
+      "hansens disease",
+      "lionine facies",
+      "tuberculoid vs lepromatous",
+      "capsid",
+      "nucleocapsid",
+      "envelope",
+      "virion",
+      "viral genomes"
+    ],
+    "summary": "Acid-fast bacilli & virology principles: 1) Mycobacterium leprae (Hansen's disease): Acid-fast bacillus with predilection for cool peripheral tissues (skin, superficial nerves, nasal mucosa). Tuberculoid leprosy (high cell-mediated immunity, few hypopigmented anesthetic skin lesions, nerve thickening). Lepromatous leprosy (depressed CMI, diffuse infiltrate, 'leonine facies', loss of eyebrows/eyelashes, saddlenose deformity, extensive peripheral neuropathy). 2) Virology fundamentals: Viruses are obligate intracellular parasites containing either DNA or RNA (never both!). Virion structure: Nucleic acid core surrounded by protein capsid (together = nucleocapsid); some possess lipid envelope derived from host membrane."
   },
   {
     "pageNumber": 45,
-    "title": "General Pathology: Hemodynamics - Edema, Transudate & Exudate",
-    "subject": "General Pathology",
+    "title": "Virology: Double-Stranded DNA Viruses (Herpesviruses, HPV, Poxvirus & Hepatitis B)",
+    "subject": "General Pathology and Microbiology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
-      "edema",
-      "transudate",
-      "exudate",
-      "hydrostatic pressure",
-      "oncotic pressure",
-      "shock",
-      "anaphylactic shock",
-      "starling forces"
+      "dna viruses",
+      "herpes simplex",
+      "hsv 1",
+      "hsv 2",
+      "epstein barr",
+      "cmv",
+      "kaposi sarcoma",
+      "human papillomavirus",
+      "hpv 16 18",
+      "smallpox",
+      "guarnieri bodies",
+      "hepatitis b",
+      "dane particle"
     ],
-    "summary": "Starling forces and edema mechanisms: Increased capillary hydrostatic pressure (CHF), Decreased plasma oncotic pressure (hypoalbuminemia, cirrhosis, nephrotic syndrome), Lymphatic obstruction, Increased vascular permeability (inflammation). Transudate: low protein (<3 g/dL), low specific gravity, non-inflammatory. Exudate: high protein (>3 g/dL), high cellular content, inflammatory."
+    "summary": "Major DNA virus families: 1) Herpesviridae (enveloped dsDNA, establish latency): HSV-1 (oral herpes, primary herpetic gingivostomatitis, trigeminal ganglion latency), HSV-2 (genital herpes, sacral ganglion latency), VZV (chickenpox/herpes zoster, dorsal root ganglion latency), EBV (infectious mononucleosis, Burkitt lymphoma, hairy leukoplakia), CMV (owl's eye nuclear inclusions), HHV-8 (Kaposi's sarcoma in HIV). 2) Papillomaviridae: HPV types 6 & 11 (condyloma acuminata, benign squamous papilloma), HPV types 16 & 18 (cervical carcinoma and oropharyngeal squamous cell carcinoma). 3) Poxviridae: Smallpox (Variola; largest virus, intracytoplasmic Guarnieri inclusion bodies). 4) Hepadnaviridae: Hepatitis B Virus (HBV; enveloped partially double-stranded circular DNA virus with reverse transcriptase; Dane particle; HBsAg indicates current infection)."
   },
   {
     "pageNumber": 46,
-    "title": "General Pathology: Thrombosis, Embolism & Virchow's Triad",
-    "subject": "General Pathology",
+    "title": "Virology: RNA Viruses (Picornaviruses: Polio, Coxsackie A & Coxsackie B)",
+    "subject": "General Pathology and Microbiology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
-      "thrombosis",
-      "virchows triad",
-      "embolism",
-      "pulmonary embolism",
-      "dvt",
-      "lines of zahn",
-      "infarction"
+      "rna viruses",
+      "picornaviridae",
+      "enterovirus",
+      "poliovirus",
+      "coxsackie a",
+      "herpangina",
+      "hand foot and mouth",
+      "acute hemorrhagic conjunctivitis",
+      "coxsackie b",
+      "pleurodynia",
+      "myocarditis"
     ],
-    "summary": "Thrombogenesis and Virchow's Triad: 1) Endothelial injury (most critical), 2) Alterations in normal blood flow (stasis or turbulence), 3) Hypercoagulability. Lines of Zahn (alternating pale platelet/fibrin layers and red cell layers) distinguish antemortem thrombi from postmortem clots. Pulmonary emboli typically arise from Deep Vein Thrombosis (DVT) of the lower extremities."
+    "summary": "Enteroviruses and clinical oral lesions: Picornaviridae (small naked positive-sense ssRNA viruses, fecal-oral transmission): 1) Poliovirus: destroys anterior motor horn cells in spinal cord, causing flaccid asymmetric paralysis. 2) Coxsackievirus Group A: A16 causes Hand-Foot-and-Mouth Disease (vesicular lesions on palms, soles, buccal mucosa, tongue). Coxsackie A causes Herpangina (multiple small vesicles and shallow ulcers localized to the POSTERIOR oral cavity: soft palate, tonsillar pillars, uvula; high fever, sore throat). Coxsackie A24 causes acute hemorrhagic conjunctivitis. 3) Coxsackievirus Group B: affects internal organs; causes epidemic pleurodynia (Bornholm disease, 'devil's grip' chest pain), acute myocarditis, and pericarditis."
   },
   {
     "pageNumber": 47,
-    "title": "General Pathology: Neoplasia - Benign vs Malignant Tumors",
-    "subject": "General Pathology",
+    "title": "Virology: Arboviruses (Dengue, Yellow Fever, Zika) & Retroviruses (HIV/AIDS)",
+    "subject": "General Pathology and Microbiology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
-      "neoplasia",
-      "benign",
-      "malignant",
-      "differentiation",
-      "anaplasia",
-      "metastasis",
-      "carcinoma",
-      "sarcoma",
-      "invasion"
+      "flavivirus",
+      "dengue virus",
+      "tourniquet test",
+      "yellow fever",
+      "councilman bodies",
+      "zika virus",
+      "microcephaly",
+      "guillain barre",
+      "hiv",
+      "retrovirus",
+      "reverse transcriptase",
+      "cd4"
     ],
-    "summary": "Neoplasia classification: Benign tumors are well-differentiated, slow-growing, encapsulated, and do not metastasize. Malignant neoplasms exhibit anaplasia (loss of differentiation), pleomorphism, hyperchromatic nuclei, high nuclear-to-cytoplasmic ratio, atypical mitotic figures, local tissue invasion, and metastasis (the definitive hallmark of malignancy). Carcinomas metastasize via lymphatics; Sarcomas via hematogenous routes."
+    "summary": "Arboviruses & Lentivirus pathology: 1) Flaviviruses (mosquito-borne, Aedes aegypti): Dengue virus (breakbone fever, leukopenia, thrombocytopenia, capillary fragility, Tourniquet test positive). Yellow fever virus (hepatotropic and nephrotropic; causes jaundice, black vomit, liver Councilman inclusion bodies). Zika virus (congenital microcephaly and fetal brain abnormalities; associated with Guillain-Barr\u00e9 syndrome). 2) Retroviridae (Lentivirus): Human Immunodeficiency Virus (HIV): enveloped positive-sense ssRNA with reverse transcriptase (converts viral RNA to proviral DNA). Targets CD4+ T-lymphocytes and macrophages using gp120 (binding to CD4 and CXCR4/CCR5 co-receptors) and gp41 (fusion). AIDS defined when CD4 count falls below 200 cells/uL; oral hallmarks include oral candidiasis, hairy leukoplakia (EBV), Kaposi's sarcoma (HHV-8), and necrotizing ulcerative periodontitis."
   },
   {
     "pageNumber": 48,
-    "title": "General Pathology: Oncogenes & Tumor Suppressor Genes",
-    "subject": "General Pathology",
+    "title": "Medical Mycology: Dermatophytoses (Tinea) & Oral Candidiasis (Thrush)",
+    "subject": "General Pathology and Microbiology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
-      "oncogenes",
-      "tumor suppressor genes",
-      "tp53",
-      "rb gene",
-      "kras",
-      "myc",
-      "bcr abl",
-      "two hit hypothesis",
-      "li fraumeni"
+      "fungal pathology",
+      "mycoses",
+      "dermatophytes",
+      "tinea pedis",
+      "tinea capitis",
+      "tinea cruris",
+      "tinea corporis",
+      "tinea unguium",
+      "candida albicans",
+      "pseudomembranous candidiasis",
+      "thrush"
     ],
-    "summary": "Molecular genetics of cancer: Proto-oncogenes (gain of function, dominant, single allele mutation: KRAS, MYC, HER2, BCR-ABL). Tumor Suppressor Genes (loss of function, recessive, Knudson's two-hit hypothesis: TP53 guardian of the genome, RB retinoblastoma gene regulating G1/S checkpoint, APC gene in familial adenomatous polyposis, BRCA1/BRCA2)."
+    "summary": "Superficial and opportunistic fungal infections: 1) Dermatophytoses: fungal infections of keratinized tissues (skin, hair, nails) caused by Trichophyton, Microsporum, and Epidermophyton. Tinea pedis ('athlete's foot'), Tinea capitis (scalp ringworm), Tinea cruris ('jock itch'), Tinea corporis ('ringworm' of body), Tinea unguium (onychomycosis, thickened yellow nails). 2) Candida albicans: dimorphic opportunistic yeast (yeast forms in normal flora, pseudohyphae/hyphae invade tissue). Pseudomembranous Candidiasis ('thrush': white curd-like plaques on oral mucosa that CAN be wiped off with gauze, leaving a red bleeding erythematous base), Erythematous candidiasis (median rhomboid glossitis, denture stomatitis), Angular cheilitis (perleche at oral commissures, often mixed Candida and Staph aureus)."
   },
   {
     "pageNumber": 49,
-    "title": "Medical Microbiology: Protozoan & Opportunistic Parasites",
-    "subject": "Medical Microbiology",
+    "title": "Parasitology & Cardiovascular Pathology: Coronary Artery Disease & Atherosclerosis",
+    "subject": "General Pathology and Microbiology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
       "protozoa",
+      "pneumocystis carinii",
       "trichomonas vaginalis",
-      "giardia lamblia",
-      "entamoeba histolytica",
-      "pneumocystis jirovecii",
-      "strawberry cervix",
-      "flagellated"
+      "cardiovascular pathology",
+      "coronary artery disease",
+      "atherosclerosis",
+      "atheroma",
+      "foam cells",
+      "angina pectoris",
+      "myocardial infarction"
     ],
-    "summary": "Protozoan parasites: Trichomonas vaginalis (flagellated protozoan causing trichomoniasis, foul-smelling frothy green discharge, 'strawberry cervix'), Giardia lamblia (flagellated protozoan causing foul-smelling fatty diarrhea and malabsorption), Entamoeba histolytica (amebic dysentery with flask-shaped colonic ulcers and liver abscesses), Pneumocystis jirovecii (opportunistic fungal pneumonia in immunocompromised/AIDS)."
+    "summary": "Parasitic infections & ischemic heart disease: 1) Opportunistic protozoal pathogens: Pneumocystis jirovecii (formerly P. carinii; opportunistic interstitial plasma cell pneumonia in AIDS); Trichomonas vaginalis (flagellated protozoan causing vaginitis with frothy green discharge and strawberry cervix). 2) Coronary Artery Disease (CAD): Atherosclerosis is the primary underlying cause. Pathogenesis: endothelial injury -> LDL oxidation -> macrophage uptake forming foam cells -> fatty streak -> fibrous plaque (atheroma) encroaching arterial lumen -> fibrous cap rupture with superimposed thrombosis. Stable angina (chest pain on exertion relieved by rest or nitroglycerin), Unstable angina (pain at rest, pre-infarction), Myocardial Infarction (coagulative necrosis of myocardium, ST-elevation, elevated Troponin I and CK-MB)."
   },
   {
     "pageNumber": 50,
-    "title": "Oral Microbiology & Pathology: Candida Albicans & Oral Candidiasis",
-    "subject": "Oral Pathology",
+    "title": "Cardiovascular Pathology: Congestive Heart Failure (Left vs Right CHF)",
+    "subject": "General Pathology and Microbiology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
-      "candida albicans",
-      "candidiasis",
-      "thrush",
-      "pseudomembranous",
-      "erythematous",
-      "hyperplastic",
-      "angular cheilitis",
-      "nystatin",
-      "wipes off"
+      "congestive heart failure",
+      "chf",
+      "left sided chf",
+      "right sided chf",
+      "cor pulmonale",
+      "pulmonary edema",
+      "orthopnea",
+      "pnd",
+      "jugular venous distension",
+      "nutmeg liver",
+      "peripheral edema"
     ],
-    "summary": "Candida albicans (dimorphic opportunistic fungal yeast). Four classic clinical presentations: 1) Pseudomembranous ('Thrush': white curd-like plaques that WIPE OFF leaving an erythematous bleeding base), 2) Erythematous (painful red patches, denture stomatitis, median rhomboid glossitis), 3) Hyperplastic (white plaques that DO NOT wipe off, premalignant potential), 4) Angular cheilitis (cracking at labial commissures). Treatment: Nystatin, Clotrimazole, Fluconazole."
+    "summary": "Heart failure hemodynamics and clinical manifestations: 1) Left-Sided Heart Failure: Most common cause is ischemic heart disease and hypertension. Clinical consequences are driven by pulmonary congestion and decreased cardiac output: pulmonary edema, dyspnea on exertion, orthopnea (shortness of breath when lying flat relieved by multiple pillows), Paroxysmal Nocturnal Dyspnea (PND), cough with rust-colored sputum containing 'heart failure cells' (hemosiderin-laden alveolar macrophages). 2) Right-Sided Heart Failure: Most common cause is left-sided heart failure (isolated right CHF caused by lung disease = Cor Pulmonale). Consequence is systemic venous congestion: elevated Jugular Venous Distension (JVD), hepatosplenomegaly ('nutmeg liver' with centrilobular necrosis), ascites, and dependent bilateral pitting ankle/pretibial edema."
   },
   {
     "pageNumber": 51,
-    "title": "Oral Microbiology & Pathology: Herpes Simplex Virus & VZV",
-    "subject": "Oral Pathology",
+    "title": "Cardiovascular Pathology: Infective Endocarditis & AHA Antibiotic Prophylaxis Guidelines",
+    "subject": "General Pathology and Microbiology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
-      "herpes simplex",
-      "hsv 1",
-      "herpetic gingivostomatitis",
-      "herpes labialis",
-      "varicella zoster",
-      "shingles",
-      "tzanck smear",
-      "cowdry bodies",
-      "keratinized mucosa"
+      "infective endocarditis",
+      "subacute endocarditis",
+      "streptococcus viridans",
+      "staphylococcus aureus",
+      "antibiotic prophylaxis",
+      "amoxicillin 2g",
+      "prosthetic valve",
+      "cyanotic heart disease"
     ],
-    "summary": "Herpesviruses: HSV-1 Primary Herpetic Gingivostomatitis (multiple vesicles/ulcers throughout keratinized and non-keratinized oral mucosa with systemic fever in children) vs Recurrent Intraoral Herpes (strictly localized to KERATINIZED mucosa bound to periosteum: hard palate and attached gingiva!). Tzanck smear reveals multinucleated giant cells with Cowdry A inclusion bodies. VZV causes Chickenpox and unilateral dermatomal Shingles (Herpes Zoster)."
+    "summary": "AHA Guidelines for Prevention of Infective Endocarditis (IE): IE involves bacterial colonization of heart valves (Mitral valve most commonly affected; Tricuspid valve in IV drug abusers via Staph aureus; native valves damaged by rheumatic fever colonized by oral Streptococcus viridans). Conditions requiring dental antibiotic prophylaxis: 1) Prosthetic cardiac valve or prosthetic material used in valve repair, 2) Previous history of infective endocarditis, 3) Unrepaired cyanotic congenital heart disease (CHD) or repaired CHD with residual shunts, 4) Cardiac transplant recipients with cardiac valvulopathy. NOT indicated for mitral valve prolapse, rheumatic heart disease, or coronary stents. Standard Regimen: Amoxicillin 2g orally 30-60 minutes before dental procedure (Children: 50 mg/kg). If allergic to penicillin: Clindamycin 600 mg, Azithromycin/Clarithromycin 500 mg, or Cephalexin 2g."
   },
   {
     "pageNumber": 52,
-    "title": "Oral Microbiology: EBV, CMV, Coxsackie & Viral Infections",
-    "subject": "Oral Microbiology",
+    "title": "Cardiovascular Embryology: Fetal Circulation Shunts & Vascular Anatomy",
+    "subject": "General Pathology and Microbiology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
-      "epstein barr virus",
-      "ebv",
-      "oral hairy leukoplakia",
-      "infectious mononucleosis",
-      "coxsackievirus",
-      "herpangina",
-      "hand foot mouth",
-      "cytomegalovirus"
+      "fetal circulation",
+      "ductus arteriosus",
+      "ligamentum arteriosum",
+      "ductus venosus",
+      "ligamentum venosum",
+      "foramen ovale",
+      "fossa ovalis",
+      "umbilical vein",
+      "ligamentum teres",
+      "arteries vs veins"
     ],
-    "summary": "Viral oral lesions: Epstein-Barr Virus (EBV) causes Infectious Mononucleosis (fever, pharyngitis, lymphadenopathy, atypical Downey cells), Oral Hairy Leukoplakia (corrugated non-wiping white lateral tongue patches in HIV/AIDS), and Burkitt Lymphoma. Coxsackievirus causes Herpangina (vesicles on soft palate/tonsillar pillars) and Hand-Foot-and-Mouth disease (vesicles on hands, feet, and anterior mouth)."
+    "summary": "Fetal vascular shunts and adult anatomical remnants: Fetal circulation shunts oxygenated blood from the placenta to vital organs bypassing non-functional fetal lungs and liver: 1) Ductus arteriosus (connects pulmonary artery to descending aorta) closes after birth to become the Ligamentum arteriosum. 2) Foramen ovale (interatrial septum shunt from right atrium to left atrium) closes to become the Fossa ovalis. 3) Ductus venosus (shunts umbilical vein blood directly to inferior vena cava bypassing liver sinusoids) becomes the Ligamentum venosum. 4) Umbilical vein (carries oxygenated blood from placenta to fetus) obliterates into the Ligamentum teres hepatis (round ligament of liver). 5) Umbilical arteries become the Medial umbilical ligaments. Vascular histology: Arteries possess thicker muscular tunica media and withstand higher pressure without valves; Veins have larger lumen, thinner walls, and valves to prevent backflow."
   },
   {
     "pageNumber": 53,
-    "title": "Oral Pathology: Premalignant Oral Lesions & Conditions",
-    "subject": "Oral Pathology",
+    "title": "Respiratory Pathology: Chronic Obstructive Pulmonary Disease (COPD) & Pneumoconioses",
+    "subject": "General Pathology and Microbiology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
-      "leukoplakia",
-      "erythroplakia",
-      "oral submucous fibrosis",
-      "proliferative verrucous",
-      "dysplasia",
-      "squamous cell carcinoma",
-      "biopsy"
+      "copd",
+      "emphysema",
+      "pink puffers",
+      "chronic bronchitis",
+      "blue bloaters",
+      "alpha 1 antitrypsin",
+      "barrel chest",
+      "pneumoconiosis",
+      "silicosis",
+      "asbestosis"
     ],
-    "summary": "Potentially malignant oral disorders: Leukoplakia (white patch that cannot be rubbed off or characterized as another disease; high risk sites: ventrolateral tongue, floor of mouth; 5-25% dysplasia rate). Erythroplakia (velvety red plaque with >90% displaying severe dysplasia, carcinoma in situ, or invasive squamous cell carcinoma!). Oral Submucous Fibrosis (betel nut/areca nut chewing, subepithelial fibrosis, progressive trismus)."
+    "summary": "Chronic obstructive pulmonary disease and environmental lung diseases: 1) Emphysema ('Pink Puffers'): Irreversible enlargement of air spaces distal to terminal bronchioles with destruction of alveolar walls without fibrosis. Centriacinar (most common, upper lobes, smoking-induced) vs Panacinar (all zones, genetic alpha-1 antitrypsin deficiency). Hallmarks: barrel-chest appearance, dyspnea, pursed-lip breathing, normal blood gases until late. 2) Chronic Bronchitis ('Blue Bloaters'): Productive cough for at least 3 consecutive months in at least 2 consecutive years. Hypertrophy of submucosal glands in bronchi (Reid index > 0.4). Hallmarks: persistent purulent sputum, hypercapnia, severe hypoxia, cyanosis, peripheral edema from cor pulmonale. 3) Pneumoconiosis: lung disease caused by mineral dust inhalation: Silicosis ('Grinder's disease' / stone mason's disease: most common and most serious, silica inhalation, eggshell calcification of hilar lymph nodes, predisposes to Tuberculosis), Asbestosis (ferruginous bodies, pleural plaques, high risk for malignant mesothelioma)."
   },
   {
     "pageNumber": 54,
-    "title": "General Pathology: Sjogren's Syndrome, Cirrhosis & Genitourinary Pathologies",
-    "subject": "General Pathology",
+    "title": "Systemic Pathology: Gardner's Syndrome & Sjogren's Syndrome (Sicca Complex)",
+    "subject": "General Pathology and Microbiology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
+      "gardners syndrome",
+      "osteomas",
+      "supernumerary teeth",
+      "intestinal polyps",
       "sjogrens syndrome",
       "sicca syndrome",
-      "pancreatitis",
-      "cirrhosis",
-      "laennecs",
-      "glomerulonephritis",
-      "nephritic",
-      "nephrotic",
-      "prostate cancer"
+      "xerostomia",
+      "keratoconjunctivitis sicca",
+      "rheumatoid arthritis",
+      "mikulicz"
     ],
-    "summary": "High-yield systemic pathologies: Sjogren's Syndrome ('Sicca syndrome': autoimmune destruction of salivary and lacrimal glands, triad of xerostomia, keratoconjunctivitis sicca, rheumatoid arthritis; treated with Pilocarpine and immunosuppressants). Acute Pancreatitis (autodigestion, elevated serum amylase and lipase). Cirrhosis types: Alcoholic (Laennec's with Mallory bodies), Biliary (bile duct obstruction), Cardiac (R-CHF). Genitourinary: Glomerulonephritis (post-streptococcal), Nephritic syndrome (hematuria, RBC casts) vs Nephrotic syndrome (massive proteinuria >3.5g/day, severe hypoalbuminemia, anasarca), Prostate cancer (elevated acid phosphatase and PSA)."
+    "summary": "Multisystem genetic and autoimmune syndromes: 1) Gardner's Syndrome: Autosomal dominant variant of Familial Adenomatous Polyposis (FAP) caused by APC gene mutation on chromosome 5q21. Dental and skeletal manifestations precede gastrointestinal lesions: multiple osteomas of the skull and jaws (angle of mandible), multiple impacted and supernumerary teeth, odontomas, epidermoid cysts, desmoid tumors, and 100% risk of malignant transformation of adenomatous colorectal polyps into colon adenocarcinoma by age 40! 2) Sjogren's Syndrome ('Sicca Syndrome'): Chronic autoimmune disease characterized by immune-mediated lymphocytic destruction of exocrine salivary and lacrimal glands. Classic Triad: Xerostomia (dry mouth), Keratoconjunctivitis sicca (dry eyes), and an autoimmune connective tissue disorder (most commonly Rheumatoid Arthritis or SLE). Elevated risk (40-fold) for developing Non-Hodgkin B-cell lymphoma (MALT lymphoma). Diagnostic markers: Anti-SSA (Ro) and Anti-SSB (La) antibodies."
   },
   {
     "pageNumber": 55,
-    "title": "General Pathology: Edema Classification & Hemorrhage Types",
-    "subject": "General Pathology",
+    "title": "Hemodynamic Disorders: Edema Classification & Hemorrhage Types",
+    "subject": "General Pathology and Microbiology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
+      "hemodynamics",
       "edema",
+      "transudate",
+      "exudate",
       "ascites",
       "hydrothorax",
-      "cardiac tamponade",
       "anasarca",
       "pulmonary edema",
+      "hemorrhage",
       "petechiae",
       "purpura",
-      "ecchymoses",
+      "ecchymosis",
       "hematoma"
     ],
-    "summary": "Fluid accumulation classifications: Peritoneal cavity (Ascites), Pleural cavity (Hydrothorax / Pleural effusion), Pericardial cavity (Cardiac tamponade / Hemopericardium), Generalized subcutaneous edema (Anasarca), Lung spaces (Pulmonary edema). Hemorrhage gradations: Petechiae (1-2 mm pinpoint), Purpura (3-5 mm), Ecchymoses (>1-2 cm subcutaneous bruise changing color from hemoglobin -> biliverdin -> bilirubin)."
+    "summary": "Vascular flow disturbances: 1) Edema: Abnormal accumulation of fluid in interstitial tissue spaces or body cavities. Causes: increased capillary hydrostatic pressure (CHF), reduced plasma oncotic pressure (hypoalbuminemia, nephrotic syndrome, cirrhosis), lymphatic obstruction (filariasis, post-radiation lymphedema), and sodium retention. Forms: Ascites (peritoneal cavity), Hydrothorax/Pleural effusion (pleural cavity), Hydropericardium/Cardiac tamponade (pericardial sac), Anasarca (severe generalized subcutaneous edema). 2) Hemorrhage: Extravasation of blood from damaged blood vessels: Petechiae (minute 1-2 mm pinpoint hemorrhages in skin or mucosa; associated with thrombocytopenia, low platelet count, or vessel wall weakness), Purpura (slightly larger 3-5 mm hemorrhages; vasculitis or trauma), Ecchymoses (subcutaneous hematoma > 1-2 cm, commonly called a 'bruise'; hemoglobin [red-blue] -> bilirubin [blue-green] -> hemosiderin [golden-brown]), Hematoma (three-dimensional mass of accumulated blood within a tissue, e.g. subdural or retroperitoneal)."
   },
   {
     "pageNumber": 56,
-    "title": "General Pathology & Hematology: Anemias, Agranulocytosis & Multiple Myeloma",
-    "subject": "General Pathology",
+    "title": "Hematologic Pathology: Sickle Cell Anemia, Erythroblastosis Fetalis & Leukemias",
+    "subject": "General Pathology and Microbiology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
+      "hematology",
       "sickle cell anemia",
-      "erythroblastosis fetalis",
-      "agranulocytosis",
-      "multiple myeloma",
-      "bence jones",
+      "valine",
+      "glutamic acid",
       "hair on end",
-      "rhogham",
-      "plasma cells"
+      "crewcut skull",
+      "erythroblastosis fetalis",
+      "rh incompatibility",
+      "agranulocytosis",
+      "leukemia",
+      "gingival enlargement"
     ],
-    "summary": "Hematologic disorders: Sickle Cell Anemia (point mutation replacing glutamic acid with valine on beta-globin chain; 'hair-on-end' radiographic skull pattern). Erythroblastosis Fetalis (Rh-negative mother pregnant with Rh-positive fetus, prevented by RhoGAM). Agranulocytosis (severe drop in circulating neutrophils <500/uL resulting in necrotizing oral ulcers). Multiple Myeloma (plasma cell malignancy with 'punched-out' osteolytic skull lesions and Bence-Jones proteinuria)."
+    "summary": "Red blood cell disorders & hematologic malignancies: 1) Sickle Cell Anemia (HbS): Autosomal recessive point mutation in the beta-globin gene where Valine replaces Glutamic acid at the 6th position. Under low oxygen tension, HbS polymerizes into rigid sickle-shaped erythrocytes, causing vascular occlusion, sickle crises, splenic infarction, and avascular necrosis. Radiographic skull hallmark: prominent diploic space with 'hair-on-end' (crewcut) appearance due to compensatory bone marrow hyperplasia; osteomyelitis is frequently caused by Salmonella. 2) Erythroblastosis Fetalis (Hemolytic Disease of the Newborn): Rh-negative mother sensitized to Rh-positive fetus, anti-Rh IgG antibodies cross placenta in subsequent pregnancies causing severe fetal hemolysis, hydrops fetalis, and kernicterus. 3) Agranulocytosis: severe reduction in circulating granulocytes/neutrophils (< 500/uL), precipitating necrotic, punched-out oral ulcerations without inflammatory halos. 4) Leukemia: neoplastic overgrowth of immature white blood cells in bone marrow and peripheral blood; Acute Monocytic and Myelomonocytic Leukemia are classically associated with severe, boggy, generalized leukemic gingival enlargement and spontaneous bleeding."
   },
   {
     "pageNumber": 57,
@@ -1752,36 +1801,20 @@ export const DMF_BOOK_PAGES = [
 
 export const DMF_CHAPTERS = [
   {
-    "title": "General Histology & Embryology",
+    "title": "General Anatomy, Physiology, and Histology",
     "startPage": 1,
-    "endPage": 15,
-    "subject": "General Histology",
+    "endPage": 33,
+    "subject": "General Anatomy, Physiology, and Histology",
     "day": "Day 1 - Basic Sciences",
-    "icon": "\ud83d\udd2c"
+    "icon": "🔬"
   },
   {
-    "title": "General & Head/Neck Anatomy",
-    "startPage": 16,
-    "endPage": 28,
-    "subject": "General Anatomy",
-    "day": "Day 1 - Basic Sciences",
-    "icon": "\ud83d\udc80"
-  },
-  {
-    "title": "General Physiology",
-    "startPage": 29,
-    "endPage": 39,
-    "subject": "General Physiology",
-    "day": "Day 1 - Basic Sciences",
-    "icon": "\ud83e\udec0"
-  },
-  {
-    "title": "Microbiology & Pathology",
-    "startPage": 40,
+    "title": "General Pathology and Microbiology",
+    "startPage": 34,
     "endPage": 56,
-    "subject": "Oral Pathology",
+    "subject": "General Pathology and Microbiology",
     "day": "Day 1 - Basic Sciences",
-    "icon": "\ud83e\udda0"
+    "icon": "🦠"
   },
   {
     "title": "Pharmacology & Local Anesthesia",
@@ -1789,7 +1822,7 @@ export const DMF_CHAPTERS = [
     "endPage": 84,
     "subject": "Dental Pharmacology",
     "day": "Day 2 - Clinical & Pharma",
-    "icon": "\ud83d\udc8a"
+    "icon": "💊"
   },
   {
     "title": "Oral Anatomy, Physiology & Occlusion",
@@ -1797,7 +1830,7 @@ export const DMF_CHAPTERS = [
     "endPage": 91,
     "subject": "Oral Anatomy",
     "day": "Day 3 - Clinical Dentistry",
-    "icon": "\ud83e\uddb7"
+    "icon": "🦷"
   },
   {
     "title": "Orthodontics & Growth Development",
@@ -1805,6 +1838,6 @@ export const DMF_CHAPTERS = [
     "endPage": 100,
     "subject": "Orthodontics",
     "day": "Day 3 - Clinical Dentistry",
-    "icon": "\ud83d\udcd0"
+    "icon": "📐"
   }
 ];
