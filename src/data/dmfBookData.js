@@ -943,20 +943,21 @@ export const DMF_BOOK_PAGES = [
   },
   {
     "pageNumber": 54,
-    "title": "Oral Pathology: Odontogenic Cysts & Ameloblastoma",
-    "subject": "Oral Pathology",
+    "title": "General Pathology: Sjogren's Syndrome, Cirrhosis & Genitourinary Pathologies",
+    "subject": "General Pathology",
     "day": "Day 1 - Basic Sciences",
     "keywords": [
-      "radicular cyst",
-      "dentigerous cyst",
-      "okc",
-      "odontogenic keratocyst",
-      "ameloblastoma",
-      "gorlin goltz",
-      "soap bubble",
-      "rests of malassez"
+      "sjogrens syndrome",
+      "sicca syndrome",
+      "pancreatitis",
+      "cirrhosis",
+      "laennecs",
+      "glomerulonephritis",
+      "nephritic",
+      "nephrotic",
+      "prostate cancer"
     ],
-    "summary": "Odontogenic lesions: Radicular Cyst (most common, non-vital tooth, rests of Malassez). Dentigerous Cyst (surrounds crown of unerupted tooth attached at CEJ). Odontogenic Keratocyst (OKC: high recurrence, corrugated parakeratinized lining, palisaded basal nuclei, daughter cysts, associated with Gorlin-Goltz syndrome / PTCH mutation). Ameloblastoma (aggressive benign odontogenic tumor with 'soap bubble' / multilocular appearance, follicular pattern with reverse polarity)."
+    "summary": "High-yield systemic pathologies: Sjogren's Syndrome ('Sicca syndrome': autoimmune destruction of salivary and lacrimal glands, triad of xerostomia, keratoconjunctivitis sicca, rheumatoid arthritis; treated with Pilocarpine and immunosuppressants). Acute Pancreatitis (autodigestion, elevated serum amylase and lipase). Cirrhosis types: Alcoholic (Laennec's with Mallory bodies), Biliary (bile duct obstruction), Cardiac (R-CHF). Genitourinary: Glomerulonephritis (post-streptococcal), Nephritic syndrome (hematuria, RBC casts) vs Nephrotic syndrome (massive proteinuria >3.5g/day, severe hypoalbuminemia, anasarca), Prostate cancer (elevated acid phosphatase and PSA)."
   },
   {
     "pageNumber": 55,
@@ -1409,341 +1410,401 @@ export const DMF_BOOK_PAGES = [
   },
   {
     "pageNumber": 81,
-    "title": "Dental Anatomy: Permanent Incisors Morphology & Diagnostic Traits",
-    "subject": "Oral Anatomy",
-    "day": "Day 1 - Basic Sciences",
+    "title": "Local Anesthesia: Adverse Reactions, Systemic Toxicity & Vasoconstrictors",
+    "subject": "Dental Pharmacology",
+    "day": "Day 2 - Clinical & Pharma",
     "keywords": [
-      "incisors",
-      "maxillary central",
-      "maxillary lateral",
-      "mandibular central",
-      "mandibular lateral",
-      "peg lateral",
-      "dens in dente",
-      "smallest tooth"
+      "anesthesia toxicity",
+      "cns toxicity",
+      "cardiac toxicity",
+      "methylparaben",
+      "sodium bisulfite",
+      "amides vs esters",
+      "epinephrine limits"
     ],
-    "summary": "Permanent incisor anatomy: Maxillary Central (widest anterior crown mesiodistally, sharp 90-degree mesioincisal angle). Maxillary Lateral (most variation in form after 3rd molars: peg lateral, dens invaginatus, deep lingual pit). Mandibular Central (smallest permanent tooth, bilaterally symmetrical, occludes with only ONE opposing tooth: maxillary central!). Mandibular Lateral (incisal edge is twisted distolingually to follow the mandibular dental arch arch curvature)."
+    "summary": "Adverse local anesthetic reactions: 1) Systemic Toxicity (vessel deposition or overdosage; early CNS signs: talkativeness, anxiety, slurred speech, dizziness; severe: seizures, coma, respiratory arrest; cardiac: bradycardia, hypotension). 2) Allergic Reactions: mediated by histamine; caused by preservatives (Methylparaben) or antioxidants (Sodium Bisulfite in vasoconstrictors). Esters (metabolized by plasma pseudocholinesterase to PABA, high allergy rate) vs Amides (metabolized by liver CYP450). Vasoconstrictors reduce systemic absorption and bleeding (Max Epi: healthy ASA I = 0.2mg; cardiac ASA III/IV = 0.04mg)."
   },
   {
     "pageNumber": 82,
-    "title": "Dental Anatomy: Permanent Canines Morphology & Root Dimensions",
-    "subject": "Oral Anatomy",
-    "day": "Day 1 - Basic Sciences",
+    "title": "Local Anesthesia: Topical Agents, Ester Classifications & Needle Gauges",
+    "subject": "Local Anesthesia",
+    "day": "Day 2 - Clinical & Pharma",
     "keywords": [
-      "canines",
-      "maxillary canine",
-      "mandibular canine",
-      "longest root",
-      "canine eminence",
-      "cornerstone",
-      "cusp slopes",
-      "bifurcated root"
+      "topical anesthesia",
+      "emla",
+      "needle length",
+      "needle gauge",
+      "25 gauge",
+      "27 gauge",
+      "30 gauge",
+      "nitrogen bubble",
+      "warm anesthesia"
     ],
-    "summary": "Permanent canine morphology: Maxillary Canine ('cornerstone of dental arch', longest root in permanent dentition, prominent canine eminence supporting facial profile; mesial cusp ridge is shorter than distal cusp ridge). Mandibular Canine (longest crown height in permanent dentition, straight mesial crown outline continuous with root outline, smooth lingual cingulum, root occasionally bifurcated into buccal and lingual root tips)."
+    "summary": "Anesthetic delivery equipment & pharmacology: Topical Anesthesia (EMLA combination of Lidocaine + Prilocaine). Ester local anesthetics: Cocaine, Procaine (Novocaine), Benzocaine (Anbesol), Tetracaine, Propoxycaine. Most dental LAs are tertiary amines. Dental Needles: Ultra-short (<20mm, intraligamentary), Short (20mm), Long (32mm). Gauges: 30G (smallest), 27G, 25G (larger lumen, mandatory for high-risk positive aspiration like IAN blocks). Pain reduction occurs when anesthetic is warmed to body temperature (42\u00b0C). The 2mm bubble in the carpule is Nitrogen gas."
   },
   {
     "pageNumber": 83,
-    "title": "Dental Anatomy: Premolars Morphology & Diagnostic Distinctions",
-    "subject": "Oral Anatomy",
-    "day": "Day 1 - Basic Sciences",
+    "title": "Local Anesthesia: Maxillary & Mandibular Nerve Block Techniques",
+    "subject": "Local Anesthesia",
+    "day": "Day 2 - Clinical & Pharma",
     "keywords": [
-      "premolars",
-      "maxillary 1st premolar",
-      "maxillary 2nd premolar",
-      "mandibular 1st premolar",
-      "mandibular 2nd premolar",
-      "mesial concavity",
-      "bifurcated",
-      "snake eyes",
-      "y shape"
+      "psa block",
+      "msa block",
+      "asa block",
+      "infraorbital block",
+      "nasopalatine block",
+      "greater palatine block",
+      "ian block",
+      "lingual nerve block"
     ],
-    "summary": "Premolar morphology: Maxillary 1st Premolar (bifurcated roots in 60%, deep mesial crown and root concavity, mesial marginal developmental groove; mesial buccal cusp slope is LONGER than distal). Maxillary 2nd Premolar (single root, equal cusp heights, wrinkled occlusal surface). Mandibular 1st Premolar (tiny non-functional lingual cusp, 'snake eyes' occlusal pits). Mandibular 2nd Premolar (frequently 3 cusps with 'Y' groove pattern, most commonly missing premolar)."
+    "summary": "Dental nerve block anatomy: 1) PSA: blocks maxillary 2nd and 3rd molars and DB/palatal roots of 1st molar (NOT the MB root!). 2) MSA: blocks maxillary 1st molar MB root and 1st/2nd premolars. 3) ASA: blocks maxillary canines and incisors. 4) Infraorbital: blocks ASA + MSA and anterior facial soft tissues. 5) Nasopalatine: incisive foramen, blocks anterior 1/3 of hard palate canine to canine. 6) Greater Palatine: blocks posterior 2/3 of hard palate. 7) Classic Mandibular Block (IAN + Lingual): anesthetizes all mandibular teeth on injection side, buccal tissue anterior to 1st molar, anterior 2/3 of tongue, and floor of mouth."
   },
   {
     "pageNumber": 84,
-    "title": "Dental Anatomy: Maxillary Molars Morphology & Cusp of Carabelli",
-    "subject": "Oral Anatomy",
-    "day": "Day 1 - Basic Sciences",
+    "title": "Local Anesthesia: Advanced Mandibular Nerve Blocks (Gow-Gates & Akinosi)",
+    "subject": "Local Anesthesia",
+    "day": "Day 2 - Clinical & Pharma",
     "keywords": [
-      "maxillary molars",
-      "maxillary 1st molar",
-      "cusp of carabelli",
-      "oblique ridge",
-      "three roots",
-      "mb2 canal",
-      "rhomboidal"
+      "gow gates technique",
+      "akinosi vazirani",
+      "closed mouth mandibular block",
+      "trismus",
+      "high mandibular block",
+      "neck of condyle",
+      "v3 main trunk"
     ],
-    "summary": "Maxillary molar characteristics: Maxillary 1st Molar (largest tooth in maxillary arch, rhomboidal occlusal outline, 4 functional cusps + 5th non-functional Cusp of Carabelli on mesiolingual cusp, Oblique ridge running from DB cusp to ML cusp; 3 roots: Palatal longest, MB, DB; MB root has second canal MB2 in >60-70%). Maxillary 2nd Molar (heart-shaped occlusal outline when DL cusp is diminutive, roots closer together)."
+    "summary": "Advanced mandibular block techniques: 1) Gow-Gates Technique: true mandibular nerve block targeting the lateral neck of the condyle just below the insertion of the lateral pterygoid muscle. Syringe aligned from contralateral premolar; blocks IAN, Lingual, Auriculotemporal, Mylohyoid, and Buccal nerves (entire V3 distribution!). Highest success rate, lowest aspiration rate. 2) Vazirani-Akinosi Technique: closed-mouth mandibular block indicated for patients with severe trismus or limited mouth opening where coronoid notch cannot be visualized; needle placed parallel to maxillary occlusal plane at level of mucogingival junction of maxillary 3rd molar."
   },
   {
     "pageNumber": 85,
-    "title": "Dental Anatomy: Mandibular Molars Morphology & Cusp Patterns",
+    "title": "Oral Anatomy: Tooth Numbering Systems & Anatomical Landmarks",
     "subject": "Oral Anatomy",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 - Clinical Dentistry",
     "keywords": [
-      "mandibular molars",
-      "mandibular 1st molar",
-      "mandibular 2nd molar",
-      "five cusps",
-      "four cusps",
-      "cruciform",
-      "pentagon",
-      "two roots"
+      "numbering systems",
+      "universal numbering",
+      "palmer notation",
+      "fdi system",
+      "ada system",
+      "who",
+      "quadrants"
     ],
-    "summary": "Mandibular molar traits: Mandibular 1st Molar (5 cusps: 3 buccal [MB, DB, Distal] and 2 lingual [ML, DL]; largest cusp is MB, smallest is Distal; pentagonal occlusal outline; 2 broad roots: Mesial with 2 canals [MB, ML] and Distal with 1-2 canals). Mandibular 2nd Molar (4 cusps separated by cruciform '+' shaped groove pattern; rectangular occlusal outline; roots closer together)."
+    "summary": "Dental numbering systems: 1) Universal Numbering System (ADA): Permanent teeth numbered 1 to 32 (starts upper right 3rd molar #1 to upper left #16, down to lower left #17 to lower right #32); Primary teeth designated A to T (upper right primary 2nd molar A to upper left J, lower left K to lower right T). 2) Palmer's Notation (Zsigmondy): 4 quadrants with brackets; permanent teeth 1 to 8 per quadrant; primary teeth A to E. 3) FDI Two-Digit System (WHO): First digit = quadrant (1 to 4 permanent, 5 to 8 primary); Second digit = tooth position from midline (1 to 8 permanent, 1 to 5 primary)."
   },
   {
     "pageNumber": 86,
-    "title": "Endodontic Anatomy: Root Canal Configurations & Apical Foramen",
-    "subject": "Endodontics",
-    "day": "Day 3 - Clinical Dentistry",
-    "keywords": [
-      "root canal anatomy",
-      "vertucci classification",
-      "apical constriction",
-      "apical foramen",
-      "mb2 canal",
-      "weine classification"
-    ],
-    "summary": "Internal pulp canal morphology: Vertucci canal classifications: Type I (1 canal, 1 foramen), Type II (2 canals join into 1 foramen), Type III (1 canal divides and rejoins into 1 foramen), Type IV (2 independent canals and foramina). Apical constriction (minor apical diameter: 0.5-1.0 mm coronal to anatomical apical foramen, the histological cementodentinal junction and ideal working length termination)."
-  },
-  {
-    "pageNumber": 87,
-    "title": "Pediatric Dental Anatomy: Primary vs Permanent Dentition Comparisons",
-    "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
-    "keywords": [
-      "primary teeth",
-      "deciduous teeth",
-      "pulp horns",
-      "cervical constriction",
-      "roots flared",
-      "enamel thickness",
-      "tubercle of zuckerkandl"
-    ],
-    "summary": "Primary dentition morphological hallmarks: 20 primary teeth total (no premolars in primary dentition). Primary crowns are smaller, whiter, with prominent cervical ridges (buccal cervical bulge / Tubercle of Zuckerkandl on primary 1st molars). Enamel and dentin are half as thick as permanent teeth; pulp chambers are relatively larger with prominent pulp horns extending closer to the surface; roots are longer, more slender, and widely flared to encompass developing succedaneous premolar buds."
-  },
-  {
-    "pageNumber": 88,
-    "title": "Dental Development: Eruption Sequences & Chronological Timelines",
-    "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
-    "keywords": [
-      "eruption sequence",
-      "primary eruption",
-      "permanent eruption",
-      "rule of four",
-      "first molar eruption",
-      "six year molars",
-      "mixed dentition"
-    ],
-    "summary": "Eruption chronologies: Primary dentition sequence: Central incisor (6-10 mo), Lateral incisor (9-13 mo), 1st Molar (13-19 mo), Canine (16-22 mo), 2nd Molar (25-33 mo) - complete by age 3. Permanent eruption sequences: Mandible (6-1-2-3-4-5-7: 1st molar 6y, central incisor 6-7y, lateral 7-8y, canine 9-10y, 1st premolar 10-12y, 2nd premolar 11-12y, 2nd molar 12y); Maxilla (6-1-2-4-5-3-7: canine erupts AFTER premolars at 11-12y)."
-  },
-  {
-    "pageNumber": 89,
-    "title": "Dental Anatomy: Primary Molars & Leeway Space Measurements",
+    "title": "Tooth Physiology: Contact Areas, Embrasures, Height of Contour & CEJ",
     "subject": "Oral Anatomy",
     "day": "Day 3 - Clinical Dentistry",
     "keywords": [
-      "leeway space",
-      "nances leeway space",
-      "primary maxillary canine",
-      "primary molars",
-      "late mesial shift",
-      "arch length"
+      "contact areas",
+      "embrasures",
+      "spillways",
+      "height of contour",
+      "cej curvature",
+      "mesial vs distal cej",
+      "interproximal spaces"
     ],
-    "summary": "Primary tooth landmarks & Leeway Space: Primary Maxillary Central Incisor is the only tooth whose crown width exceeds its crown height. Primary Maxillary Canine has a mesial cusp ridge LONGER than distal cusp ridge (opposite of permanent!). Leeway Space: size difference between primary C-D-E and succedaneous 3-4-5. Mandibular leeway space = 1.7\u20132.5 mm per quadrant (~3.4\u20134.0 mm total arch); Maxillary leeway space = 0.9\u20131.5 mm per quadrant (~1.8\u20132.0 mm total). Enables mandibular permanent 1st molars to shift mesially into Class I relationship (Late Mesial Shift)."
+    "summary": "Tooth physiology & architecture: Contact areas stabilize arches and prevent food impaction. Embrasures (Spillways): Largest occlusal embrasure is between Maxillary Canine and 1st Premolar; Largest incisal embrasure is between Maxillary Lateral and Canine; Smallest incisal embrasure is between Mandibular Central Incisors. Height of Contour: Anteriors at cervical third facially and lingually; Posteriors at cervical third facially, middle third lingually (except mandibular molars at cervical/middle junction facially, and mandibular 2nd premolar at occlusal third lingually). CEJ curvature is greater on anterior teeth than posteriors, and always greater on the MESIAL than the DISTAL (greatest on mesial of maxillary central incisor!)."
+  },
+  {
+    "pageNumber": 87,
+    "title": "Permanent Dentition Morphology: Maxillary Teeth (Incisors, Canines, Premolars, Molars)",
+    "subject": "Oral Anatomy",
+    "day": "Day 3 - Clinical Dentistry",
+    "keywords": [
+      "maxillary incisors",
+      "maxillary canine",
+      "maxillary premolars",
+      "maxillary molars",
+      "cusp of carabelli",
+      "oblique ridge",
+      "mesial concavity"
+    ],
+    "summary": "Maxillary tooth morphology guide: Central Incisor (widest anterior MD, sharp 90\u00b0 mesioincisal angle). Lateral Incisor (most variable crown after 3rd molar, peg lateral, dens invaginatus, deep lingual pit). Canine (longest root, cornerstone, canine eminence, mesial cusp ridge shorter than distal). 1st Premolar (only premolar with 2 roots in 60%, deep mesial crown and root concavity, mesial marginal groove). 2nd Premolar (single root, equal cusp heights, wrinkled occlusal surface). 1st Molar (largest maxillary tooth, 4 cusps + Cusp of Carabelli on ML cusp, prominent oblique ridge, 3 divergent roots, MB root has MB2 canal in >60%)."
+  },
+  {
+    "pageNumber": 88,
+    "title": "Permanent Dentition Morphology: Mandibular Teeth & Eruption",
+    "subject": "Oral Anatomy",
+    "day": "Day 3 - Clinical Dentistry",
+    "keywords": [
+      "mandibular incisors",
+      "mandibular canine",
+      "mandibular premolars",
+      "mandibular molars",
+      "snake eyes",
+      "y shape groove",
+      "smallest tooth"
+    ],
+    "summary": "Mandibular tooth morphology guide: Central Incisor (smallest permanent tooth, bilaterally symmetrical, occludes with only ONE tooth: maxillary central). Lateral Incisor (distolingual incisal edge twist following arch curvature). Canine (longest crown height, smooth cingulum, occasional bifurcated facial/lingual roots). 1st Premolar (smallest premolar, tiny non-functional lingual cusp, 'snake eyes' occlusal pits, mesiolingual developmental groove). 2nd Premolar (frequently 3 cusps with 'Y' groove pattern, most commonly congenitally missing premolar). Maxillary 2nd Molar (rhomboidal or heart-shaped) & 3rd Molar."
+  },
+  {
+    "pageNumber": 89,
+    "title": "Mandibular Molars & Primary Dentition Morphology",
+    "subject": "Oral Anatomy",
+    "day": "Day 3 - Clinical Dentistry",
+    "keywords": [
+      "mandibular 1st molar",
+      "mandibular 2nd molar",
+      "five cusps",
+      "primary teeth",
+      "whiter enamel",
+      "slender roots",
+      "pulp horns"
+    ],
+    "summary": "Posterior teeth and primary morphology: Mandibular 1st Molar (largest mandibular tooth, widest MD dimension of all teeth, 5 cusps [MB, DB, Distal, ML, DL], hexagonal occlusal outline, 2 broad roots M & D). Mandibular 2nd Molar (4 cusps of equal height, rectangular outline, cruciform '+' groove). Primary Dentition general hallmarks: crowns wider MD than crown height, prominent cervical bulges (Tubercle of Zuckerkandl), enamel and dentin half as thick as permanent teeth, pulp chambers relatively larger with high pulp horns, roots longer, more slender, and widely flared to encompass premolar buds."
   },
   {
     "pageNumber": 90,
-    "title": "Occlusion Science: Centric Relation, Centric Occlusion & Guidance",
-    "subject": "Prosthodontics",
+    "title": "Primary Molars & Concepts of Occlusion (Andrews 6 Keys & Jaw Relations)",
+    "subject": "Oral Anatomy",
     "day": "Day 3 - Clinical Dentistry",
     "keywords": [
+      "concepts of occlusion",
+      "working cusps",
+      "non working cusps",
+      "andrews 6 keys",
       "centric relation",
-      "centric occlusion",
-      "maximum intercuspation",
-      "curve of spee",
-      "curve of wilson",
-      "canine guidance",
-      "mutually protected"
+      "postural position",
+      "rest vertical dimension"
     ],
-    "summary": "Occlusal concepts: Centric Relation (CR: condyles articulate with thinnest avascular portion of discs against anterosuperior articular eminences; independent of tooth contact). Maximum Intercuspation / Centric Occlusion (MI/CO: complete tooth intercuspation). In 90% of individuals, CR does not equal MI (1-2mm anterior slide). Mutually Protected Occlusion: posterior teeth protect anterior teeth in MI; anterior/canine guidance discludes posterior teeth during excursions."
+    "summary": "Occlusal concepts & morphology: Primary Canines & Molars. Working cusps (Maxillary Lingual, Mandibular Buccal) contact marginal ridges and central fossae; Non-working cusps (Maxillary Buccal, Mandibular Lingual) contact grooves and embrasures. Andrews 6 Keys to Normal Occlusion: 1) Class I molar relationship, 2) Crown angulation (mesiodistal tip), 3) Crown inclination (buccolingual torque), 4) No tooth rotation, 5) Tight proximal contacts, 6) Flat or mild Curve of Spee. Basic Jaw Relations: 1) Postural Position (muscle-guided, vertical dimension at rest, no tooth contact), 2) Centric Relation (CR: most superoanterior position of condyles in glenoid fossa, ligament-guided position)."
   },
   {
     "pageNumber": 91,
-    "title": "Orthodontic Diagnosis: Angle's Classification of Malocclusion",
-    "subject": "Orthodontics",
+    "title": "Centric Occlusion, Mandibular Movements & Compensating Curvatures",
+    "subject": "Oral Anatomy",
     "day": "Day 3 - Clinical Dentistry",
     "keywords": [
-      "angles classification",
-      "class i",
-      "class ii division 1",
-      "class ii division 2",
-      "class iii",
-      "mesiobuccal cusp",
-      "overjet",
-      "deep bite"
+      "centric occlusion",
+      "maximum intercuspation",
+      "canine guidance",
+      "group function",
+      "curve of spee",
+      "curve of wilson",
+      "bonwill triangle",
+      "curve of monson"
     ],
-    "summary": "Angle's malocclusion classes based on maxillary 1st molar MB cusp position relative to mandibular 1st molar MB groove: Class I (normal molar relationship). Class II (mandibular arch posterior/distal to maxillary arch; Div 1 has proclined maxillary incisors and large overjet; Div 2 has retroclined central incisors, proclined laterals, and deep bite). Class III (mandibular arch anterior/mesial to maxillary arch; anterior crossbite, prognathic mandible)."
+    "summary": "Mandibular kinematics & occlusal curves: Centric Occlusion (CO / MI: complete tooth contact, tooth-guided position). Mandibular movements: Protrusive (forward movement, posterior teeth disarticulate: Christensen's phenomenon) and Lateral movement (working vs non-working sides). Guidance: Canine-guided (vertical overlap discludes all posterior teeth) vs Group function (multiple teeth contact on working side). Compensating Curvatures: Bonwill Equilateral Triangle (4 inches between condyles and incisal contact), Curve of Spee (anteroposterior curvature), Curve of Wilson (mediolateral curvature), Curve of Monson (3D sphere combining Spee and Wilson). Functions of stomatognathic system: Mastication, Deglutition, Respiration, Speech, Proprioception."
   },
   {
     "pageNumber": 92,
-    "title": "Orthodontic Diagnosis: Overjet, Overbite & Crossbite Classifications",
+    "title": "Orthodontics: Angle's Classification of Malocclusion & Incipient Signs",
     "subject": "Orthodontics",
     "day": "Day 3 - Clinical Dentistry",
     "keywords": [
-      "overjet",
-      "overbite",
-      "open bite",
-      "crossbite",
-      "anterior crossbite",
-      "posterior crossbite",
-      "rapid palatal expansion",
-      "rpe"
+      "orthodontics",
+      "angles classification",
+      "class i neutroclusion",
+      "class ii distocclusion",
+      "class iii mesiocclusion",
+      "division 1",
+      "division 2",
+      "dewey classification",
+      "incipient malocclusion"
     ],
-    "summary": "Vertical and horizontal occlusal discrepancies: Overjet (horizontal incisal overlap; normal 2-3 mm). Overbite (vertical incisal overlap; normal 1-3 mm or 20-30% of mandibular crown height). Open Bite (lack of vertical incisal contact: anterior or posterior). Crossbite: Posterior (maxillary buccal cusps occlude lingual to mandibular buccal cusps) vs Anterior (maxillary incisors lingual to mandibular incisors; skeletal crossbites treated with Rapid Palatal Expander / Hyrax)."
+    "summary": "DMF Orthodontics Chapter Start by Dr. Mickhail Q. Francisco: Classification of Malocclusion according to Edward Angle: 1) Class I (Neutroclusion): MB cusp of maxillary 1st molar occludes in buccal groove of mandibular 1st molar; Dewey types 1-5 (anterior crowding, labioversion, anterior crossbite, posterior crossbite, mesial drift). 2) Class II (Distocclusion / Retrognathism): MB cusp of max 1st molar falls between mand 1st molar and 2nd premolar; Div 1 (extreme labioversion/overjet), Div 2 (palatally tipped centrals, labially tipped laterals, deep bite). 3) Class III (Mesiocclusion / Prognathism): MB cusp falls between mand 1st and 2nd molars. Signs of Incipient Malocclusion: lack of interdental spacing in primary dentition, crowding of permanent incisors in mixed dentition, premature loss of primary canines."
   },
   {
     "pageNumber": 93,
-    "title": "Craniofacial Growth: Theories of Craniofacial Development",
+    "title": "Orthodontics: Speech Disorders, Cephalometric Landmarks & Planes",
     "subject": "Orthodontics",
     "day": "Day 3 - Clinical Dentistry",
     "keywords": [
-      "theories of growth",
-      "sicher sutural theory",
-      "scott cartilaginous theory",
-      "moss functional matrix",
-      "functional matrix theory",
-      "craniofacial"
+      "cephalometrics",
+      "sella",
+      "nasion",
+      "point a",
+      "point b",
+      "frankfort horizontal plane",
+      "mandibular plane",
+      "speech difficulties",
+      "sibilants",
+      "poor mans cephalometrics"
     ],
-    "summary": "Three classic theories of craniofacial growth: 1) Sicher's Sutural Theory (sutures are primary growth determinants - disproven). 2) Scott's Cartilaginous Theory (epiphyses, cranial base synchondroses, and nasal septum are primary genetic growth pacemakers). 3) Melvin Moss's Functional Matrix Theory (bone and cartilage have no intrinsic genetic determinants; skeletal units grow secondarily and adaptively in response to the functional demands of soft tissues and functional spaces like brain growth and airway)."
+    "summary": "Orthodontic diagnostics & cephalometrics: Malocclusion and Speech difficulties (S, Z sibilants associated with anterior open bite / excessive overjet; T, D with irregular incisors; F, V with skeletal Class III; B, P, M with cleft lip). Cephalometrics intro ('Poor-man's cephalometrics' = facial profile analysis). Key Cephalometric Landmarks: S (Sella, most stable landmark in cranial base), N (Nasion), Bo (Bolton), Ba (Basion), Ar (Articulare), Po (Porion), Or (Orbitale), Point A (Subspinale: premaxilla base), Point B (Supramentale: mandible base), Pog (Pogonion: most anterior chin), Me (Menton: most inferior symphysis), Go (Gonion). Planes: Frankfort Horizontal Plane (Porion to Orbitale), Sella-Nasion Plane, Mandibular Plane (Menton to Gonion)."
   },
   {
     "pageNumber": 94,
-    "title": "Craniofacial Growth: Growth Centers vs Growth Sites & Synchondroses",
+    "title": "Orthodontics: Cephalometric Angles (FMA, ANB), Removable Appliances & Headgears",
     "subject": "Orthodontics",
     "day": "Day 3 - Clinical Dentistry",
     "keywords": [
-      "growth centers",
-      "growth sites",
-      "synchondroses",
-      "spheno occipital",
-      "spheno ethmoidal",
-      "mandibular condyle",
-      "cranial base"
+      "fma angle",
+      "anb angle",
+      "sna",
+      "snb",
+      "headgears",
+      "high pull headgear",
+      "cervical pull headgear",
+      "reverse pull headgear",
+      "chin cup",
+      "adams clasp"
     ],
-    "summary": "Growth centers vs growth sites: All growth centers are growth sites, but NOT all growth sites are growth centers! Growth centers possess intrinsic genetic growth potential (cranial base synchondroses, nasal septum). Growth sites merely show adaptive osteogenesis (sutures, alveolar process, mandibular condyle!). Cranial base synchondroses: Intersphenoid (closes at birth), Spheno-ethmoidal (closes at 7-8 years), Spheno-occipital (closes last at 15-20 years; chief growth center of cranial base)."
+    "summary": "Cephalometric angles & orthopedic headgears: FMA (Frankfort Mandibular Plane Angle, normal 28.7\u00b0 \u00b1 5.8\u00b0; steep = open bite / Class II; flat = deep bite / Class III). ANB angle (normal 2.5\u00b0 \u00b1 2.5\u00b0; >5\u00b0 = Skeletal Class II; <0\u00b0 = Skeletal Class III). SNA & SNB. Tweed's Triangle (FMA, IMPA, FMIA). Removable appliances: produce tipping movements; components: Adams clasp, ball clasp, baseplate, finger springs. Extraoral Headgears for Skeletal Class II: High-pull (distal & intrusive on molars/maxilla), Cervical-pull (distal & extrusive), Straight-pull. Reverse-pull Headgear (Facemask) for Skeletal Class III to protract maxilla; Chin Cup to redirect mandibular growth."
   },
   {
     "pageNumber": 95,
-    "title": "Orthodontic Appliances: Functional Appliances for Class II Skeletal Modification",
+    "title": "Orthodontics: Functional Appliances, Wire Bending Orders & Fixed Appliances",
     "subject": "Orthodontics",
     "day": "Day 3 - Clinical Dentistry",
     "keywords": [
       "functional appliances",
       "activator",
       "bionator",
-      "twin block",
       "herbst",
       "frankel",
-      "growth modification",
-      "class ii skeletal"
+      "first order bends",
+      "second order bends",
+      "third order torque",
+      "edgewise",
+      "phosphoric acid"
     ],
-    "summary": "Orthopedic and functional appliances: Used to posture mandible forward during peak pubertal growth to stimulate condylar adaptation: 1) Activator (Andresen: loose monobloc acrylic). 2) Bionator (Balters: acrylic with buccal wire shields). 3) Twin Block (Clark: upper and lower interlocking 70-degree bite blocks worn full-time during eating). 4) Herbst (fixed pin-and-tube telescopic appliance). 5) Frankel Functional Regulator (tissue-borne with vestibular shields relieving cheek pressure)."
+    "summary": "Growth modification & fixed mechanics: Functional Appliances: Tooth-borne (Activator advances mandible edge-to-edge; Bionator trimmed down; Herbst telescopic pin-and-tube; Twin Block) vs Tissue-borne (Frankel Functional Regulator: ONLY tissue-borne appliance, alters facial soft tissue posture). Wire Bending Orders: 1st order (in/out, facial/lingual, rotational), 2nd order (tip, mesial/distal), 3rd order (torque, root inclination). Fixed Appliances history: Pin and tube (1910), Ribbon arch (1915), Begg, Edgewise (1925), PEA / Straight-wire brackets. Banding with Glass Ionomer; Bonding with 35-50% Phosphoric acid etch (Buonocore 1955) and Bis-GMA resin (Bowen 1962)."
   },
   {
     "pageNumber": 96,
-    "title": "Pediatric Orthodontics: Space Maintainers Indications & Designs",
-    "subject": "Pediatric Dentistry",
+    "title": "Orthodontics: Archwire Metallurgy, Elastics & Crossbite Corrections",
+    "subject": "Orthodontics",
     "day": "Day 3 - Clinical Dentistry",
     "keywords": [
-      "space maintainers",
-      "band and loop",
-      "distal shoe",
-      "lingual holding arch",
-      "nance holding arch",
-      "tpa",
-      "premature loss"
+      "archwires",
+      "stainless steel 18 8",
+      "nitinol",
+      "beta ti",
+      "elastics class ii",
+      "crossbites",
+      "palatal expansion",
+      "quad helix",
+      "rapid palatal expander"
     ],
-    "summary": "Space maintainer indications following premature primary tooth loss: 1) Band and Loop (unilateral primary molar loss). 2) Distal Shoe (premature loss of primary 2nd molar BEFORE permanent 1st molar erupts; subgingival blade guides permanent molar; contraindicated in medically compromised/endocarditis). 3) Lingual Holding Arch (LHA: bilateral mandibular space loss, requires erupted permanent incisors). 4) Nance Holding Arch / TPA (bilateral maxillary space loss)."
+    "summary": "Biomaterials & crossbite mechanics: Archwire properties (high strength, low stiffness, high range, high formability): Stainless Steel (18% Cr, 8% Ni; high stiffness), Cobalt-Chromium (Elgiloy), Ni-Ti (Nitinol shape memory and superelasticity), Beta-Titanium (TMA: excellent formability and moderate force). Intermaxillary Elastics: Class I (space closure), Class II (treats Class II), Class III (treats Class III). Crossbites: Buccal, Lingual, Posterior (abnormal buccolingual relation). Treatment by Palatal Expansion: Pre-adolescents (<12y: W-arch, Quad-Helix, split plates with jackscrew); Adolescents (>12y: Rapid Palatal Expanders / Hyrax). Anterior Crossbite: Dental (1-2 teeth: tongue blade, inclined plane, Hawley with springs), Skeletal (>3 teeth: Class III protraction), Functional (pseudoclass III)."
   },
   {
     "pageNumber": 97,
-    "title": "Orthodontic Biomechanics: Cellular Response to Force & Tooth Movements",
+    "title": "Orthodontics: Oral Habits (Thumbsucking, Tongue Thrusting) & Space Maintainers",
     "subject": "Orthodontics",
     "day": "Day 3 - Clinical Dentistry",
     "keywords": [
-      "orthodontic forces",
-      "frontal resorption",
-      "undermining resorption",
-      "hyalinization",
-      "tipping",
-      "translation",
-      "intrusion",
-      "center of resistance"
+      "thumbsucking",
+      "tongue thrusting",
+      "anterior openbite",
+      "bluegrass appliance",
+      "palatal crib",
+      "space maintainer",
+      "band and loop"
     ],
-    "summary": "Biology of orthodontic tooth movement: Optimal light continuous force (20-50g) produces Frontal Resorption (direct osteoclast recruitment along the bone surface without cell death). Excessive heavy force crushes PDL, causes ischemia and sterile necrosis (Hyalinization), resulting in Undermining Resorption from marrow spaces with lag phase and root resorption risk. Movements: Tipping, Translation (bodily), Intrusion (lightest forces: 10-20g), Extrusion, Torque."
+    "summary": "Deleterious habits & habit appliances: Thumbsucking habit triad: Duration, Frequency, Intensity. Age <=4 years: observe, no treatment; Age 4-6 years: habit must cease before permanent incisors erupt. Consequence: anterior open bite, constricted maxilla, Class II malocclusion. Appliances: Bluegrass appliance, Palatal crib, thumb guard. Tongue Thrusting: tongue protrudes during swallowing/speech/rest (infantile swallowing persists beyond 18 mo); treated with Tongue crib. Space Maintainers: passive appliances preventing mesial drifting of permanent 1st molars. Best space maintainer is a well-restored natural tooth! Band and Loop: unilateral single tooth loss."
   },
   {
     "pageNumber": 98,
-    "title": "Orthodontic Cephalometrics: Steiner Analysis & Skeletal Relationships",
+    "title": "Pediatric Orthodontics: Space Maintainers, Primary Terminal Planes & Leeway Space",
     "subject": "Orthodontics",
     "day": "Day 3 - Clinical Dentistry",
     "keywords": [
-      "cephalometrics",
-      "steiner analysis",
-      "sna",
-      "snb",
-      "anb",
-      "sella",
-      "nasion",
-      "point a",
-      "point b",
-      "skeletal class ii",
-      "class iii"
+      "lingual holding arch",
+      "distal shoe",
+      "flush terminal plane",
+      "mesial step",
+      "distal step",
+      "nance leeway space",
+      "primate space"
     ],
-    "summary": "Cephalometric landmarks & Steiner Analysis: Sella (S), Nasion (N), Subspinale (Point A: maxillary apical base), Supramentale (Point B: mandibular apical base). Angles: SNA (normal 82 +/- 2 deg: maxillary position relative to cranial base), SNB (normal 80 +/- 2 deg: mandibular position), ANB (normal 2 +/- 2 deg = 0 to 4 deg: sagittal jaw relationship). ANB > 4 deg indicates Skeletal Class II; ANB < 0 deg indicates Skeletal Class III."
+    "summary": "Space management & mixed dentition milestones: Space maintainers: Lingual Holding Arch (bilateral mandibular tooth loss, requires erupted permanent incisors), Distal Shoe (early loss of primary 2nd molar BEFORE permanent 1st molar erupts; intra-alveolar guide blade), Transpalatal Arch (TPA), Nance appliance. Primary Molar Relationships: Flush terminal plane (normal cusp-to-cusp permanent 6; shifts into Class I by mesial shift), Distal step (leads to Class II), Mesial step (leads to Class I). Nance Leeway Space: MD width difference between primary C-D-E and permanent 3-4-5 (Mandible = 1.7\u20132.5mm per quad; Maxilla = 0.9\u20131.5mm per quad). Primate Spaces: Maxillary = MESIAL to canine; Mandibular = DISTAL to canine."
   },
   {
     "pageNumber": 99,
-    "title": "Interceptive Orthodontics: Serial Extraction Protocol & Bolton Analysis",
+    "title": "Orthodontics & Growth: Diastema, Supernumerary Teeth & Growth Curves",
     "subject": "Orthodontics",
     "day": "Day 3 - Clinical Dentistry",
     "keywords": [
-      "serial extraction",
-      "dewel protocol",
-      "bolton analysis",
-      "mixed dentition",
-      "tooth size discrepancy",
-      "c d 4 extraction"
+      "diastema",
+      "ugly duckling stage",
+      "supernumerary teeth",
+      "gardners syndrome",
+      "cleidocranial dysostosis",
+      "cephalocaudal",
+      "growth spurt",
+      "enlows v principle"
     ],
-    "summary": "Serial Extraction (Dewel sequence for severe mixed dentition crowding >8-10mm): Step 1 (age 8-9) extract primary canines (C) to align crowded incisors -> Step 2 (age 9-10) extract primary 1st molars (D) to accelerate 1st premolar eruption -> Step 3 (age 10-11) extract permanent 1st premolars (4) to allow permanent canines to erupt into space (mnemonic: C -> D -> 4). Bolton Analysis: evaluates tooth size ratio: Overall ratio = 91.3%, Anterior ratio = 77.2%."
+    "summary": "Developmental milestones & craniofacial biology: Maxillary Midline Diastema: <=2mm usually closes spontaneously after maxillary canine erupts ('Ugly Duckling stage', Broadbent); >2mm unlikely to close, suspect supernumerary tooth / mesiodens. Golden rule: ALWAYS WAIT FOR THE CANINE BEFORE TREATING DIASTEMA! Supernumerary conditions: Gardner's syndrome, Cleidocranial dysostosis/dysplasia, Down's, Sturge-Weber. Most common supernumerary is Mesiodens (initiation stage anomaly). Growth Curves (Scammon): Cephalocaudal curve (structures farther from brain grow more but later), Lymphoid curve (peaks at puberty then regresses). Timing of Growth Spurts: Females (3, 6-7, 11-12 yrs), Males (3, 7-9, 14-15 yrs). Enlow's V-Principle of Growth: bone deposition on inner side of 'V', resorption on outer side."
   },
   {
     "pageNumber": 100,
-    "title": "Craniofacial Growth & Retention: Cortical Drift, Displacement & Relapse",
+    "title": "Orthodontics: Cortical Drift, Piezoelectric Theory, Growth Theories & Synchondroses",
     "subject": "Orthodontics",
     "day": "Day 3 - Clinical Dentistry",
     "keywords": [
       "cortical drift",
-      "primary displacement",
-      "secondary displacement",
-      "orthodontic retention",
-      "supracrestal fibers",
-      "fibrotomy",
-      "relapse"
+      "piezoelectric theory",
+      "theories of growth",
+      "sicher",
+      "scott",
+      "moss",
+      "synchondroses",
+      "spheno occipital",
+      "crowding"
     ],
-    "summary": "Craniofacial bone remodeling: Cortical Drift (bone surface movement by deposition on one side and resorption on the opposite). Primary Displacement (bone moves away from contact surfaces as it enlarges). Secondary Displacement (movement of a bone caused by the enlargement of adjacent bones). Retention biology: PDL fibers remodel in 3-4 months; gingival collagen fibers in 4-6 months; Supracrestal gingival fibers take up to 1 year to remodel (high rotational relapse risk; treated with Circumferential Supracrestal Fibrotomy / CSF)."
+    "summary": "Craniofacial growth mechanisms: Cortical Drift (deposition on side facing growth direction [+], resorption on opposite side [-]). Piezoelectric Theory: rhythmic bone deformation creates electrical potentials (Deposition = negative ions; Resorption = positive ions). Maxillary & Mandibular growth: Cortical drift direction is Superior-Posterior (Upward-Backward), while whole-bone Displacement is Downward-Forward (Inferior-Anterior!). Greatest increase in mandibular size occurs distal to the 1st molar at age 6. Theories of Growth: Sicher (sutural), Scott (cartilaginous: nasal septum & condyle), Moss (functional matrix: soft tissue airway/brain drives bone), Petrovic (servosystem). Cranial Base Synchondroses: Spheno-occipital synchondrosis remains active until ~20 years old. Management of Crowding: Observation, Disking of primary teeth, Serial extraction, Corrective orthodontics."
   }
 ];
 
 export const DMF_CHAPTERS = [
-  { title: "General Histology & Embryology", startPage: 1, endPage: 15, subject: "General Histology", day: "Day 1 - Basic Sciences", icon: "🔬" },
-  { title: "General & Head/Neck Anatomy", startPage: 16, endPage: 28, subject: "General Anatomy", day: "Day 1 - Basic Sciences", icon: "💀" },
-  { title: "General Physiology", startPage: 29, endPage: 39, subject: "General Physiology", day: "Day 1 - Basic Sciences", icon: "🫀" },
-  { title: "Microbiology & Pathology", startPage: 40, endPage: 56, subject: "Oral Pathology", day: "Day 1 - Basic Sciences", icon: "🦠" },
-  { title: "Pharmacology & Local Anesthesia", startPage: 57, endPage: 80, subject: "Dental Pharmacology", day: "Day 2 - Clinical & Pharma", icon: "💊" },
-  { title: "Oral Anatomy, Histology & Occlusion", startPage: 81, endPage: 92, subject: "Oral Anatomy", day: "Day 3 - Clinical Dentistry", icon: "🦷" },
-  { title: "Orthodontics & Growth Development", startPage: 93, endPage: 100, subject: "Orthodontics", day: "Day 3 - Clinical Dentistry", icon: "📐" }
+  {
+    "title": "General Histology & Embryology",
+    "startPage": 1,
+    "endPage": 15,
+    "subject": "General Histology",
+    "day": "Day 1 - Basic Sciences",
+    "icon": "\ud83d\udd2c"
+  },
+  {
+    "title": "General & Head/Neck Anatomy",
+    "startPage": 16,
+    "endPage": 28,
+    "subject": "General Anatomy",
+    "day": "Day 1 - Basic Sciences",
+    "icon": "\ud83d\udc80"
+  },
+  {
+    "title": "General Physiology",
+    "startPage": 29,
+    "endPage": 39,
+    "subject": "General Physiology",
+    "day": "Day 1 - Basic Sciences",
+    "icon": "\ud83e\udec0"
+  },
+  {
+    "title": "Microbiology & Pathology",
+    "startPage": 40,
+    "endPage": 56,
+    "subject": "Oral Pathology",
+    "day": "Day 1 - Basic Sciences",
+    "icon": "\ud83e\udda0"
+  },
+  {
+    "title": "Pharmacology & Local Anesthesia",
+    "startPage": 57,
+    "endPage": 84,
+    "subject": "Dental Pharmacology",
+    "day": "Day 2 - Clinical & Pharma",
+    "icon": "\ud83d\udc8a"
+  },
+  {
+    "title": "Oral Anatomy, Physiology & Occlusion",
+    "startPage": 85,
+    "endPage": 91,
+    "subject": "Oral Anatomy",
+    "day": "Day 3 - Clinical Dentistry",
+    "icon": "\ud83e\uddb7"
+  },
+  {
+    "title": "Orthodontics & Growth Development",
+    "startPage": 92,
+    "endPage": 100,
+    "subject": "Orthodontics",
+    "day": "Day 3 - Clinical Dentistry",
+    "icon": "\ud83d\udcd0"
+  }
 ];
