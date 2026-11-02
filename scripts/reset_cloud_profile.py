@@ -80,3 +80,4 @@ with urllib.request.urlopen(verify_req) as resp:
     print(f"  Flagged: {len(data['flaggedQuestions'])}")
     print(f"  Redeemed Rewards: {len(data['redeemedRewards'])}")
     print(f"  Notebooks: {len(data['leaneNotebooks'])}")
+

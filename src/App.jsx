@@ -114,6 +114,123 @@ Every tooth morphology line angle, every cranial nerve pathway, and every diagno
   - **G cells**: Secrete Gastrin in gastric antrum.
   - **Hepatic Portal Triad**: Hepatic Artery branch + Portal Vein branch + Bile Ductule.
   - **Pancreatic Ducts**: Duct of Wirsung (major/main duct) + Duct of Santorini (accessory duct).
+
+---
+
+### 8. DMF Reviewer: General Pathology, Microbiology & Hematology (Pages 31–56) 🔬🩸
+* **Hematologic Pathology & Anemias**:
+  - **Sickle Cell Anemia**: Autosomal recessive point mutation substituting **Glutamic acid with Valine** at position 6 of the beta-globin chain.
+    - Radiographic hallmark: **"Crewcut" / "Hair-on-end" appearance** of the skull calvarium due to marrow expansion.
+  - **Erythroblastosis Fetalis** (Hemolytic Disease of the Newborn):
+    - **Rh-negative mother** with an **Rh-positive fetus**; maternal IgG antibodies cross placenta lysing fetal RBCs.
+    - Clinical hallmark: Jaundice, severe anemia, and **"Blue baby syndrome"** with intrinsic green/blue-brown staining of primary teeth.
+  - **Agranulocytosis**: Extreme reduction in granulocytes (neutrophils <500/uL); presents with necrotic pharyngitis and deep ragged oral ulcers lacking erythema.
+* **Leukemias & Diagnostic Hallmarks**:
+  - **CLL (Chronic Lymphocytic Leukemia)**: Most common overall leukemia in older adults; indolent course.
+  - **ALL (Acute Lymphocytic Leukemia)**: Most common leukemia in **CHILDREN** (peak age 2–5 years); null cell / pre-B cell proliferation; high cure rate.
+  - **AML (Acute Myelocytic Leukemia)**: Characterized by **Auer rods** in myeloid blasts. Hallmark oral manifestation: **severe, boggy gingival hyperplasia** and spontaneous mucosal hemorrhage!
+  - **CML (Chronic Myelogenous Leukemia)**: Diagnostic hallmark is the **Philadelphia chromosome** formed by a balanced reciprocal translocation t(9;22)(q34;q11), creating the constitutively active **BCR-ABL** fusion tyrosine kinase!
+
+---
+
+### 9. DMF Reviewer: Dental Pharmacology & Toxicology (Pages 57–75) 💊
+* **Pharmacokinetics vs. Pharmacodynamics**:
+  - **Pharmacokinetics (ADME)**: What the body does to the drug (Absorption -> Distribution -> Metabolism in Liver -> Excretion in Kidneys).
+  - **Pharmacodynamics**: What the drug does to the body (mechanism of action, receptor binding, and clinical physiological effects).
+* **High-Yield Board Toxicology Antidotes**:
+  - **Activated Charcoal**: Relies on **adsorption** (binding toxins to porous surface); drug of choice for acute poisonings.
+  - **Syrup of Ipecac**: Induces emesis/vomiting (contraindicated with caustics or hydrocarbons).
+  - **Gastric Lavage**: Mechanical stomach pumping with tube (indicated within 1–2 hours of ingestion).
+* **DMF "REMEMBER" Pearls (Top Board Questions)**:
+  - **Contraindicated in Glaucoma**: **Anticholinergic drugs** (e.g. Atropine, Scopolamine) cause pupil dilation (mydriasis), blocking Schlemm's canal and precipitating acute angle-closure glaucoma!
+  - **Most Allergenic Antibiotic**: **Penicillin** (Type I IgE-mediated anaphylaxis).
+    - Safe alternatives for penicillin-allergic dental patients: **Clindamycin 300 mg**, **Azithromycin 500 mg**, or Cephalosporins (caution if true anaphylaxis).
+  - **Safe During Pregnancy**: Local anesthetics (Lidocaine, Prilocaine - FDA Category B), Paracetamol / Acetaminophen (analgesic of choice).
+  - **Teratogens to AVOID**:
+    - **Tetracycline**: Incorporates into mineralizing teeth and bones; causes permanent intrinsic yellow-brown banding and enamel hypoplasia.
+    - **Phenytoin (Dilantin)**: Fetal hydantoin syndrome; drug-induced gingival enlargement.
+    - **Thalidomide**: Causes phocomelia (seal limbs / absent long bones).
+  - **Antabuse Drug for Alcoholism**: **Disulfiram** (inhibits aldehyde dehydrogenase; ingesting alcohol causes violent nausea, flushing, and tachycardia).
+* **Antidepressant Classes**:
+  - **SSRI** (Fluoxetine, Sertraline): First-line; increases serotonin in synaptic cleft.
+  - **SNRI** (Venlafaxine, Duloxetine): Increases both serotonin and norepinephrine.
+  - **Tricyclics / TCA** (Imipramine - prototype, Amitriptyline): Potentiates catecholamines; strict epinephrine limits in dental carpules.
+  - **MAO Inhibitors**: Blocks monoamine oxidase; fatal hypertensive crisis if combined with tyramine-containing foods ("cheese effect") or meperidine.
+
+---
+
+### 10. DMF Reviewer: Dental Anesthesiology & Local Anesthesia Science (Pages 76–80) 💉
+* **Mechanism of Action**:
+  - Reversibly binds and blocks the intracellular portion of **voltage-gated Sodium (Na+) channels**, preventing inward sodium flux, axonal depolarization, and conduction of nerve action potentials.
+* **Chemical Forms: Ionized vs. Unionized**:
+  - **Unionized Base (RN)**: Uncharged, **lipid-soluble**; the ONLY form capable of diffusing across the lipophilic nerve sheath and axonal cell membrane.
+  - **Ionized Cation (RNH+)**: Positively charged, **water-soluble**; the active form that physically plugs the inner sodium channel receptor.
+* **pKa & The Chemistry of Onset**:
+  - **pKa**: The pH at which a local anesthetic is **50% ionized and 50% unionized**.
+  - The closer the pKa is to physiological tissue pH (7.4), the higher the percentage of unionized base -> **faster onset of anesthesia** (e.g. Mepivacaine pKa=7.6, Lidocaine pKa=7.8).
+* **Why Anesthesia Fails in Infected / Abscessed Tissue (Acidosis)**:
+  - Normal tissue pH = **7.4**.
+  - Inflamed / purulent tissue pH drops to **4.0–5.5** (acidic).
+  - In acidic tissue, the Henderson-Hasselbalch equation shifts heavily toward the **ionized form (>99%)**; less than 1% remains as lipid-soluble base!
+  - The drug cannot penetrate the nerve sheath, causing complete anesthesia failure!
+  - Clinical solution: Perform a **nerve block** away from the infected site, or buffer the anesthetic cartridge with **Sodium Bicarbonate** to raise pH!
+* **Exact Order of Sensation Loss**:
+  1. **Pain** (small unmyelinated C fibers & small myelinated A-delta fibers lost FIRST)
+  2. **Temperature** (cold lost before warmth)
+  3. **Touch**
+  4. **Pressure**
+  5. **Motor / Skeletal Muscle Tone** (large myelinated A-alpha motor fibers lost LAST).
+
+---
+
+### 11. DMF Reviewer: Primary Dentition Morphology & Differences (Pages 81–90) 🦷
+* **Primary vs. Permanent Anatomical Distinctions**:
+  - **Crowns**: Shorter cervico-occlusally relative to mesiodistal width ("squat", bulbous appearance).
+  - **Cervical Ridge**: Marked cervical ridge bulge on buccal surfaces of primary molars and labial/lingual of anterior teeth.
+  - **Cervical Constriction**: Marked constriction at the cervical line (neck) of primary teeth.
+  - **Enamel & Dentin**: Thinner (enamel is uniformly only ~1 mm thick) with large pulp chambers and high pulp horns -> high risk of mechanical pulp exposure during cavity preparation!
+  - **Enamel Rods**: Cervical enamel rods slope **occlusally/incisally** in primary teeth (compared to gingivally/apically in permanent teeth). Do NOT bevel gingival floors!
+  - **Color**: Less pigmented, milky-white / bluish-white (due to lower mineral density and light refraction).
+* **Primary Root Distinctions**:
+  - Primary molar roots are **narrower, longer, and widely flared** with virtually **no root trunk**, extending directly from the crown to accommodate the developing permanent premolar tooth buds beneath them!
+* **Key Tooth Identification Pearls**:
+  - **Mandibular Central Incisor (O & P / 71 & 81)**: Bilaterally symmetrical, smallest tooth; incisal edge occludes **ONLY with the maxillary central incisor**!
+  - **Permanent Mandibular 1st Molar (#19, #30 / 36, 46)**:
+    - Largest and widest tooth in the mandibular arch.
+    - 5 cusps with specific size order: **MB > ML > DL > DB > Distal**.
+    - Tallest cusp: **Mesiolingual (ML)**.
+    - 2 roots: Mesial (broad, curved, containing 2 canals) and Distal (1 canal).
+
+---
+
+### 12. DMF Reviewer: Orthodontics & Craniofacial Growth Theories (Pages 91–100) 📐
+* **Cortical Drift vs. Displacement**:
+  - **Cortical Drift**: Bone deposition on one side and resorption on the opposite surface, remodeling the bone through space.
+  - **Nasomaxillary Complex (Maxilla)**:
+    - Growth center: **Nasal Septum** (cartilage).
+    - Cortical drift direction: **Superior-Posterior** (Upward and Backward).
+    - Spatial displacement: **Downward and Forward** (Inferior-Anterior).
+  - **Mandible**:
+    - Growth center: **Condylar Cartilage**.
+    - Cortical drift direction: **Superior-Posterior** (Upward and Backward on posterior ramus border).
+    - Spatial displacement: **Downward and Forward** (Inferior-Anterior).
+  - **Age 6 Growth Milestone**: At age 6, the greatest increase in size of the mandible occurs **distal to the first molar** to provide necessary arch length for the eruption of the second and third molars!
+* **Piezoelectric Theory of Tooth Movement**:
+  - Mechanical deformation of bone creates electric polarization:
+  - **Negative ions (-)** at concave/compression sites -> **Bone Deposition (Osteoblasts)**!
+  - **Positive ions (+)** at convex/tension sites -> **Bone Resorption (Osteoclasts)**!
+* **The 6 Craniofacial Growth Theories**:
+  1. **Genetic Theory**: Growth is strictly predetermined by intrinsic genetic factors.
+  2. **Sicher's Theory (Sutural)**: Sutures of the craniofacial complex are primary growth centers driving bone expansion.
+  3. **Scott's Theory (Cartilage / Nasal Septum)**: Cartilage is the primary pacemaker (nasal septum drives maxilla; condylar cartilage drives mandible).
+  4. **Moss' Theory (Functional Matrix Hypothesis)**: Bone and cartilage have NO innate growth potential; growth is entirely a secondary, compensatory response to functional matrices (brain, eyes, tongue, airway, mastication).
+  5. **Van Limborg's Theory**: Comprehensive synthesis incorporating genetic, cartilaginous, and functional matrix controls.
+  6. **Petrovic's Theory (Servosystem)**: Cybernetic feedback loops and hormonal inputs regulate condylar cartilage growth.
+* **Cranial Base Synchondroses Closure Sequence (Essential Board Timeline)**:
+  - **Intersphenoidal synchondrosis**: Closes **at birth**.
+  - **Intraoccipital synchondrosis**: Closes at **3–5 years old**.
+  - **Spheno-ethmoidal synchondrosis**: Closes at **6–7 years old**.
+  - **Spheno-occipital synchondrosis**: Closes at **18–20 years old** (the primary cranial base growth site that remains active into late adolescence!).
 `;
 
 export default function App() {
@@ -190,7 +307,12 @@ export default function App() {
   });
 
   const [notes, setNotes] = useState(() => {
-    return localStorage.getItem("pb_notes") || DEFAULT_NOTES;
+    const saved = localStorage.getItem("pb_notes");
+    if (!saved || !saved.includes("Craniofacial Growth")) {
+      localStorage.setItem("pb_notes", DEFAULT_NOTES);
+      return DEFAULT_NOTES;
+    }
+    return saved;
   });
 
   const [streak, setStreak] = useState(() => {
