@@ -29,8 +29,13 @@ __pycache__/
 scripts/all_bp_questions.txt
 scripts/boilerplate_questions.json
 scripts/*.png
+scripts/*.jpg
 scripts/*.txt
 scripts/*.json
+scripts/borderline_crops/
+scripts/new_uploads_preview/
+scripts/retake_inspections/
+scripts/verification_pairs/
 
 # Large raw reviewer uploads
 reviewer_book/
