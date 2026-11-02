@@ -7,6 +7,7 @@ import { PracticeMode } from "./components/PracticeMode";
 import { WeaknessFocus } from "./components/WeaknessFocus";
 import { QuestionBank } from "./components/QuestionBank";
 import { NotesCheatSheet } from "./components/NotesCheatSheet";
+import { BookReader } from "./components/BookReader";
 import { GoodNotes } from "./components/GoodNotes";
 import { SettingsModal } from "./components/SettingsModal";
 import { QuickDrills } from "./components/QuickDrills";
@@ -320,6 +321,7 @@ export default function App() {
   });
 
   const [currentTab, setCurrentTab] = useState("dashboard");
+  const [bookTargetPage, setBookTargetPage] = useState(1);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isRewardsOpen, setIsRewardsOpen] = useState(false);
   const [isZenOpen, setIsZenOpen] = useState(false);
@@ -693,11 +695,24 @@ export default function App() {
           />
         )}
 
+        {currentTab === "book" && (
+          <BookReader
+            girlfriendName={girlfriendName}
+            initialPage={bookTargetPage}
+            onOpenCheatSheet={() => setCurrentTab("notes")}
+          />
+        )}
+
         {currentTab === "notes" && (
           <NotesCheatSheet
             girlfriendName={girlfriendName}
             notes={notes}
             onSaveNotes={handleSaveNotes}
+            onSelectTab={setCurrentTab}
+            onNavigateToBookPage={(page) => {
+              setBookTargetPage(page);
+              setCurrentTab("book");
+            }}
           />
         )}
       </main>

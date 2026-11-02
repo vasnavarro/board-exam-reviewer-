@@ -33,6 +33,7 @@ export function Navbar({
     { id: "flashcards", label: "Flashcards", icon: "🗂️" },
     { id: "weakness", label: "Weakness Focus", icon: "🔍" },
     { id: "bank", label: "Question Bank", icon: "📚" },
+    { id: "book", label: "Reviewer Book 📖", icon: "📖" },
     { id: "notes", label: "Cheat Sheet", icon: "📌" },
   ];
 
