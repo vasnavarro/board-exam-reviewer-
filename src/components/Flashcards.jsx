@@ -694,7 +694,7 @@ export function Flashcards({ questions = [], girlfriendName = "Dr. Leane" }) {
             <div className={`flashcard-inner ${isFlipped ? "is-flipped" : ""}`}>
               
               {/* ======================= FRONT FACE ======================= */}
-              <div className="flashcard-face flashcard-front" style={{ position: "relative" }}>
+              <div className="flashcard-face flashcard-front">
                 <div>
                   {/* Top Header Bar */}
                   <div style={{ 
@@ -844,7 +844,7 @@ export function Flashcards({ questions = [], girlfriendName = "Dr. Leane" }) {
               </div>
 
               {/* ======================= BACK FACE ======================= */}
-              <div className="flashcard-face flashcard-back" style={{ position: "relative" }}>
+              <div className="flashcard-face flashcard-back">
                 <div>
                   {/* Top Header Bar */}
                   <div style={{ 
