@@ -3702,7 +3702,7 @@ export const dentalQuestions = [
   {
     "id": "dle-physio-002",
     "category": "General Anatomy & Physiology",
-    "question": "Which structure stabilizes a nasotracheal tube during airway management?",
+    "question": "Stored serotonin in platelets once released will have which of the following effects?",
     "options": [
       "Tourniquet",
       "Cervical collar",
@@ -3710,11 +3710,11 @@ export const dentalQuestions = [
       "Facemask"
     ],
     "correctIndex": 3,
-    "explanation": "Option D (Facemask) is correct because Facemask is a non-invasive interface used to deliver oxygen or inhalation anesthetic gases over the mouth and nose.",
+    "explanation": "Option D (Facemask) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Tourniquet) is incorrect because Tourniquet is a constricting band applied around an extremity to occlude venous return for phlebotomy or arterial flow to control massive limb hemorrhage.",
-      "1": "Option B (Cervical collar) is incorrect because Cervical Collar is an orthopedic stabilization brace used to immobilize the cervical spine following suspected trauma to prevent spinal cord injury.",
-      "2": "Option C (Adhesive tape) is incorrect because Adhesive Tape is the standard clinical method used to secure and stabilize nasotracheal and endotracheal tubes against accidental extubation during surgical procedures."
+      "0": "Option A (Tourniquet) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Cervical collar) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Adhesive tape) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Facemask.",
     "difficulty": "Medium"
@@ -4222,23 +4222,21 @@ export const dentalQuestions = [
   {
     "id": "dle-physio-028",
     "category": "General Anatomy & Physiology",
-    "question": "In a patient with orthopne",
+    "question": "In a patient with orthopnea, which dental position should generally be avoided?",
     "options": [
-      "which dental position should generally be avoided?",
       "Upright position",
       "Semi-supine position",
       "Supine position",
       "Sitting position"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Semi-supine position) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (Supine position) is correct. Patients with orthopnea experience severe dyspnea when lying flat due to pulmonary vascular congestion. The fully supine position must be avoided in dental management; patients should be treated in an upright or semi-supine posture.",
     "distractorRationales": {
-      "0": "Option A (which dental position should generally be avoided?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Upright position) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (Supine position) is ruled out as it represents a distinct clinical entity or classification differing from Semi-supine position.",
-      "4": "Option E (Sitting position) is ruled out as it represents a distinct clinical entity or classification differing from Semi-supine position."
+      "0": "Option A (Upright position) is safe and recommended for patients with orthopnea and congestive heart failure.",
+      "1": "Option B (Semi-supine position) is acceptable if tolerated and does not compromise the airway.",
+      "3": "Option D (Sitting position) keeps hydrostatic pressure low in pulmonary vessels and prevents respiratory distress."
     },
-    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Semi-supine position.",
+    "keyTakeaway": "Orthopnea Dental Management: Never recline patients fully supine. Keep chair upright to semi-supine to prevent pulmonary edema and acute dyspnea.",
     "difficulty": "Easy"
   },
   {
@@ -4328,19 +4326,17 @@ export const dentalQuestions = [
     "options": [
       "Both occur before epiphyseal closure",
       "Both occur after epiphyseal closure",
-      "Acromegaly occurs after epiphyseal closur",
-      "gigantism before closure",
+      "Acromegaly occurs after epiphyseal closure, gigantism before closure",
       "Acromegaly is caused by thyroid hormone excess"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Acromegaly occurs after epiphyseal closur) is correct according to verified Philippine Dental Licensure Examination (DLE) curriculum standards. The factual analysis accurately reflects biological and clinical evidence.",
+    "explanation": "Option C (Acromegaly occurs after epiphyseal closure, gigantism before closure) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Both occur before epiphyseal closure) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Both occur after epiphyseal closure) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (gigantism before closure) is ruled out as it represents a distinct clinical entity or classification differing from Acromegaly occurs after epiphyseal closur.",
-      "4": "Option E (Acromegaly is caused by thyroid hormone excess) is ruled out as it represents a distinct clinical entity or classification differing from Acromegaly occurs after epiphyseal closur."
+      "0": "Option A (Both occur before epiphyseal closure) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Both occur after epiphyseal closure) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Acromegaly is caused by thyroid hormone excess) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Acromegaly occurs after epiphyseal closu.",
+    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Acromegaly occurs after epiphyseal closure, gigantism before closure.",
     "difficulty": "Hard"
   },
   {
@@ -4606,23 +4602,21 @@ export const dentalQuestions = [
   {
     "id": "dle-physio-047",
     "category": "General Anatomy & Physiology",
-    "question": "During ventricular systol",
+    "question": "During ventricular systole, which combination is correct?",
     "options": [
-      "which combination is correct?",
       "AV valves open; semilunar valves closed",
       "AV valves closed; semilunar valves open during ejection",
       "Both valves closed throughout systole",
       "Both valves open simultaneously"
     ],
     "correctIndex": 1,
-    "explanation": "Option B (AV valves open; semilunar valves closed) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option B (AV valves closed; semilunar valves open during ejection) is correct. During ventricular systole, rising intraventricular pressure forces the atrioventricular (mitral and tricuspid) valves shut to prevent regurgitation, and subsequently forces open the semilunar (aortic and pulmonary) valves for rapid blood ejection.",
     "distractorRationales": {
-      "0": "Option A (which combination is correct?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (AV valves closed; semilunar valves open during ejection) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Both valves closed throughout systole) is ruled out as it represents a distinct clinical entity or classification differing from AV valves open; semilunar valves closed.",
-      "4": "Option E (Both valves open simultaneously) is ruled out as it represents a distinct clinical entity or classification differing from AV valves open; semilunar valves closed."
+      "0": "Option A is incorrect because open AV valves occur during ventricular diastole (ventricular filling).",
+      "2": "Option C describes only the brief isovolumetric contraction phase, not the entire ventricular systole.",
+      "3": "Option D is physically impossible in a functioning heart because opposite pressure gradients govern the AV and semilunar valves."
     },
-    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for AV valves open; semilunar valves closed.",
+    "keyTakeaway": "Cardiac Cycle: Ventricular Systole = AV valves closed (produces S1 sound), Semilunar valves open during rapid ejection.",
     "difficulty": "Medium"
   },
   {
@@ -4828,7 +4822,7 @@ export const dentalQuestions = [
   {
     "id": "dle-physio-058",
     "category": "General Anatomy & Physiology",
-    "question": "In the process of coagulation cascad",
+    "question": "In the process of coagulation cascade, clotting factor XII activates clotting factor IX. The activated clotting factor IX will activate clotting factor VIII.",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -4838,9 +4832,9 @@ export const dentalQuestions = [
     "correctIndex": 3,
     "explanation": "Option D (Both statements are false.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (The first statement is true; the second statement is false.) is incorrect because the evaluated statements do not follow a true-then-false pattern under established board benchmarks.",
-      "1": "Option B (The first statement is false; the second statement is true.) is incorrect because the factual validity of the statements differs from this false-then-true configuration.",
-      "2": "Option C (Both statements are true.) is incorrect because at least one of the propositions contains a scientifically inaccurate premise."
+      "0": "Option A (The first statement is true; the second statement is false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (The first statement is false; the second statement is true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Both statements are true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Both statements are false..",
     "difficulty": "Easy"
@@ -4908,23 +4902,21 @@ export const dentalQuestions = [
   {
     "id": "dle-physio-064",
     "category": "General Anatomy & Physiology",
-    "question": "When performing one-man E-C clamp technique during CPR, the index and thumb will form a “C” to ________ then the thir",
+    "question": "When performing one-man E-C clamp technique during CPR, the index and thumb will form a “C” to ________ then the third, fourth and fifth finger will form an “E” to ______",
     "options": [
-      "fourth and fifth finger will form an “E” to ______",
-      "Exert an upward pressure on the mask: apply pressure on the mandible and lift it forwar",
-      "Exert a downward pressure on the mask: apply pressure on the mandible and lift it forwar",
+      "Exert an upward pressure on the mask: apply pressure on the mandible and lift it forward.",
+      "Exert a downward pressure on the mask: apply pressure on the mandible and lift it forward.",
       "Exert an upward pressure on the mask: apply pressure on the mandible and lift it backward",
-      "Exert a downward pressure on the mask: apply pressure on the mandible and lift it backwar"
+      "Exert a downward pressure on the mask: apply pressure on the mandible and lift it backward."
     ],
     "correctIndex": 1,
-    "explanation": "Option B (Exert an upward pressure on the mask: apply pressure on the mandible and lift it forwar) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option B (Exert a downward pressure on the mask: apply pressure on the mandible and lift it forward.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (fourth and fifth finger will form an “E” to ______) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Exert a downward pressure on the mask: apply pressure on the mandible and lift it forwar) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Exert an upward pressure on the mask: apply pressure on the mandible and lift it backward) is ruled out as it represents a distinct clinical entity or classification differing from Exert an upward pressure on the mask: apply pressure on the mandible and lift it forwar.",
-      "4": "Option E (Exert a downward pressure on the mask: apply pressure on the mandible and lift it backwar) is ruled out as it represents a distinct clinical entity or classification differing from Exert an upward pressure on the mask: apply pressure on the mandible and lift it forwar."
+      "0": "Option A (Exert an upward pressure on the mask: apply pressure on the mandible and lift it forward.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Exert an upward pressure on the mask: apply pressure on the mandible and lift it backward) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Exert a downward pressure on the mask: apply pressure on the mandible and lift it backward.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Exert an upward pressure on the mask: ap.",
+    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Exert a downward pressure on the mask: apply pressure on the mandible and lift it forward..",
     "difficulty": "Easy"
   },
   {
@@ -5032,23 +5024,21 @@ export const dentalQuestions = [
   {
     "id": "dle-physio-070",
     "category": "General Anatomy & Physiology",
-    "question": "Hyperventilation will result to all of the following, except on",
+    "question": "Hyperventilation will result to all of the following, except one. Which is it?",
     "options": [
-      "Which is it?",
       "hypocapnia",
       "decreased cerebral blood flow",
       "increased PCO2",
       "respiratory alkalosis"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (decreased cerebral blood flow) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (increased PCO2) is correct as the EXCEPTION. Hyperventilation excessively eliminates carbon dioxide, causing hypocapnia (decreased arterial PCO2), which in turn causes respiratory alkalosis and cerebral arterial vasoconstriction (decreased cerebral perfusion). Increased PCO2 is never caused by hyperventilation.",
     "distractorRationales": {
-      "0": "Option A (Which is it?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (hypocapnia) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (increased PCO2) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "4": "Option E (respiratory alkalosis) is ruled out as it represents a distinct clinical entity or classification differing from decreased cerebral blood flow."
+      "0": "Option A (hypocapnia) is an expected consequence of hyperventilation due to excessive CO2 exhalation.",
+      "1": "Option B (decreased cerebral blood flow) occurs because hypocapnia induces cerebral vasoconstriction.",
+      "3": "Option D (respiratory alkalosis) results from the loss of carbonic acid following CO2 elimination."
     },
-    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for decreased cerebral blood flow.",
+    "keyTakeaway": "Hyperventilation Mechanics: Excessive ventilation -> low PCO2 (hypocapnia) -> respiratory alkalosis -> cerebral vasoconstriction (lightheadedness/dizziness).",
     "difficulty": "Easy"
   },
   {
@@ -5114,23 +5104,21 @@ export const dentalQuestions = [
   {
     "id": "dle-physio-074",
     "category": "General Anatomy & Physiology",
-    "question": "It is the transformation of one mature type of cell into another mature type of cell in a tissu",
+    "question": "It is the transformation of one mature type of cell into another mature type of cell in a tissue. It is commonly due to adaptation of the tissue associated with chronic irritation.",
     "options": [
-      "It is commonly due to adaptation of the tissue associated with chronic irritation.",
       "Metaplasia",
+      "Hyperplasia",
       "Dysplasia",
-      "Anaplasia",
-      "Dysgrasia"
+      "Anaplasia"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (It is commonly due to adaptation of the tissue associated with chronic irritation.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option A (Metaplasia) is correct. Metaplasia is the reversible transformation of one differentiated mature cell type into another mature cell type, commonly occurring as an adaptive response to chronic physical or chemical irritation (e.g. squamous metaplasia in the respiratory tract of cigarette smokers).",
     "distractorRationales": {
-      "1": "Option B (Metaplasia) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Dysplasia) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Anaplasia) is ruled out as it represents a distinct clinical entity or classification differing from It is commonly due to adaptation of the tissue associated with chronic irritation..",
-      "4": "Option E (Dysgrasia) is ruled out as it represents a distinct clinical entity or classification differing from It is commonly due to adaptation of the tissue associated with chronic irritation.."
+      "1": "Option B (Hyperplasia) is an increase in the number of cells in an organ or tissue, resulting in increased organ volume.",
+      "2": "Option C (Dysplasia) is disordered cellular growth and maturation with architectural disorganization, considered premalignant.",
+      "3": "Option D (Anaplasia) is complete lack of differentiation and cellular atypia, a hallmark of malignant neoplasms."
     },
-    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for It is commonly due to adaptation of the .",
+    "keyTakeaway": "Cellular Adaptations: Metaplasia = change from one mature cell type to another. Hyperplasia = increased cell number. Dysplasia = disordered maturation.",
     "difficulty": "Medium"
   },
   {
@@ -5238,23 +5226,21 @@ export const dentalQuestions = [
   {
     "id": "dle-physio-079",
     "category": "General Anatomy & Physiology",
-    "question": "Renin-Angiotensin-Aldosterone System regulates blood volume and electrolytes (especially Sodium) in the bloo",
+    "question": "Renin-Angiotensin-Aldosterone System regulates blood volume and electrolytes (especially Sodium) in the blood. Which of the following is not a stimulus for its activation?",
     "options": [
-      "Which of the following is not a stimulus for its activation?",
       "Sodium deficiency",
       "Blood pressure lower than the average BP of the patient",
       "Decrease blood volume",
       "A sudden increase in the blood pressure 12"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Blood pressure lower than the average BP of the patient) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (Decrease blood volume) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Which of the following is not a stimulus for its activation?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Sodium deficiency) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (Decrease blood volume) is ruled out as it represents a distinct clinical entity or classification differing from Blood pressure lower than the average BP of the patient.",
-      "4": "Option E (A sudden increase in the blood pressure 12) does not match the standardized dimensional or numerical threshold established for this clinical parameter."
+      "0": "Option A (Sodium deficiency) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Blood pressure lower than the average BP of the patient) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (A sudden increase in the blood pressure 12) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Blood pressure lower than the average BP.",
+    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Decrease blood volume.",
     "difficulty": "Easy"
   },
   {
@@ -5300,23 +5286,21 @@ export const dentalQuestions = [
   {
     "id": "dle-physio-082",
     "category": "General Anatomy & Physiology",
-    "question": "The following are directly involved in the process of blood clot formation except on",
+    "question": "The following are directly involved in the process of blood clot formation except one, which is the exception?",
     "options": [
-      "which is the exception?",
       "Fe2+",
       "Prothrombin",
       "Fibrinogen",
       "Stuart"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (which is the exception?) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option A (Fe2+) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Fe2+) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "2": "Option C (Prothrombin) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Fibrinogen) is ruled out as it represents a distinct clinical entity or classification differing from which is the exception?.",
-      "4": "Option E (Stuart) is ruled out as it represents a distinct clinical entity or classification differing from which is the exception?."
+      "1": "Option B (Prothrombin) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Fibrinogen) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Stuart) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for which is the exception?.",
+    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Fe2+.",
     "difficulty": "Easy"
   },
   {
@@ -5342,23 +5326,21 @@ export const dentalQuestions = [
   {
     "id": "dle-physio-084",
     "category": "General Anatomy & Physiology",
-    "question": "A reflex normally seen in infants that happens when the baby’s head is turned to one sid",
+    "question": "A reflex normally seen in infants that happens when the baby’s head is turned to one side. It results to the movement of the arm on that side to stretch out and the opposite arm to bend up at the elbow.",
     "options": [
-      "It results to the movement of the arm on that side to stretch out and the opposite arm to bend up at the elbow.",
       "Babinski reflex",
       "Fencing reflex",
       "Moro reflex",
       "Rooting reflex"
     ],
     "correctIndex": 1,
-    "explanation": "Option B (Babinski reflex) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option B (Fencing reflex / Asymmetrical Tonic Neck Reflex) is correct. When an infant's head is turned to one side, the arm on the side the head is facing extends straight out, while the opposite arm bends up at the elbow, assuming a fencing posture. It typically disappears by 4 to 6 months of age.",
     "distractorRationales": {
-      "0": "Option A (It results to the movement of the arm on that side to stretch out and the opposite arm to bend up at the elbow.) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Fencing reflex) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Moro reflex) is ruled out as it represents a distinct clinical entity or classification differing from Babinski reflex.",
-      "4": "Option E (Rooting reflex) is ruled out as it represents a distinct clinical entity or classification differing from Babinski reflex."
+      "0": "Option A (Babinski reflex) is dorsiflexion of the hallux with fanning of the lesser toes upon stroking the lateral plantar surface of the foot.",
+      "2": "Option C (Moro reflex) is the infant startle response where sudden lack of support causes abduction and extension of the arms followed by adduction and crying.",
+      "3": "Option D (Rooting reflex) is automatic head turning and sucking when the infant's cheek or corner of the mouth is gently stroked."
     },
-    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Babinski reflex.",
+    "keyTakeaway": "Infant Primitive Reflexes: Fencing reflex (ATNR) = head turned to side -> ipsilateral arm extends, contralateral arm flexes. Babinski = upward toe extension. Moro = startle embrace reflex.",
     "difficulty": "Hard"
   },
   {
@@ -5408,19 +5390,17 @@ export const dentalQuestions = [
     "options": [
       "The iris dilates the lens, allowing less light to enter the eye",
       "The iris constricts the lens, allowing less light to enter the eye",
-      "The iris initially remains constricte",
-      "allowing less light to enter the eye until the pupil gradually dilates",
+      "The iris initially remains constricted, allowing less light to enter the eye until the pupil gradually dilates",
       "The iris constricts the pupil, allowing more light to enter the eye"
     ],
-    "correctIndex": 4,
-    "explanation": "Option E (The iris constricts the pupil, allowing more light to enter the eye) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "correctIndex": 3,
+    "explanation": "Option D (The iris constricts the pupil, allowing more light to enter the eye) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (The iris dilates the lens, allowing less light to enter the eye) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (The iris constricts the lens, allowing less light to enter the eye) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (The iris initially remains constricte) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (allowing less light to enter the eye until the pupil gradually dilates) is ruled out as it represents a distinct clinical entity or classification differing from The iris constricts the pupil, allowing more light to enter the eye."
+      "0": "Option A (The iris dilates the lens, allowing less light to enter the eye) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (The iris constricts the lens, allowing less light to enter the eye) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (The iris initially remains constricted, allowing less light to enter the eye until the pupil gradually dilates) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The iris constricts the pupil, allowing .",
+    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The iris constricts the pupil, allowing more light to enter the eye.",
     "difficulty": "Hard"
   },
   {
@@ -5446,7 +5426,7 @@ export const dentalQuestions = [
   {
     "id": "dle-physio-089",
     "category": "General Anatomy & Physiology",
-    "question": "In the general circulation, blood pressure is lowest in Vena cav",
+    "question": "In the general circulation, blood pressure is lowest in Vena cava, and highest in the Aorta.",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -5456,11 +5436,11 @@ export const dentalQuestions = [
     "correctIndex": 0,
     "explanation": "Option A (The first statement is true; the second statement is false.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (The first statement is false; the second statement is true.) is incorrect because the factual validity of the statements differs from this false-then-true configuration.",
-      "2": "Option C (Both statements are true.) is incorrect because at least one of the propositions contains a scientifically inaccurate premise.",
-      "3": "Option D (Both statements are false.) is incorrect because verified factual premises exist in the clinical statement."
+      "1": "Option B (The first statement is false; the second statement is true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Both statements are true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Both statements are false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is true; the second .",
+    "keyTakeaway": "General Anatomy & Physiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is true; the second statement is false..",
     "difficulty": "Medium"
   },
   {
@@ -5842,23 +5822,21 @@ export const dentalQuestions = [
   {
     "id": "dle-pharma-009",
     "category": "Pharmacology & Anesthesiology",
-    "question": "An elderly patient with severe liver impairment requires anxiolytic therapy before a dental procedur",
+    "question": "An elderly patient with severe liver impairment requires anxiolytic therapy before a dental procedure. Which benzodiazepine is preferred because it undergoes direct conjugation and does not require oxidative hepatic metabolism?",
     "options": [
-      "Which benzodiazepine is preferred because it undergoes direct conjugation and does not require oxidative hepatic metabolism?",
       "Oxazepam",
       "Diazepam",
       "Alprazolam",
       "Midazolam"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (Which benzodiazepine is preferred because it undergoes direct conjugation and does not require oxidative hepatic metabolism?) is correct because Red is the DOH color code for sharps containers (puncture-proof receptacles for used needles, scalpel blades, and carpules).",
+    "explanation": "Option A (Oxazepam) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Oxazepam) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Diazepam) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Alprazolam) is ruled out as it represents a distinct clinical entity or classification differing from Which benzodiazepine is preferred because it undergoes direct conjugation and does not require oxidative hepatic metabolism?.",
-      "4": "Option E (Midazolam) is ruled out as it represents a distinct clinical entity or classification differing from Which benzodiazepine is preferred because it undergoes direct conjugation and does not require oxidative hepatic metabolism?."
+      "1": "Option B (Diazepam) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Alprazolam) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Midazolam) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Which benzodiazepine is preferred becaus.",
+    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Oxazepam.",
     "difficulty": "Hard"
   },
   {
@@ -6084,67 +6062,61 @@ export const dentalQuestions = [
   {
     "id": "dle-pharma-021",
     "category": "Pharmacology & Anesthesiology",
-    "question": "A patient presents with acute streptococcal pharyngitis confirmed by cultur",
+    "question": "A patient presents with acute streptococcal pharyngitis confirmed by culture. Which medication remains the drug of choice for treatment?",
     "options": [
-      "Which medication remains the drug of choice for treatment?",
       "Penicillin",
       "Fluconazole",
       "Metronidazole",
       "Acyclovir"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (Which medication remains the drug of choice for treatment?) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option A (Penicillin) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Penicillin) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Fluconazole) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Metronidazole) is ruled out as it represents a distinct clinical entity or classification differing from Which medication remains the drug of choice for treatment?.",
-      "4": "Option E (Acyclovir) is ruled out as it represents a distinct clinical entity or classification differing from Which medication remains the drug of choice for treatment?."
+      "1": "Option B (Fluconazole) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Metronidazole) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Acyclovir) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Which medication remains the drug of cho.",
+    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Penicillin.",
     "difficulty": "Hard"
   },
   {
     "id": "dle-pharma-022",
     "category": "Pharmacology & Anesthesiology",
-    "question": "Sildenafil (Viagr",
+    "question": "Sildenafil (Viagra) is used for which of the following conditions?",
     "options": [
-      "is used for which of the following conditions?",
       "Asthma",
       "Depression",
       "Hyperglycemia",
       "Hypertension 4"
     ],
     "correctIndex": 3,
-    "explanation": "Option D (Hyperglycemia) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option D (Hypertension 4) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (is used for which of the following conditions?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Asthma) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Depression) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "4": "Option E (Hypertension 4) does not match the standardized dimensional or numerical threshold established for this clinical parameter."
+      "0": "Option A (Asthma) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Depression) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Hyperglycemia) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Hyperglycemia.",
+    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Hypertension 4.",
     "difficulty": "Easy"
   },
   {
     "id": "dle-pharma-023",
     "category": "Pharmacology & Anesthesiology",
-    "question": "The following are calcium channel blockers except on",
+    "question": "The following are calcium channel blockers except one. Which is it?",
     "options": [
-      "Which is it?",
       "Verapamil",
       "Nifedipine",
       "Imipenem",
       "Diltiazem"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Nifedipine) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (Imipenem) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Which is it?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Verapamil) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (Imipenem) is ruled out as it represents a distinct clinical entity or classification differing from Nifedipine.",
-      "4": "Option E (Diltiazem) is ruled out as it represents a distinct clinical entity or classification differing from Nifedipine."
+      "0": "Option A (Verapamil) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Nifedipine) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Diltiazem) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Nifedipine.",
+    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Imipenem.",
     "difficulty": "Medium"
   },
   {
@@ -6230,23 +6202,21 @@ export const dentalQuestions = [
   {
     "id": "dle-pharma-028",
     "category": "Pharmacology & Anesthesiology",
-    "question": "Among the following inhalational anesthetic agents, which is considered the weakest anesthetic based on minimum alveolar concentration (MA",
+    "question": "Among the following inhalational anesthetic agents, which is considered the weakest anesthetic based on minimum alveolar concentration (MAC) and anesthetic potency?",
     "options": [
-      "and anesthetic potency?",
       "Halothane",
       "Nitrous oxide",
       "Isoflurane",
       "Sevoflurane"
     ],
     "correctIndex": 1,
-    "explanation": "Option B (Halothane) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option B (Nitrous oxide) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (and anesthetic potency?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Nitrous oxide) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Isoflurane) is ruled out as it represents a distinct clinical entity or classification differing from Halothane.",
-      "4": "Option E (Sevoflurane) is ruled out as it represents a distinct clinical entity or classification differing from Halothane."
+      "0": "Option A (Halothane) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Isoflurane) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Sevoflurane) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Halothane.",
+    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Nitrous oxide.",
     "difficulty": "Easy"
   },
   {
@@ -6352,29 +6322,27 @@ export const dentalQuestions = [
   {
     "id": "dle-pharma-034",
     "category": "Pharmacology & Anesthesiology",
-    "question": "When inducing general anesthesi",
+    "question": "When inducing general anesthesia, the effects of the general anesthetic agent is seen to least affect which of the?",
     "options": [
-      "the effects of the general anesthetic agent is seen to least affect which of the?",
       "Cerebrum",
       "Cerebellum",
       "Medulla",
       "Midbrain"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Cerebellum) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (Medulla) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (the effects of the general anesthetic agent is seen to least affect which of the?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Cerebrum) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (Medulla) is ruled out as it represents a distinct clinical entity or classification differing from Cerebellum.",
-      "4": "Option E (Midbrain) is ruled out as it represents a distinct clinical entity or classification differing from Cerebellum."
+      "0": "Option A (Cerebrum) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Cerebellum) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Midbrain) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Cerebellum.",
+    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Medulla.",
     "difficulty": "Easy"
   },
   {
     "id": "dle-pharma-035",
     "category": "Pharmacology & Anesthesiology",
-    "question": "1st generation antipsychotic is not uncommonly associated with extrapyramidal syndromes. Example of this class of antipsychotic is clozapin",
+    "question": "1st generation antipsychotic is not uncommonly associated with extrapyramidal syndromes. Example of this class of antipsychotic is clozapine.",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -6384,9 +6352,9 @@ export const dentalQuestions = [
     "correctIndex": 2,
     "explanation": "Option C (Both statements are true.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (The first statement is true; the second statement is false.) is incorrect because the evaluated statements do not follow a true-then-false pattern under established board benchmarks.",
-      "1": "Option B (The first statement is false; the second statement is true.) is incorrect because the factual validity of the statements differs from this false-then-true configuration.",
-      "3": "Option D (Both statements are false.) is incorrect because verified factual premises exist in the clinical statement."
+      "0": "Option A (The first statement is true; the second statement is false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (The first statement is false; the second statement is true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Both statements are false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Both statements are true..",
     "difficulty": "Medium"
@@ -6394,23 +6362,21 @@ export const dentalQuestions = [
   {
     "id": "dle-pharma-036",
     "category": "Pharmacology & Anesthesiology",
-    "question": "Levodop",
+    "question": "Levodopa, amantadine and carbidopa are drugs used to treat which of the following conditions?",
     "options": [
-      "amantadine and carbidopa are drugs used to treat which of the following conditions?",
       "Depression",
       "Parkinsonism",
       "Schizophrenia",
       "Bipolar disorder"
     ],
     "correctIndex": 1,
-    "explanation": "Option B (Depression) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option B (Parkinsonism) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (amantadine and carbidopa are drugs used to treat which of the following conditions?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Parkinsonism) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Schizophrenia) is ruled out as it represents a distinct clinical entity or classification differing from Depression.",
-      "4": "Option E (Bipolar disorder) is ruled out as it represents a distinct clinical entity or classification differing from Depression."
+      "0": "Option A (Depression) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Schizophrenia) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Bipolar disorder) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Depression.",
+    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Parkinsonism.",
     "difficulty": "Hard"
   },
   {
@@ -6556,7 +6522,7 @@ export const dentalQuestions = [
   {
     "id": "dle-pharma-044",
     "category": "Pharmacology & Anesthesiology",
-    "question": "Which of the following statements regarding Clindamycin is TRUE?",
+    "question": "The following are not true statements regarding Clindamycin and only one is not false. Which is not an untrue statement that describes Clindamycin?",
     "options": [
       "It is a cell wall synthesis inhibitor",
       "It doesn’t penetrate the bone tissue well",
@@ -6565,14 +6531,14 @@ export const dentalQuestions = [
       "Its clinical use in dentistry is primarily for anaerobic infections"
     ],
     "correctIndex": 4,
-    "explanation": "Clindamycin is a lincosamide antibiotic that reversibly binds to the 50S ribosomal subunit. In dentistry, it is highly prized for its exceptional bone penetration (reaching 50-70% of serum levels in cortical bone) and potent bactericidal/bacteriostatic action against oral anaerobes (Bacteroides, Fusobacterium, Peptostreptococcus) in penicillin-allergic patients.",
+    "explanation": "Option E (Its clinical use in dentistry is primarily for anaerobic infections) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A is incorrect because Clindamycin inhibits 50S bacterial protein synthesis; penicillins and cephalosporins inhibit cell wall peptidoglycan synthesis.",
-      "1": "Option B is incorrect because Clindamycin exhibits outstanding penetration into bone and osseous tissues, making it an agent of choice in osteomyelitis.",
-      "2": "Option C is contraindicated because Clindamycin and Erythromycin compete for the exact same 50S binding site, resulting in mutual antagonism.",
-      "3": "Option D is incorrect because Clindamycin has no activity against aerobic Gram-negative bacilli (Pseudomonas, E. coli); it targets Gram-positive cocci and anaerobes."
+      "0": "Option A (It is a cell wall synthesis inhibitor) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (It doesn’t penetrate the bone tissue well) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (It is usually given together with erythromycin for more effective treatment) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (It is effective against gram-negative aerobic enteric bacteria only) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Clindamycin Pearl: 50S ribosome inhibitor; high bone penetration; drug of choice for severe odontogenic anaerobes in penicillin-allergic patients.",
+    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Its clinical use in dentistry is primarily for anaerobic infections.",
     "difficulty": "Medium"
   },
   {
@@ -6581,20 +6547,18 @@ export const dentalQuestions = [
     "question": "Why is 2% lidocaine with 1:100,000 epinephrine considered the gold standard local anesthetic formulation in dentistry?",
     "options": [
       "It has the shortest duration of action.",
-      "It is the least toxic anesthetic availabl",
-      "It provides an excellent balance of safety, anesthesi",
-      "and hemostasis.",
+      "It is the least toxic anesthetic available.",
+      "It provides an excellent balance of safety, anesthesia, and hemostasis.",
       "It is effective without nerve block techniques."
     ],
     "correctIndex": 2,
-    "explanation": "Option C (It provides an excellent balance of safety, anesthesi) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (It provides an excellent balance of safety, anesthesia, and hemostasis.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (It has the shortest duration of action.) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (It is the least toxic anesthetic availabl) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (and hemostasis.) is ruled out as it represents a distinct clinical entity or classification differing from It provides an excellent balance of safety, anesthesi.",
-      "4": "Option E (It is effective without nerve block techniques.) provides sensory or motor innervation to a different anatomical territory."
+      "0": "Option A (It has the shortest duration of action.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (It is the least toxic anesthetic available.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (It is effective without nerve block techniques.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for It provides an excellent balance of safe.",
+    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for It provides an excellent balance of safety, anesthesia, and hemostasis..",
     "difficulty": "Hard"
   },
   {
@@ -6682,23 +6646,21 @@ export const dentalQuestions = [
   {
     "id": "dle-pharma-050",
     "category": "Pharmacology & Anesthesiology",
-    "question": "A patient with advanced liver cirrhosis requires dental treatment under local anesthesi",
+    "question": "A patient with advanced liver cirrhosis requires dental treatment under local anesthesia. Which anesthetic is preferred because it is primarily metabolized by plasma esterases?",
     "options": [
-      "Which anesthetic is preferred because it is primarily metabolized by plasma esterases?",
       "Lidocaine",
       "Mepivacaine",
       "Bupivacaine",
       "Articaine"
     ],
     "correctIndex": 3,
-    "explanation": "Option D (Bupivacaine) is correct because Bupivacaine is a long-acting amino-amide local anesthetic (0.5% with 1:200,000 epinephrine) with high protein binding (95%) and prolonged duration (up to 8-12 hours for post-op analgesia).",
+    "explanation": "Option D (Articaine) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Which anesthetic is preferred because it is primarily metabolized by plasma esterases?) is incorrect because Red is the DOH color code for sharps containers (puncture-proof receptacles for used needles, scalpel blades, and carpules).",
-      "1": "Option B (Lidocaine) is incorrect because Lidocaine is the prototypical amino-amide local anesthetic (2% with 1:100,000 epinephrine; max safe dose 4.4 mg/kg up to 300 mg plain, or 7.0 mg/kg up to 500 mg with epi).",
-      "2": "Option C (Mepivacaine) is incorrect because Mepivacaine is an amino-amide anesthetic (3% plain or 2% with 1:20,000 levonordefrin) that produces minimal intrinsic vasodilation, making 3% plain the agent of choice when epinephrine is contraindicated.",
-      "4": "Option E (Articaine) is incorrect because Articaine is an amino-amide containing a thiophene ring and an ester side-chain, conferring high lipid solubility and enabling 90-95% rapid hydrolysis by plasma carboxylesterases."
+      "0": "Option A (Lidocaine) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Mepivacaine) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Bupivacaine) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Bupivacaine.",
+    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Articaine.",
     "difficulty": "Medium"
   },
   {
@@ -6888,23 +6850,21 @@ export const dentalQuestions = [
   {
     "id": "dle-pharma-060",
     "category": "Pharmacology & Anesthesiology",
-    "question": "The following are included in Aminoglycoside class of antibiotic except on",
+    "question": "The following are included in Aminoglycoside class of antibiotic except one. Which is it?",
     "options": [
-      "Which is it?",
       "Streptomycin",
       "Aminomycin",
       "Gentamicin",
       "Tobramycin"
     ],
     "correctIndex": 1,
-    "explanation": "Option B (Streptomycin) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option B (Aminomycin) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Which is it?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Aminomycin) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Gentamicin) is ruled out as it represents a distinct clinical entity or classification differing from Streptomycin.",
-      "4": "Option E (Tobramycin) is ruled out as it represents a distinct clinical entity or classification differing from Streptomycin."
+      "0": "Option A (Streptomycin) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Gentamicin) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Tobramycin) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Streptomycin.",
+    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Aminomycin.",
     "difficulty": "Hard"
   },
   {
@@ -7050,7 +7010,7 @@ export const dentalQuestions = [
   {
     "id": "dle-pharma-068",
     "category": "Pharmacology & Anesthesiology",
-    "question": "Peripheral neuropathy is seen in patients given nitrous oxide and isoniazi",
+    "question": "Peripheral neuropathy is seen in patients given nitrous oxide and isoniazid. This is due to vitamin B9 deficiency.",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -7060,9 +7020,9 @@ export const dentalQuestions = [
     "correctIndex": 2,
     "explanation": "Option C (Both statements are true.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (The first statement is true; the second statement is false.) is incorrect because the evaluated statements do not follow a true-then-false pattern under established board benchmarks.",
-      "1": "Option B (The first statement is false; the second statement is true.) is incorrect because the factual validity of the statements differs from this false-then-true configuration.",
-      "3": "Option D (Both statements are false.) is incorrect because verified factual premises exist in the clinical statement."
+      "0": "Option A (The first statement is true; the second statement is false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (The first statement is false; the second statement is true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Both statements are false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Both statements are true..",
     "difficulty": "Medium"
@@ -7150,23 +7110,21 @@ export const dentalQuestions = [
   {
     "id": "dle-pharma-073",
     "category": "Pharmacology & Anesthesiology",
-    "question": "All are byproducts of the cyclooxygenase pathway except on",
+    "question": "All are byproducts of the cyclooxygenase pathway except one. Which is it?",
     "options": [
-      "Which is it?",
       "Leukotrienes",
       "Prostaglandins",
       "Prostacyclin",
       "Thromboxane A2"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (Which is it?) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option A (Leukotrienes) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Leukotrienes) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Prostaglandins) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Prostacyclin) is ruled out as it represents a distinct clinical entity or classification differing from Which is it?.",
-      "4": "Option E (Thromboxane A2) does not match the standardized dimensional or numerical threshold established for this clinical parameter."
+      "1": "Option B (Prostaglandins) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Prostacyclin) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Thromboxane A2) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Which is it?.",
+    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Leukotrienes.",
     "difficulty": "Easy"
   },
   {
@@ -7274,23 +7232,21 @@ export const dentalQuestions = [
   {
     "id": "dle-pharma-080",
     "category": "Pharmacology & Anesthesiology",
-    "question": "This is the mechanism of action of bacteriostatic antibioti",
+    "question": "This is the mechanism of action of bacteriostatic antibiotic, sulfonamide",
     "options": [
-      "sulfonamide",
       "It prevents the microorganism from using oxygen",
       "It disrupts the cellular membrane",
       "It competes with PABA in folic acid synthesis",
       "It coagulates bacterial proteins"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (It disrupts the cellular membrane) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (It competes with PABA in folic acid synthesis) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (sulfonamide) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (It prevents the microorganism from using oxygen) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (It competes with PABA in folic acid synthesis) is ruled out as it represents a distinct clinical entity or classification differing from It disrupts the cellular membrane.",
-      "4": "Option E (It coagulates bacterial proteins) is an alternate microbial taxon with different Gram-staining, morphology, virulence factors, or clinical manifestations."
+      "0": "Option A (It prevents the microorganism from using oxygen) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (It disrupts the cellular membrane) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (It coagulates bacterial proteins) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for It disrupts the cellular membrane.",
+    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for It competes with PABA in folic acid synthesis.",
     "difficulty": "Medium"
   },
   {
@@ -7416,7 +7372,7 @@ export const dentalQuestions = [
   {
     "id": "dle-pharma-087",
     "category": "Pharmacology & Anesthesiology",
-    "question": "An infection makes the local environment alkalin",
+    "question": "An infection makes the local environment alkaline. An alkaline pH results to more ionized form of local anesthetics causing them to be less effective.",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -7426,11 +7382,11 @@ export const dentalQuestions = [
     "correctIndex": 1,
     "explanation": "Option B (The first statement is false; the second statement is true.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (The first statement is true; the second statement is false.) is incorrect because the evaluated statements do not follow a true-then-false pattern under established board benchmarks.",
-      "2": "Option C (Both statements are true.) is incorrect because at least one of the propositions contains a scientifically inaccurate premise.",
-      "3": "Option D (Both statements are false.) is incorrect because verified factual premises exist in the clinical statement."
+      "0": "Option A (The first statement is true; the second statement is false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Both statements are true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Both statements are false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is false; the second.",
+    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is false; the second statement is true..",
     "difficulty": "Hard"
   },
   {
@@ -7656,23 +7612,21 @@ export const dentalQuestions = [
   {
     "id": "dle-pharma-099",
     "category": "Pharmacology & Anesthesiology",
-    "question": "Correct statements about procaine include all of the following, except on",
+    "question": "Correct statements about procaine include all of the following, except one. Which is it?",
     "options": [
-      "Which is it?",
       "It has an ester linkage",
       "It is relatively long-acting",
       "It interferes with sodium influx during deposition",
       "Its metabolic product can inhibit the action of sulfonamide"
     ],
     "correctIndex": 1,
-    "explanation": "Option B (It has an ester linkage) is correct according to verified Philippine Dental Licensure Examination (DLE) curriculum standards. The factual analysis accurately reflects biological and clinical evidence.",
+    "explanation": "Option B (It is relatively long-acting) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Which is it?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (It is relatively long-acting) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (It interferes with sodium influx during deposition) is ruled out as it represents a distinct clinical entity or classification differing from It has an ester linkage.",
-      "4": "Option E (Its metabolic product can inhibit the action of sulfonamide) is ruled out as it represents a distinct clinical entity or classification differing from It has an ester linkage."
+      "0": "Option A (It has an ester linkage) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (It interferes with sodium influx during deposition) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Its metabolic product can inhibit the action of sulfonamide) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for It has an ester linkage.",
+    "keyTakeaway": "Pharmacology & Anesthesiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for It is relatively long-acting.",
     "difficulty": "Hard"
   },
   {
@@ -7846,7 +7800,7 @@ export const dentalQuestions = [
   {
     "id": "dle-ortho-008",
     "category": "Orthodontics & Pediatric Dentistry",
-    "question": "A technique to assess tooth size discrepancy that determines the ratio or proportion of the mesiodistal widths of the maxillary teeth to the mandibular teeth using a certain formul",
+    "question": "A technique to assess tooth size discrepancy that determines the ratio or proportion of the mesiodistal widths of the maxillary teeth to the mandibular teeth using a certain formula.",
     "options": [
       "MDA",
       "Bolton’s analysis",
@@ -7856,9 +7810,9 @@ export const dentalQuestions = [
     "correctIndex": 1,
     "explanation": "Option B (Bolton’s analysis) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (MDA) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Howe’s analysis) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Pont’s index) is ruled out as it represents a distinct clinical entity or classification differing from Bolton’s analysis."
+      "0": "Option A (MDA) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Howe’s analysis) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Pont’s index) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Bolton’s analysis.",
     "difficulty": "Medium"
@@ -7970,23 +7924,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ortho-014",
     "category": "Orthodontics & Pediatric Dentistry",
-    "question": "A child who is reluctant to accept treatment, exhibit negative attitud",
+    "question": "A child who is reluctant to accept treatment, exhibit negative attitude, but not so pronounced is classified under Frankl?",
     "options": [
-      "but not so pronounced is classified under Frankl?",
       "I",
       "II",
       "III",
       "IV"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (II) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (III) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (but not so pronounced is classified under Frankl?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (I) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (III) is ruled out as it represents a distinct clinical entity or classification differing from II.",
-      "4": "Option E (IV) is ruled out as it represents a distinct clinical entity or classification differing from II."
+      "0": "Option A (I) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (II) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (IV) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for II.",
+    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for III.",
     "difficulty": "Medium"
   },
   {
@@ -8150,45 +8102,41 @@ export const dentalQuestions = [
   {
     "id": "dle-ortho-023",
     "category": "Orthodontics & Pediatric Dentistry",
-    "question": "Frankfort horizontal is a reference plane constructe",
+    "question": "Frankfort horizontal is a reference plane constructed, by joining which of the following landmarks?",
     "options": [
-      "by joining which of the following landmarks?",
       "Porion & Sella",
       "Porion & Nasion",
       "Porion & Orbitale",
       "Nasion & Sella"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Porion & Nasion) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (Porion & Orbitale) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (by joining which of the following landmarks?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Porion & Sella) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (Porion & Orbitale) is ruled out as it represents a distinct clinical entity or classification differing from Porion & Nasion.",
-      "4": "Option E (Nasion & Sella) is ruled out as it represents a distinct clinical entity or classification differing from Porion & Nasion."
+      "0": "Option A (Porion & Sella) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Porion & Nasion) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Nasion & Sella) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Porion & Nasion.",
+    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Porion & Orbitale.",
     "difficulty": "Medium"
   },
   {
     "id": "dle-ortho-024",
     "category": "Orthodontics & Pediatric Dentistry",
-    "question": "Following extraction of the mandibular primary second molar in a 3 ½ year old chil",
+    "question": "Following extraction of the mandibular primary second molar in a 3 ½ year old child, the treatment of choice is to",
     "options": [
-      "the treatment of choice is to",
       "Place a removable appliance to replace the extracted tooth",
       "Allow the permanent first molar to erupt and then maintain space for the premolar",
       "Place a fixed appliance to guide the eruption of the permanent first molar",
       "Place a removable appliance to replace the extracted tooth and prevent elongation of the opposing primary molar"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Allow the permanent first molar to erupt and then maintain space for the premolar) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (Place a fixed appliance to guide the eruption of the permanent first molar) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (the treatment of choice is to) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Place a removable appliance to replace the extracted tooth) refers to a different tooth position characterized by distinct developmental timing, crown morphology, and root anatomy.",
-      "3": "Option D (Place a fixed appliance to guide the eruption of the permanent first molar) refers to a different tooth position characterized by distinct developmental timing, crown morphology, and root anatomy.",
-      "4": "Option E (Place a removable appliance to replace the extracted tooth and prevent elongation of the opposing primary molar) refers to a different tooth position characterized by distinct developmental timing, crown morphology, and root anatomy."
+      "0": "Option A (Place a removable appliance to replace the extracted tooth) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Allow the permanent first molar to erupt and then maintain space for the premolar) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Place a removable appliance to replace the extracted tooth and prevent elongation of the opposing primary molar) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Allow the permanent first molar to erupt.",
+    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Place a fixed appliance to guide the eruption of the permanent first molar.",
     "difficulty": "Hard"
   },
   {
@@ -8234,23 +8182,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ortho-027",
     "category": "Orthodontics & Pediatric Dentistry",
-    "question": "The crown of a maxillary central incisor is being tipped labially. During the process of tooth movement, the position of the apex is maintaine",
+    "question": "The crown of a maxillary central incisor is being tipped labially. During the process of tooth movement, the position of the apex is maintained. This is an example of _________",
     "options": [
-      "This is an example of _________",
       "Controlled tipping",
       "Uncontrolled tipping",
       "Labial torque",
       "Crown torque"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (This is an example of _________) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option A (Controlled tipping) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Controlled tipping) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Uncontrolled tipping) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Labial torque) is ruled out as it represents a distinct clinical entity or classification differing from This is an example of _________.",
-      "4": "Option E (Crown torque) is ruled out as it represents a distinct clinical entity or classification differing from This is an example of _________."
+      "1": "Option B (Uncontrolled tipping) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Labial torque) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Crown torque) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for This is an example of _________.",
+    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Controlled tipping.",
     "difficulty": "Hard"
   },
   {
@@ -8438,23 +8384,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ortho-037",
     "category": "Orthodontics & Pediatric Dentistry",
-    "question": "A maxillary lateral incisor that is erupting is observed to be lingually locked between the central incisor and canin",
+    "question": "A maxillary lateral incisor that is erupting is observed to be lingually locked between the central incisor and canine. Which of the following is the best treatment of choice?",
     "options": [
-      "Which of the following is the best treatment of choice?",
       "Refer to an orthodontist",
       "Observe",
       "Tongue blade",
       "Extract the deciduous canine"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (Which of the following is the best treatment of choice?) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option A (Refer to an orthodontist) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Refer to an orthodontist) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Observe) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Tongue blade) is ruled out as it represents a distinct clinical entity or classification differing from Which of the following is the best treatment of choice?.",
-      "4": "Option E (Extract the deciduous canine) refers to a different tooth position characterized by distinct developmental timing, crown morphology, and root anatomy."
+      "1": "Option B (Observe) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Tongue blade) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Extract the deciduous canine) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Which of the following is the best treat.",
+    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Refer to an orthodontist.",
     "difficulty": "Easy"
   },
   {
@@ -8520,7 +8464,7 @@ export const dentalQuestions = [
   {
     "id": "dle-ortho-041",
     "category": "Orthodontics & Pediatric Dentistry",
-    "question": "According to the principle of primary molar relationship. If there is a mesial step, the permanent first molars will have an initial relationship of ___________ assuming that there is relatively equal growth between maxilla and mandibl",
+    "question": "According to the principle of primary molar relationship. If there is a mesial step, the permanent first molars will have an initial relationship of ___________ assuming that there is relatively equal growth between maxilla and mandible.",
     "options": [
       "Class I",
       "Class II",
@@ -8530,9 +8474,9 @@ export const dentalQuestions = [
     "correctIndex": 0,
     "explanation": "Option A (Class I) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Class II) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Class III) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Cusp to cusp) is ruled out as it represents a distinct clinical entity or classification differing from Class I."
+      "1": "Option B (Class II) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Class III) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Cusp to cusp) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Class I.",
     "difficulty": "Medium"
@@ -8560,23 +8504,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ortho-043",
     "category": "Orthodontics & Pediatric Dentistry",
-    "question": "When the tooth is being translate",
+    "question": "When the tooth is being translated, the center of rotation is ______",
     "options": [
-      "the center of rotation is ______",
       "Apex of the root",
       "Infinity",
       "Center of the root",
       "Fulcrum"
     ],
     "correctIndex": 1,
-    "explanation": "Option B (Apex of the root) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option B (Infinity) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (the center of rotation is ______) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Infinity) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Center of the root) is ruled out as it represents a distinct clinical entity or classification differing from Apex of the root.",
-      "4": "Option E (Fulcrum) is ruled out as it represents a distinct clinical entity or classification differing from Apex of the root."
+      "0": "Option A (Apex of the root) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Center of the root) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Fulcrum) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Apex of the root.",
+    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Infinity.",
     "difficulty": "Easy"
   },
   {
@@ -8647,16 +8589,14 @@ export const dentalQuestions = [
       "Skeletal class I malocclusion",
       "Skeletal class II malocclusion",
       "Skeletal class III malocclusion",
-      "Non",
-      "The child has normal development"
+      "None. The child has normal development"
     ],
     "correctIndex": 2,
     "explanation": "Option C (Skeletal class III malocclusion) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Skeletal class I malocclusion) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Skeletal class II malocclusion) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (Non) is ruled out as it represents a distinct clinical entity or classification differing from Skeletal class III malocclusion.",
-      "4": "Option E (The child has normal development) is ruled out as it represents a distinct clinical entity or classification differing from Skeletal class III malocclusion."
+      "0": "Option A (Skeletal class I malocclusion) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Skeletal class II malocclusion) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (None. The child has normal development) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Skeletal class III malocclusion.",
     "difficulty": "Medium"
@@ -8786,7 +8726,7 @@ export const dentalQuestions = [
   {
     "id": "dle-ortho-054",
     "category": "Orthodontics & Pediatric Dentistry",
-    "question": "A 9-year-old child with his parent comes into your clinic. Beside the maxillary laterals are the primary canines. There is a 1mm maxillary midline diastema and distal axial inclination of central incisors. Which of the following is most probably true regarding the case?",
+    "question": "A 9-year-old child with his parent comes into your clinic for routine dental examination. Upon examination, the permanent maxillary central and lateral incisors are already erupted. Beside the maxillary laterals are the primary canines. There is also a 1mm midline diastema. Which of the following is most probably true regarding the case of the patient?",
     "options": [
       "The patient has a persistent thumb-sucking habit requiring intervention",
       "There is a high chance of a mesiodens present between teeth 11 and 21",
@@ -8794,35 +8734,33 @@ export const dentalQuestions = [
       "The child is exhibiting normal physiological dental development (Ugly Duckling stage)"
     ],
     "correctIndex": 3,
-    "explanation": "This clinical presentation describes Broadbent's 'Ugly Duckling' stage (transient physiological malocclusion) occurring typically between ages 7 and 11. As the unerupted permanent maxillary canines develop and descend, their crowns press against the roots of the lateral incisors, tilting lateral and central incisor crowns distally and causing a physiological midline diastema. As the canines fully erupt into the arch, the diastema spontaneously closes without treatment.",
+    "explanation": "Option D (The child is exhibiting normal physiological dental development (Ugly Duckling stage)) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A is unlikely in the absence of anterior open bite, flared proclination, and maxillary arch narrowing characteristic of prolonged finger-sucking.",
-      "1": "Option B would typically cause asymmetrical spacing, rotation, or failure of eruption of one or both central incisors, which is not described.",
-      "2": "Option C describes a hyperplastic frenum causing blanching on lip traction (positive blanch test), whereas an asymptomatic 1mm diastema at age 9 is classic normal development."
+      "0": "Option A (The patient has a persistent thumb-sucking habit requiring intervention) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (There is a high chance of a mesiodens present between teeth 11 and 21) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (The patient has an abnormal tectolabial frenal attachment causing the diastema) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Ugly Duckling Stage (Broadbent): Normal transitional mixed dentition phase; canine crowns impinge on lateral incisor roots causing temporary central diastema that closes spontaneously upon canine eruption.",
+    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The child is exhibiting normal physiological dental development (Ugly Duckling stage).",
     "difficulty": "Hard"
   },
   {
     "id": "dle-ortho-055",
     "category": "Orthodontics & Pediatric Dentistry",
-    "question": "All of the following are the primary considerations of an orthodontist during treatment except on",
+    "question": "All of the following are the primary considerations of an orthodontist during treatment except one. Which is it?",
     "options": [
-      "Which is it?",
       "Muscles",
       "Joints",
       "Teeth",
       "Gingiva"
     ],
     "correctIndex": 3,
-    "explanation": "Option D (Teeth) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option D (Gingiva) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Which is it?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Muscles) possesses an alternate origin, insertion, and directional action than demanded by the stem.",
-      "2": "Option C (Joints) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "4": "Option E (Gingiva) is ruled out as it represents a distinct clinical entity or classification differing from Teeth."
+      "0": "Option A (Muscles) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Joints) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Teeth) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Teeth.",
+    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Gingiva.",
     "difficulty": "Easy"
   },
   {
@@ -8868,23 +8806,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ortho-058",
     "category": "Orthodontics & Pediatric Dentistry",
-    "question": "All are cephalometric landmarks, except on",
+    "question": "All are cephalometric landmarks, except one. Which is it?",
     "options": [
-      "Which is it?",
       "Sella",
       "Orbitale",
       "Pogonion",
       "Y-axis"
     ],
     "correctIndex": 3,
-    "explanation": "Option D (Pogonion) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option D (Y-axis) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Which is it?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Sella) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Orbitale) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "4": "Option E (Y-axis) is ruled out as it represents a distinct clinical entity or classification differing from Pogonion."
+      "0": "Option A (Sella) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Orbitale) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Pogonion) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Pogonion.",
+    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Y-axis.",
     "difficulty": "Easy"
   },
   {
@@ -9172,23 +9108,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ortho-073",
     "category": "Orthodontics & Pediatric Dentistry",
-    "question": "During the treatment of a patient with posterior crossbit",
+    "question": "During the treatment of a patient with posterior crossbite, how much expansion is produced per quarter turn of an expansion screw?",
     "options": [
-      "how much expansion is produced per quarter turn of an expansion screw?",
       "0.25mm",
       "0.5mm",
       "0.75mm",
       "1.0mm"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (how much expansion is produced per quarter turn of an expansion screw?) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option A (0.25mm) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (0.25mm) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "2": "Option C (0.5mm) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "3": "Option D (0.75mm) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "4": "Option E (1.0mm) does not match the standardized dimensional or numerical threshold established for this clinical parameter."
+      "1": "Option B (0.5mm) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (0.75mm) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (1.0mm) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for how much expansion is produced per quart.",
+    "keyTakeaway": "Orthodontics & Pediatric Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for 0.25mm.",
     "difficulty": "Easy"
   },
   {
@@ -9334,45 +9268,41 @@ export const dentalQuestions = [
   {
     "id": "dle-oa-006",
     "category": "Oral Anatomy & Occlusion",
-    "question": "The geometric outline of all anterior teeth from the mesial/distal (M",
+    "question": "The geometric outline of all anterior teeth from the mesial/distal (MD) aspect is:",
     "options": [
-      "aspect is:",
       "Trapezoidal",
       "Triangular",
       "Rhomboidal",
       "Ovoid"
     ],
     "correctIndex": 1,
-    "explanation": "Option B (Trapezoidal) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option B (Triangular) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (aspect is:) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Triangular) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Rhomboidal) is ruled out as it represents a distinct clinical entity or classification differing from Trapezoidal.",
-      "4": "Option E (Ovoid) is ruled out as it represents a distinct clinical entity or classification differing from Trapezoidal."
+      "0": "Option A (Trapezoidal) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Rhomboidal) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Ovoid) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Oral Anatomy & Occlusion High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Trapezoidal.",
+    "keyTakeaway": "Oral Anatomy & Occlusion High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Triangular.",
     "difficulty": "Hard"
   },
   {
     "id": "dle-oa-007",
     "category": "Oral Anatomy & Occlusion",
-    "question": "What is the geometric outline of mandibular posterior teeth from the mesial/distal (M",
+    "question": "What is the geometric outline of mandibular posterior teeth from the mesial/distal (MD) aspect?",
     "options": [
-      "aspect?",
       "Triangular",
       "Rhomboidal",
       "Trapezoidal",
       "Diamond-shaped"
     ],
     "correctIndex": 1,
-    "explanation": "Option B (Triangular) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option B (Rhomboidal) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (aspect?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Rhomboidal) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Trapezoidal) is ruled out as it represents a distinct clinical entity or classification differing from Triangular.",
-      "4": "Option E (Diamond-shaped) is ruled out as it represents a distinct clinical entity or classification differing from Triangular."
+      "0": "Option A (Triangular) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Trapezoidal) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Diamond-shaped) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Oral Anatomy & Occlusion High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Triangular.",
+    "keyTakeaway": "Oral Anatomy & Occlusion High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Rhomboidal.",
     "difficulty": "Easy"
   },
   {
@@ -9578,45 +9508,41 @@ export const dentalQuestions = [
   {
     "id": "dle-oa-018",
     "category": "Oral Anatomy & Occlusion",
-    "question": "Which permanent anterior tooth has the widest mesiodistal (M",
+    "question": "Which permanent anterior tooth has the widest mesiodistal (MD) width?",
     "options": [
-      "width?",
       "Maxillary Central Incisor",
       "Maxillary Canine",
       "Mandibular Central Incisor",
       "Mandibular Canine incisor , canines, PMS - 4 except Md 2nd PM - 5 Y IM - 5 2M - 4 3M - 4- 5 u#ta ☐ ✗ ③ ¥☒T FF an"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (width?) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option A (Maxillary Central Incisor) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Maxillary Central Incisor) refers to a different tooth position characterized by distinct developmental timing, crown morphology, and root anatomy.",
-      "2": "Option C (Maxillary Canine) refers to a different tooth position characterized by distinct developmental timing, crown morphology, and root anatomy.",
-      "3": "Option D (Mandibular Central Incisor) refers to a different tooth position characterized by distinct developmental timing, crown morphology, and root anatomy.",
-      "4": "Option E (Mandibular Canine incisor , canines, PMS - 4 except Md 2nd PM - 5 Y IM - 5 2M - 4 3M - 4- 5 u#ta ☐ ✗ ③ ¥☒T FF an) does not match the standardized dimensional or numerical threshold established for this clinical parameter."
+      "1": "Option B (Maxillary Canine) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Mandibular Central Incisor) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Mandibular Canine incisor , canines, PMS - 4 except Md 2nd PM - 5 Y IM - 5 2M - 4 3M - 4- 5 u#ta ☐ ✗ ③ ¥☒T FF an) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Oral Anatomy & Occlusion High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for width?.",
+    "keyTakeaway": "Oral Anatomy & Occlusion High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Maxillary Central Incisor.",
     "difficulty": "Hard"
   },
   {
     "id": "dle-oa-019",
     "category": "Oral Anatomy & Occlusion",
-    "question": "Which tooth is characterized by having a shovel-shaped lingual surfac",
+    "question": "Which tooth is characterized by having a shovel-shaped lingual surface, peg-shaped variations, and a palatogingival groove?",
     "options": [
-      "peg-shaped variations, and a palatogingival groove?",
       "Maxillary Central Incisor",
       "Maxillary Lateral Incisor",
       "Mandibular Lateral Incisor",
       "Maxillary Canine"
     ],
     "correctIndex": 1,
-    "explanation": "Option B (Maxillary Central Incisor) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option B (Maxillary Lateral Incisor) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (peg-shaped variations, and a palatogingival groove?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Maxillary Lateral Incisor) refers to a different tooth position characterized by distinct developmental timing, crown morphology, and root anatomy.",
-      "3": "Option D (Mandibular Lateral Incisor) refers to a different tooth position characterized by distinct developmental timing, crown morphology, and root anatomy.",
-      "4": "Option E (Maxillary Canine) refers to a different tooth position characterized by distinct developmental timing, crown morphology, and root anatomy."
+      "0": "Option A (Maxillary Central Incisor) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Mandibular Lateral Incisor) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Maxillary Canine) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Oral Anatomy & Occlusion High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Maxillary Central Incisor.",
+    "keyTakeaway": "Oral Anatomy & Occlusion High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Maxillary Lateral Incisor.",
     "difficulty": "Easy"
   },
   {
@@ -10082,23 +10008,21 @@ export const dentalQuestions = [
   {
     "id": "dle-oa-043",
     "category": "Oral Anatomy & Occlusion",
-    "question": "Which permanent molar has a rectangular occlusal outlin",
+    "question": "Which permanent molar has a rectangular occlusal outline, 4 cusps of equal height, and a straight central groove with no distal cusp?",
     "options": [
-      "4 cusps of equal height, and a straight central groove with no distal cusp?",
       "Maxillary 1st Molar",
       "Mandibular 1st Molar",
       "Mandibular 2nd Molar",
       "Mandibular 3rd Molar"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Mandibular 1st Molar) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (Mandibular 2nd Molar) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (4 cusps of equal height, and a straight central groove with no distal cusp?) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "1": "Option B (Maxillary 1st Molar) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "3": "Option D (Mandibular 2nd Molar) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "4": "Option E (Mandibular 3rd Molar) does not match the standardized dimensional or numerical threshold established for this clinical parameter."
+      "0": "Option A (Maxillary 1st Molar) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Mandibular 1st Molar) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Mandibular 3rd Molar) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Oral Anatomy & Occlusion High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Mandibular 1st Molar.",
+    "keyTakeaway": "Oral Anatomy & Occlusion High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Mandibular 2nd Molar.",
     "difficulty": "Easy"
   },
   {
@@ -10264,23 +10188,21 @@ export const dentalQuestions = [
   {
     "id": "dle-oa-052",
     "category": "Oral Anatomy & Occlusion",
-    "question": "Which primary tooth is the widest mesiodistally (M",
+    "question": "Which primary tooth is the widest mesiodistally (MD) among all primary teeth and resembles the permanent mandibular 1st molar?",
     "options": [
-      "among all primary teeth and resembles the permanent mandibular 1st molar?",
       "Primary Maxillary 2nd Molar",
       "Primary Mandibular 1st Molar",
       "Primary Mandibular 2nd Molar",
       "Primary Mandibular Canine"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Primary Mandibular 1st Molar) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (Primary Mandibular 2nd Molar) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (among all primary teeth and resembles the permanent mandibular 1st molar?) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "1": "Option B (Primary Maxillary 2nd Molar) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "3": "Option D (Primary Mandibular 2nd Molar) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "4": "Option E (Primary Mandibular Canine) refers to a different tooth position characterized by distinct developmental timing, crown morphology, and root anatomy."
+      "0": "Option A (Primary Maxillary 2nd Molar) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Primary Mandibular 1st Molar) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Primary Mandibular Canine) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Oral Anatomy & Occlusion High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Primary Mandibular 1st Molar.",
+    "keyTakeaway": "Oral Anatomy & Occlusion High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Primary Mandibular 2nd Molar.",
     "difficulty": "Easy"
   },
   {
@@ -10776,7 +10698,7 @@ export const dentalQuestions = [
   {
     "id": "dle-oh-008",
     "category": "Oral Histology & Embryology",
-    "question": "The neural plate invaginates to form neural groove with neural folds on each side on day 18 of embryonic lif",
+    "question": "The neural plate invaginates to form neural groove with neural folds on each side on day 18 of embryonic life. Neuroectoderm gives rise to CNS.",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -10786,9 +10708,9 @@ export const dentalQuestions = [
     "correctIndex": 2,
     "explanation": "Option C (Both statements are true.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (The first statement is true; the second statement is false.) is incorrect because the evaluated statements do not follow a true-then-false pattern under established board benchmarks.",
-      "1": "Option B (The first statement is false; the second statement is true.) is incorrect because the factual validity of the statements differs from this false-then-true configuration.",
-      "3": "Option D (Both statements are false.) is incorrect because verified factual premises exist in the clinical statement."
+      "0": "Option A (The first statement is true; the second statement is false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (The first statement is false; the second statement is true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Both statements are false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Both statements are true..",
     "difficulty": "Medium"
@@ -11128,23 +11050,21 @@ export const dentalQuestions = [
   {
     "id": "dle-oh-025",
     "category": "Oral Histology & Embryology",
-    "question": "A woman with  cleft lip is concerned about the risk of occurrence of that defect in her future chil",
+    "question": "A woman with  cleft lip is concerned about the risk of occurrence of that defect in her future child. She can be counseled that ___",
     "options": [
-      "She can be counseled that ___",
       "Cleft lip would only occur if both parents were affected",
       "There are empiric data on the recurrence risk of cleft lip",
       "Cleft lip is not thought to have a genetic basis",
       "Only a male would be a risk of inheriting cleft lip."
     ],
     "correctIndex": 1,
-    "explanation": "Option B (Cleft lip would only occur if both parents were affected) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option B (There are empiric data on the recurrence risk of cleft lip) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (She can be counseled that ___) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (There are empiric data on the recurrence risk of cleft lip) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Cleft lip is not thought to have a genetic basis) is ruled out as it represents a distinct clinical entity or classification differing from Cleft lip would only occur if both parents were affected.",
-      "4": "Option E (Only a male would be a risk of inheriting cleft lip.) is ruled out as it represents a distinct clinical entity or classification differing from Cleft lip would only occur if both parents were affected."
+      "0": "Option A (Cleft lip would only occur if both parents were affected) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Cleft lip is not thought to have a genetic basis) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Only a male would be a risk of inheriting cleft lip.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Cleft lip would only occur if both paren.",
+    "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for There are empiric data on the recurrence risk of cleft lip.",
     "difficulty": "Easy"
   },
   {
@@ -11298,7 +11218,7 @@ export const dentalQuestions = [
   {
     "id": "dle-oh-033",
     "category": "Oral Histology & Embryology",
-    "question": "What induces that oral epithelium to proliferat",
+    "question": "What induces that oral epithelium to proliferate, eventually forming dental lamina?",
     "options": [
       "eventually forming dental lamina?",
       "Neuroepithelial cells",
@@ -11309,10 +11229,10 @@ export const dentalQuestions = [
     "correctIndex": 1,
     "explanation": "Option B (Neuroepithelial cells) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (eventually forming dental lamina?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Neural Crest cells) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (A and B) is ruled out as it represents a distinct clinical entity or classification differing from Neuroepithelial cells.",
-      "4": "Option E (None of the above) is ruled out as it represents a distinct clinical entity or classification differing from Neuroepithelial cells."
+      "0": "Option A (eventually forming dental lamina?) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Neural Crest cells) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (A and B) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "4": "Option E (None of the above) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Neuroepithelial cells.",
     "difficulty": "Hard"
@@ -11360,23 +11280,21 @@ export const dentalQuestions = [
   {
     "id": "dle-oh-036",
     "category": "Oral Histology & Embryology",
-    "question": "Formation of Tooth Germ happens in the Cap Stag",
+    "question": "Formation of Tooth Germ happens in the Cap Stage, it consists of:",
     "options": [
-      "it consists of:",
       "Enamel organ only",
       "Dental papilla only",
       "Dental sac only",
       "All of the above ' , - 00 - - - 00 4th ÷ - YA ' - . ✗ - r ✗ - pulp . dentin E÷ / sac - cementum, PDL , AB - I"
     ],
     "correctIndex": 3,
-    "explanation": "Option D (Dental sac only) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option D (All of the above ' , - 00 - - - 00 4th ÷ - YA ' - . ✗ - r ✗ - pulp . dentin E÷ / sac - cementum, PDL , AB - I) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (it consists of:) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Enamel organ only) is incorrect because Enamel is the most highly mineralized human tissue (96-98% hydroxyapatite), formed by ameloblasts that are lost upon eruption, meaning enamel cannot biologically regenerate after cavitation.",
-      "2": "Option C (Dental papilla only) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "4": "Option E (All of the above ' , - 00 - - - 00 4th ÷ - YA ' - . ✗ - r ✗ - pulp . dentin E÷ / sac - cementum, PDL , AB - I) is incorrect because Dentin is composed of 70% inorganic hydroxyapatite, 20% organic type I collagen matrix, and 10% water; it possesses living odontoblastic processes in tubules and closely resembles bone."
+      "0": "Option A (Enamel organ only) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Dental papilla only) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Dental sac only) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Dental sac only.",
+    "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for All of the above ' , - 00 - - - 00 4th ÷ - YA ' - . ✗ - r ✗ - pulp . dentin E÷ / sac - cementum, PDL , AB - I.",
     "difficulty": "Hard"
   },
   {
@@ -11448,7 +11366,7 @@ export const dentalQuestions = [
   {
     "id": "dle-oh-005",
     "category": "Oral Histology & Embryology",
-    "question": "cementum over the root of the tooth",
+    "question": "contains fewer matrix collagen ﬁbrils than typical bone",
     "options": [
       "1",
       "1,4,5",
@@ -11459,10 +11377,10 @@ export const dentalQuestions = [
     "correctIndex": 4,
     "explanation": "Option E (3,4) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (1) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "1": "Option B (1,4,5) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "2": "Option C (1,3,5) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "3": "Option D (2,4) does not match the standardized dimensional or numerical threshold established for this clinical parameter."
+      "0": "Option A (1) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (1,4,5) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (1,3,5) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (2,4) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for 3,4.",
     "difficulty": "Medium"
@@ -11658,21 +11576,19 @@ export const dentalQuestions = [
     "category": "Oral Histology & Embryology",
     "question": "Appositional growth of enamel",
     "options": [
-      "0.04 µm.",
-      "1mm.",
+      "0.04 µm. B.1mm.",
       "0.1 mm.",
       "4 µm.",
       "4mm."
     ],
     "correctIndex": 3,
-    "explanation": "Option D (4 µm.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option D (4mm.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (0.04 µm.) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "1": "Option B (1mm.) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "2": "Option C (0.1 mm.) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "4": "Option E (4mm.) does not match the standardized dimensional or numerical threshold established for this clinical parameter."
+      "0": "Option A (0.04 µm. B.1mm.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (0.1 mm.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (4 µm.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for 4 µm..",
+    "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for 4mm..",
     "difficulty": "Medium"
   },
   {
@@ -11740,23 +11656,21 @@ export const dentalQuestions = [
   {
     "id": "dle-oh-054",
     "category": "Oral Histology & Embryology",
-    "question": "Enamel is harder than bone because it is tightly packed with smaller enamel hydroxyapatite crystals, four times smaller than those in bon",
+    "question": "Enamel is harder than bone because it is tightly packed with smaller enamel hydroxyapatite crystals, four times smaller than those in bone. The enamel prisms form the structural foundation of enamel. The first statement is ___",
     "options": [
-      "The enamel prisms form the structural foundation of enamel. The first statement is ___",
       "incorrect and the second statement is correct",
       "correct and the second statement is correct",
       "correct and the second statement is incorrect",
       "incorrect and the second statement is incorrect"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (The enamel prisms form the structural foundation of enamel. The first statement is ___) is correct because Enamel is the most highly mineralized human tissue (96-98% hydroxyapatite), formed by ameloblasts that are lost upon eruption, meaning enamel cannot biologically regenerate after cavitation.",
+    "explanation": "Option A (incorrect and the second statement is correct) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (incorrect and the second statement is correct) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (correct and the second statement is correct) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (correct and the second statement is incorrect) is ruled out as it represents a distinct clinical entity or classification differing from The enamel prisms form the structural foundation of enamel. The first statement is ___.",
-      "4": "Option E (incorrect and the second statement is incorrect) is ruled out as it represents a distinct clinical entity or classification differing from The enamel prisms form the structural foundation of enamel. The first statement is ___."
+      "1": "Option B (correct and the second statement is correct) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (correct and the second statement is incorrect) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (incorrect and the second statement is incorrect) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The enamel prisms form the structural fo.",
+    "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for incorrect and the second statement is correct.",
     "difficulty": "Hard"
   },
   {
@@ -11782,7 +11696,7 @@ export const dentalQuestions = [
   {
     "id": "dle-oh-056",
     "category": "Oral Histology & Embryology",
-    "question": "Enamel is semi-permeable and allows fluoride ions to penetrate. The tooth becomes more resistant to acid demineralization because fluorapatite has a higher solubility product than hydroxyapatite. Evaluate these two statements:",
+    "question": "Enamel is semi permeable and allows fluoride ions to be absorbed in the hydroxyapatite crystals forming fluorapatite. The tooth becomes more resistant to bacteria producing acids because fluorapatite has a higher solubility product content than hydroxyapatite. the first statement is ___",
     "options": [
       "Both statements are true",
       "Both statements are false",
@@ -11790,13 +11704,13 @@ export const dentalQuestions = [
       "The first statement is false; the second statement is true"
     ],
     "correctIndex": 2,
-    "explanation": "The first statement is TRUE (enamel acts as a semi-permeable membrane allowing water, small ions, and fluoride to diffuse through organic pores and prism sheaths). The second statement is FALSE because Fluorapatite has a LOWER solubility product (Ksp ~ 3.19 x 10^-61) than Hydroxyapatite (Ksp ~ 2.35 x 10^-59). A lower solubility product means fluorapatite is thermodynamically less soluble and resists dissolution down to pH 4.5, compared to critical pH 5.5 for hydroxyapatite.",
+    "explanation": "Option C (The first statement is true; the second statement is false) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A is incorrect because claiming fluorapatite has a higher solubility product is scientifically false (a higher Ksp would make it more soluble, not more resistant).",
-      "1": "Option B is incorrect because the first proposition regarding enamel semi-permeability is a well-established histochemical fact.",
-      "3": "Option D reverses the factual validity of the two statements."
+      "0": "Option A (Both statements are true) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Both statements are false) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (The first statement is false; the second statement is true) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Critical pH: Hydroxyapatite demineralizes at pH 5.5; Fluorapatite has a LOWER solubility product (less soluble) and resists demineralization down to pH 4.5.",
+    "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is true; the second statement is false.",
     "difficulty": "Medium"
   },
   {
@@ -11966,7 +11880,7 @@ export const dentalQuestions = [
   {
     "id": "dle-oh-065",
     "category": "Oral Histology & Embryology",
-    "question": "Coronal dentinal tubules follow an S shap",
+    "question": "Coronal dentinal tubules follow an S shape. Radicular tubules are generally straight.",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -11976,9 +11890,9 @@ export const dentalQuestions = [
     "correctIndex": 2,
     "explanation": "Option C (Both statements are true.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (The first statement is true; the second statement is false.) is incorrect because the evaluated statements do not follow a true-then-false pattern under established board benchmarks.",
-      "1": "Option B (The first statement is false; the second statement is true.) is incorrect because the factual validity of the statements differs from this false-then-true configuration.",
-      "3": "Option D (Both statements are false.) is incorrect because verified factual premises exist in the clinical statement."
+      "0": "Option A (The first statement is true; the second statement is false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (The first statement is false; the second statement is true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Both statements are false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Both statements are true..",
     "difficulty": "Medium"
@@ -12154,7 +12068,7 @@ export const dentalQuestions = [
   {
     "id": "dle-oh-074",
     "category": "Oral Histology & Embryology",
-    "question": "Cementum is a vascular tissue that covers radicular dentin. Composition most closely resembles bon",
+    "question": "Cementum is a vascular tissue that covers radicular dentin. Composition most closely resembles bone.",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -12164,11 +12078,11 @@ export const dentalQuestions = [
     "correctIndex": 1,
     "explanation": "Option B (The first statement is false; the second statement is true.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (The first statement is true; the second statement is false.) is incorrect because the evaluated statements do not follow a true-then-false pattern under established board benchmarks.",
-      "2": "Option C (Both statements are true.) is incorrect because at least one of the propositions contains a scientifically inaccurate premise.",
-      "3": "Option D (Both statements are false.) is incorrect because verified factual premises exist in the clinical statement."
+      "0": "Option A (The first statement is true; the second statement is false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Both statements are true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Both statements are false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is false; the second.",
+    "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is false; the second statement is true..",
     "difficulty": "Medium"
   },
   {
@@ -12316,7 +12230,7 @@ export const dentalQuestions = [
   {
     "id": "dle-oh-082",
     "category": "Oral Histology & Embryology",
-    "question": "The periodontium is the attachment apparatus of the tooth. It consists of Cementum, Alveolar bon",
+    "question": "The periodontium is the attachment apparatus of the tooth. It consists of Cementum, Alveolar bone, Periodontal ligament and Dentin.",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -12326,11 +12240,11 @@ export const dentalQuestions = [
     "correctIndex": 0,
     "explanation": "Option A (The first statement is true; the second statement is false.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (The first statement is false; the second statement is true.) is incorrect because the factual validity of the statements differs from this false-then-true configuration.",
-      "2": "Option C (Both statements are true.) is incorrect because at least one of the propositions contains a scientifically inaccurate premise.",
-      "3": "Option D (Both statements are false.) is incorrect because verified factual premises exist in the clinical statement."
+      "1": "Option B (The first statement is false; the second statement is true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Both statements are true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Both statements are false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is true; the second .",
+    "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is true; the second statement is false..",
     "difficulty": "Easy"
   },
   {
@@ -12422,7 +12336,7 @@ export const dentalQuestions = [
   {
     "id": "dle-oh-087",
     "category": "Oral Histology & Embryology",
-    "question": "The periodontal ligament contains collagen fibers that are inserted on one side in the cementum and on the other side in alveolar bon",
+    "question": "The periodontal ligament contains collagen fibers that are inserted on one side in the cementum and on the other side in alveolar bone. the ends of these collagen fibers are sharpey’s fibers",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -12432,11 +12346,11 @@ export const dentalQuestions = [
     "correctIndex": 1,
     "explanation": "Option B (The first statement is false; the second statement is true.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (The first statement is true; the second statement is false.) is incorrect because the evaluated statements do not follow a true-then-false pattern under established board benchmarks.",
-      "2": "Option C (Both statements are true.) is incorrect because at least one of the propositions contains a scientifically inaccurate premise.",
-      "3": "Option D (Both statements are false.) is incorrect because verified factual premises exist in the clinical statement."
+      "0": "Option A (The first statement is true; the second statement is false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Both statements are true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Both statements are false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is false; the second.",
+    "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is false; the second statement is true..",
     "difficulty": "Hard"
   },
   {
@@ -12482,7 +12396,7 @@ export const dentalQuestions = [
   {
     "id": "dle-oh-090",
     "category": "Oral Histology & Embryology",
-    "question": "The free gingival groove separates the gingiva from alveolar mucos",
+    "question": "The free gingival groove separates the gingiva from alveolar mucosa. The mucogingival junction separates the attached and unattached gingiva.",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -12492,9 +12406,9 @@ export const dentalQuestions = [
     "correctIndex": 2,
     "explanation": "Option C (Both statements are true.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (The first statement is true; the second statement is false.) is incorrect because the evaluated statements do not follow a true-then-false pattern under established board benchmarks.",
-      "1": "Option B (The first statement is false; the second statement is true.) is incorrect because the factual validity of the statements differs from this false-then-true configuration.",
-      "3": "Option D (Both statements are false.) is incorrect because verified factual premises exist in the clinical statement."
+      "0": "Option A (The first statement is true; the second statement is false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (The first statement is false; the second statement is true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Both statements are false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Both statements are true..",
     "difficulty": "Hard"
@@ -12502,7 +12416,7 @@ export const dentalQuestions = [
   {
     "id": "dle-oh-091",
     "category": "Oral Histology & Embryology",
-    "question": "Projections that interdigitate with the epithelial ridges, creating a variably tortuous epithelial-connective tissue interfac",
+    "question": "Projections that interdigitate with the epithelial ridges, creating a variably tortuous epithelial-connective tissue interface.",
     "options": [
       "Stratum granulosum",
       "Papillary layer of lamina propria",
@@ -12513,10 +12427,10 @@ export const dentalQuestions = [
     "correctIndex": 1,
     "explanation": "Option B (Papillary layer of lamina propria) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Stratum granulosum) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Stratum corneum) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Reticular layer of lamina propria) is ruled out as it represents a distinct clinical entity or classification differing from Papillary layer of lamina propria.",
-      "4": "Option E (Stratum spinosum) is ruled out as it represents a distinct clinical entity or classification differing from Papillary layer of lamina propria."
+      "0": "Option A (Stratum granulosum) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Stratum corneum) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Reticular layer of lamina propria) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "4": "Option E (Stratum spinosum) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Papillary layer of lamina propria.",
     "difficulty": "Easy"
@@ -12524,7 +12438,7 @@ export const dentalQuestions = [
   {
     "id": "dle-oh-092",
     "category": "Oral Histology & Embryology",
-    "question": "Gingival fiber group that extend from cementum over the alveolar crest, and turn apically to insert to periosteum of the buccal side of the alveolar bon",
+    "question": "Gingival fiber group that extend from cementum over the alveolar crest, and turn apically to insert to periosteum of the buccal side of the alveolar bone.",
     "options": [
       "Dentogingival fibers",
       "Alveologingival fibers",
@@ -12534,9 +12448,9 @@ export const dentalQuestions = [
     "correctIndex": 2,
     "explanation": "Option C (Dentoperiosteal fibers) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Dentogingival fibers) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Alveologingival fibers) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (Circumferential fibers) is ruled out as it represents a distinct clinical entity or classification differing from Dentoperiosteal fibers."
+      "0": "Option A (Dentogingival fibers) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Alveologingival fibers) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Circumferential fibers) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Oral Histology & Embryology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Dentoperiosteal fibers.",
     "difficulty": "Medium"
@@ -12846,23 +12760,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-008",
     "category": "General Histology & Microbiology",
-    "question": "During a histology examination, a student is asked to identify the location of mature bone cells that maintain the bone matrix and occupy small spaces within calcified bone tissu",
+    "question": "During a histology examination, a student is asked to identify the location of mature bone cells that maintain the bone matrix and occupy small spaces within calcified bone tissue. These cells are known as osteocytes. Where are osteocytes found?",
     "options": [
-      "These cells are known as osteocytes. Where are osteocytes found?",
       "Endosteum",
       "Periosteum",
       "Lacunae",
       "Howship’s Lacunae"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Periosteum) is correct because Periosteum is the dense, fibrous vascular membrane that covers the external cortical surface of bones, anchored by Sharpey's fibers.",
+    "explanation": "Option C (Lacunae) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (These cells are known as osteocytes. Where are osteocytes found?) is incorrect because Osteocytes are mature bone cells residing within lacunae that maintain mineral homeostasis and detect mechanical loading via dendritic canaliculi.",
-      "1": "Option B (Endosteum) is incorrect because Endosteum is the thin, osteogenic cellular vascular membrane lining the internal medullary marrow cavity and trabeculae of spongy bone.",
-      "3": "Option D (Lacunae) is ruled out as it represents a distinct clinical entity or classification differing from Periosteum.",
-      "4": "Option E (Howship’s Lacunae) is ruled out as it represents a distinct clinical entity or classification differing from Periosteum."
+      "0": "Option A (Endosteum) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Periosteum) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Howship’s Lacunae) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Periosteum.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Lacunae.",
     "difficulty": "Medium"
   },
   {
@@ -12888,23 +12800,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-010",
     "category": "General Histology & Microbiology",
-    "question": "All are characteristics of fungus except on",
+    "question": "All are characteristics of fungus except one. Which is it?",
     "options": [
-      "Which is it?",
       "Dimorphic",
       "Prokaryotic",
       "Septated",
       "Sporulate"
     ],
     "correctIndex": 1,
-    "explanation": "Option B (Dimorphic) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option B (Prokaryotic) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Which is it?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Prokaryotic) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Septated) is ruled out as it represents a distinct clinical entity or classification differing from Dimorphic.",
-      "4": "Option E (Sporulate) is ruled out as it represents a distinct clinical entity or classification differing from Dimorphic."
+      "0": "Option A (Dimorphic) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Septated) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Sporulate) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Dimorphic.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Prokaryotic.",
     "difficulty": "Easy"
   },
   {
@@ -12930,23 +12840,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-012",
     "category": "General Histology & Microbiology",
-    "question": "In the nitrogen cycl",
+    "question": "In the nitrogen cycle, microorganisms decompose proteins and other nitrogen-containing organic compounds, resulting in the release of ammonia into the environment. Which biological process is responsible for this conversion?",
     "options": [
-      "microorganisms decompose proteins and other nitrogen-containing organic compounds, resulting in the release of ammonia into the environment. Which biological process is responsible for this conversion?",
       "Nitrification 3",
       "Ammonification",
       "Denitrification",
       "Nitrogen fixation"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Ammonification) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (Denitrification) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (microorganisms decompose proteins and other nitrogen-containing organic compounds, resulting in the release of ammonia into the environment. Which biological process is responsible for this conversion?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Nitrification 3) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "3": "Option D (Denitrification) is ruled out as it represents a distinct clinical entity or classification differing from Ammonification.",
-      "4": "Option E (Nitrogen fixation) is ruled out as it represents a distinct clinical entity or classification differing from Ammonification."
+      "0": "Option A (Nitrification 3) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Ammonification) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Nitrogen fixation) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Ammonification.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Denitrification.",
     "difficulty": "Hard"
   },
   {
@@ -13092,23 +13000,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-020",
     "category": "General Histology & Microbiology",
-    "question": "During a microbiology lectur",
+    "question": "During a microbiology lecture, students learn that certain organisms are incapable of synthesizing their own food and must obtain nutrients and organic compounds from other living organisms or environmental sources. What term best describes these organisms?",
     "options": [
-      "students learn that certain organisms are incapable of synthesizing their own food and must obtain nutrients and organic compounds from other living organisms or environmental sources. What term best describes these organisms?",
       "Heterotrophs",
       "Autotrophs",
       "Phototrophs",
       "Lithotrophs"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (students learn that certain organisms are incapable of synthesizing their own food and must obtain nutrients and organic compounds from other living organisms or environmental sources. What term best describes these organisms?) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option A (Heterotrophs) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Heterotrophs) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Autotrophs) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Phototrophs) is ruled out as it represents a distinct clinical entity or classification differing from students learn that certain organisms are incapable of synthesizing their own food and must obtain nutrients and organic compounds from other living organisms or environmental sources. What term best describes these organisms?.",
-      "4": "Option E (Lithotrophs) is ruled out as it represents a distinct clinical entity or classification differing from students learn that certain organisms are incapable of synthesizing their own food and must obtain nutrients and organic compounds from other living organisms or environmental sources. What term best describes these organisms?."
+      "1": "Option B (Autotrophs) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Phototrophs) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Lithotrophs) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for students learn that certain organisms ar.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Heterotrophs.",
     "difficulty": "Medium"
   },
   {
@@ -13134,29 +13040,27 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-022",
     "category": "General Histology & Microbiology",
-    "question": "A professor asks the class to identify the most essential structure in a prokaryotic cell that contains the genetic material responsible for controlling cellular activities, replication, and inheritanc",
+    "question": "A professor asks the class to identify the most essential structure in a prokaryotic cell that contains the genetic material responsible for controlling cellular activities, replication, and inheritance. Which structure should be selected?",
     "options": [
-      "Which structure should be selected?",
       "Nucleoid",
       "Cell wall",
       "Cell membrane",
       "Capsule"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (Which structure should be selected?) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option A (Nucleoid) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Nucleoid) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Cell wall) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Cell membrane) is ruled out as it represents a distinct clinical entity or classification differing from Which structure should be selected?.",
-      "4": "Option E (Capsule) is ruled out as it represents a distinct clinical entity or classification differing from Which structure should be selected?."
+      "1": "Option B (Cell wall) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Cell membrane) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Capsule) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Which structure should be selected?.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Nucleoid.",
     "difficulty": "Easy"
   },
   {
     "id": "dle-ghm-023",
     "category": "General Histology & Microbiology",
-    "question": "It is responsible for the solidification of the culture medi",
+    "question": "It is responsible for the solidification of the culture media.",
     "options": [
       "Electrolytes",
       "Agar",
@@ -13166,9 +13070,9 @@ export const dentalQuestions = [
     "correctIndex": 1,
     "explanation": "Option B (Agar) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Electrolytes) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Water) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Peptone) is ruled out as it represents a distinct clinical entity or classification differing from Agar."
+      "0": "Option A (Electrolytes) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Water) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Peptone) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Agar.",
     "difficulty": "Medium"
@@ -13176,29 +13080,27 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-024",
     "category": "General Histology & Microbiology",
-    "question": "All of the following are types of biopsies, except on",
+    "question": "All of the following are types of biopsies, except one. Which is it?",
     "options": [
-      "Which is it?",
       "Aspiration",
       "Excision",
       "Immunofluorescent",
       "Punch"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Excision) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (Immunofluorescent) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Which is it?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Aspiration) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (Immunofluorescent) is ruled out as it represents a distinct clinical entity or classification differing from Excision.",
-      "4": "Option E (Punch) is ruled out as it represents a distinct clinical entity or classification differing from Excision."
+      "0": "Option A (Aspiration) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Excision) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Punch) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Excision.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Immunofluorescent.",
     "difficulty": "Hard"
   },
   {
     "id": "dle-ghm-025",
     "category": "General Histology & Microbiology",
-    "question": "During a microbiology laboratory exercise, a culture medium containing tryptone, glucose, and yeast extract (TGY) is prepared to support the growth of a wide variety of nonfastidious microorganisms. How is this medium classified?",
+    "question": "During a microbiology laboratory exercise, a student is instructed to prepare a culture medium containing tryptone, glucose, and yeast extract (TGYE) to support the growth of a wide variety of nonfastidious microorganisms. How is this culture medium best classified? 5",
     "options": [
       "General-purpose nutrient/enriched medium",
       "Selective medium only",
@@ -13206,19 +13108,19 @@ export const dentalQuestions = [
       "Transport medium"
     ],
     "correctIndex": 0,
-    "explanation": "A culture medium containing peptones, glucose, and yeast extract (TGY or nutrient broth/agar) provides a broad nutritional spectrum of amino acids, carbohydrates, vitamins, and minerals without inhibitory agents or diagnostic indicators, classifying it as a General-Purpose (nonselective, enriched) culture medium.",
+    "explanation": "Option A (General-purpose nutrient/enriched medium) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Selective medium) contains specific inhibitory agents (e.g., bile salts, crystal violet, antibiotics) that suppress unwanted flora while permitting desired taxa to grow (e.g. MacConkey agar).",
-      "2": "Option C (Differential medium) incorporates diagnostic pH indicators or biochemical substrates (e.g., lactose) to distinguish colonies based on metabolic capabilities.",
-      "3": "Option D (Transport medium) is a non-nutritive buffer designed to maintain bacterial viability during clinical transport without supporting active proliferation (e.g., Stuart or Cary-Blair)."
+      "1": "Option B (Selective medium only) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Differential medium only) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Transport medium) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Microbiology Media: General-purpose (supports broad nonfastidious growth); Selective (inhibits non-targets); Differential (visually distinguishes species based on biochemical reactions).",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for General-purpose nutrient/enriched medium.",
     "difficulty": "Easy"
   },
   {
     "id": "dle-ghm-026",
     "category": "General Histology & Microbiology",
-    "question": "In a standard compound light microscope, which component serves as the primary magnifying lens that gathers light from the specimen and forms the real inverted intermediate image?",
+    "question": "While examining a bacterial smear under a compound light microscope, a student first looks through the lens located nearest the eye, which further magnifies the image produced by the objective lens. Which component of the light microscope serves as the primary magnifying lens?",
     "options": [
       "Objective lens",
       "Eyepiece (Ocular lens)",
@@ -13226,35 +13128,33 @@ export const dentalQuestions = [
       "Iris Diaphragm"
     ],
     "correctIndex": 0,
-    "explanation": "The Objective lens (located on the rotating nosepiece immediately above the glass slide) collects light transmitted through the specimen and produces the primary magnified, real, and inverted intermediate image within the optical body tube. The ocular lens (eyepiece) then magnifies this real image into a virtual enlarged image.",
+    "explanation": "Option A (Objective lens) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Eyepiece/Ocular lens) provides secondary magnification (typically 10x) of the intermediate image formed by the objective lens.",
-      "2": "Option C (Substage Condenser) focuses and concentrates illumination light rays from the light source directly onto the plane of the specimen without providing magnification.",
-      "3": "Option D (Iris Diaphragm) regulates the aperture diameter of the light cone to optimize optical contrast and numerical aperture resolution."
+      "1": "Option B (Eyepiece (Ocular lens)) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Substage Condenser lens) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Iris Diaphragm) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Microscope Optics: Objective lens creates the primary real inverted image; Ocular lens magnifies it into the final virtual image. Total Magnification = Objective x Ocular.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Objective lens.",
     "difficulty": "Medium"
   },
   {
     "id": "dle-ghm-027",
     "category": "General Histology & Microbiology",
-    "question": "A microbiologist observes spherical bacterial cells arranged in irregular grape-like clusters under the microscop",
+    "question": "A microbiologist observes spherical bacterial cells arranged in irregular grape-like clusters under the microscope. This arrangement is characteristic of which bacterial genus morphology?",
     "options": [
-      "This arrangement is characteristic of which bacterial genus morphology?",
       "Staphylococci",
       "Streptococci",
       "Bacilli",
       "Spirochetes"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (This arrangement is characteristic of which bacterial genus morphology?) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option A (Staphylococci) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Staphylococci) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Streptococci) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Bacilli) is ruled out as it represents a distinct clinical entity or classification differing from This arrangement is characteristic of which bacterial genus morphology?.",
-      "4": "Option E (Spirochetes) is ruled out as it represents a distinct clinical entity or classification differing from This arrangement is characteristic of which bacterial genus morphology?."
+      "1": "Option B (Streptococci) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Bacilli) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Spirochetes) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for This arrangement is characteristic of wh.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Staphylococci.",
     "difficulty": "Hard"
   },
   {
@@ -13280,23 +13180,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-029",
     "category": "General Histology & Microbiology",
-    "question": "When identifying bacteria using a microscop",
+    "question": "When identifying bacteria using a microscope, which criteria is not used?",
     "options": [
-      "which criteria is not used?",
       "Cellular arrangement",
       "Pigmentation",
       "Shape",
       "Texture"
     ],
     "correctIndex": 3,
-    "explanation": "Option D (Shape) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option D (Texture) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (which criteria is not used?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Cellular arrangement) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Pigmentation) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "4": "Option E (Texture) is ruled out as it represents a distinct clinical entity or classification differing from Shape."
+      "0": "Option A (Cellular arrangement) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Pigmentation) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Shape) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Shape.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Texture.",
     "difficulty": "Medium"
   },
   {
@@ -13322,7 +13220,7 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-031",
     "category": "General Histology & Microbiology",
-    "question": "Brown adipose cells are specialized for long-term energy storag",
+    "question": "Brown adipose cells are specialized for long-term energy storage. White adipose cells are primarily for thermogenesis.",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -13332,11 +13230,11 @@ export const dentalQuestions = [
     "correctIndex": 1,
     "explanation": "Option B (The first statement is false; the second statement is true.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (The first statement is true; the second statement is false.) is incorrect because the evaluated statements do not follow a true-then-false pattern under established board benchmarks.",
-      "2": "Option C (Both statements are true.) is incorrect because at least one of the propositions contains a scientifically inaccurate premise.",
-      "3": "Option D (Both statements are false.) is incorrect because verified factual premises exist in the clinical statement."
+      "0": "Option A (The first statement is true; the second statement is false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Both statements are true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Both statements are false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is false; the second.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is false; the second statement is true..",
     "difficulty": "Easy"
   },
   {
@@ -13382,23 +13280,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-034",
     "category": "General Histology & Microbiology",
-    "question": "During an oral histology practical examination, a student is asked to identify the type of oral mucosa that covers the dorsal surface of the tongue and contains taste buds associated with the lingual papilla",
+    "question": "During an oral histology practical examination, a student is asked to identify the type of oral mucosa that covers the dorsal surface of the tongue and contains taste buds associated with the lingual papillae. Which type of mucosa is this?",
     "options": [
-      "Which type of mucosa is this?",
       "Lining mucosa",
       "Masticatory mucosa",
       "Specialized mucosa",
       "Keratinized mucosa"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Masticatory mucosa) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (Specialized mucosa) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Which type of mucosa is this?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Lining mucosa) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (Specialized mucosa) is ruled out as it represents a distinct clinical entity or classification differing from Masticatory mucosa.",
-      "4": "Option E (Keratinized mucosa) is ruled out as it represents a distinct clinical entity or classification differing from Masticatory mucosa."
+      "0": "Option A (Lining mucosa) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Masticatory mucosa) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Keratinized mucosa) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Masticatory mucosa.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Specialized mucosa.",
     "difficulty": "Easy"
   },
   {
@@ -13424,7 +13320,7 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-036",
     "category": "General Histology & Microbiology",
-    "question": "Hyphae are filaments made up of fungi cells. The 3 types of Hyphae are Septat",
+    "question": "Hyphae are filaments made up of fungi cells. The 3 types of Hyphae are Septate, Aseptate and Pseudohyphae",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -13434,9 +13330,9 @@ export const dentalQuestions = [
     "correctIndex": 2,
     "explanation": "Option C (Both statements are true.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (The first statement is true; the second statement is false.) is incorrect because the evaluated statements do not follow a true-then-false pattern under established board benchmarks.",
-      "1": "Option B (The first statement is false; the second statement is true.) is incorrect because the factual validity of the statements differs from this false-then-true configuration.",
-      "3": "Option D (Both statements are false.) is incorrect because verified factual premises exist in the clinical statement."
+      "0": "Option A (The first statement is true; the second statement is false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (The first statement is false; the second statement is true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Both statements are false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Both statements are true..",
     "difficulty": "Hard"
@@ -13444,7 +13340,7 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-037",
     "category": "General Histology & Microbiology",
-    "question": "This is an infectious disease-causing protein that is believed to be the smallest infectious particl",
+    "question": "This is an infectious disease-causing protein that is believed to be the smallest infectious particle.",
     "options": [
       "Bacteria",
       "Virus",
@@ -13454,9 +13350,9 @@ export const dentalQuestions = [
     "correctIndex": 3,
     "explanation": "Option D (Prion 7) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Bacteria) is an alternate microbial taxon with different Gram-staining, morphology, virulence factors, or clinical manifestations.",
-      "1": "Option B (Virus) is an alternate microbial taxon with different Gram-staining, morphology, virulence factors, or clinical manifestations.",
-      "2": "Option C (Fungi) is an alternate microbial taxon with different Gram-staining, morphology, virulence factors, or clinical manifestations."
+      "0": "Option A (Bacteria) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Virus) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Fungi) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Prion 7.",
     "difficulty": "Easy"
@@ -13464,23 +13360,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-038",
     "category": "General Histology & Microbiology",
-    "question": "A dentist explains to a patient that one of the hard tissues of the tooth lacks living cells and therefore cannot regenerate once it is destroyed by caries, traum",
+    "question": "A dentist explains to a patient that one of the hard tissues of the tooth lacks living cells and therefore cannot regenerate once it is destroyed by caries, trauma, or wear. Which dental tissue is being described?",
     "options": [
-      "or wear. Which dental tissue is being described?",
       "Enamel",
       "Cementum",
       "Dentin",
       "Alveolar bone"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (or wear. Which dental tissue is being described?) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option A (Enamel) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Enamel) is incorrect because Enamel is the most highly mineralized human tissue (96-98% hydroxyapatite), formed by ameloblasts that are lost upon eruption, meaning enamel cannot biologically regenerate after cavitation.",
-      "2": "Option C (Cementum) is incorrect because Cementum is an avascular mineralized tissue covering anatomical roots (50% inorganic, 50% organic/water) that provides anchorage for Sharpey's fibers of the periodontal ligament.",
-      "3": "Option D (Dentin) is incorrect because Dentin is composed of 70% inorganic hydroxyapatite, 20% organic type I collagen matrix, and 10% water; it possesses living odontoblastic processes in tubules and closely resembles bone.",
-      "4": "Option E (Alveolar bone) is ruled out as it represents a distinct clinical entity or classification differing from or wear. Which dental tissue is being described?."
+      "1": "Option B (Cementum) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Dentin) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Alveolar bone) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for or wear. Which dental tissue is being de.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Enamel.",
     "difficulty": "Medium"
   },
   {
@@ -13546,29 +13440,27 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-042",
     "category": "General Histology & Microbiology",
-    "question": "During a histology practical examination, a student is asked to identify the nonciliate",
+    "question": "During a histology practical examination, a student is asked to identify the nonciliated, dome- shaped epithelial cells found in the terminal bronchioles that secrete protective substances and help detoxify harmful inhaled materials. What are these cells called?",
     "options": [
-      "dome- shaped epithelial cells found in the terminal bronchioles that secrete protective substances and help detoxify harmful inhaled materials. What are these cells called?",
       "Goblet cells",
       "Basal cells",
       "Club cells",
       "Type II pneumocytes"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Basal cells) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (Club cells) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (dome- shaped epithelial cells found in the terminal bronchioles that secrete protective substances and help detoxify harmful inhaled materials. What are these cells called?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Goblet cells) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (Club cells) is ruled out as it represents a distinct clinical entity or classification differing from Basal cells.",
-      "4": "Option E (Type II pneumocytes) is ruled out as it represents a distinct clinical entity or classification differing from Basal cells."
+      "0": "Option A (Goblet cells) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Basal cells) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Type II pneumocytes) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Basal cells.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Club cells.",
     "difficulty": "Hard"
   },
   {
     "id": "dle-ghm-043",
     "category": "General Histology & Microbiology",
-    "question": "Endotoxin is released when the cell wall of _______________ are disrupte",
+    "question": "Endotoxin is released when the cell wall of _______________ are disrupted.",
     "options": [
       "Gram-positive bacteria",
       "Gram-negative bacteria",
@@ -13578,9 +13470,9 @@ export const dentalQuestions = [
     "correctIndex": 1,
     "explanation": "Option B (Gram-negative bacteria) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Gram-positive bacteria) is an alternate microbial taxon with different Gram-staining, morphology, virulence factors, or clinical manifestations.",
-      "2": "Option C (Acid-fast bacteria 8) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "3": "Option D (All of the above) is ruled out as it represents a distinct clinical entity or classification differing from Gram-negative bacteria."
+      "0": "Option A (Gram-positive bacteria) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Acid-fast bacteria 8) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (All of the above) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Gram-negative bacteria.",
     "difficulty": "Easy"
@@ -13588,23 +13480,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-044",
     "category": "General Histology & Microbiology",
-    "question": "Gram-staining procedure involves all of the following solutions, except on",
+    "question": "Gram-staining procedure involves all of the following solutions, except one. Which is it?",
     "options": [
-      "Which is it?",
       "Crystal violet",
       "Methylene blue",
       "Iodine",
       "Alcohol"
     ],
     "correctIndex": 1,
-    "explanation": "Option B (Crystal violet) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option B (Methylene blue) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Which is it?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Methylene blue) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Iodine) is ruled out as it represents a distinct clinical entity or classification differing from Crystal violet.",
-      "4": "Option E (Alcohol) is ruled out as it represents a distinct clinical entity or classification differing from Crystal violet."
+      "0": "Option A (Crystal violet) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Iodine) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Alcohol) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Crystal violet.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Methylene blue.",
     "difficulty": "Medium"
   },
   {
@@ -13630,7 +13520,7 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-046",
     "category": "General Histology & Microbiology",
-    "question": "In mature compact (cortical) bone, what are the cylindrical concentric mineralized matrix rings arranged around a central neurovascular Haversian canal called?",
+    "question": "During an anatomy lecture, students are asked to identify the structural unit that forms compact bone. These units consist of concentric layers of mineralized matrix arranged around a central canal. What are these concentric layers called?",
     "options": [
       "Concentric Lamellae",
       "Osteons (Haversian systems)",
@@ -13638,13 +13528,13 @@ export const dentalQuestions = [
       "Canaliculi"
     ],
     "correctIndex": 0,
-    "explanation": "Concentric Lamellae are the parallel, concentric circular rings or plates of calcified collagenous bone matrix that encircle the central Haversian canal. The entire structural cylindrical unit—comprising the central canal, surrounding concentric lamellae, osteocytes within lacunae, and radiating canaliculi—is termed an Osteon (Haversian system).",
+    "explanation": "Option A (Concentric Lamellae) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Osteons) is the name of the entire composite cylindrical structural functional unit, not the individual concentric layers themselves.",
-      "2": "Option C (Trabeculae) are the branching anastomosing bony plates and struts that compose cancellous (spongy/trabecular) bone.",
-      "3": "Option D (Canaliculi) are tiny microscopic tunnels traversing the lamellae through which osteocytic dendritic processes communicate via gap junctions."
+      "1": "Option B (Osteons (Haversian systems)) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Trabeculae) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Canaliculi) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Bone Histology: Concentric Lamellae = individual mineralized rings. Osteon = complete Haversian cylinder. Canaliculi = communication tunnels for osteocyte dendrites.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Concentric Lamellae.",
     "difficulty": "Easy"
   },
   {
@@ -13710,23 +13600,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-050",
     "category": "General Histology & Microbiology",
-    "question": "A young child presents with fever, sore throat, and multiple vesicular lesions on the soft palate and posterior oropharynx. The physician diagnoses herpangin",
+    "question": "A young child presents with fever, sore throat, and multiple vesicular lesions on the soft palate and posterior oropharynx. The physician diagnoses herpangina, a viral disease commonly seen 9 during the summer months. Which microorganism is most commonly responsible for this condition?",
     "options": [
-      "a viral disease commonly seen 9 during the summer months. Which microorganism is most commonly responsible for this condition?",
       "Epstein-Barr virus",
       "Herpes simplex virus type 1",
       "Coxsackie A virus",
       "Varicella-zoster virus"
     ],
     "correctIndex": 3,
-    "explanation": "Option D (Coxsackie A virus) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option D (Varicella-zoster virus) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (a viral disease commonly seen 9 during the summer months. Which microorganism is most commonly responsible for this condition?) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "1": "Option B (Epstein-Barr virus) is an alternate microbial taxon with different Gram-staining, morphology, virulence factors, or clinical manifestations.",
-      "2": "Option C (Herpes simplex virus type 1) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "4": "Option E (Varicella-zoster virus) is an alternate microbial taxon with different Gram-staining, morphology, virulence factors, or clinical manifestations."
+      "0": "Option A (Epstein-Barr virus) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Herpes simplex virus type 1) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Coxsackie A virus) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Coxsackie A virus.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Varicella-zoster virus.",
     "difficulty": "Medium"
   },
   {
@@ -13872,23 +13760,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-058",
     "category": "General Histology & Microbiology",
-    "question": "While viewing a stained bacterial specimen under a compound light microscop",
+    "question": "While viewing a stained bacterial specimen under a compound light microscope, a student adjusts a structure located beneath the stage that concentrates and focuses light onto the specimen to improve image clarity and resolution. Which microscope component performs this function?",
     "options": [
-      "a student adjusts a structure located beneath the stage that concentrates and focuses light onto the specimen to improve image clarity and resolution. Which microscope component performs this function?",
       "Aperture",
       "Illuminator",
       "Condenser",
       "Mechanical stage"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Illuminator) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (Condenser) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (a student adjusts a structure located beneath the stage that concentrates and focuses light onto the specimen to improve image clarity and resolution. Which microscope component performs this function?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Aperture) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (Condenser) is ruled out as it represents a distinct clinical entity or classification differing from Illuminator.",
-      "4": "Option E (Mechanical stage) is ruled out as it represents a distinct clinical entity or classification differing from Illuminator."
+      "0": "Option A (Aperture) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Illuminator) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Mechanical stage) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Illuminator.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Condenser.",
     "difficulty": "Easy"
   },
   {
@@ -13934,23 +13820,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-061",
     "category": "General Histology & Microbiology",
-    "question": "A patient develops a localized abscess following a bacterial infection. Histologic examination demonstrates tissue destruction with the formation of a thick, creamy exudate composed primarily of dead neutrophils and dissolved tissu",
+    "question": "A patient develops a localized abscess following a bacterial infection. Histologic examination demonstrates tissue destruction with the formation of a thick, creamy exudate composed primarily of dead neutrophils and dissolved tissue. What type of necrosis is most characteristic of an abscess?",
     "options": [
-      "What type of necrosis is most characteristic of an abscess?",
       "Caseous necrosis",
       "Fat necrosis",
       "Liquefactive necrosis",
       "Coagulative necrosis"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Fat necrosis) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (Liquefactive necrosis) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (What type of necrosis is most characteristic of an abscess?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Caseous necrosis) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (Liquefactive necrosis) is ruled out as it represents a distinct clinical entity or classification differing from Fat necrosis.",
-      "4": "Option E (Coagulative necrosis) is ruled out as it represents a distinct clinical entity or classification differing from Fat necrosis."
+      "0": "Option A (Caseous necrosis) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Fat necrosis) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Coagulative necrosis) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Fat necrosis.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Liquefactive necrosis.",
     "difficulty": "Easy"
   },
   {
@@ -13996,45 +13880,41 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-064",
     "category": "General Histology & Microbiology",
-    "question": "The following are advantages of pasteurization, except on",
+    "question": "The following are advantages of pasteurization, except one. Which is it?",
     "options": [
-      "Which is it?",
       "It kills bacteria and spores",
       "It kills all bacteria except thermoduric bacteria",
       "It kills 95% of microorganisms",
       "Tubercle bacilli are destroyed"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (Which is it?) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option A (It kills bacteria and spores) is correct as the EXCEPTION. Pasteurization is a mild thermal disinfection process designed to destroy pathogenic vegetative bacteria (such as Mycobacterium tuberculosis and Salmonella) in liquids without altering taste; it does NOT destroy bacterial endospores or all thermoduric species.",
     "distractorRationales": {
-      "1": "Option B (It kills bacteria and spores) is an alternate microbial taxon with different Gram-staining, morphology, virulence factors, or clinical manifestations.",
-      "2": "Option C (It kills all bacteria except thermoduric bacteria) is an alternate microbial taxon with different Gram-staining, morphology, virulence factors, or clinical manifestations.",
-      "3": "Option D (It kills 95% of microorganisms) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "4": "Option E (Tubercle bacilli are destroyed) is ruled out as it represents a distinct clinical entity or classification differing from Which is it?."
+      "1": "Option B is an accurate statement: thermoduric bacteria (e.g. Streptococcus thermophilus) survive pasteurization.",
+      "2": "Option C is accurate: commercial pasteurization typically achieves a 90-95% reduction in total viable microflora.",
+      "3": "Option D is accurate: destroying heat-resistant vegetative Mycobacterium tuberculosis is the primary benchmark for milk pasteurization."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Which is it?.",
+    "keyTakeaway": "Microbiology & Disinfection: Pasteurization destroys vegetative pathogens (including M. tuberculosis) but DOES NOT kill bacterial endospores (sterilization is required for spores).",
     "difficulty": "Easy"
   },
   {
     "id": "dle-ghm-065",
     "category": "General Histology & Microbiology",
-    "question": "During microscopic evaluation of a chronic inflammatory lesion, the pathologist notes abundant collagen deposition replacing normal tissue architectur",
+    "question": "During microscopic evaluation of a chronic inflammatory lesion, the pathologist notes abundant collagen deposition replacing normal tissue architecture. Which finding is considered the strongest evidence of tissue repair in chronic inflammation?",
     "options": [
-      "Which finding is considered the strongest evidence of tissue repair in chronic inflammation?",
       "Neutrophilic infiltration",
       "Edema formation",
       "Vascular congestion",
       "Fibrosis"
     ],
     "correctIndex": 3,
-    "explanation": "Option D (Vascular congestion) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option D (Fibrosis) is correct. Fibrosis (collagen deposition by proliferating fibroblasts and formation of scar tissue) is the definitive hallmark of healing and tissue repair occurring concurrently with chronic inflammation.",
     "distractorRationales": {
-      "0": "Option A (Which finding is considered the strongest evidence of tissue repair in chronic inflammation?) is incorrect because Red is the DOH color code for sharps containers (puncture-proof receptacles for used needles, scalpel blades, and carpules).",
-      "1": "Option B (Neutrophilic infiltration) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Edema formation) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "4": "Option E (Fibrosis) is ruled out as it represents a distinct clinical entity or classification differing from Vascular congestion."
+      "0": "Option A (Neutrophilic infiltration) is the cellular hallmark of acute, not chronic, inflammation.",
+      "1": "Option B (Edema formation) represents acute vascular permeability changes, not chronic tissue repair.",
+      "2": "Option C (Vascular congestion) is an early hemodynamic change seen in active hyperemia and inflammation."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Vascular congestion.",
+    "keyTakeaway": "Pathology of Inflammation: Acute inflammation = Neutrophils, edema, congestion. Chronic inflammation = Mononuclear cells (macrophages, lymphocytes), tissue destruction, and simultaneous repair by fibrosis and angiogenesis.",
     "difficulty": "Medium"
   },
   {
@@ -14080,23 +13960,21 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-068",
     "category": "General Histology & Microbiology",
-    "question": "The following are examples of dense connective tissues that contains collagen, except on",
+    "question": "The following are examples of dense connective tissues that contains collagen, except one. Which is it?",
     "options": [
-      "Which is it?",
       "Tendons",
       "Ligaments",
       "Adipose",
       "Dermis"
     ],
     "correctIndex": 2,
-    "explanation": "Option C (Ligaments) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option C (Adipose) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Which is it?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Tendons) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (Adipose) is ruled out as it represents a distinct clinical entity or classification differing from Ligaments.",
-      "4": "Option E (Dermis) is ruled out as it represents a distinct clinical entity or classification differing from Ligaments."
+      "0": "Option A (Tendons) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Ligaments) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Dermis) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Ligaments.",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Adipose.",
     "difficulty": "Medium"
   },
   {
@@ -14220,7 +14098,7 @@ export const dentalQuestions = [
   {
     "id": "dle-ghm-075",
     "category": "General Histology & Microbiology",
-    "question": "The anterior part of the hard palate near the incisive papilla and rugae contains adipocytes in its submucos",
+    "question": "The anterior part of the hard palate near the incisive papilla and rugae contains adipocytes in its submucosa, while the posterior part near the posterolateral corner contains minor salivary glands in its submucosa. The midline raphe region does not contain any submucosa and the mucosa is directly attached to the bone tissue.",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -14230,11 +14108,11 @@ export const dentalQuestions = [
     "correctIndex": 0,
     "explanation": "Option A (The first statement is true; the second statement is false.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (The first statement is false; the second statement is true.) is incorrect because the factual validity of the statements differs from this false-then-true configuration.",
-      "2": "Option C (Both statements are true.) is incorrect because at least one of the propositions contains a scientifically inaccurate premise.",
-      "3": "Option D (Both statements are false.) is incorrect because verified factual premises exist in the clinical statement."
+      "1": "Option B (The first statement is false; the second statement is true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Both statements are true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Both statements are false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is true; the second .",
+    "keyTakeaway": "General Histology & Microbiology High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is true; the second statement is false..",
     "difficulty": "Hard"
   },
   {
@@ -14500,23 +14378,21 @@ export const dentalQuestions = [
   {
     "id": "dle-pm-014",
     "category": "Practice Management & Jurisprudence",
-    "question": "Seats in the reception room vary from office to offic",
+    "question": "Seats in the reception room vary from office to office, depending on individual practice styles. A general rule is to provide ____  seats for each dental chair in a general practice",
     "options": [
-      "depending on individual practice styles. A general rule is to provide ____  seats for each dental chair in a general practice",
       "2",
       "3",
       "5",
       "6"
     ],
     "correctIndex": 0,
-    "explanation": "Option A (depending on individual practice styles. A general rule is to provide ____  seats for each dental chair in a general practice) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option A (2) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (2) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "2": "Option C (3) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "3": "Option D (5) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "4": "Option E (6) does not match the standardized dimensional or numerical threshold established for this clinical parameter."
+      "1": "Option B (3) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (5) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (6) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Practice Management & Jurisprudence High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for depending on individual practice styles..",
+    "keyTakeaway": "Practice Management & Jurisprudence High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for 2.",
     "difficulty": "Medium"
   },
   {
@@ -15002,23 +14878,21 @@ export const dentalQuestions = [
   {
     "id": "dle-pm-040",
     "category": "Practice Management & Jurisprudence",
-    "question": "In case of higher referrals on cases that we considered beyond the scope of our expertis",
+    "question": "In case of higher referrals on cases that we considered beyond the scope of our expertise, Is it ethical to accept / pay a referral percentage?",
     "options": [
-      "Is it ethical to accept / pay a referral percentage?",
       "Yes because its part of the business side of dentistry",
       "Yes because no knowledge is free",
       "No because he is my colleague",
       "No because it is a form of soliciting patients"
     ],
     "correctIndex": 3,
-    "explanation": "Option D (No because he is my colleague) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option D (No because it is a form of soliciting patients) is correct. The Code of Ethics for Philippine Dentists strictly prohibits fee-splitting (giving or receiving commissions or rebates for patient referrals), as it constitutes unethical commercial exploitation and unprofessional patient solicitation.",
     "distractorRationales": {
-      "0": "Option A (Is it ethical to accept / pay a referral percentage?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Yes because its part of the business side of dentistry) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Yes because no knowledge is free) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "4": "Option E (No because it is a form of soliciting patients) is ruled out as it represents a distinct clinical entity or classification differing from No because he is my colleague."
+      "0": "Option A is false because commercial commission schemes compromise professional judgment and are prohibited by dental ethics.",
+      "1": "Option B is unethical: referral must be based entirely on patient welfare and competence, never financial kickbacks.",
+      "2": "Option C provides an invalid rationalization; fee-splitting is prohibited on ethical and legal grounds, not mere collegiality."
     },
-    "keyTakeaway": "Practice Management & Jurisprudence High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for No because he is my colleague.",
+    "keyTakeaway": "Dental Ethics & Jurisprudence: Fee-splitting (referral commission/kickbacks) is strictly unethical and illegal. Referrals must be made solely in the best interest of the patient.",
     "difficulty": "Easy"
   },
   {
@@ -15364,23 +15238,21 @@ export const dentalQuestions = [
   {
     "id": "dle-pm-058",
     "category": "Practice Management & Jurisprudence",
-    "question": "A patient goes to your office suffering of tooth pain, and you know that either root canal therapy or extraction is neede",
+    "question": "A patient goes to your office suffering of tooth pain, and you know that either root canal therapy or extraction is needed. You know that the patient does not have enough money. What should you do?",
     "options": [
-      "You know that the patient does not have enough money. What should you do?",
       "Tell root canal therapy is expensive",
       "Refer the patient to another dentist",
       "Present relevant information regarding extraction and RCT",
       "Tell that extraction is cheaper and wear denture"
     ],
     "correctIndex": 1,
-    "explanation": "Option B (Tell root canal therapy is expensive) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
+    "explanation": "Option B (Refer the patient to another dentist) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (You know that the patient does not have enough money. What should you do?) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Refer the patient to another dentist) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Present relevant information regarding extraction and RCT) is ruled out as it represents a distinct clinical entity or classification differing from Tell root canal therapy is expensive.",
-      "4": "Option E (Tell that extraction is cheaper and wear denture) is ruled out as it represents a distinct clinical entity or classification differing from Tell root canal therapy is expensive."
+      "0": "Option A (Tell root canal therapy is expensive) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Present relevant information regarding extraction and RCT) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Tell that extraction is cheaper and wear denture) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Practice Management & Jurisprudence High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Tell root canal therapy is expensive.",
+    "keyTakeaway": "Practice Management & Jurisprudence High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Refer the patient to another dentist.",
     "difficulty": "Easy"
   },
   {
@@ -15611,16 +15483,14 @@ export const dentalQuestions = [
       "Kapitan Cheng-Cheng",
       "Hesy-Re",
       "John Baker",
-      "Pierre Fauchard “ MAHIRAP MAN ANG DAAN, MALAYO MAN SA KATOTOHANAN PASASAAN PAT MATATAPOS DIN ANG LAHAT, KAYA IPANALO NA NATIN ITO! – WA",
-      "DMD"
+      "Pierre Fauchard “ MAHIRAP MAN ANG DAAN, MALAYO MAN SA KATOTOHANAN PASASAAN PAT MATATAPOS DIN ANG LAHAT, KAYA IPANALO NA NATIN ITO! – WAB, DMD"
     ],
     "correctIndex": 0,
     "explanation": "Option A (Kapitan Cheng-Cheng) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Hesy-Re) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (John Baker) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Pierre Fauchard “ MAHIRAP MAN ANG DAAN, MALAYO MAN SA KATOTOHANAN PASASAAN PAT MATATAPOS DIN ANG LAHAT, KAYA IPANALO NA NATIN ITO! – WA) is incorrect because Pierre Fauchard is considered the Father of Modern Dentistry, having invented the 'Bandeau' expansion arch in 1728 for correcting tooth irregularities.",
-      "4": "Option E (DMD) is ruled out as it represents a distinct clinical entity or classification differing from Kapitan Cheng-Cheng."
+      "1": "Option B (Hesy-Re) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (John Baker) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Pierre Fauchard “ MAHIRAP MAN ANG DAAN, MALAYO MAN SA KATOTOHANAN PASASAAN PAT MATATAPOS DIN ANG LAHAT, KAYA IPANALO NA NATIN ITO! – WAB, DMD) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Practice Management & Jurisprudence High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Kapitan Cheng-Cheng.",
     "difficulty": "Easy"
@@ -19654,7 +19524,7 @@ export const dentalQuestions = [
   {
     "id": "dle-resto-035",
     "category": "Restorative Dentistry",
-    "question": "An ion-releasing composite material that reduces  secondary caries formation at the margin of a restoration",
+    "question": "An ion-releasing composite material that reduces secondary caries formation at the margin of a restoration by inhibiting bacterial growth, in response to decrease in the pH",
     "options": [
       "Ceromers",
       "Ormocers",
@@ -19664,9 +19534,9 @@ export const dentalQuestions = [
     "correctIndex": 1,
     "explanation": "Option B (Ormocers) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Ceromers) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "2": "Option C (Smart composites) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Compomers) is ruled out as it represents a distinct clinical entity or classification differing from Ormocers."
+      "0": "Option A (Ceromers) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Smart composites) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Compomers) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Ormocers.",
     "difficulty": "Medium"
@@ -19900,7 +19770,7 @@ export const dentalQuestions = [
   {
     "id": "dle-resto-047",
     "category": "Restorative Dentistry",
-    "question": "Which of the following are/is acceptable types of  tooth preparations to receive composite resins as",
+    "question": "Which of the following are/is acceptable types of tooth preparations to receive composite resins as restorative materials?",
     "options": [
       "Conventional and bevelled conventional",
       "Modified preparation where only the defect is",
@@ -19910,9 +19780,9 @@ export const dentalQuestions = [
     "correctIndex": 2,
     "explanation": "Option C (Box only or slot preparations) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Conventional and bevelled conventional) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Modified preparation where only the defect is) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (All of the above) is ruled out as it represents a distinct clinical entity or classification differing from Box only or slot preparations."
+      "0": "Option A (Conventional and bevelled conventional) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Modified preparation where only the defect is) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (All of the above) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Box only or slot preparations.",
     "difficulty": "Medium"
@@ -20286,7 +20156,7 @@ export const dentalQuestions = [
   {
     "id": "dle-resto-066",
     "category": "Restorative Dentistry",
-    "question": "Incipient caries consists of opaque, chalky white areas  that appear when the tooth surface is dried, this is",
+    "question": "Incipient caries consists of opaque, chalky white areas that appear when the tooth surface is dried, this is referred as",
     "options": [
       "White spot",
       "Hot spot",
@@ -20296,9 +20166,9 @@ export const dentalQuestions = [
     "correctIndex": 0,
     "explanation": "Option A (White spot) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Hot spot) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Translucent zone) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Body of lesion) is ruled out as it represents a distinct clinical entity or classification differing from White spot."
+      "1": "Option B (Hot spot) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Translucent zone) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Body of lesion) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for White spot.",
     "difficulty": "Medium"
@@ -20626,7 +20496,7 @@ export const dentalQuestions = [
   {
     "id": "dle-resto-083",
     "category": "Restorative Dentistry",
-    "question": "To avoid pulpal irritation below a resistant metallic  restoration, the minimum dentin thickness which should",
+    "question": "To avoid pulpal irritation below a resistant metallic restoration, the minimum dentin thickness which should remain is:",
     "options": [
       "0.5mm",
       "1.5mm",
@@ -20636,9 +20506,9 @@ export const dentalQuestions = [
     "correctIndex": 3,
     "explanation": "Option D (2.0mm) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (0.5mm) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "1": "Option B (1.5mm) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "2": "Option C (1.0mm) does not match the standardized dimensional or numerical threshold established for this clinical parameter."
+      "0": "Option A (0.5mm) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (1.5mm) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (1.0mm) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for 2.0mm.",
     "difficulty": "Medium"
@@ -20746,7 +20616,7 @@ export const dentalQuestions = [
   {
     "id": "dle-resto-089",
     "category": "Restorative Dentistry",
-    "question": "When restoring the embrasures of the posterior teeth,  the contact should be formed slightly buccal from center.",
+    "question": "When restoring the embrasures of the posterior teeth, the contact should be formed slightly buccal from center. This will create a wider facial embrasure",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -20756,17 +20626,17 @@ export const dentalQuestions = [
     "correctIndex": 1,
     "explanation": "Option B (The first statement is false; the second statement is true.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (The first statement is true; the second statement is false.) is incorrect because the evaluated statements do not follow a true-then-false pattern under established board benchmarks.",
-      "2": "Option C (Both statements are true.) is incorrect because at least one of the propositions contains a scientifically inaccurate premise.",
-      "3": "Option D (Both statements are false.) is incorrect because verified factual premises exist in the clinical statement."
+      "0": "Option A (The first statement is true; the second statement is false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Both statements are true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Both statements are false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is false; the second.",
+    "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is false; the second statement is true..",
     "difficulty": "Medium"
   },
   {
     "id": "dle-resto-090",
     "category": "Restorative Dentistry",
-    "question": "Glass ionomer cements generally contain fluoro- amino-silica powder. Fluoro-amino-silica powder is the",
+    "question": "Glass ionomer cements generally contain fluoro- amino-silica powder. Fluoro-amino-silica powder is the portion responsible for one of the major advantage of glass ionomer",
     "options": [
       "The first statement is true; the second statement is false.",
       "The first statement is false; the second statement is true.",
@@ -20776,17 +20646,17 @@ export const dentalQuestions = [
     "correctIndex": 0,
     "explanation": "Option A (The first statement is true; the second statement is false.) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (The first statement is false; the second statement is true.) is incorrect because the factual validity of the statements differs from this false-then-true configuration.",
-      "2": "Option C (Both statements are true.) is incorrect because at least one of the propositions contains a scientifically inaccurate premise.",
-      "3": "Option D (Both statements are false.) is incorrect because verified factual premises exist in the clinical statement."
+      "1": "Option B (The first statement is false; the second statement is true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Both statements are true.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Both statements are false.) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is true; the second .",
+    "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for The first statement is true; the second statement is false..",
     "difficulty": "Medium"
   },
   {
     "id": "dle-resto-091",
     "category": "Restorative Dentistry",
-    "question": "IRM (intermediate restorative material) will interfere  with subsequent placement of a resin filling. This is",
+    "question": "IRM (intermediate restorative material) will interfere with subsequent placement of a resin filling. This is because IRM is a form of zinc oxide eugenol",
     "options": [
       "Both the statement and the reason are correct and related",
       "Both the statement and the reason are correct, but not",
@@ -20797,12 +20667,12 @@ export const dentalQuestions = [
     "correctIndex": 0,
     "explanation": "Option A (Both the statement and the reason are correct and related) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Both the statement and the reason are correct, but not) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (The statement is correct, but the reason is not) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (The statement is not correct, but the reason is correct) is ruled out as it represents a distinct clinical entity or classification differing from Both the statement and the reason are correct and related.",
-      "4": "Option E (Neither the statement nor the reason is correct) is ruled out as it represents a distinct clinical entity or classification differing from Both the statement and the reason are correct and related."
+      "1": "Option B (Both the statement and the reason are correct, but not) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (The statement is correct, but the reason is not) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (The statement is not correct, but the reason is correct) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "4": "Option E (Neither the statement nor the reason is correct) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Both the statement and the reason are co.",
+    "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Both the statement and the reason are correct and related.",
     "difficulty": "Medium"
   },
   {
@@ -20868,7 +20738,7 @@ export const dentalQuestions = [
   {
     "id": "dle-resto-095",
     "category": "Restorative Dentistry",
-    "question": "A dental clinician accidentally dropped a capsule of dental  amalgam on a tile floor in the dental clinic. Which of the",
+    "question": "A dental clinician accidentally dropped a capsule of dental amalgam on a tile floor in the dental clinic. Which of the following is the most appropriate initial action to gather the spilled mercury droplets?",
     "options": [
       "Use a high-volume dental evacuator or household vacuum to suction",
       "Use a broom and dustpan to sweep the beads into a biohazard bag",
@@ -20878,11 +20748,11 @@ export const dentalQuestions = [
     "correctIndex": 2,
     "explanation": "Option C (Use a rubber squeegee or stiff cardboard to gently push the beads) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Use a high-volume dental evacuator or household vacuum to suction) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Use a broom and dustpan to sweep the beads into a biohazard bag) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "3": "Option D (Wash the area immediately with hot water and heavy-duty detergent) is ruled out as it represents a distinct clinical entity or classification differing from Use a rubber squeegee or stiff cardboard to gently push the beads."
+      "0": "Option A (Use a high-volume dental evacuator or household vacuum to suction) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Use a broom and dustpan to sweep the beads into a biohazard bag) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Wash the area immediately with hot water and heavy-duty detergent) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Use a rubber squeegee or stiff cardboard.",
+    "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Use a rubber squeegee or stiff cardboard to gently push the beads.",
     "difficulty": "Medium"
   },
   {
@@ -20908,7 +20778,7 @@ export const dentalQuestions = [
   {
     "id": "dle-resto-097",
     "category": "Restorative Dentistry",
-    "question": "When finishing the lingual surface of a composite  restoration in an anterior tooth, the most effective",
+    "question": "When finishing the lingual surface of a composite restoration in an anterior tooth, the most effective abrasive tool would be a:",
     "options": [
       "Finishing disk",
       "Finishing cup",
@@ -20918,9 +20788,9 @@ export const dentalQuestions = [
     "correctIndex": 3,
     "explanation": "Option D (Egg/football-shaped finishing bur) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "0": "Option A (Finishing disk) represents a differential diagnosis or anatomical landmark that does not exhibit the defining features described in the stem.",
-      "1": "Option B (Finishing cup) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Flame-shaped finishing bur) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question."
+      "0": "Option A (Finishing disk) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "1": "Option B (Finishing cup) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Flame-shaped finishing bur) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Egg/football-shaped finishing bur.",
     "difficulty": "Medium"
@@ -20928,7 +20798,7 @@ export const dentalQuestions = [
   {
     "id": "dle-resto-098",
     "category": "Restorative Dentistry",
-    "question": "During preparation for a porcelain laminate veneer on a  maxillary central incisor, the dentist follows a three-zone facial",
+    "question": "During preparation for a porcelain laminate veneer on a maxillary central incisor, the dentist follows a three-zone facial reduction technique. Which of the following correctly matches the recommended facial reduction depth for each third of the tooth?",
     "options": [
       "Incisal: 0.3-0.5mm, middle: 0.5-0.75mm, gingival: 0.75-1.0mm",
       "Incisal: 0.75-1.0mm, middle: 0.5-0.75mm, gingival: 0.3-0.5mm",
@@ -20938,17 +20808,17 @@ export const dentalQuestions = [
     "correctIndex": 0,
     "explanation": "Option A (Incisal: 0.3-0.5mm, middle: 0.5-0.75mm, gingival: 0.75-1.0mm) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Incisal: 0.75-1.0mm, middle: 0.5-0.75mm, gingival: 0.3-0.5mm) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "2": "Option C (Incisal: 1.0-1.5mm, middle: 0.75mm-1.0mm, gingival: 0.5-0.75mm) does not match the standardized dimensional or numerical threshold established for this clinical parameter.",
-      "3": "Option D (Incisal: 0.5-0.75mm, middle: 0.3-0.5mm, gingival: 0.75-1.0mm) does not match the standardized dimensional or numerical threshold established for this clinical parameter."
+      "1": "Option B (Incisal: 0.75-1.0mm, middle: 0.5-0.75mm, gingival: 0.3-0.5mm) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Incisal: 1.0-1.5mm, middle: 0.75mm-1.0mm, gingival: 0.5-0.75mm) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Incisal: 0.5-0.75mm, middle: 0.3-0.5mm, gingival: 0.75-1.0mm) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
-    "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Incisal: 0.3-0.5mm, middle: 0.5-0.75mm, .",
+    "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Incisal: 0.3-0.5mm, middle: 0.5-0.75mm, gingival: 0.75-1.0mm.",
     "difficulty": "Medium"
   },
   {
     "id": "dle-resto-099",
     "category": "Restorative Dentistry",
-    "question": "A dentist uses an adhesive system that requires  separate application of phosphoric acid etchant, primer,",
+    "question": "A dentist uses an adhesive system that requires separate application of phosphoric acid etchant, primer, and bonding resin. This system is characterized by 3 distinct clinical steps. Which generation of dentin bonding system does this technique represent?",
     "options": [
       "Fourth generation",
       "Fifth generation",
@@ -20958,9 +20828,9 @@ export const dentalQuestions = [
     "correctIndex": 0,
     "explanation": "Option A (Fourth generation) is correct. In Philippine board dental science, this option directly fulfills the anatomical, physiological, or therapeutic criteria demanded by the stem.",
     "distractorRationales": {
-      "1": "Option B (Fifth generation) is ruled out because its biological mechanism, anatomical trajectory, or clinical protocol operates under different parameters.",
-      "2": "Option C (Sixth generation) refers to an alternative clinical or physiological standard that does not fulfill the criteria of this question.",
-      "3": "Option D (Seventh generation) is ruled out as it represents a distinct clinical entity or classification differing from Fourth generation."
+      "1": "Option B (Fifth generation) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "2": "Option C (Sixth generation) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem.",
+      "3": "Option D (Seventh generation) represents an alternative classification, mechanism, or contraindication that does not satisfy the requirements of the stem."
     },
     "keyTakeaway": "Restorative Dentistry High-Yield Pearl: Master the core clinical indications, anatomical landmarks, and board exam benchmarks for Fourth generation.",
     "difficulty": "Medium"

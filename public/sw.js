@@ -1,5 +1,5 @@
 // Service Worker for Dr. Leane DLE Reviewer PWA
-const CACHE_NAME = "dr-leane-dle-v9-flip-fix";
+const CACHE_NAME = "dr-leane-dle-v10-stems-clean";
 const STATIC_ASSETS = [
   "/",
   "/index.html",
