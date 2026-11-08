@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { 
   Search, BookOpen, ChevronLeft, ChevronRight, ZoomIn, ZoomOut, 
   RotateCcw, Copy, Check, Bookmark, Star, Sparkles, Heart, 
-  Layers, ExternalLink, HelpCircle, X
+  Layers, ExternalLink, HelpCircle, X, PenTool, FileText, Lightbulb, CheckCircle2
 } from "lucide-react";
 import { DMF_BOOK_PAGES, DMF_CHAPTERS, DMF_TOTAL_PAGES } from "../data/dmfBookData";
 import { sound } from "../utils/audio";
@@ -22,6 +22,45 @@ export function BookReader({ girlfriendName, initialPage = 1, onOpenCheatSheet }
       return [57, 63, 70, 88, 93];
     }
   });
+
+  const [personalNotes, setPersonalNotes] = useState(() => {
+    try {
+      const saved = localStorage.getItem("dr_leane_personal_book_notes");
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
+
+  const handleSavePersonalNote = (text) => {
+    const updated = { ...personalNotes, [currentPage]: text };
+    setPersonalNotes(updated);
+    try {
+      localStorage.setItem("dr_leane_personal_book_notes", JSON.stringify(updated));
+    } catch (e) {
+      console.warn("Could not save personal notes", e);
+    }
+  };
+
+  const getAngeloMilestoneNote = (p) => {
+    if (p <= 33) return "You're building the bedrock in General Anatomy, Physiology & Histology! You've got this, my love! ❤️";
+    if (p <= 56) return "Conquering General Pathology & Microbiology like the doctor you are! Proud of you, Leane! 🦠💜";
+    if (p <= 84) return "Mastering Pharmacology & Local Anesthesia! Future topnotcher Dr. Leane! 💊✨";
+    if (p <= 91) return "Oral Anatomy & Occlusion in the bag! Keep that momentum going! 🦷❤️";
+    if (p <= 101) return "Orthodontics and Growth mastery! Every angle and classification is clicking! 📐💜";
+    if (p <= 113) return "Pediatric Dentistry, so gentle and brilliant! Keep shining, babygirl! 👶✨";
+    if (p <= 136) return "Dental Materials locked in! Impression & restorative precision! 🧪❤️";
+    if (p <= 152) return "Restorative Dentistry expertise! Cavity prep and bonding perfection! 🪥💜";
+    if (p <= 176) return "Oral Pathology diagnostician! Identifying every cyst and tumor! 🔬❤️";
+    if (p <= 198) return "Oral Radiology clarity! Spotting every landmark on film! ☢️💜";
+    if (p <= 211) return "Oral Surgery confidence! Calm hands, brilliant surgical mind! 🩺❤️";
+    if (p <= 224) return "Endodontics precision! Canal preparation and obturation master! 📍💜";
+    if (p <= 240) return "Periodontics champion! Healthy gingiva and perfect bone support! 🛡️❤️";
+    if (p <= 260) return "Dental Jurisprudence ethics and law! PRC Board ready! ⚖️💜";
+    if (p <= 285) return "Community Dentistry & Public Health advocate! Serving smiles everywhere! 🌐❤️";
+    if (p <= 313) return "Cells & Tissues microscopic mastery! Foundational excellence! 🧠💜";
+    return "High-Yield Visual Cheat Sheets! The ultimate review for your DMD license! So proud of you, Leane! ⭐👑❤️";
+  };
 
   const pageContainerRef = useRef(null);
 
@@ -141,7 +180,7 @@ export function BookReader({ girlfriendName, initialPage = 1, onOpenCheatSheet }
                   Dr. {girlfriendName}'s Digital DMF Library
                 </h1>
                 <span className="badge badge-purple" style={{ fontSize: "0.75rem" }}>
-                  Pages 1–100 Online 📖
+                  All 318 Pages Online • Complete 17 Chapters 📖
                 </span>
               </div>
               <p style={{ margin: "0.2rem 0 0", color: "var(--text-secondary)", fontSize: "0.85rem" }}>
@@ -488,7 +527,7 @@ export function BookReader({ girlfriendName, initialPage = 1, onOpenCheatSheet }
             {/* Quick Caption */}
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: "0.78rem", color: "var(--text-muted)", padding: "0.25rem 0.5rem" }}>
               <span>💡 Double tap or scroll inside viewer to inspect small handwriting & notes</span>
-              <span>Physical Book: Page {currentPage}/313</span>
+              <span>Physical Book: Page {currentPage}/318</span>
             </div>
           </div>
         )}
@@ -533,23 +572,108 @@ export function BookReader({ girlfriendName, initialPage = 1, onOpenCheatSheet }
               </div>
             </div>
 
-            {/* High-Yield Transcribed Summary Card */}
+            {/* Card 1: Original Printed Textbook (Clean Print Only) */}
             <div style={{
-              background: "rgba(0,0,0,0.25)",
-              border: "1px solid rgba(168, 85, 247, 0.2)",
+              background: "rgba(10, 15, 30, 0.4)",
+              border: "1px solid rgba(59, 130, 246, 0.25)",
               borderRadius: "var(--radius-md)",
-              padding: "1.25rem",
-              lineHeight: 1.7,
-              fontSize: "0.92rem",
-              color: "var(--text-primary)"
+              padding: "1.15rem",
+              lineHeight: 1.65,
+              fontSize: "0.9rem"
             }}>
-              <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", marginBottom: "0.6rem", color: "#ec4899", fontWeight: 700, fontSize: "0.82rem", textTransform: "uppercase", letterSpacing: "0.05em" }}>
-                <Sparkles size={14} />
-                <span>High-Yield Page Summary & Board Pearls</span>
+              <div style={{ display: "flex", alignItems: "center", gap: "0.45rem", marginBottom: "0.6rem", color: "#60a5fa", fontWeight: 700, fontSize: "0.82rem", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+                <BookOpen size={15} />
+                <span>Original DMF Reviewer Print (Textbook Only)</span>
               </div>
-              <p style={{ margin: 0, color: "#f3f4f6" }}>
-                {currentPageData.summary}
+              <div style={{ whiteSpace: "pre-wrap", color: "#e2e8f0", fontSize: "0.88rem" }}>
+                {currentPageData.originalPrint || currentPageData.summary}
+              </div>
+            </div>
+
+            {/* Card 2: AI Conceptual Understanding & Board Pearls */}
+            <div style={{
+              background: "rgba(30, 15, 45, 0.45)",
+              border: "1px solid rgba(236, 72, 153, 0.3)",
+              borderRadius: "var(--radius-md)",
+              padding: "1.15rem",
+              lineHeight: 1.65,
+              fontSize: "0.9rem"
+            }}>
+              <div style={{ display: "flex", alignItems: "center", gap: "0.45rem", marginBottom: "0.6rem", color: "#f472b6", fontWeight: 700, fontSize: "0.82rem", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+                <Sparkles size={15} />
+                <span>AI Conceptual Understanding & Clinical Rationale</span>
+              </div>
+              <p style={{ margin: "0 0 0.85rem", color: "#f3f4f6", fontSize: "0.88rem" }}>
+                {currentPageData.aiUnderstanding}
               </p>
+              
+              {currentPageData.boardPearls && (
+                <div style={{
+                  background: "rgba(245, 158, 11, 0.1)",
+                  border: "1px solid rgba(245, 158, 11, 0.3)",
+                  borderRadius: "8px",
+                  padding: "0.75rem 0.9rem",
+                  fontSize: "0.84rem",
+                  color: "#fde68a"
+                }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", fontWeight: 700, marginBottom: "0.25rem", color: "#fbbf24" }}>
+                    <Lightbulb size={14} />
+                    <span>PRC BOARD EXAM HIGH-FREQUENCY PEARL:</span>
+                  </div>
+                  <div>{currentPageData.boardPearls}</div>
+                </div>
+              )}
+            </div>
+
+            {/* Card 3: Dr. Leane's Handwritten Pearls & Personal Notes */}
+            <div style={{
+              background: "rgba(25, 10, 35, 0.5)",
+              border: "1px solid rgba(192, 132, 252, 0.35)",
+              borderRadius: "var(--radius-md)",
+              padding: "1.15rem",
+              lineHeight: 1.65,
+              fontSize: "0.9rem"
+            }}>
+              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "0.45rem", marginBottom: "0.6rem" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "0.45rem", color: "#c084fc", fontWeight: 700, fontSize: "0.82rem", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+                  <PenTool size={15} />
+                  <span>Dr. {girlfriendName}'s Handwritten Pearls & Margin Notes ✍️💜</span>
+                </div>
+                <span style={{ fontSize: "0.72rem", color: "#a855f7" }}>Lecture & Study Notes</span>
+              </div>
+              
+              <div style={{ whiteSpace: "pre-wrap", color: "#e9d5ff", fontSize: "0.87rem", marginBottom: "1rem", background: "rgba(0,0,0,0.2)", padding: "0.75rem", borderRadius: "8px" }}>
+                {currentPageData.leaneNotes || "No specific handwritten margin notes recorded for this page."}
+              </div>
+
+              {/* Personal Interactive Notepad for Leane */}
+              <div style={{ borderTop: "1px solid rgba(168, 85, 247, 0.2)", paddingTop: "0.85rem" }}>
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "0.4rem" }}>
+                  <span style={{ fontSize: "0.78rem", fontWeight: 700, color: "var(--text-secondary)" }}>
+                    Add Your Personal Notes for Page {currentPage}:
+                  </span>
+                  <span style={{ fontSize: "0.72rem", color: "var(--text-muted)" }}>
+                    Auto-saved locally 💾
+                  </span>
+                </div>
+                <textarea
+                  value={personalNotes[currentPage] || ""}
+                  onChange={(e) => handleSavePersonalNote(e.target.value)}
+                  placeholder={`Write your own notes, clinical questions, or memory triggers for page ${currentPage}...`}
+                  rows={3}
+                  style={{
+                    width: "100%",
+                    background: "rgba(0, 0, 0, 0.35)",
+                    border: "1px solid rgba(168, 85, 247, 0.3)",
+                    borderRadius: "8px",
+                    padding: "0.6rem 0.75rem",
+                    color: "#fff",
+                    fontSize: "0.85rem",
+                    resize: "vertical",
+                    outline: "none"
+                  }}
+                />
+              </div>
             </div>
 
             {/* Key Concepts / Search Tags */}
@@ -626,7 +750,7 @@ export function BookReader({ girlfriendName, initialPage = 1, onOpenCheatSheet }
               <Heart size={20} color="#ec4899" fill="#ec4899" style={{ flexShrink: 0 }} />
               <div style={{ fontSize: "0.82rem", color: "#fbcfe8", lineHeight: 1.5 }}>
                 <span style={{ fontWeight: 700 }}>Angelo's Note: </span>
-                "100 pages down, you're mastering this whole book! Take it page by page, my love! ❤️"
+                "{getAngeloMilestoneNote(currentPage)}"
               </div>
             </div>
 
@@ -731,3 +855,4 @@ export function BookReader({ girlfriendName, initialPage = 1, onOpenCheatSheet }
     </div>
   );
 }
+
