@@ -558,36 +558,54 @@ export function Dashboard({
           </span>
         </div>
 
-        {/* Flashcards */}
+        {/* Dental Decks & Flashcards */}
         <div 
           onClick={() => onStartMode("flashcards")}
           className="glass-panel" 
           style={{
             padding: "1.75rem",
             cursor: "pointer",
-            border: "1px solid rgba(168, 85, 247, 0.2)",
-            background: "linear-gradient(145deg, rgba(168, 85, 247, 0.08) 0%, rgba(17, 24, 39, 0.95) 100%)"
+            border: "1px solid rgba(168, 85, 247, 0.3)",
+            background: "linear-gradient(145deg, rgba(168, 85, 247, 0.12) 0%, rgba(17, 24, 39, 0.95) 100%)",
+            position: "relative",
+            overflow: "hidden"
           }}
         >
+          <div style={{
+            position: "absolute",
+            top: "1rem",
+            right: "1rem",
+            background: "linear-gradient(135deg, #ec4899 0%, #a855f7 100%)",
+            color: "#ffffff",
+            fontSize: "0.72rem",
+            fontWeight: 800,
+            padding: "3px 9px",
+            borderRadius: "9999px",
+            textTransform: "uppercase",
+            letterSpacing: "0.05em",
+            boxShadow: "0 2px 8px rgba(236, 72, 153, 0.4)"
+          }}>
+            1,209 Cards 🃏
+          </div>
           <div style={{
             width: "48px",
             height: "48px",
             borderRadius: "14px",
-            background: "linear-gradient(135deg, #a855f7 0%, #6366f1 100%)",
+            background: "linear-gradient(135deg, #a855f7 0%, #ec4899 100%)",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
             marginBottom: "1rem",
-            boxShadow: "0 6px 15px rgba(168, 85, 247, 0.3)"
+            boxShadow: "0 6px 15px rgba(168, 85, 247, 0.35)"
           }}>
             <BookOpen size={24} color="#ffffff" />
           </div>
-          <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.4rem" }}>3D Flashcard Deck</h3>
+          <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.4rem" }}>Dental Decks &amp; Flashcards</h3>
           <p style={{ color: "var(--text-secondary)", fontSize: "0.88rem", marginBottom: "1.25rem", lineHeight: 1.5 }}>
-            Flip-to-reveal cards with spaced-repetition ratings (Again, Hard, Good, Easy) for fast active recall mastery.
+            1,209 authentic cards: 2017 Oral Radiology decks, clinical testlets, oral surgery, dental glossary, and 9 PRC exam blocks.
           </p>
           <span style={{ color: "#c084fc", fontWeight: 700, fontSize: "0.85rem", display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
-            Flip Flashcards <ArrowRight size={14} />
+            Flip Dental Decks <ArrowRight size={14} />
           </span>
         </div>
 

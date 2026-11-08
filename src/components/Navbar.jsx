@@ -31,7 +31,7 @@ export function Navbar({
     { id: "practice", label: "Practice Drill", icon: "⚡" },
     { id: "goodnotes", label: "LeaneNotes ✍️", icon: "📓" },
     { id: "mock", label: "Mock Exam", icon: "🎯" },
-    { id: "flashcards", label: "Flashcards", icon: "🗂️" },
+    { id: "flashcards", label: "Dental Decks 🃏", icon: "🃏" },
     { id: "weakness", label: "Weakness Focus", icon: "🔍" },
     { id: "bank", label: "Question Bank", icon: "📚" },
     { id: "book", label: "Reviewer Book 📖", icon: "📖" },
