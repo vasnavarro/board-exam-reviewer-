@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { 
   Sparkles, Heart, Clock, Award, Target, Flame, 
   ArrowRight, BookOpen, CheckCircle2, AlertCircle, RefreshCw,
-  TrendingUp, BarChart3, ShieldCheck, PenTool, Gift, Zap
+  TrendingUp, BarChart3, ShieldCheck, PenTool, Gift, Zap, ChevronRight, Calendar
 } from "lucide-react";
 import { motivationalQuotes } from "../data/quotes";
 import { sound } from "../utils/audio";
@@ -20,7 +20,8 @@ export function Dashboard({
   passingScore,
   onStartMode,
   onOpenRewards,
-  unlockedRewardsCount = 0
+  unlockedRewardsCount = 0,
+  onOpenSchedule
 }) {
   const [quoteIndex, setQuoteIndex] = useState(0);
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -184,8 +185,38 @@ export function Dashboard({
             </div>
 
             <p style={{ fontSize: "0.75rem", color: "var(--text-secondary)", marginTop: "0.75rem" }}>
-              Target: <strong style={{ color: "#ffffff" }}>Nov 22–24, 2026 (DLE Theoretical Phase)</strong>
+              Target: <strong style={{ color: "#ffffff" }}>Nov 22–24, 2026 (DLE Written Phase)</strong>
             </p>
+
+            {onOpenSchedule && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  sound.playClick();
+                  onOpenSchedule();
+                }}
+                className="btn btn-secondary"
+                style={{
+                  width: "100%",
+                  marginTop: "0.6rem",
+                  padding: "0.45rem",
+                  fontSize: "0.78rem",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "0.4rem",
+                  borderRadius: "8px",
+                  border: "1px solid rgba(168, 85, 247, 0.4)",
+                  background: "rgba(168, 85, 247, 0.15)",
+                  color: "#d8b4fe",
+                  cursor: "pointer"
+                }}
+              >
+                <Calendar size={13} color="#c084fc" />
+                <span>View Official PRC Schedule 📋</span>
+                <ChevronRight size={13} />
+              </button>
+            )}
           </div>
         </div>
       </div>
@@ -363,6 +394,7 @@ export function Dashboard({
         examHistory={examHistory}
         onSimulateDay={(day) => onStartMode("mock", day)}
         girlfriendName={girlfriendName}
+        onOpenSchedule={onOpenSchedule}
       />
 
       {/* Main Study Modes Grid */}

@@ -14,6 +14,7 @@ import { QuickDrills } from "./components/QuickDrills";
 import { MilestoneRewards } from "./components/MilestoneRewards";
 import { StudyStation } from "./components/StudyStation";
 import { ZenAntiPanicModal } from "./components/ZenAntiPanicModal";
+import { PRCScheduleModal } from "./components/PRCScheduleModal";
 import { MILESTONES } from "./data/milestones";
 import { defaultQuestions } from "./data/defaultQuestions";
 import { sound } from "./utils/audio";
@@ -325,6 +326,7 @@ export default function App() {
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isRewardsOpen, setIsRewardsOpen] = useState(false);
   const [isZenOpen, setIsZenOpen] = useState(false);
+  const [isScheduleOpen, setIsScheduleOpen] = useState(false);
   const [mockDay, setMockDay] = useState("all");
 
   // Calculate unlocked milestone love chests count
@@ -611,6 +613,7 @@ export default function App() {
         onOpenRewards={() => setIsRewardsOpen(true)}
         unlockedRewardsCount={unlockedRewardsCount}
         onOpenZen={() => setIsZenOpen(true)}
+        onOpenSchedule={() => setIsScheduleOpen(true)}
       />
 
       {/* Main Content Router */}
@@ -631,6 +634,7 @@ export default function App() {
             }}
             onOpenRewards={() => setIsRewardsOpen(true)}
             unlockedRewardsCount={unlockedRewardsCount}
+            onOpenSchedule={() => setIsScheduleOpen(true)}
           />
         )}
 
@@ -748,6 +752,17 @@ export default function App() {
         onClose={() => setIsZenOpen(false)}
         girlfriendName={girlfriendName}
         stats={{ streak, examHistory }}
+      />
+
+      {/* Official PRC DLE Program & Examination Schedule Modal */}
+      <PRCScheduleModal
+        isOpen={isScheduleOpen}
+        onClose={() => setIsScheduleOpen(false)}
+        onNavigateToBook={(pageNum) => {
+          setBookTargetPage(pageNum);
+          setCurrentTab("book");
+        }}
+        girlfriendName={girlfriendName}
       />
 
       {/* Pomodoro Study Station & Ambient Synthesizer Dock */}

@@ -10,7 +10,7 @@ export const DMF_CHAPTERS = [
     "startPage": 1,
     "endPage": 33,
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "\ud83d\udd2c"
   },
@@ -19,7 +19,7 @@ export const DMF_CHAPTERS = [
     "startPage": 34,
     "endPage": 56,
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "\ud83e\udda0"
   },
@@ -28,7 +28,7 @@ export const DMF_CHAPTERS = [
     "startPage": 57,
     "endPage": 84,
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "icon": "\ud83d\udc8a"
   },
@@ -37,7 +37,7 @@ export const DMF_CHAPTERS = [
     "startPage": 85,
     "endPage": 91,
     "subject": "Oral Anatomy, Physiology & Occlusion",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Oral Anatomy & Occlusion",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "\ud83e\uddb7"
   },
@@ -46,7 +46,7 @@ export const DMF_CHAPTERS = [
     "startPage": 92,
     "endPage": 101,
     "subject": "Orthodontics & Growth Development",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Orthodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "\ud83d\udcd0"
   },
@@ -55,7 +55,7 @@ export const DMF_CHAPTERS = [
     "startPage": 102,
     "endPage": 113,
     "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Pediatric Dentistry",
     "author": "Dr. Aileen Lim",
     "icon": "\ud83d\udc76"
   },
@@ -64,7 +64,7 @@ export const DMF_CHAPTERS = [
     "startPage": 114,
     "endPage": 136,
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "\ud83e\uddea"
   },
@@ -73,7 +73,7 @@ export const DMF_CHAPTERS = [
     "startPage": 137,
     "endPage": 152,
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "icon": "\ud83e\udea5"
   },
@@ -82,7 +82,7 @@ export const DMF_CHAPTERS = [
     "startPage": 153,
     "endPage": 176,
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "icon": "\ud83d\udd2c"
   },
@@ -91,7 +91,7 @@ export const DMF_CHAPTERS = [
     "startPage": 177,
     "endPage": 198,
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "\u2622\ufe0f"
   },
@@ -100,7 +100,7 @@ export const DMF_CHAPTERS = [
     "startPage": 199,
     "endPage": 211,
     "subject": "Oral Surgery",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Oral Surgery",
     "author": "Gerard Romeo A. Millo, DMD",
     "icon": "\ud83e\ude7a"
   },
@@ -109,7 +109,7 @@ export const DMF_CHAPTERS = [
     "startPage": 212,
     "endPage": 224,
     "subject": "Endodontics",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Endodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "\ud83d\udccd"
   },
@@ -118,7 +118,7 @@ export const DMF_CHAPTERS = [
     "startPage": 225,
     "endPage": 240,
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "icon": "\ud83d\udee1\ufe0f"
   },
@@ -127,7 +127,7 @@ export const DMF_CHAPTERS = [
     "startPage": 241,
     "endPage": 260,
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "icon": "\u2696\ufe0f"
   },
@@ -136,7 +136,7 @@ export const DMF_CHAPTERS = [
     "startPage": 261,
     "endPage": 285,
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "icon": "\ud83c\udf10"
   },
@@ -145,7 +145,7 @@ export const DMF_CHAPTERS = [
     "startPage": 286,
     "endPage": 313,
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "\ud83e\udde0"
   },
@@ -154,7 +154,7 @@ export const DMF_CHAPTERS = [
     "startPage": 314,
     "endPage": 318,
     "subject": "High-Yield Visual Cheat Sheets",
-    "day": "Day 1 - Basic Sciences",
+    "day": "High-Yield Summary (All Days \u2022 100%)",
     "author": "DMF Dental Training Center Board Review",
     "icon": "\u2b50"
   }
@@ -165,7 +165,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 1,
     "title": "General Anatomy, Physiology & Histology: Integumentary System & Epithelial Tissues",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "epithelium",
@@ -188,7 +188,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 2,
     "title": "General Histology: Connective Tissue & Collagen Types",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "connective tissue",
@@ -213,7 +213,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 3,
     "title": "General Histology: Cartilage Types & Characteristics",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "cartilage",
@@ -237,7 +237,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 4,
     "title": "General Histology: Bone Formation & Cell Biology",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "bone",
@@ -261,7 +261,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 5,
     "title": "General Histology: Muscle Types & Architecture",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "muscle",
@@ -284,7 +284,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 6,
     "title": "General Physiology: Sarcomere & Muscle Contraction",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "sarcomere",
@@ -310,7 +310,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 7,
     "title": "Embryology: Meckel's Cartilage & Mandibular Development",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "meckels cartilage",
@@ -332,7 +332,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 8,
     "title": "Embryology: 1st & 2nd Pharyngeal (Branchial) Arches",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "branchial arches",
@@ -357,7 +357,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 9,
     "title": "Embryology: 3rd, 4th & 6th Pharyngeal Arches",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "third arch",
@@ -382,7 +382,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 10,
     "title": "Embryology: Pharyngeal Pouches & Clefts Derivatives",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "pharyngeal pouches",
@@ -405,7 +405,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 11,
     "title": "Embryology & Anatomy: Tongue Development & Innervation",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "tongue",
@@ -431,7 +431,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 12,
     "title": "Oral Histology: Salivary Glands Architecture & Secretion",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "salivary glands",
@@ -455,7 +455,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 13,
     "title": "Oral Embryology: Stages of Odontogenesis (Tooth Development)",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "odontogenesis",
@@ -480,7 +480,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 14,
     "title": "Oral Histology: Enamel Composition & Microstructure",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "enamel",
@@ -505,7 +505,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 15,
     "title": "Oral Histology: Dentin-Pulp Complex & Structural Zones",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "dentin",
@@ -529,7 +529,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 16,
     "title": "Head & Neck Anatomy: Twelve Cranial Nerves Overview",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "cranial nerves",
@@ -557,7 +557,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 17,
     "title": "Head & Neck Anatomy: Trigeminal Nerve (CN V) Divisions",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "trigeminal nerve",
@@ -581,7 +581,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 18,
     "title": "Head & Neck Anatomy: Mandibular Nerve (CN V3) Branching",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "mandibular nerve",
@@ -604,7 +604,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 19,
     "title": "Dental Anatomy & Anesthesia: Inferior Alveolar Nerve Block Landmarks",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "ian block",
@@ -626,7 +626,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 20,
     "title": "Head & Neck Anatomy: Muscles of Mastication",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "muscles of mastication",
@@ -649,7 +649,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 21,
     "title": "Head & Neck Anatomy: Temporomandibular Joint (TMJ) Structure",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "tmj",
@@ -673,7 +673,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 22,
     "title": "Head & Neck Anatomy: Cervical Triangles & Carotid Sheath",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "triangles of neck",
@@ -696,7 +696,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 23,
     "title": "Head & Neck Anatomy: External Carotid Artery Branches",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "external carotid artery",
@@ -719,7 +719,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 24,
     "title": "Head & Neck Anatomy: Maxillary Artery Three Portions",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "maxillary artery",
@@ -741,7 +741,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 25,
     "title": "Head & Neck Anatomy: Pterygoid Venous Plexus & Danger Triangle",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "pterygoid plexus",
@@ -763,7 +763,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 26,
     "title": "Head & Neck Anatomy: Facial Nerve (CN VII) Path & Branches",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "facial nerve",
@@ -789,7 +789,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 27,
     "title": "Head & Neck Anatomy: Pharynx & Laryngeal Muscles Innervation",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "pharynx",
@@ -812,7 +812,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 28,
     "title": "General Physiology: Gastrointestinal Sphincters & Digestive Enzymes",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "digestion",
@@ -835,7 +835,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 29,
     "title": "Cardiovascular Physiology: Cardiac Conduction & Cardiac Cycle",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "cardiac cycle",
@@ -859,7 +859,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 30,
     "title": "Cardiovascular Physiology: Blood Pressure Regulation & RAAS",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "blood pressure",
@@ -883,7 +883,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 31,
     "title": "Respiratory Physiology: Lung Volumes, Capacities & Chemoreceptors",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "lung volumes",
@@ -906,7 +906,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 32,
     "title": "Respiratory Physiology: Oxygen-Hemoglobin Dissociation Curve",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "oxygen hemoglobin curve",
@@ -929,7 +929,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 33,
     "title": "Renal Physiology: Nephron Anatomy, Filtration & Tubular Transport",
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "nephron",
@@ -953,7 +953,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 34,
     "title": "General Pathology & Microbiology: Acute Inflammation, Cardinal Signs & Antibodies",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "inflammation",
@@ -983,7 +983,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 35,
     "title": "Immunology: Innate vs Adaptive Immunity, Humoral Immunity & MHC Complexes",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "innate immunity",
@@ -1009,7 +1009,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 36,
     "title": "Immunopathology: Hypersensitivity Reactions (Types I-IV) & Tissue Repair",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "hypersensitivity",
@@ -1034,7 +1034,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 37,
     "title": "General Pathology: Hyaline Degeneration, Amyloidosis & Necrosis Patterns",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "hyaline degeneration",
@@ -1057,7 +1057,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 38,
     "title": "Bacteriology: Bacterial Growth Dynamics & Endogenous Bacterial Pigments",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "bacterial growth curve",
@@ -1082,7 +1082,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 39,
     "title": "Microbiology: Gram Staining Principles, Acid-Fast Staining & Endotoxins",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "gram stain",
@@ -1108,7 +1108,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 40,
     "title": "Oral Microbiology: Streptococcus Hemolysis Patterns & Dental Plaque Biofilm",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "streptococcus",
@@ -1131,7 +1131,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 41,
     "title": "Oral Microbiology: Actinomyces Species, Actinomycosis & Lactobacillus",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "actinomyces",
@@ -1156,7 +1156,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 42,
     "title": "Bacteriology: Neisseria Species, Meningitis, Gonorrhea & Treponema Pallidum (Syphilis)",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "neisseria gonorrhoeae",
@@ -1181,7 +1181,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 43,
     "title": "Atypical Bacteria: Rickettsial Infections, Vectors & Chlamydia Trachomatis",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "rickettsia",
@@ -1206,7 +1206,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 44,
     "title": "Mycobacteriology: Leprosy (Hansen's Disease) & Viral Architecture Fundamentals",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "mycobacterium leprae",
@@ -1231,7 +1231,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 45,
     "title": "Virology: Double-Stranded DNA Viruses (Herpesviruses, HPV, Poxvirus & Hepatitis B)",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "dna viruses",
@@ -1259,7 +1259,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 46,
     "title": "Virology: RNA Viruses (Picornaviruses: Polio, Coxsackie A & Coxsackie B)",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "rna viruses",
@@ -1285,7 +1285,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 47,
     "title": "Virology: Arboviruses (Dengue, Yellow Fever, Zika) & Retroviruses (HIV/AIDS)",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "flavivirus",
@@ -1312,7 +1312,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 48,
     "title": "Medical Mycology: Dermatophytoses (Tinea) & Oral Candidiasis (Thrush)",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "fungal pathology",
@@ -1338,7 +1338,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 49,
     "title": "Parasitology & Cardiovascular Pathology: Coronary Artery Disease & Atherosclerosis",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "protozoa",
@@ -1363,7 +1363,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 50,
     "title": "Cardiovascular Pathology: Congestive Heart Failure (Left vs Right CHF)",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "congestive heart failure",
@@ -1389,7 +1389,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 51,
     "title": "Cardiovascular Pathology: Infective Endocarditis & AHA Antibiotic Prophylaxis Guidelines",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "infective endocarditis",
@@ -1412,7 +1412,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 52,
     "title": "Cardiovascular Embryology: Fetal Circulation Shunts & Vascular Anatomy",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "fetal circulation",
@@ -1437,7 +1437,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 53,
     "title": "Respiratory Pathology: Chronic Obstructive Pulmonary Disease (COPD) & Pneumoconioses",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "copd",
@@ -1462,7 +1462,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 54,
     "title": "Systemic Pathology: Gardner's Syndrome & Sjogren's Syndrome (Sicca Complex)",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "gardners syndrome",
@@ -1487,7 +1487,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 55,
     "title": "Hemodynamic Disorders: Edema Classification & Hemorrhage Types",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "hemodynamics",
@@ -1515,7 +1515,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 56,
     "title": "Hematologic Pathology: Sickle Cell Anemia, Erythroblastosis Fetalis & Leukemias",
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "hematology",
@@ -1541,7 +1541,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 57,
     "title": "Pharmacology Principles & Autonomic Nervous System Receptors",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "pharmacodynamics",
@@ -1565,7 +1565,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 58,
     "title": "Dental Pharmacology: Mechanism of Action of Local Anesthetics",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "local anesthetic mechanism",
@@ -1587,7 +1587,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 59,
     "title": "Dental Pharmacology: Chemical Classes of Local Anesthetics (Amides vs Esters)",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "amides",
@@ -1612,7 +1612,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 60,
     "title": "Pharmacology Principles: Therapeutic Index & Drug Safety Margins",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "therapeutic index",
@@ -1636,7 +1636,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 61,
     "title": "Dental Pharmacology: Sedative-Hypnotics Classification",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "sedatives",
@@ -1661,7 +1661,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 62,
     "title": "Local Anesthesia: Cartridge Volume & Milligram Calculations",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "cartridge calculation",
@@ -1683,7 +1683,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 63,
     "title": "Local Anesthesia: Malamed Maximum Recommended Doses (MRD)",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "malamed mrd",
@@ -1706,7 +1706,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 64,
     "title": "Local Anesthesia: Vasoconstrictor Dosages & Cardiac Patient Limits",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "vasoconstrictors",
@@ -1730,7 +1730,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 65,
     "title": "Local Anesthesia: Systemic Toxicity (LAST) Progression & Management",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "last",
@@ -1753,7 +1753,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 66,
     "title": "Dental Pharmacology: Non-Opioid Analgesics (NSAIDs & Acetaminophen)",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "nsaids",
@@ -1778,7 +1778,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 67,
     "title": "Dental Pharmacology: Opioid Analgesics & Overdose Reversal",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "opioids",
@@ -1803,7 +1803,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 68,
     "title": "Dental Pharmacology: Beta-Lactam Antibiotics (Penicillins & Cephalosporins)",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "penicillins",
@@ -1826,7 +1826,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 69,
     "title": "Dental Pharmacology: Non-Beta-Lactam Antibiotics & C. Difficile",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "macrolides",
@@ -1849,7 +1849,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 70,
     "title": "Dental Therapeutics: AHA Guidelines for Infective Endocarditis Prophylaxis",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "antibiotic prophylaxis",
@@ -1871,7 +1871,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 71,
     "title": "Dental Therapeutics: Dental Procedures Requiring vs Not Requiring Prophylaxis",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "prophylaxis procedures",
@@ -1892,7 +1892,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 72,
     "title": "Medical Emergencies: Syncope, Angina Pectoris & Myocardial Infarction",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "syncope",
@@ -1915,7 +1915,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 73,
     "title": "Medical Emergencies: Hypoglycemia & Tonic-Clonic Seizures",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "hypoglycemia",
@@ -1939,7 +1939,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 74,
     "title": "Medical Emergencies: Acute Anaphylaxis & Severe Asthmatic Attack",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "anaphylaxis",
@@ -1962,7 +1962,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 75,
     "title": "Dental Pharmacology: Critical Drug-Drug Interactions in Dentistry",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "drug interactions",
@@ -1983,7 +1983,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 76,
     "title": "Endodontic Therapeutics: Root Canal Irrigants & Intracanal Medicaments",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "sodium hypochlorite",
@@ -2006,7 +2006,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 77,
     "title": "Periodontal Therapeutics: Chemical Plaque Control & Host Modulation",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "chlorhexidine 0.12%",
@@ -2030,7 +2030,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 78,
     "title": "Pediatric Dental Pharmacology: Dosage Calculation Rules & Toxicity",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "pediatric dosing",
@@ -2052,7 +2052,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 79,
     "title": "Geriatric Pharmacology: Pharmacokinetic Alterations & Polypharmacy",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "geriatric pharmacology",
@@ -2074,7 +2074,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 80,
     "title": "Dental Pharmacology: Emergency Antidotes & Reversal Agents Summary",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "antidotes",
@@ -2098,7 +2098,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 81,
     "title": "Local Anesthesia: Adverse Reactions, Systemic Toxicity & Vasoconstrictors",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "anesthesia toxicity",
@@ -2120,7 +2120,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 82,
     "title": "Local Anesthesia: Topical Agents, Ester Classifications & Needle Gauges",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "topical anesthesia",
@@ -2144,7 +2144,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 83,
     "title": "Local Anesthesia: Maxillary & Mandibular Nerve Block Techniques",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "psa block",
@@ -2167,7 +2167,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 84,
     "title": "Local Anesthesia: Advanced Mandibular Nerve Blocks (Gow-Gates & Akinosi)",
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM \u2022 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "keywords": [
       "gow gates technique",
@@ -2189,7 +2189,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 85,
     "title": "Oral Anatomy: Tooth Numbering Systems & Anatomical Landmarks",
     "subject": "Oral Anatomy, Physiology & Occlusion",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Oral Anatomy & Occlusion",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "numbering systems",
@@ -2211,7 +2211,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 86,
     "title": "Tooth Physiology: Contact Areas, Embrasures, Height of Contour & CEJ",
     "subject": "Oral Anatomy, Physiology & Occlusion",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Oral Anatomy & Occlusion",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "contact areas",
@@ -2233,7 +2233,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 87,
     "title": "Permanent Dentition Morphology: Maxillary Teeth (Incisors, Canines, Premolars, Molars)",
     "subject": "Oral Anatomy, Physiology & Occlusion",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Oral Anatomy & Occlusion",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "maxillary incisors",
@@ -2255,7 +2255,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 88,
     "title": "Permanent Dentition Morphology: Mandibular Teeth & Eruption",
     "subject": "Oral Anatomy, Physiology & Occlusion",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Oral Anatomy & Occlusion",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "mandibular incisors",
@@ -2277,7 +2277,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 89,
     "title": "Mandibular Molars & Primary Dentition Morphology",
     "subject": "Oral Anatomy, Physiology & Occlusion",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Oral Anatomy & Occlusion",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "mandibular 1st molar",
@@ -2299,7 +2299,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 90,
     "title": "Primary Molars & Concepts of Occlusion (Andrews 6 Keys & Jaw Relations)",
     "subject": "Oral Anatomy, Physiology & Occlusion",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Oral Anatomy & Occlusion",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "concepts of occlusion",
@@ -2321,7 +2321,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 91,
     "title": "Centric Occlusion, Mandibular Movements & Compensating Curvatures",
     "subject": "Oral Anatomy, Physiology & Occlusion",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (8:00 AM \u2022 15%) - Oral Anatomy & Occlusion",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "centric occlusion",
@@ -2344,7 +2344,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 92,
     "title": "Orthodontics: Angle's Classification of Malocclusion & Incipient Signs",
     "subject": "Orthodontics & Growth Development",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Orthodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "orthodontics",
@@ -2368,7 +2368,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 93,
     "title": "Orthodontics: Speech Disorders, Cephalometric Landmarks & Planes",
     "subject": "Orthodontics & Growth Development",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Orthodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "cephalometrics",
@@ -2393,7 +2393,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 94,
     "title": "Orthodontics: Cephalometric Angles (FMA, ANB), Removable Appliances & Headgears",
     "subject": "Orthodontics & Growth Development",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Orthodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "fma angle",
@@ -2418,7 +2418,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 95,
     "title": "Orthodontics: Functional Appliances, Wire Bending Orders & Fixed Appliances",
     "subject": "Orthodontics & Growth Development",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Orthodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "functional appliances",
@@ -2443,7 +2443,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 96,
     "title": "Orthodontics: Archwire Metallurgy, Elastics & Crossbite Corrections",
     "subject": "Orthodontics & Growth Development",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Orthodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "archwires",
@@ -2467,7 +2467,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 97,
     "title": "Orthodontics: Oral Habits (Thumbsucking, Tongue Thrusting) & Space Maintainers",
     "subject": "Orthodontics & Growth Development",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Orthodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "thumbsucking",
@@ -2489,7 +2489,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 98,
     "title": "Pediatric Orthodontics: Space Maintainers, Primary Terminal Planes & Leeway Space",
     "subject": "Orthodontics & Growth Development",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Orthodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "lingual holding arch",
@@ -2511,7 +2511,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 99,
     "title": "Orthodontics & Growth: Diastema, Supernumerary Teeth & Growth Curves",
     "subject": "Orthodontics & Growth Development",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Orthodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "diastema",
@@ -2534,7 +2534,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 100,
     "title": "Orthodontics: Cortical Drift, Piezoelectric Theory, Growth Theories & Synchondroses",
     "subject": "Orthodontics & Growth Development",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Orthodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "cortical drift",
@@ -2558,7 +2558,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 101,
     "title": "Orthodontic Retention & Relapse: Periodontal Fiber Remodeling",
     "subject": "Orthodontics & Growth Development",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Orthodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "orthodontic retention",
@@ -2579,7 +2579,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 102,
     "title": "Pediatric Dentistry: Logan & Kronfeld's Chronology of Human Dentition",
     "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Pediatric Dentistry",
     "author": "Dr. Aileen Lim",
     "keywords": [
       "pediatric dentistry",
@@ -2600,7 +2600,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 103,
     "title": "Deciduous Dentition Eruption Sequence & Dental Age Norms",
     "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Pediatric Dentistry",
     "author": "Dr. Aileen Lim",
     "keywords": [
       "deciduous eruption",
@@ -2622,7 +2622,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 104,
     "title": "Permanent Dentition Eruption Chronology & Sequences",
     "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Pediatric Dentistry",
     "author": "Dr. Aileen Lim",
     "keywords": [
       "permanent eruption",
@@ -2642,7 +2642,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 105,
     "title": "Primary vs Permanent Tooth Morphology & Pulp Anatomy",
     "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Pediatric Dentistry",
     "author": "Dr. Aileen Lim",
     "keywords": [
       "primary vs permanent",
@@ -2663,7 +2663,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 106,
     "title": "Pulp Therapy in Primary Dentition: Indirect Pulp Capping & Pulpotomy",
     "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Pediatric Dentistry",
     "author": "Dr. Aileen Lim",
     "keywords": [
       "pulp therapy",
@@ -2685,7 +2685,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 107,
     "title": "Pulpectomy in Deciduous Teeth & Resorbable Filling Materials",
     "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Pediatric Dentistry",
     "author": "Dr. Aileen Lim",
     "keywords": [
       "pulpectomy",
@@ -2707,7 +2707,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 108,
     "title": "Stainless Steel Crowns (SSC) & Pediatric Prosthodontics",
     "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Pediatric Dentistry",
     "author": "Dr. Aileen Lim",
     "keywords": [
       "stainless steel crown",
@@ -2728,7 +2728,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 109,
     "title": "Space Maintenance in Pediatric Dentistry: Appliances & Leeway Space",
     "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Pediatric Dentistry",
     "author": "Dr. Aileen Lim",
     "keywords": [
       "space maintainer",
@@ -2750,7 +2750,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 110,
     "title": "Pediatric Dental Trauma: Luxation, Intrusion & Avulsion Guidelines",
     "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Pediatric Dentistry",
     "author": "Dr. Aileen Lim",
     "keywords": [
       "pediatric trauma",
@@ -2771,7 +2771,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 111,
     "title": "Traumatic Injuries: Ellis Classification & Vital Pulp Therapies",
     "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Pediatric Dentistry",
     "author": "Dr. Aileen Lim",
     "keywords": [
       "ellis classification",
@@ -2792,7 +2792,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 112,
     "title": "Child Behavior Guidance: Non-Pharmacologic Techniques & Frankl Scale",
     "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Pediatric Dentistry",
     "author": "Dr. Aileen Lim",
     "keywords": [
       "behavior management",
@@ -2813,7 +2813,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 113,
     "title": "Nitrous Oxide Inhalation Sedation & Conscious Sedation Protocols",
     "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM \u2022 10%) - Pediatric Dentistry",
     "author": "Dr. Aileen Lim",
     "keywords": [
       "nitrous oxide",
@@ -2834,7 +2834,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 114,
     "title": "Dental Materials: Inelastic Impression Materials (Plaster, ZOE, Compound)",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "dental materials",
@@ -2856,7 +2856,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 115,
     "title": "Elastic Impression Materials: Hydrocolloids (Agar & Alginate)",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "hydrocolloid",
@@ -2879,7 +2879,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 116,
     "title": "Non-Aqueous Elastomeric Impression Materials: Polysulfides & Polyethers",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "polysulfide",
@@ -2900,7 +2900,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 117,
     "title": "Addition Silicone (PVS) vs Condensation Silicone Impressions",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "addition silicone",
@@ -2922,7 +2922,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 118,
     "title": "Gypsum Products: ADA Types I to V Classifications & Water/Powder Ratios",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "gypsum",
@@ -2945,7 +2945,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 119,
     "title": "Gypsum Chemistry: Exothermic Setting Reaction, Accelerators & Retarders",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "gypsum setting",
@@ -2968,7 +2968,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 120,
     "title": "Dental Cements: Zinc Phosphate vs Zinc Polycarboxylate",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "zinc phosphate",
@@ -2990,7 +2990,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 121,
     "title": "Glass Ionomer Cements (GIC): Chemistry, Fluoride Release & Types",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "glass ionomer",
@@ -3012,7 +3012,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 122,
     "title": "Resin Cements & Adhesive Luting Protocols (Zirconia vs Ceramic)",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "resin cement",
@@ -3034,7 +3034,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 123,
     "title": "Dental Composite Resins: Organic Matrix, Fillers & Polymerization Chemistry",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "composite resin",
@@ -3056,7 +3056,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 124,
     "title": "Composite Classifications: Macrofill, Microfill, Hybrid, Nanofill & Bulk-Fill",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "composite classifications",
@@ -3078,7 +3078,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 125,
     "title": "Dental Amalgam: Composition, Silver-Tin-Copper Alloy Phases",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "dental amalgam",
@@ -3100,7 +3100,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 126,
     "title": "Amalgam Physical Properties: Creep, Corrosion & Trituration Dynamics",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "amalgam properties",
@@ -3122,7 +3122,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 127,
     "title": "Dental Casting Alloys: Noble vs Base Metal ADA Classifications",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "casting alloys",
@@ -3145,7 +3145,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 128,
     "title": "Lost-Wax Casting Procedures & Casting Defects",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "lost wax technique",
@@ -3167,7 +3167,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 129,
     "title": "Complete Denture Prosthodontics: Anatomic Landmarks & Limiting Structures",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "complete denture",
@@ -3188,7 +3188,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 130,
     "title": "Complete Denture Mechanics: Retention, Stability & Support",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "retention",
@@ -3211,7 +3211,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 131,
     "title": "Border Molding & Master Impression Techniques for Edentulous Jaws",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "border molding",
@@ -3232,7 +3232,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 132,
     "title": "Maxillomandibular Relationships: VDR, VDO, Freeway Space & Centric Relation",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "maxillomandibular records",
@@ -3254,7 +3254,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 133,
     "title": "Denture Teeth Selection, Occlusal Schemes & Articulator Types",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "denture teeth",
@@ -3276,7 +3276,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 134,
     "title": "Removable Partial Dentures (RPD): Kennedy Classification & Applegate's Rules",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "rpd",
@@ -3299,7 +3299,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 135,
     "title": "Major and Minor Connectors in RPD Design",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "major connector",
@@ -3320,7 +3320,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 136,
     "title": "Direct Retainers & Clasp Assemblies in RPD: RPI and RPA Systems",
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM \u2022 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "direct retainer",
@@ -3343,7 +3343,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 137,
     "title": "Restorative Dentistry: Caries Tetralogy & Demineralization Dynamics",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "restorative dentistry",
@@ -3365,7 +3365,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 138,
     "title": "G.V. Black Cavity Classifications: Class I to Class VI",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "gv black classification",
@@ -3387,7 +3387,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 139,
     "title": "Principles of Cavity Preparation: Outline Form & Convenience Form",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "cavity preparation",
@@ -3408,7 +3408,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 140,
     "title": "Principles of Cavity Preparation: Resistance Form & Retention Form",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "resistance form",
@@ -3429,7 +3429,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 141,
     "title": "Cavosurface Margins & Enamel Cleavage Orientation",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "cavosurface margin",
@@ -3450,7 +3450,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 142,
     "title": "Hand Cutting Instruments: Nomenclature & G.V. Black Formula",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "hand instruments",
@@ -3472,7 +3472,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 143,
     "title": "Rotary Cutting Instruments: Dental Burs, Dimensions & Speeds",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "dental burs",
@@ -3494,7 +3494,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 144,
     "title": "Isolation of the Operative Field: Rubber Dam Techniques & Clamps",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "rubber dam",
@@ -3516,7 +3516,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 145,
     "title": "Pulp Protection: Cavity Sealers, Liners, and Bases",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "pulp protection",
@@ -3539,7 +3539,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 146,
     "title": "Smear Layer Dynamics & Phosphoric Acid Etching Protocols",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "smear layer",
@@ -3561,7 +3561,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 147,
     "title": "Generations of Dentin Bonding Agents: 4th to 8th Generation",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "bonding agents",
@@ -3583,7 +3583,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 148,
     "title": "Hybrid Layer Formation & 10-MDP Monomer Chemical Adhesion",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "hybrid layer",
@@ -3605,7 +3605,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 149,
     "title": "Matrix Systems for Class II Restorations: Tofflemire & Sectional Matrices",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "tofflemire",
@@ -3627,7 +3627,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 150,
     "title": "Dental Wedges: Types, Functions & Prevention of Gingival Overhangs",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "dental wedges",
@@ -3648,7 +3648,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 151,
     "title": "C-Factor Dynamics & Incremental Layering Techniques",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "c-factor",
@@ -3669,7 +3669,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 152,
     "title": "Finishing, Polishing & Occlusal Verification of Restorations",
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "keywords": [
       "finishing and polishing",
@@ -3691,7 +3691,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 153,
     "title": "Oral Pathology: Abnormalities of Teeth (Gemination, Fusion, Concrescence, Ankylosis)",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "oral pathology",
@@ -3713,7 +3713,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 154,
     "title": "Non-Carious Tooth Loss: Attrition, Abrasion, Erosion & Abfraction",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "attrition",
@@ -3735,7 +3735,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 155,
     "title": "Developmental Soft Tissue Anomalies of the Oral Cavity",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "fordyce granules",
@@ -3756,7 +3756,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 156,
     "title": "Inflammatory Jaw Lesions: Periapical Granuloma, Abscess & Osteomyelitis",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "periapical granuloma",
@@ -3778,7 +3778,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 157,
     "title": "Odontogenic Cysts: Radicular (Periapical) & Residual Cysts",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "radicular cyst",
@@ -3800,7 +3800,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 158,
     "title": "Odontogenic Cysts: Dentigerous (Follicular) & Eruption Cysts",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "dentigerous cyst",
@@ -3822,7 +3822,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 159,
     "title": "Odontogenic Keratocyst (OKC) & Gorlin-Goltz Syndrome",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "odontogenic keratocyst",
@@ -3845,7 +3845,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 160,
     "title": "Non-Odontogenic Cysts: Nasopalatine Duct & Globulomaxillary Cysts",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "nasopalatine duct cyst",
@@ -3866,7 +3866,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 161,
     "title": "Benign Odontogenic Tumors: Ameloblastoma, CEOT (Pindborg) & AOT",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "ameloblastoma",
@@ -3889,7 +3889,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 162,
     "title": "Benign Odontogenic Tumors: Odontoma (Compound vs Complex) & Myxoma",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "odontoma",
@@ -3911,7 +3911,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 163,
     "title": "Benign Non-Odontogenic Tumors: Osteoma, Torus & Gardner's Syndrome",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "osteoma",
@@ -3932,7 +3932,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 164,
     "title": "Fibro-Osseous Lesions: Fibrous Dysplasia & Cemento-Osseous Dysplasia",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "fibrous dysplasia",
@@ -3954,7 +3954,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 165,
     "title": "Giant Cell Lesions: Central Giant Cell Granuloma, Brown Tumor & Cherubism",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "cgcg",
@@ -3976,7 +3976,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 166,
     "title": "Premalignant White and Red Lesions: Leukoplakia & Erythroplakia",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "leukoplakia",
@@ -3998,7 +3998,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 167,
     "title": "Oral Lichen Planus & Lichenoid Reactions: Wickham's Striae",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "lichen planus",
@@ -4020,7 +4020,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 168,
     "title": "Vesiculobullous Diseases: Pemphigus Vulgaris vs Mucous Membrane Pemphigoid",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "pemphigus vulgaris",
@@ -4042,7 +4042,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 169,
     "title": "Oral Ulcerative Conditions: Recurrent Aphthous Stomatitis vs Herpes Simplex",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "aphthous ulcers",
@@ -4064,7 +4064,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 170,
     "title": "Infectious Oral Pathology: Candidiasis & Syphilitic Lesions",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "candidiasis",
@@ -4087,7 +4087,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 171,
     "title": "Salivary Gland Tumors: Pleomorphic Adenoma & Warthin's Tumor",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "pleomorphic adenoma",
@@ -4108,7 +4108,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 172,
     "title": "Malignant Salivary Neoplasms: Mucoepidermoid & Adenoid Cystic Carcinoma",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "mucoepidermoid carcinoma",
@@ -4129,7 +4129,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 173,
     "title": "Oral Squamous Cell Carcinoma (SCC): Clinical Features & Etiology",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "squamous cell carcinoma",
@@ -4152,7 +4152,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 174,
     "title": "Squamous Cell Carcinoma: Histopathology & TNM Staging System",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "scc histopathology",
@@ -4174,7 +4174,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 175,
     "title": "Bone Malignancies: Osteosarcoma & Multiple Myeloma",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "osteosarcoma",
@@ -4196,7 +4196,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 176,
     "title": "Systemic Disease Manifestations: Hematologic, Endocrine & Nutritional",
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "keywords": [
       "leukemia",
@@ -4218,7 +4218,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 177,
     "title": "Oral Radiology: Milestones in Dental Radiography (Roentgen to Fitzgerald)",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "oral radiology",
@@ -4242,7 +4242,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 178,
     "title": "Physics of X-Ray Production: X-Ray Tube Components & Mechanisms",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "x-ray tube",
@@ -4264,7 +4264,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 179,
     "title": "Radiation Mechanisms: Bremsstrahlung vs Characteristic Radiation",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "bremsstrahlung",
@@ -4285,7 +4285,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 180,
     "title": "X-Ray Controls: Kilovoltage (kVp), Milliamperage (mA) & Exposure Time",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "kvp",
@@ -4307,7 +4307,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 181,
     "title": "Inverse Square Law & Half-Value Layer (HVL) in Radiology",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "inverse square law",
@@ -4328,7 +4328,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 182,
     "title": "Radiation Biology & Dosimetry: ALARA Principle & Units",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "radiation biology",
@@ -4350,7 +4350,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 183,
     "title": "Biological Effects of Radiation: Deterministic vs Stochastic Effects",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "deterministic effects",
@@ -4371,7 +4371,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 184,
     "title": "Dental Film Anatomy, Emulsion Chemistry & Latent Image Formation",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "dental film",
@@ -4393,7 +4393,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 185,
     "title": "Film Processing Solutions: Developer & Fixer Chemistry",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "developer",
@@ -4415,7 +4415,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 186,
     "title": "Processing Errors & Darkroom Troubleshooting",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "processing errors",
@@ -4437,7 +4437,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 187,
     "title": "Intraoral Radiography: Paralleling vs Bisecting Angle Technique",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "paralleling technique",
@@ -4458,7 +4458,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 188,
     "title": "Geometric Alignment Errors: Elongation vs Foreshortening",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "elongation",
@@ -4478,7 +4478,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 189,
     "title": "Receptor Placement Errors: Cone-Cutting & Backward Placement",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "cone cutting",
@@ -4499,7 +4499,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 190,
     "title": "Bitewing Radiography & Occlusal Projections",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "bitewing",
@@ -4520,7 +4520,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 191,
     "title": "Panoramic Radiography (OPG): Focal Trough & Ghost Images",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "panoramic radiography",
@@ -4541,7 +4541,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 192,
     "title": "Patient Positioning Errors in Panoramic Radiography",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "panoramic positioning errors",
@@ -4562,7 +4562,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 193,
     "title": "Extraoral Skull Projections: Waters, Caldwell & Submentovertex",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "extraoral projections",
@@ -4583,7 +4583,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 194,
     "title": "Radiopaque Anatomical Landmarks of the Maxilla",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "radiopaque landmarks",
@@ -4605,7 +4605,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 195,
     "title": "Radiolucent Anatomical Landmarks of the Maxilla",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "radiolucent landmarks",
@@ -4627,7 +4627,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 196,
     "title": "Radiopaque Anatomical Landmarks of the Mandible",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "radiopaque landmarks",
@@ -4649,7 +4649,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 197,
     "title": "Radiolucent Anatomical Landmarks of the Mandible",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "radiolucent landmarks",
@@ -4670,7 +4670,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 198,
     "title": "Radiographic Interpretation: Caries Detection & Periodontal Bone Loss",
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "caries detection",
@@ -4691,7 +4691,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 199,
     "title": "Oral Surgery: Patient Evaluation & Principles of Surgery",
     "subject": "Oral Surgery",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Oral Surgery",
     "author": "Gerard Romeo A. Millo, DMD",
     "keywords": [
       "oral surgery",
@@ -4713,7 +4713,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 200,
     "title": "Medical Risk Assessment: ASA Physical Status Classification",
     "subject": "Oral Surgery",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Oral Surgery",
     "author": "Gerard Romeo A. Millo, DMD",
     "keywords": [
       "asa classification",
@@ -4735,7 +4735,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 201,
     "title": "Dental Extraction Instruments: Elevators & Mechanical Principles",
     "subject": "Oral Surgery",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Oral Surgery",
     "author": "Gerard Romeo A. Millo, DMD",
     "keywords": [
       "dental elevators",
@@ -4757,7 +4757,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 202,
     "title": "Surgical Instrument Table: Scalpels, Periosteal Elevators & Curettes",
     "subject": "Oral Surgery",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Oral Surgery",
     "author": "Gerard Romeo A. Millo, DMD",
     "keywords": [
       "surgical instruments",
@@ -4780,7 +4780,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 203,
     "title": "Dental Extraction Forceps: Maxillary Dental Forceps",
     "subject": "Oral Surgery",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Oral Surgery",
     "author": "Gerard Romeo A. Millo, DMD",
     "keywords": [
       "maxillary forceps",
@@ -4802,7 +4802,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 204,
     "title": "Dental Extraction Forceps: Mandibular Dental Forceps",
     "subject": "Oral Surgery",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Oral Surgery",
     "author": "Gerard Romeo A. Millo, DMD",
     "keywords": [
       "mandibular forceps",
@@ -4823,7 +4823,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 205,
     "title": "Surgical Flap Design: Principles, Full-Thickness & Types",
     "subject": "Oral Surgery",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Oral Surgery",
     "author": "Gerard Romeo A. Millo, DMD",
     "keywords": [
       "surgical flaps",
@@ -4845,7 +4845,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 206,
     "title": "Impacted Third Molars: Pell & Gregory Classification System",
     "subject": "Oral Surgery",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Oral Surgery",
     "author": "Gerard Romeo A. Millo, DMD",
     "keywords": [
       "impacted third molars",
@@ -4868,7 +4868,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 207,
     "title": "Impacted Third Molars: Winter's Classification & Surgical Sequence",
     "subject": "Oral Surgery",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Oral Surgery",
     "author": "Gerard Romeo A. Millo, DMD",
     "keywords": [
       "winters classification",
@@ -4890,7 +4890,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 208,
     "title": "Suture Materials, Needles & Surgical Suturing Techniques",
     "subject": "Oral Surgery",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Oral Surgery",
     "author": "Gerard Romeo A. Millo, DMD",
     "keywords": [
       "sutures",
@@ -4912,7 +4912,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 209,
     "title": "Post-Extraction Complications: Hemorrhage & Local Hemostatic Agents",
     "subject": "Oral Surgery",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Oral Surgery",
     "author": "Gerard Romeo A. Millo, DMD",
     "keywords": [
       "post-extraction hemorrhage",
@@ -4933,7 +4933,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 210,
     "title": "Post-Extraction Complications: Alveolar Osteitis (Dry Socket)",
     "subject": "Oral Surgery",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Oral Surgery",
     "author": "Gerard Romeo A. Millo, DMD",
     "keywords": [
       "alveolar osteitis",
@@ -4955,7 +4955,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 211,
     "title": "Maxillary Sinus Complications: Oroantral Communication (OAC) & Fistula",
     "subject": "Oral Surgery",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM \u2022 10%) - Oral Surgery",
     "author": "Gerard Romeo A. Millo, DMD",
     "keywords": [
       "oroantral communication",
@@ -4976,7 +4976,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 212,
     "title": "Endodontics: Microscopic Zones of the Pulp & Age Changes",
     "subject": "Endodontics",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Endodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "endodontics",
@@ -4998,7 +4998,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 213,
     "title": "Endodontic Diagnostic Testing: Thermal, EPT & Periapical Tests",
     "subject": "Endodontics",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Endodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "endodontic testing",
@@ -5021,7 +5021,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 214,
     "title": "AAE Clinical Classification of Pulpal Pathosis",
     "subject": "Endodontics",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Endodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "pulpal pathosis",
@@ -5042,7 +5042,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 215,
     "title": "AAE Clinical Classification of Apical Pathosis",
     "subject": "Endodontics",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Endodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "apical pathosis",
@@ -5063,7 +5063,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 216,
     "title": "Endodontic Access Cavity Preparation & Canal Morphology",
     "subject": "Endodontics",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Endodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "access preparation",
@@ -5084,7 +5084,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 217,
     "title": "Root Canal Instruments: ISO Standardization & File Geometry",
     "subject": "Endodontics",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Endodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "iso standardization",
@@ -5106,7 +5106,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 218,
     "title": "Nickel-Titanium (NiTi) Rotary Files & Instrumentation Mechanics",
     "subject": "Endodontics",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Endodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "niti rotary",
@@ -5128,7 +5128,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 219,
     "title": "Working Length Determination: Apex Locators & Anatomic Landmarks",
     "subject": "Endodontics",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Endodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "working length",
@@ -5149,7 +5149,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 220,
     "title": "Root Canal Irrigants: Sodium Hypochlorite (NaOCl) & EDTA Dynamics",
     "subject": "Endodontics",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Endodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "irrigation",
@@ -5171,7 +5171,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 221,
     "title": "Intracanal Medicaments: Calcium Hydroxide & Temporary Restorations",
     "subject": "Endodontics",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Endodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "intracanal medicament",
@@ -5193,7 +5193,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 222,
     "title": "Obturation Dynamics: Gutta-Percha Properties & Master Cone Fitting",
     "subject": "Endodontics",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Endodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "obturation",
@@ -5215,7 +5215,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 223,
     "title": "Endodontic Sealers & Obturation Techniques: Lateral vs Vertical",
     "subject": "Endodontics",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Endodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "endodontic sealers",
@@ -5236,7 +5236,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 224,
     "title": "Endodontic Emergencies, Flare-ups & Procedural Complications",
     "subject": "Endodontics",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Endodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "hypochlorite accident",
@@ -5257,7 +5257,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 225,
     "title": "Periodontics: Parts of the Periodontium & Attachment Apparatus",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "periodontics",
@@ -5280,7 +5280,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 226,
     "title": "Macroscopic Anatomy of Gingiva: Marginal, Attached & Interdental",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "gingiva",
@@ -5302,7 +5302,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 227,
     "title": "Gingival Epithelium & Biologic Width Architecture",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "junctional epithelium",
@@ -5323,7 +5323,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 228,
     "title": "Principal Gingival Fiber Groups & Lamina Propria",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "gingival fibers",
@@ -5344,7 +5344,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 229,
     "title": "Periodontal Ligament (PDL) Fiber Groups & Sensory Receptors",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "pdl fiber groups",
@@ -5367,7 +5367,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 230,
     "title": "Cementum: Composition, Acellular vs Cellular Types & CEJ Variations",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "cementum",
@@ -5389,7 +5389,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 231,
     "title": "Alveolar Bone Architecture: Dehiscence vs Fenestration Defects",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "alveolar bone",
@@ -5411,7 +5411,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 232,
     "title": "2017 AAP/EFP Classification: Staging and Grading of Periodontitis",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "periodontitis classification",
@@ -5434,7 +5434,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 233,
     "title": "Pathogenesis of Periodontal Disease: Page & Schroeder Stages",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "pathogenesis",
@@ -5456,7 +5456,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 234,
     "title": "Periodontal Microbiology: Socransky's Complexes & Red Complex",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "periodontal microbiology",
@@ -5478,7 +5478,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 235,
     "title": "Periodontal Pockets: Suprabony vs Infrabony (Intrabony Defects)",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "periodontal pockets",
@@ -5501,7 +5501,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 236,
     "title": "Non-Surgical Periodontal Therapy: Scaling and Root Planing (SRP)",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "scaling and root planing",
@@ -5523,7 +5523,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 237,
     "title": "Periodontal Hand Instruments: Sickle Scalers & Universal Curettes",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "sickle scaler",
@@ -5544,7 +5544,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 238,
     "title": "Area-Specific Gracey Curettes: Design & Anatomic Numbering",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "gracey curette",
@@ -5566,7 +5566,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 239,
     "title": "Periodontal Surgery: Gingivectomy & Flap Surgery Techniques",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "gingivectomy",
@@ -5587,7 +5587,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 240,
     "title": "Periodontal Regeneration (GTR) & Furcation Involvement Management",
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM \u2022 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Minda\u00f1a",
     "keywords": [
       "gtr",
@@ -5609,7 +5609,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 241,
     "title": "Dental Jurisprudence: Law in General & Philippine Legal Hierarchy",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "dental jurisprudence",
@@ -5630,7 +5630,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 242,
     "title": "Republic Act No. 9484: The Philippine Dental Act of 2007",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "ra 9484",
@@ -5651,7 +5651,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 243,
     "title": "Professional Regulatory Board of Dentistry: Composition & Qualifications",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "board of dentistry",
@@ -5673,7 +5673,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 244,
     "title": "Powers, Functions & Term of Office of the Board of Dentistry",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "powers of the board",
@@ -5695,7 +5695,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 245,
     "title": "Licensure Examination Scope & Refresher Course Rules",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "licensure examination",
@@ -5716,7 +5716,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 246,
     "title": "Ratings in the Licensure Examination: Passing & Removal Criteria",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "licensure rating",
@@ -5737,7 +5737,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 247,
     "title": "Grounds for Revocation and Suspension of Dental License",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "revocation of license",
@@ -5759,7 +5759,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 248,
     "title": "Re-issuance of Revoked Certificate & Replacement of Lost License",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "reissuance of license",
@@ -5780,7 +5780,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 249,
     "title": "Penal Provisions & Illegal Practice of Dentistry under RA 9484",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "penal provisions",
@@ -5802,7 +5802,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 250,
     "title": "Scope of Practice: Dental Hygienists vs Dental Technologists",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "dental hygienist",
@@ -5823,7 +5823,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 251,
     "title": "Code of Ethics for Dentists: Core Bioethical Principles",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "code of ethics",
@@ -5845,7 +5845,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 252,
     "title": "Informed Consent: Essential Elements & Emergency Exceptions",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "informed consent",
@@ -5866,7 +5866,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 253,
     "title": "Dental Records, Confidentiality & Ownership of Radiographs",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "dental records",
@@ -5887,7 +5887,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 254,
     "title": "Advertising Guidelines & Ethical Professional Signboards",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "dental advertising",
@@ -5909,7 +5909,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 255,
     "title": "Duties to Colleagues & Ethical Professional Relationships",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "duties to colleagues",
@@ -5930,7 +5930,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 256,
     "title": "Medical Malpractice & The Four D's of Dental Negligence",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "malpractice",
@@ -5953,7 +5953,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 257,
     "title": "Legal Doctrines: Res Ipsa Loquitur & Respondeat Superior",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "legal doctrines",
@@ -5974,7 +5974,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 258,
     "title": "Classifications of Liabilities: Criminal, Civil, and Administrative",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "liabilities",
@@ -5995,7 +5995,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 259,
     "title": "The Dentist as an Expert Witness & Medicolegal Evidence",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "expert witness",
@@ -6016,7 +6016,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 260,
     "title": "Forensic Odontology: Identification & Bite Mark Analysis",
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM \u2022 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "keywords": [
       "forensic odontology",
@@ -6037,7 +6037,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 261,
     "title": "Community Dentistry: Definitions & Concepts of Health",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "community dentistry",
@@ -6058,7 +6058,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 262,
     "title": "Core Functions & Essential Services of Public Health",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "core functions",
@@ -6079,7 +6079,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 263,
     "title": "Levels of Prevention: Primary Prevention & Water Fluoridation",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "levels of prevention",
@@ -6101,7 +6101,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 264,
     "title": "Levels of Prevention: Secondary & Tertiary Prevention",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "secondary prevention",
@@ -6122,7 +6122,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 265,
     "title": "Principles of Epidemiology: The Epidemiologic Triad & Outbreak Dynamics",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "epidemiology",
@@ -6146,7 +6146,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 266,
     "title": "Measures of Morbidity: Incidence vs Prevalence",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "morbidity",
@@ -6168,7 +6168,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 267,
     "title": "Epidemiologic Study Designs: Cross-Sectional, Cohort, Case-Control & RCT",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "study designs",
@@ -6191,7 +6191,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 268,
     "title": "Dental Indices: Properties & Requirements of an Ideal Index",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "dental indices",
@@ -6213,7 +6213,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 269,
     "title": "Caries Indices in Permanent Dentition: DMFT and DMFS Indices",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "dmft",
@@ -6234,7 +6234,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 270,
     "title": "Caries Indices in Primary Dentition: def, dft, and dmft Indices",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "def index",
@@ -6255,7 +6255,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 271,
     "title": "Oral Hygiene Indices: OHI and OHI-S (Greene and Vermillion)",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "ohi-s",
@@ -6276,7 +6276,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 272,
     "title": "Periodontal Screening: CPITN & Community Periodontal Index (CPI)",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "cpitn",
@@ -6298,7 +6298,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 273,
     "title": "Fluoride Chemistry: Remineralization & Demineralization Dynamics",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "fluoride chemistry",
@@ -6320,7 +6320,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 274,
     "title": "Community Water Fluoridation: History & Optimal Concentrations",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "water fluoridation",
@@ -6341,7 +6341,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 275,
     "title": "Professionally Applied Topical Fluorides: APF, NaF, SnF2 & Varnish",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "topical fluorides",
@@ -6363,7 +6363,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 276,
     "title": "Fluoride Toxicity: Acute Poisoning, Lethal Doses & Emergency Protocol",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "acute fluoride toxicity",
@@ -6385,7 +6385,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 277,
     "title": "Chronic Fluoride Toxicity: Dental Fluorosis & Dean's Index",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "chronic fluoride toxicity",
@@ -6406,7 +6406,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 278,
     "title": "Pit and Fissure Sealants in Community Dental Programs",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "pit and fissure sealants",
@@ -6427,7 +6427,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 279,
     "title": "Atraumatic Restorative Treatment (ART) in Public Health",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "art",
@@ -6448,7 +6448,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 280,
     "title": "Health Education & Promotion Models in Dentistry",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "health promotion",
@@ -6469,7 +6469,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 281,
     "title": "Biostatistics in Dental Research: Central Tendency & Dispersion",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "biostatistics",
@@ -6491,7 +6491,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 282,
     "title": "Hypothesis Testing & Statistical Significance: p-Value & Errors",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "hypothesis testing",
@@ -6513,7 +6513,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 283,
     "title": "Primary Health Care (PHC) & Community Organizing (COPAR)",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "primary health care",
@@ -6535,7 +6535,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 284,
     "title": "Philippine National Oral Health Policies & Programs (DOH AO 2007-0007)",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "national oral health policy",
@@ -6556,7 +6556,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 285,
     "title": "Infection Control & Sterilization Protocols: Autoclave & Spore Testing",
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM \u2022 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "keywords": [
       "infection control",
@@ -6578,7 +6578,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 286,
     "title": "Cells & Tissues: Cell Membrane Dynamics & Transport Mechanisms",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "cell membrane",
@@ -6600,7 +6600,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 287,
     "title": "Cellular Organelles I: Nucleus, Rough ER, Smooth ER & Ribosomes",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "nucleus",
@@ -6622,7 +6622,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 288,
     "title": "Cellular Organelles II: Golgi Apparatus, Lysosomes & Peroxisomes",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "golgi apparatus",
@@ -6644,7 +6644,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 289,
     "title": "Mitochondria & Cytoskeleton Architecture",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "mitochondria",
@@ -6666,7 +6666,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 290,
     "title": "The Cell Cycle, Mitosis & Cellular Division Checkpoints",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "cell cycle",
@@ -6690,7 +6690,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 291,
     "title": "Epithelial Tissue Classification: Simple Epithelia & Characteristics",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "epithelial tissue",
@@ -6712,7 +6712,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 292,
     "title": "Stratified Epithelia & Specialized Epithelial Classifications",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "stratified squamous",
@@ -6734,7 +6734,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 293,
     "title": "Intercellular Junctions: Desmosomes, Hemidesmosomes & Clinical Correlations",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "tight junctions",
@@ -6757,7 +6757,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 294,
     "title": "Glandular Epithelium: Exocrine vs Endocrine & Secretory Mechanisms",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "glandular epithelium",
@@ -6780,7 +6780,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 295,
     "title": "Major Salivary Gland Histology: Serous, Mucous & Duct Systems",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "salivary gland histology",
@@ -6802,7 +6802,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 296,
     "title": "Connective Tissue Extracellular Matrix: Fibers & Ground Substance",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "connective tissue",
@@ -6824,7 +6824,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 297,
     "title": "Connective Tissue Cells: Resident Fibroblasts, Mast Cells & Macrophages",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "fibroblasts",
@@ -6847,7 +6847,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 298,
     "title": "Classification of Connective Tissues: Loose, Dense Regular & Irregular",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "loose connective tissue",
@@ -6870,7 +6870,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 299,
     "title": "Cartilage Histology: Hyaline, Elastic & Fibrocartilage",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "cartilage",
@@ -6893,7 +6893,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 300,
     "title": "Bone Tissue Histology: Osteoblasts, Osteocytes & Osteoclasts",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "bone histology",
@@ -6916,7 +6916,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 301,
     "title": "Osteon Architecture: Haversian & Volkmann's Canal Systems",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "osteon",
@@ -6938,7 +6938,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 302,
     "title": "Bone Formation: Intramembranous vs Endochondral Ossification",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "ossification",
@@ -6959,7 +6959,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 303,
     "title": "Muscle Tissue Histology: Skeletal, Cardiac & Smooth Muscle",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "muscle histology",
@@ -6982,7 +6982,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 304,
     "title": "The Sarcomere & Sliding Filament Mechanism of Muscle Contraction",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "sarcomere",
@@ -7006,7 +7006,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 305,
     "title": "Nervous Tissue Histology: Neurons, Synaptic Transmission & Classification",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "nervous tissue",
@@ -7029,7 +7029,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 306,
     "title": "Neuroglial Cells: CNS Glia vs PNS Schwann & Satellite Cells",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "neuroglia",
@@ -7052,7 +7052,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 307,
     "title": "Peripheral Nerve Architecture & Wallerian Degeneration",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "peripheral nerve",
@@ -7074,7 +7074,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 308,
     "title": "Vascular Histology: Arteries, Veins & Capillary Microvasculature",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "vascular histology",
@@ -7097,7 +7097,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 309,
     "title": "Lymphoid Tissue Histology: Lymph Nodes, Spleen, Thymus & Waldeyer's Ring",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "lymphoid histology",
@@ -7121,7 +7121,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 310,
     "title": "Integumentary Histology: Epidermal Layers & Dermal Appendages",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "integumentary histology",
@@ -7144,7 +7144,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 311,
     "title": "Endocrine Gland Histology: Pituitary, Thyroid, Parathyroid & Adrenals",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "endocrine histology",
@@ -7167,7 +7167,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 312,
     "title": "Epithelial Transitions: Gastroesophageal, Anorectal & Respiratory",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "epithelial transitions",
@@ -7188,7 +7188,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 313,
     "title": "Renal Histology & General Histology Board Synthesis",
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM \u2022 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "keywords": [
       "renal histology",
@@ -7211,7 +7211,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 314,
     "title": "High-Yield Cheat Sheet 1: General Embryology & Pharyngeal Arches",
     "subject": "High-Yield Visual Cheat Sheets",
-    "day": "Day 1 - Basic Sciences",
+    "day": "High-Yield Summary (All Days \u2022 100%)",
     "author": "DMF Dental Training Center Board Review",
     "keywords": [
       "general embryology",
@@ -7233,7 +7233,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 315,
     "title": "High-Yield Cheat Sheet 2: Odontogenesis & Tooth Development Stages",
     "subject": "High-Yield Visual Cheat Sheets",
-    "day": "Day 1 - Basic Sciences",
+    "day": "High-Yield Summary (All Days \u2022 100%)",
     "author": "DMF Dental Training Center Board Review",
     "keywords": [
       "odontogenesis",
@@ -7257,7 +7257,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 316,
     "title": "High-Yield Cheat Sheet 3: Oral Histology - Hard & Soft Dental Tissues",
     "subject": "High-Yield Visual Cheat Sheets",
-    "day": "Day 1 - Basic Sciences",
+    "day": "High-Yield Summary (All Days \u2022 100%)",
     "author": "DMF Dental Training Center Board Review",
     "keywords": [
       "oral histology",
@@ -7279,7 +7279,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 317,
     "title": "High-Yield Cheat Sheet 4: Periodontium - Cementum, PDL & Alveolar Bone",
     "subject": "High-Yield Visual Cheat Sheets",
-    "day": "Day 1 - Basic Sciences",
+    "day": "High-Yield Summary (All Days \u2022 100%)",
     "author": "DMF Dental Training Center Board Review",
     "keywords": [
       "periodontium",
@@ -7302,7 +7302,7 @@ export const DMF_BOOK_PAGES = [
     "pageNumber": 318,
     "title": "High-Yield Cheat Sheet 5: Oral Mucosa & Tooth Eruption Chronology",
     "subject": "High-Yield Visual Cheat Sheets",
-    "day": "Day 1 - Basic Sciences",
+    "day": "High-Yield Summary (All Days \u2022 100%)",
     "author": "DMF Dental Training Center Board Review",
     "keywords": [
       "oral mucosa",

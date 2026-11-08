@@ -22,7 +22,8 @@ export function Navbar({
   lastSyncTime,
   onOpenRewards,
   unlockedRewardsCount = 0,
-  onOpenZen
+  onOpenZen,
+  onOpenSchedule
 }) {
   const tabs = [
     { id: "dashboard", label: "Dashboard", icon: "🏠" },
@@ -162,22 +163,31 @@ export function Navbar({
 
         {/* Right Badges & Controls */}
         <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
-          {/* Days Left */}
-          <div style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "0.4rem",
-            background: "rgba(168, 85, 247, 0.12)",
-            border: "1px solid var(--border-color)",
-            padding: "0.35rem 0.75rem",
-            borderRadius: "9999px",
-            fontSize: "0.8rem",
-            fontWeight: 700,
-            color: "var(--accent-purple)"
-          }}>
+          {/* Days Left - Clickable to open Official PRC Schedule */}
+          <button
+            onClick={() => {
+              sound.playClick();
+              if (onOpenSchedule) onOpenSchedule();
+            }}
+            title="Click to view Official PRC DLE Program & Schedule (Nov 22-24, 2026) 📋"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "0.4rem",
+              background: "rgba(168, 85, 247, 0.15)",
+              border: "1px solid rgba(168, 85, 247, 0.4)",
+              padding: "0.35rem 0.75rem",
+              borderRadius: "9999px",
+              fontSize: "0.8rem",
+              fontWeight: 700,
+              color: "var(--accent-purple)",
+              cursor: "pointer",
+              transition: "all 0.15s ease"
+            }}
+          >
             <Clock size={14} color="#a855f7" />
             <span className="mono-font">{daysLeft}d to DLE (Nov 22)</span>
-          </div>
+          </button>
 
           {/* Study Streak */}
           <div style={{

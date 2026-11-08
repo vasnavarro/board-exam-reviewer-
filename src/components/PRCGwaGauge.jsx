@@ -1,8 +1,8 @@
 import React from "react";
-import { ShieldCheck, TrendingUp, AlertTriangle, Sparkles, ArrowRight, Award } from "lucide-react";
+import { ShieldCheck, TrendingUp, AlertTriangle, Sparkles, ArrowRight, Award, Calendar } from "lucide-react";
 import { calculatePRCGwa } from "../data/prcSchedule";
 
-export function PRCGwaGauge({ examHistory = [], onSimulateDay, girlfriendName = "Leane" }) {
+export function PRCGwaGauge({ examHistory = [], onSimulateDay, girlfriendName = "Leane", onOpenSchedule }) {
   const stats = calculatePRCGwa(examHistory);
 
   return (
@@ -21,25 +21,46 @@ export function PRCGwaGauge({ examHistory = [], onSimulateDay, girlfriendName = 
             <Sparkles size={16} color="#c084fc" />
           </div>
           <p style={{ fontSize: "0.8rem", color: "var(--text-secondary)", marginTop: "2px" }}>
-            Calculated under RA 9484 statutory weighting: Day 1 (20%), Day 2 (30%), Day 3 (50%). Passing cutoff: 75.0%
+            Calculated under official PRC Board Program: Day 1 (40%), Day 2 (30%), Day 3 (30%). Passing cutoff: 75.0%
           </p>
         </div>
 
-        {/* Live GWA Indicator Pill */}
-        <div style={{
-          background: stats.isPassing ? "rgba(16, 185, 129, 0.15)" : "rgba(245, 158, 11, 0.15)",
-          border: stats.isPassing ? "1px solid rgba(16, 185, 129, 0.4)" : "1px solid rgba(245, 158, 11, 0.4)",
-          padding: "0.4rem 1rem",
-          borderRadius: "9999px",
-          display: "flex",
-          alignItems: "center",
-          gap: "0.45rem",
-          fontWeight: 800,
-          fontSize: "0.85rem",
-          color: stats.isPassing ? "#10b981" : "#f59e0b"
-        }}>
-          {stats.isPassing ? <ShieldCheck size={16} /> : <AlertTriangle size={16} />}
-          <span>{stats.gwa >= 85 ? "TOPNOTCHER PACE (85%+) 🌟" : stats.isPassing ? "PROJECTED PASSER 🏆" : "TARGETING 75% BENCHMARK"}</span>
+        <div style={{ display: "flex", alignItems: "center", gap: "0.6rem", flexWrap: "wrap" }}>
+          {onOpenSchedule && (
+            <button
+              onClick={onOpenSchedule}
+              className="btn btn-secondary"
+              style={{
+                padding: "0.4rem 0.85rem",
+                fontSize: "0.82rem",
+                display: "flex",
+                alignItems: "center",
+                gap: "0.4rem",
+                borderRadius: "9999px",
+                border: "1px solid rgba(168, 85, 247, 0.4)"
+              }}
+            >
+              <Calendar size={14} color="#c084fc" />
+              <span>Official PRC Schedule 📋</span>
+            </button>
+          )}
+
+          {/* Live GWA Indicator Pill */}
+          <div style={{
+            background: stats.isPassing ? "rgba(16, 185, 129, 0.15)" : "rgba(245, 158, 11, 0.15)",
+            border: stats.isPassing ? "1px solid rgba(16, 185, 129, 0.4)" : "1px solid rgba(245, 158, 11, 0.4)",
+            padding: "0.4rem 1rem",
+            borderRadius: "9999px",
+            display: "flex",
+            alignItems: "center",
+            gap: "0.45rem",
+            fontWeight: 800,
+            fontSize: "0.85rem",
+            color: stats.isPassing ? "#10b981" : "#f59e0b"
+          }}>
+            {stats.isPassing ? <ShieldCheck size={16} /> : <AlertTriangle size={16} />}
+            <span>{stats.gwa >= 85 ? "TOPNOTCHER PACE (85%+) 🌟" : stats.isPassing ? "PROJECTED PASSER 🏆" : "TARGETING 75% BENCHMARK"}</span>
+          </div>
         </div>
       </div>
 
@@ -90,8 +111,8 @@ export function PRCGwaGauge({ examHistory = [], onSimulateDay, girlfriendName = 
         }}>
           <div>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-              <span style={{ fontSize: "0.8rem", fontWeight: 700, color: "var(--text-secondary)" }}>Day 1: Basic Sciences</span>
-              <span style={{ fontSize: "0.7rem", color: "var(--text-muted)" }}>20% weight</span>
+              <span style={{ fontSize: "0.8rem", fontWeight: 700, color: "var(--text-secondary)" }}>Day 1: Basic & Resto</span>
+              <span style={{ fontSize: "0.7rem", color: "#a855f7", fontWeight: 800 }}>40% weight</span>
             </div>
             <div className="mono-font" style={{ fontSize: "1.5rem", fontWeight: 800, color: stats.day1Score >= 75 ? "#10b981" : "#f59e0b", marginTop: "0.3rem" }}>
               {stats.day1Score}%
@@ -131,8 +152,8 @@ export function PRCGwaGauge({ examHistory = [], onSimulateDay, girlfriendName = 
         }}>
           <div>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-              <span style={{ fontSize: "0.8rem", fontWeight: 700, color: "var(--text-secondary)" }}>Day 2: Dental Tissues</span>
-              <span style={{ fontSize: "0.7rem", color: "var(--text-muted)" }}>30% weight</span>
+              <span style={{ fontSize: "0.8rem", fontWeight: 700, color: "var(--text-secondary)" }}>Day 2: Clinical & Surgery</span>
+              <span style={{ fontSize: "0.7rem", color: "#a855f7", fontWeight: 800 }}>30% weight</span>
             </div>
             <div className="mono-font" style={{ fontSize: "1.5rem", fontWeight: 800, color: stats.day2Score >= 75 ? "#10b981" : "#f59e0b", marginTop: "0.3rem" }}>
               {stats.day2Score}%
@@ -172,8 +193,8 @@ export function PRCGwaGauge({ examHistory = [], onSimulateDay, girlfriendName = 
         }}>
           <div>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-              <span style={{ fontSize: "0.8rem", fontWeight: 700, color: "var(--text-secondary)" }}>Day 3: Clinical Dentistry</span>
-              <span style={{ fontSize: "0.7rem", color: "var(--text-muted)" }}>50% weight</span>
+              <span style={{ fontSize: "0.8rem", fontWeight: 700, color: "var(--text-secondary)" }}>Day 3: Specialties & Ethics</span>
+              <span style={{ fontSize: "0.7rem", color: "#a855f7", fontWeight: 800 }}>30% weight</span>
             </div>
             <div className="mono-font" style={{ fontSize: "1.5rem", fontWeight: 800, color: stats.day3Score >= 75 ? "#10b981" : "#f59e0b", marginTop: "0.3rem" }}>
               {stats.day3Score}%

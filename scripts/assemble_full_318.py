@@ -15,7 +15,7 @@ DMF_CHAPTERS = [
     "startPage": 1,
     "endPage": 33,
     "subject": "General Anatomy, Physiology, and Histology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (8:00 AM • 15%) - Anatomy & Physio",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "🔬"
   },
@@ -24,7 +24,7 @@ DMF_CHAPTERS = [
     "startPage": 34,
     "endPage": 56,
     "subject": "General Pathology and Microbiology",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM • 15%) - Pathology & Micro",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "🦠"
   },
@@ -33,7 +33,7 @@ DMF_CHAPTERS = [
     "startPage": 57,
     "endPage": 84,
     "subject": "Pharmacology & Local Anesthesia",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (2:00 PM • 10%) - Anesthesia & Pharma",
     "author": "Dr. Mickhail Francisco",
     "icon": "💊"
   },
@@ -42,7 +42,7 @@ DMF_CHAPTERS = [
     "startPage": 85,
     "endPage": 91,
     "subject": "Oral Anatomy, Physiology & Occlusion",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (8:00 AM • 15%) - Oral Anatomy & Occlusion",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "🦷"
   },
@@ -51,7 +51,7 @@ DMF_CHAPTERS = [
     "startPage": 92,
     "endPage": 101,
     "subject": "Orthodontics & Growth Development",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM • 10%) - Orthodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "📐"
   },
@@ -60,7 +60,7 @@ DMF_CHAPTERS = [
     "startPage": 102,
     "endPage": 113,
     "subject": "Pediatric Dentistry",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (8:00 AM • 10%) - Pediatric Dentistry",
     "author": "Dr. Aileen Lim",
     "icon": "👶"
   },
@@ -69,7 +69,7 @@ DMF_CHAPTERS = [
     "startPage": 114,
     "endPage": 136,
     "subject": "Dental Materials",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 2 (8:00 AM • 10%) - Materials & Prostho",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "🧪"
   },
@@ -78,7 +78,7 @@ DMF_CHAPTERS = [
     "startPage": 137,
     "endPage": 152,
     "subject": "Restorative Dentistry",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (2:00 PM • 10%) - Restorative Dentistry",
     "author": "Dr. Claire Aguiba Guerrero - Pineda",
     "icon": "🪥"
   },
@@ -87,7 +87,7 @@ DMF_CHAPTERS = [
     "startPage": 153,
     "endPage": 176,
     "subject": "Oral Pathology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 1 (11:00 AM • 15%) - Oral Pathology",
     "author": "Dr. Pamela Marize Moreno",
     "icon": "🔬"
   },
@@ -96,7 +96,7 @@ DMF_CHAPTERS = [
     "startPage": 177,
     "endPage": 198,
     "subject": "Oral Radiology",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM • 10%) - Roentgenology",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "☢️"
   },
@@ -105,7 +105,7 @@ DMF_CHAPTERS = [
     "startPage": 199,
     "endPage": 211,
     "subject": "Oral Surgery",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 2 (11:00 AM • 10%) - Oral Surgery",
     "author": "Gerard Romeo A. Millo, DMD",
     "icon": "🩺"
   },
@@ -114,7 +114,7 @@ DMF_CHAPTERS = [
     "startPage": 212,
     "endPage": 224,
     "subject": "Endodontics",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 3 (2:00 PM • 10%) - Endodontics",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "📍"
   },
@@ -123,7 +123,7 @@ DMF_CHAPTERS = [
     "startPage": 225,
     "endPage": 240,
     "subject": "Periodontics",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 3 (2:00 PM • 10%) - Periodontics",
     "author": "Dr. Ma. Ana Lowella M. Mindaña",
     "icon": "🛡️"
   },
@@ -132,7 +132,7 @@ DMF_CHAPTERS = [
     "startPage": 241,
     "endPage": 260,
     "subject": "Dental Jurisprudence",
-    "day": "Day 3 - Clinical Dentistry",
+    "day": "Day 3 (11:00 AM • 10%) - Jurisprudence & Ethics",
     "author": "Atty. Marvin Joseph M. Ocampo",
     "icon": "⚖️"
   },
@@ -141,7 +141,7 @@ DMF_CHAPTERS = [
     "startPage": 261,
     "endPage": 285,
     "subject": "Community Dentistry",
-    "day": "Day 2 - Clinical & Pharma",
+    "day": "Day 1 (2:00 PM • 10%) - Community Dentistry",
     "author": "Wesley A. Bombarda, DMD",
     "icon": "🌐"
   },
@@ -150,7 +150,7 @@ DMF_CHAPTERS = [
     "startPage": 286,
     "endPage": 313,
     "subject": "Cells and Tissues (General Anatomy & Histology)",
-    "day": "Day 1 - Basic Sciences",
+    "day": "Day 1 (11:00 AM • 15%) - Microscopic Anatomy",
     "author": "Dr. Mickhail Q. Francisco",
     "icon": "🧠"
   },
@@ -159,7 +159,7 @@ DMF_CHAPTERS = [
     "startPage": 314,
     "endPage": 318,
     "subject": "High-Yield Visual Cheat Sheets",
-    "day": "Day 1 - Basic Sciences",
+    "day": "High-Yield Summary (All Days • 100%)",
     "author": "DMF Dental Training Center Board Review",
     "icon": "⭐"
   }
@@ -171,18 +171,20 @@ def get_chapter(pno):
             return c
     return DMF_CHAPTERS[-1]
 
-# 1. Load existing pages 1 to 100
-with open("src/data/dmfBookData.js", "r", encoding="utf-8") as f:
-    orig_code = f.read()
+# 1. Load existing pages 1 to 100 from git commit before full 318
+import subprocess
+try:
+    orig_code = subprocess.check_output(["git", "show", "HEAD~1:src/data/dmfBookData.js"]).decode("utf-8")
+    m = re.search(r'export const DMF_BOOK_PAGES = (\[.*?\]);\s*export const DMF_CHAPTERS', orig_code, re.DOTALL)
+    old_pages = json.loads(m.group(1))
+except Exception as e:
+    print(f"Fallback git loading: {e}")
+    with open("src/data/dmfBookData.js", "r", encoding="utf-8") as f:
+        orig_code = f.read()
+    # find where DMF_BOOK_PAGES starts and parse using node or regex
+    m = re.search(r'export const DMF_BOOK_PAGES = (\[.*?\]);\s*\n/\*\*', orig_code, re.DOTALL)
+    old_pages = json.loads(m.group(1))
 
-m = re.search(r'export const DMF_BOOK_PAGES = (\[.*?\]);\s*export const DMF_CHAPTERS', orig_code, re.DOTALL)
-if not m:
-    # Try searching without DMF_CHAPTERS suffix
-    m = re.search(r'export const DMF_BOOK_PAGES = (\[.*?\]);', orig_code, re.DOTALL)
-    if not m:
-        raise Exception("Could not find DMF_BOOK_PAGES in src/data/dmfBookData.js")
-
-old_pages = json.loads(m.group(1))
 print(f"Loaded {len(old_pages)} old pages.")
 
 all_pages = {}
@@ -357,3 +359,4 @@ with open(out_path, "w", encoding="utf-8") as f:
     f.write(js_output)
 
 print(f"Successfully wrote {len(sorted_pages)} pages to {out_path}!")
+

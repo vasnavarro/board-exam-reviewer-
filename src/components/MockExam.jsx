@@ -167,10 +167,10 @@ export function MockExam({
 
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(170px, 1fr))", gap: "0.6rem" }}>
                 {[
-                  { id: "all", label: "🌟 Full Curriculum", desc: "All 10 Subjects (Comprehensive)" },
-                  { id: "day1", label: "Day 1: Basic Sciences", desc: "Anatomy, Physio, Path, Micro (20%)" },
-                  { id: "day2", label: "Day 2: Dental Tissues", desc: "Pharma, Oral Histo & Path (30%)" },
-                  { id: "day3", label: "Day 3: Clinical Dent", desc: "Prostho, Resto, Jurisprudence (50%)" }
+                  { id: "all", label: "🌟 Full Curriculum", desc: "All PRC Subject Clusters (100%)" },
+                  { id: "day1", label: "Day 1: Basic & Resto", desc: "Anatomy, Path, Micro, Resto & Community (40%)" },
+                  { id: "day2", label: "Day 2: Clinical & Surgery", desc: "Prostho, Materials, Surgery & Pharma (30%)" },
+                  { id: "day3", label: "Day 3: Specialties & Law", desc: "Pedia, Ortho, Jurisprudence, Perio & Endo (30%)" }
                 ].map((d) => {
                   const isSel = selectedDay === d.id;
                   return (
