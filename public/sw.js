@@ -1,5 +1,6 @@
 // Service Worker for Dr. Leane DLE Reviewer PWA
-const CACHE_NAME = "dr-leane-dle-v12-ceu-revalida";
+// Version 13.0: Network-First navigation & immediate cache-busting
+const CACHE_NAME = "dr-leane-dle-v13-dsp-master";
 const STATIC_ASSETS = [
   "/",
   "/index.html",
@@ -29,13 +30,37 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
+self.addEventListener("message", (event) => {
+  if (event.data && (event.data.type === "SKIP_WAITING" || event.data.type === "FORCE_PURGE")) {
+    self.skipWaiting();
+  }
+});
+
 self.addEventListener("fetch", (event) => {
   // Let cloud sync API and KVdb pass directly through network
   if (event.request.url.includes("/api/") || event.request.url.includes("kvdb.io")) {
     return;
   }
 
-  // Stale-while-revalidate strategy for UI assets
+  // 1. Navigation requests (HTML / root): STRICT Network-First to guarantee latest code
+  if (event.request.mode === "navigate" || event.request.headers.get("accept")?.includes("text/html")) {
+    event.respondWith(
+      fetch(event.request)
+        .then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const responseToCache = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseToCache));
+          }
+          return networkResponse;
+        })
+        .catch(() => {
+          return caches.match(event.request).then((cached) => cached || caches.match("/index.html"));
+        })
+    );
+    return;
+  }
+
+  // 2. Hashed static assets (JS/CSS/Images): Stale-while-revalidate for fast offline performance
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
       const fetchPromise = fetch(event.request).then((networkResponse) => {
@@ -52,4 +77,3 @@ self.addEventListener("fetch", (event) => {
     })
   );
 });
-

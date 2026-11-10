@@ -270,3 +270,83 @@ export function calculatePRCGwa(examHistory = []) {
     safetyBuffer
   };
 }
+
+export const DSP_PRACTICAL_SCHEDULE = {
+  title: "Dr. Leane's DSP Practical & Evening DLE Sprint",
+  subtitle: "Designed specifically for Dr. Leane's 8:00 AM – 5:00 PM DSP Practical School",
+  schoolHours: "8:00 AM – 5:00 PM (Monday to Friday)",
+  description: "Dr. Leane is attending DSP (Dental Specialists Practical School) every day from 8:00 AM to 5:00 PM. Practical manual skills (cavity preparation, crown prep margins, typodonts, endo access, complete denture waxing) require intense hand-eye coordination. Theoretical DLE board review is concentrated into a high-efficiency 3.5-hour evening sprint (6:30 PM – 10:15 PM) to prevent physical burnout while ensuring 100% board mastery.",
+  dailyRoutine: [
+    {
+      time: "8:00 AM – 5:00 PM",
+      label: "DSP Practical School (Hands-On Training)",
+      icon: "🦷",
+      badge: "In-Person DSP",
+      color: "#a855f7",
+      details: "Focus 100% on motor skills: Class II cavity preps, Full Veneer/PFM crown margins, MOD onlays, typodont setup, and endo access. Zero theory stress during practical hours!"
+    },
+    {
+      time: "5:00 PM – 6:30 PM",
+      label: "Commute Home, Hot Shower & Dinner with Angelo",
+      icon: "🍲",
+      badge: "Decompress & Reset",
+      color: "#ec4899",
+      details: "Mental reset! Hot shower, physical relaxation, delicious nutritious dinner with Angelo, zero study pressure. Essential for cognitive recovery."
+    },
+    {
+      time: "6:30 PM – 8:00 PM",
+      label: "Evening Block 1: High-Yield Practice Drills (90 mins)",
+      icon: "⚡",
+      badge: "50 Qs Sprint",
+      color: "#3b82f6",
+      details: "50 targeted CEU Revalida questions on the designated PRC subject. Immediate feedback with rich clinical rationales."
+    },
+    {
+      time: "8:00 PM – 8:15 PM",
+      label: "Rest & Wrist / Hand Stretches (15 mins)",
+      icon: "🧘‍♀️",
+      badge: "Body Care",
+      color: "#10b981",
+      details: "Hydration break and forearm/wrist extensor stretches to relieve handpiece muscle strain from 8 hours at DSP."
+    },
+    {
+      time: "8:15 PM – 9:45 PM",
+      label: "Evening Block 2: LeaneNotes Review & Weakness Focus (90 mins)",
+      icon: "📓",
+      badge: "Active Recall",
+      color: "#f59e0b",
+      details: "Deep dive into missed questions and review High-Yield Visual Cheat Sheets (General Embryology, Odontogenesis, Oral Histology)."
+    },
+    {
+      time: "9:45 PM – 10:15 PM",
+      label: "Evening Block 3: Bedtime Dental Decks (30 mins)",
+      icon: "🃏",
+      badge: "Bedtime Recall",
+      color: "#8b5cf6",
+      details: "Passive spaced-repetition flashcards in bed. Low cognitive strain, high memory consolidation before sleep."
+    },
+    {
+      time: "10:15 PM – 10:30 PM",
+      label: "Love Chests, Angelo's Notes & Sleep by 10:30 PM",
+      icon: "💜",
+      badge: "Restful Sleep",
+      color: "#d8b4fe",
+      details: "Unlock love milestones and wind down. Minimum 7.5 hours of sleep to wake up refreshed for 8:00 AM DSP practicals!"
+    }
+  ],
+  twelveDayCountdown: [
+    { day: 12, date: "Nov 11 (Wed)", subject: "PRC Day 1: General & Oral Anatomy", questions: "CEU Revalida Qs 1–50", focus: "Cranial nerves, head & neck fascia, tongue muscles, tooth morphology" },
+    { day: 11, date: "Nov 12 (Thu)", subject: "PRC Day 1: Histology, Embryo & Pathology", questions: "CEU Revalida Qs 51–100", focus: "Odontogenesis, cell organelles, cysts, neoplasms, Peutz-Jeghers, McCune-Albright" },
+    { day: 10, date: "Nov 13 (Fri)", subject: "PRC Day 1: Restorative & Community Health", questions: "CEU Revalida Qs 101–150", focus: "G.V. Black preps, bevels, C-factor, bonding agents, ICDAS, DMFT, fluoride" },
+    { day: 9, date: "Nov 14 (Sat)", subject: "Weekend Mock: PRC Day 1 Full Simulation", questions: "100-Question Simulated Exam", focus: "PRC Day 1 Simulation Exam (1:30 PM – 5:30 PM) to test speed and stamina" },
+    { day: 8, date: "Nov 15 (Sun)", subject: "PRC Day 2: Prosthodontics & Materials", questions: "CEU Revalida Qs 151–200", focus: "Gypsum, alginates, elastomeric impressions, RPD design, complete dentures" },
+    { day: 7, date: "Nov 16 (Mon)", subject: "PRC Day 2: Oral Surgery & Radiology", questions: "CEU Revalida Qs 201–250", focus: "Extraction forceps, impaction classes, flaps, radiation biology, landmarks" },
+    { day: 6, date: "Nov 17 (Tue)", subject: "PRC Day 2: Anesthesiology & Pharmacology", questions: "CEU Revalida Qs 251–300", focus: "Amide/ester LAs, MRDs, epinephrine, antibiotics, NSAIDs, emergency drugs" },
+    { day: 5, date: "Nov 18 (Wed)", subject: "PRC Day 3: Pedodontics & Orthodontics", questions: "CEU Revalida Qs 301–350", focus: "Angle's classification, cephalometrics, primate space, leeway space, habits" },
+    { day: 4, date: "Nov 19 (Thu)", subject: "PRC Day 3: Periodontics & Endodontics", questions: "CEU Revalida Qs 351–400", focus: "Red complex pathogens, flap surgery, pulp testing, canal prep, obturation" },
+    { day: 3, date: "Nov 20 (Fri)", subject: "PRC Day 3: Jurisprudence & Dental Ethics", questions: "CEU Revalida Qs 401–450", focus: "RA 9484, PRC Code of Ethics, waste management, malpractice, dental contracts" },
+    { day: 2, date: "Nov 21 (Sat)", subject: "Final Polish & Pack PRC Exam Bag", questions: "Light Dental Decks only", focus: "Pack NOA, pencils, uniform. Zero cramming! Dinner with Angelo and early sleep." },
+    { day: 1, date: "Nov 22 (Sun)", subject: "🎉 PRC DLE WRITTEN EXAM DAY 1!", questions: "Official Board Exam", focus: "General & Oral Anatomy (8 AM), Pathology & Micro (11 AM), Resto (2 PM). You got this Doc Leane!" }
+  ]
+};
+

@@ -13,10 +13,12 @@ export function SettingsModal({
   onSave,
   onResetData,
   onResetAllProgress,
+  onForcePurgeUpdate,
   syncStatus = "synced",
   lastSyncTime,
   syncDevice,
-  onManualSync
+  onManualSync,
+  totalQuestionsCount = 2027
 }) {
   const [name, setName] = useState(girlfriendName);
   const [date, setDate] = useState(examDate);
@@ -265,6 +267,38 @@ export function SettingsModal({
               <span>Current Device: <strong style={{ color: "var(--text-secondary)" }}>{getDeviceName()}</strong></span>
               <span>Last Synced: <strong style={{ color: "var(--text-secondary)" }}>{lastSyncTime ? new Date(lastSyncTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' }) : "Never"}</strong></span>
             </div>
+          </div>
+
+          {/* Question Bank & Cache Invalidation Card */}
+          <div style={{
+            marginTop: "1.25rem",
+            padding: "1rem",
+            borderRadius: "12px",
+            background: "rgba(168, 85, 247, 0.08)",
+            border: "1px solid rgba(168, 85, 247, 0.25)",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            flexWrap: "wrap",
+            gap: "0.75rem"
+          }}>
+            <div>
+              <div style={{ fontSize: "0.85rem", fontWeight: 800, color: "#fff" }}>
+                ✨ Question Bank Sync & Cache Purge
+              </div>
+              <div style={{ fontSize: "0.75rem", color: "var(--text-secondary)" }}>
+                Version 13.0 Master • {totalQuestionsCount} Questions Loaded • Clears stale iPad PWA cache
+              </div>
+            </div>
+            <button
+              type="button"
+              onClick={onForcePurgeUpdate}
+              className="btn btn-outline-primary"
+              style={{ fontSize: "0.8rem", padding: "0.5rem 0.9rem", display: "flex", alignItems: "center", gap: "0.4rem" }}
+              title="Clears Service Worker cache and forces immediate reload of all 2,027 questions"
+            >
+              <RefreshCw size={14} /> Clear Cache & Update App
+            </button>
           </div>
 
           {/* Action Buttons */}

@@ -277,20 +277,57 @@ export default function App() {
     return localStorage.getItem("pb_sound") !== "false";
   });
 
-  const DENTAL_VERSION = "dle_v12_ceu_revalida_2027_master";
+  const DENTAL_VERSION = "dle_v13_dsp_master_nov11";
 
   const [questions, setQuestions] = useState(() => {
     try {
       const savedVersion = localStorage.getItem("pb_dle_version");
       if (savedVersion === DENTAL_VERSION) {
         const saved = localStorage.getItem("pb_questions");
-        if (saved) return JSON.parse(saved);
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          if (Array.isArray(parsed) && parsed.length >= defaultQuestions.length) {
+            return parsed;
+          }
+        }
       }
     } catch (e) {}
     localStorage.setItem("pb_dle_version", DENTAL_VERSION);
     localStorage.setItem("pb_questions", JSON.stringify(defaultQuestions));
     return defaultQuestions;
   });
+
+  // Automatic cache-busting assertion: ensure latest question bank is always active
+  useEffect(() => {
+    try {
+      const savedVersion = localStorage.getItem("pb_dle_version");
+      if (savedVersion !== DENTAL_VERSION || questions.length < defaultQuestions.length) {
+        console.log("Forcing update to latest question bank (2,027 questions, v13)");
+        localStorage.setItem("pb_dle_version", DENTAL_VERSION);
+        localStorage.setItem("pb_questions", JSON.stringify(defaultQuestions));
+        setQuestions(defaultQuestions);
+      }
+    } catch (e) {}
+  }, []);
+
+  const handleForcePurgeUpdate = () => {
+    try {
+      localStorage.removeItem("pb_questions");
+      localStorage.setItem("pb_dle_version", DENTAL_VERSION);
+      localStorage.setItem("pb_questions", JSON.stringify(defaultQuestions));
+      if ('caches' in window) {
+        caches.keys().then((names) => {
+          names.forEach(name => caches.delete(name));
+        });
+      }
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then((registrations) => {
+          registrations.forEach(r => r.unregister());
+        });
+      }
+    } catch (e) {}
+    window.location.reload();
+  };
 
   const [examHistory, setExamHistory] = useState(() => {
     try {
@@ -614,6 +651,8 @@ export default function App() {
         unlockedRewardsCount={unlockedRewardsCount}
         onOpenZen={() => setIsZenOpen(true)}
         onOpenSchedule={() => setIsScheduleOpen(true)}
+        totalQuestionsCount={questions.length}
+        onForcePurgeUpdate={handleForcePurgeUpdate}
       />
 
       {/* Main Content Router */}
@@ -732,10 +771,12 @@ export default function App() {
         onSave={handleSaveSettings}
         onResetData={handleResetQuestions}
         onResetAllProgress={handleResetAllProgress}
+        onForcePurgeUpdate={handleForcePurgeUpdate}
         syncStatus={syncStatus}
         lastSyncTime={lastSyncTime}
         syncDevice={syncDevice}
         onManualSync={handleManualSync}
+        totalQuestionsCount={questions.length}
       />
 
       {/* Milestone Rewards & Love Chests Modal */}

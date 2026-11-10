@@ -23,7 +23,9 @@ export function Navbar({
   onOpenRewards,
   unlockedRewardsCount = 0,
   onOpenZen,
-  onOpenSchedule
+  onOpenSchedule,
+  totalQuestionsCount = 2027,
+  onForcePurgeUpdate
 }) {
   const tabs = [
     { id: "dashboard", label: "Dashboard", icon: "🏠" },
@@ -163,6 +165,34 @@ export function Navbar({
 
         {/* Right Badges & Controls */}
         <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
+          {/* Outdated Bank Warning & Force Update Trigger */}
+          {totalQuestionsCount < 2027 && (
+            <button
+              onClick={() => {
+                sound.playClick();
+                if (onForcePurgeUpdate) onForcePurgeUpdate();
+              }}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "0.35rem",
+                background: "linear-gradient(135deg, #ef4444, #f43f5e)",
+                border: "1px solid #fda4af",
+                padding: "0.35rem 0.75rem",
+                borderRadius: "9999px",
+                fontSize: "0.8rem",
+                fontWeight: 800,
+                color: "#fff",
+                cursor: "pointer",
+                boxShadow: "0 0 15px rgba(239, 68, 68, 0.4)"
+              }}
+              title="Browser has cached an older question bank. Click to upgrade to the latest 2,027 questions!"
+            >
+              <RefreshCw size={13} />
+              <span>Update Bank ({totalQuestionsCount}/2,027)</span>
+            </button>
+          )}
+
           {/* Days Left - Clickable to open Official PRC Schedule */}
           <button
             onClick={() => {
