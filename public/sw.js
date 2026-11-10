@@ -1,6 +1,6 @@
 // Service Worker for Dr. Leane DLE Reviewer PWA
-// Version 13.0: Network-First navigation & immediate cache-busting
-const CACHE_NAME = "dr-leane-dle-v13-dsp-master";
+// Version 13.1: Mobile Safari & WebKit compatible cache handler
+const CACHE_NAME = "dr-leane-dle-v13-mobile-fix";
 const STATIC_ASSETS = [
   "/",
   "/index.html",
@@ -13,7 +13,7 @@ const STATIC_ASSETS = [
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(STATIC_ASSETS).catch(() => { });
+      return cache.addAll(STATIC_ASSETS).catch(() => {});
     })
   );
   self.skipWaiting();
@@ -30,48 +30,52 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
-self.addEventListener("message", (event) => {
-  if (event.data && (event.data.type === "SKIP_WAITING" || event.data.type === "FORCE_PURGE")) {
-    self.skipWaiting();
-  }
-});
-
 self.addEventListener("fetch", (event) => {
-  // Let cloud sync API and KVdb pass directly through network
-  if (event.request.url.includes("/api/") || event.request.url.includes("kvdb.io")) {
+  // Let API and database calls pass straight to network
+  if (
+    event.request.method !== "GET" ||
+    event.request.url.includes("/api/") ||
+    event.request.url.includes("kvdb.io") ||
+    event.request.url.includes("supabase.co")
+  ) {
     return;
   }
 
-  // 1. Navigation requests (HTML / root): STRICT Network-First to guarantee latest code
-  if (event.request.mode === "navigate" || event.request.headers.get("accept")?.includes("text/html")) {
+  // 1. Navigation requests (HTML / root): Network-First with safe string URL caching
+  if (event.request.mode === "navigate") {
     event.respondWith(
       fetch(event.request)
         .then((networkResponse) => {
           if (networkResponse && networkResponse.status === 200) {
             const responseToCache = networkResponse.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseToCache));
+            // Cache by string URL to avoid WebKit 'TypeError: Request mode is navigate'
+            caches.open(CACHE_NAME).then((cache) => {
+              cache.put("/index.html", responseToCache).catch(() => {});
+            }).catch(() => {});
           }
           return networkResponse;
         })
         .catch(() => {
-          return caches.match(event.request).then((cached) => cached || caches.match("/index.html"));
+          return caches.match("/index.html");
         })
     );
     return;
   }
 
-  // 2. Hashed static assets (JS/CSS/Images): Stale-while-revalidate for fast offline performance
+  // 2. Static assets (JS/CSS/Images/Fonts): Stale-while-revalidate
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
-      const fetchPromise = fetch(event.request).then((networkResponse) => {
-        if (networkResponse && networkResponse.status === 200 && event.request.method === "GET") {
-          const responseToCache = networkResponse.clone();
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseToCache);
-          });
-        }
-        return networkResponse;
-      }).catch(() => cachedResponse);
+      const fetchPromise = fetch(event.request)
+        .then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const responseToCache = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => {
+              cache.put(event.request, responseToCache).catch(() => {});
+            }).catch(() => {});
+          }
+          return networkResponse;
+        })
+        .catch(() => cachedResponse);
 
       return cachedResponse || fetchPromise;
     })

@@ -279,42 +279,20 @@ export default function App() {
 
   const DENTAL_VERSION = "dle_v13_dsp_master_nov11";
 
+  // Use the verified compiled master question bank (2,027 questions) directly in memory.
+  // Purge any stale 2.7MB serialized chunk from localStorage to prevent QuotaExceededError crashes on mobile Safari.
   const [questions, setQuestions] = useState(() => {
     try {
-      const savedVersion = localStorage.getItem("pb_dle_version");
-      if (savedVersion === DENTAL_VERSION) {
-        const saved = localStorage.getItem("pb_questions");
-        if (saved) {
-          const parsed = JSON.parse(saved);
-          if (Array.isArray(parsed) && parsed.length >= defaultQuestions.length) {
-            return parsed;
-          }
-        }
-      }
+      localStorage.removeItem("pb_questions");
+      localStorage.setItem("pb_dle_version", DENTAL_VERSION);
     } catch (e) {}
-    localStorage.setItem("pb_dle_version", DENTAL_VERSION);
-    localStorage.setItem("pb_questions", JSON.stringify(defaultQuestions));
     return defaultQuestions;
   });
-
-  // Automatic cache-busting assertion: ensure latest question bank is always active
-  useEffect(() => {
-    try {
-      const savedVersion = localStorage.getItem("pb_dle_version");
-      if (savedVersion !== DENTAL_VERSION || questions.length < defaultQuestions.length) {
-        console.log("Forcing update to latest question bank (2,027 questions, v13)");
-        localStorage.setItem("pb_dle_version", DENTAL_VERSION);
-        localStorage.setItem("pb_questions", JSON.stringify(defaultQuestions));
-        setQuestions(defaultQuestions);
-      }
-    } catch (e) {}
-  }, []);
 
   const handleForcePurgeUpdate = () => {
     try {
       localStorage.removeItem("pb_questions");
       localStorage.setItem("pb_dle_version", DENTAL_VERSION);
-      localStorage.setItem("pb_questions", JSON.stringify(defaultQuestions));
       if ('caches' in window) {
         caches.keys().then((names) => {
           names.forEach(name => caches.delete(name));
@@ -545,7 +523,9 @@ export default function App() {
   const handleAddQuestion = (newQ) => {
     setQuestions(prev => {
       const updated = [newQ, ...prev];
-      localStorage.setItem("pb_questions", JSON.stringify(updated));
+      try {
+        localStorage.setItem("pb_questions", JSON.stringify(updated));
+      } catch (e) {}
       return updated;
     });
   };
@@ -553,22 +533,28 @@ export default function App() {
   const handleDeleteQuestion = (qId) => {
     setQuestions(prev => {
       const updated = prev.filter(q => q.id !== qId);
-      localStorage.setItem("pb_questions", JSON.stringify(updated));
+      try {
+        localStorage.setItem("pb_questions", JSON.stringify(updated));
+      } catch (e) {}
       return updated;
     });
   };
 
   const handleImportQuestions = (imported) => {
     setQuestions(imported);
-    localStorage.setItem("pb_questions", JSON.stringify(imported));
+    try {
+      localStorage.setItem("pb_questions", JSON.stringify(imported));
+    } catch (e) {}
   };
 
   const handleResetQuestions = () => {
     if (confirm("Reset question bank back to standard board exam curriculum?")) {
       setQuestions(defaultQuestions);
       setFlaggedQuestions([]);
-      localStorage.setItem("pb_questions", JSON.stringify(defaultQuestions));
-      localStorage.removeItem("pb_flagged");
+      try {
+        localStorage.removeItem("pb_questions");
+        localStorage.removeItem("pb_flagged");
+      } catch (e) {}
       triggerCloudSync();
       sound.playSuccess();
     }
