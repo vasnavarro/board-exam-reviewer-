@@ -1,5 +1,5 @@
 // Service Worker for Dr. Leane DLE Reviewer PWA
-const CACHE_NAME = "dr-leane-dle-v11-rich-rationales";
+const CACHE_NAME = "dr-leane-dle-v12-ceu-revalida";
 const STATIC_ASSETS = [
   "/",
   "/index.html",
@@ -12,7 +12,7 @@ const STATIC_ASSETS = [
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(STATIC_ASSETS).catch(() => {});
+      return cache.addAll(STATIC_ASSETS).catch(() => { });
     })
   );
   self.skipWaiting();

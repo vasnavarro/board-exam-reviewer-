@@ -169,9 +169,11 @@ export const PRC_DAYS = {
       "General Histology & Microbiology",
       "Oral Histology & Embryology",
       "General Pathology",
+      "General Pathology & Microbiology",
       "Oral Pathology & Diagnosis",
       "Restorative Dentistry",
-      "Community Dentistry"
+      "Community Dentistry",
+      "Restorative Dentistry & Community Health"
     ],
     description: "Anatomy (15%), Pathology/Microbiology/Embryology (15%), and Restorative & Community Dentistry (10%)."
   },
@@ -183,8 +185,10 @@ export const PRC_DAYS = {
     dateString: "Monday, Nov 23, 2026",
     categories: [
       "Dental Materials",
+      "Prosthodontics & Dental Materials",
       "Oral Surgery",
       "Oral Radiology & Roentgenology",
+      "Roentgenology, Oral Diagnosis & Oral Surgery",
       "Pharmacology & Anesthesiology"
     ],
     description: "Prosthodontics & Materials (10%), Radiology & Oral Surgery (10%), and Anesthesiology & Pharmacology (10%)."
@@ -199,7 +203,8 @@ export const PRC_DAYS = {
       "Orthodontics & Pediatric Dentistry",
       "Practice Management & Jurisprudence",
       "Periodontics",
-      "Endodontics"
+      "Endodontics",
+      "Periodontics & Endodontics"
     ],
     description: "Pediatric Dentistry & Orthodontics (10%), Jurisprudence & Ethics (10%), and Periodontics & Endodontics (10%)."
   }

@@ -277,7 +277,7 @@ export default function App() {
     return localStorage.getItem("pb_sound") !== "false";
   });
 
-  const DENTAL_VERSION = "dle_v10_rich_clinical_rationales";
+  const DENTAL_VERSION = "dle_v12_ceu_revalida_2027_master";
 
   const [questions, setQuestions] = useState(() => {
     try {
